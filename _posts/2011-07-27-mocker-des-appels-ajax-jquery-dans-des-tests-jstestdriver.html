@@ -1,0 +1,69 @@
+---
+layout: post
+title: Mocker des appels ajax jQuery dans des tests JsTestDriver
+tags:
+- bruno
+- javascript
+- jQuery
+- JsTestDriver
+- tdd
+- tests
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '3'
+---
+Dans le précédent article sur les tests javascript, nous avons vu <a href="faire-des-tests-javascript-avec-jquery">comment tester jQuery avec JsTestDriver</a>. Le souci c'est lorsqu'une fonction va chercher des fragments de html, ou du json, ou d'autres données par ajax, dans ce cas l'appel de la fonction va réellement déclencher une requête http. En soi ce n'est pas un problème, on peut faire un test d'intégration en écrasant l'url de production vers une url en localhost.
+
+Seulement, il y a 3 écueils :
+<ul>
+	<li>avec JsTestDriver, l'url de base a changé (c'est celle du serveur de test qui est dynamique et pointe vers par exemple <code>http://localhost:9876/slave/id/1311194023939/page/CONSOLE/mode/quirks/timeout/30000/upload_size/50/rt/CLIENT</code>), donc il est nécessaire de faire une requête avec une url absolue (<code>http://localhost/test/monJsonDeTest.json</code>)</li>
+	<li>pour exécuter les tests il faut alors un serveur http en local avec la ressource déployée et le contexte configuré</li>
+	<li>avec JsTestDriver, on obtient une exception javascript (alors que le code de production fonctionne) que je ne suis pas arrivé à expliquer ou à contourner :
+<pre>[Exception... \"Component returned failure code: 0x80004005
+(NS_ERROR_FAILURE)\"  nsresult: \"0x80004005 (NS_ERROR_FAILURE)\"
+location: \"JS frame :: jquery.min.js\"</pre>
+</li>
+</ul>
+<!--more-->Un excellent livre : "<a href="http://tddjs.com">Test Driven Javascript Development</a>" donne une petite librairie (le code associé au chapitre 12) et des exemples pour mocker des appels ajax avec une couche de transport développée par Christian Johansen, l'auteur. J'ai appliqué la méthode qu'il propose à jQuery. Dans notre exemple, nous allons chercher un modèle en JSON, et nous vérifions que le html produit est conforme à ce qu'on attend :
+<pre lang="javascript">TestCase("TestJsonAjax", {
+    setUp: function() {
+        // création du mock
+        this.xhr = Object.create(fakeXMLHttpRequest);
+        this.xhr.send=function () { readyState = 4; };
+        this.xhr.getAllResponseHeaders=stubFn({});
+        this.xhr.responseText="{'reponse':'réponse mockée'}";
+        // masquage des fonctions jQuery
+        jQuery.ajaxSettings.isLocal=stubFn(true);
+        jQuery.ajaxSettings.xhr=stubFn(this.xhr);
+    },
+
+   "test getHtml() renvoie html bien formé": function () {
+        var actualHtml;
+
+        getHtml(function(html) {
+            actualHtml = html;
+        });
+
+        assertEquals("
+
+réponse mockée
+
+", actualHtml);
+    }
+});</pre>
+<code>fakeXMLHttpRequest</code> et la fonction <code>stubFn()</code> (crée une fonction qui renvoie la valeur fournie) sont dans la librairie tddjs (le repository git est <code>http://tddjs.com/code/12-abstracting-browser-differences-ajax.git</code>).
+
+la ligne <code>jQuery.ajaxSettings.xhr=stubFn(this.xhr)</code> écrase la fonction de création de requête XMLHttpRequest de jQuery par celle définie dans le setUp (fakeXMLHttpRequest fournie par tddjs).
+
+Le code qui fait passer le test :
+<pre lang="javascript">function getHtml(resultFunc) {
+   jQuery.getJSON('url/vers/le/modele/JSON', function(json) {
+       resultFunc('
+
+'+ json['reponse'] + '
+
+');
+   });
+}</pre>

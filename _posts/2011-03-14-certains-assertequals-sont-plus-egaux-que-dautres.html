@@ -1,0 +1,58 @@
+---
+layout: post
+title: Certains assertEquals sont plus égaux que d'autres
+tags:
+- philippe
+- eclipse
+- feedback
+- intelliJ IDEA
+- java
+- junit
+- tests
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '3'
+---
+Une barre rouge inattendue. Je scrute le message d'échec du test dans le panneau junit :
+
+<a href="http://www.barreverte.fr/wp-content/uploads/2011/01/philippeBlayoBarreRougeSansAide5.png"><img class="alignnone size-full wp-image-1526" title="philippeBlayoBarreRougeSansAide" src="http://www.barreverte.fr/wp-content/uploads/2011/01/philippeBlayoBarreRougeSansAide5.png" alt="" width="627" height="107" /></a>
+
+Je double-clique sur <em>expected:</em> pour obtenir le comparateur de l'IDE. Zut rien ne se passe ! Du coup je scrolle pour voir tout le message d'erreur, mais je ne distingue aucune différence entre résultats attendu et obtenu. Et là je m'interroge : pourquoi je n'obtiens pas le comparateur quand je double-clique :-( ?<!--more-->
+
+Ca ne vous est jamais arrivé ? Dans mon équipe, ça arrive tout le temps.
+
+Eclipse et intelliJ IDEA réagissent de la même manière. Leur comportement dépend de l'exception qu'il reçoivent :
+<ul>
+	<li>avec <code>AssertionError</code> le double-clic ne fait rien</li>
+	<li>avec <code>ComparisonFailure</code> le double-clic ouvre la belle popup du comparateur :</li>
+</ul>
+<a href="http://www.barreverte.fr/wp-content/uploads/2011/01/philippeBlayoBarreRougeAvecAide2.png"><img class="alignnone size-full wp-image-1534" title="philippeBlayoBarreRougeAvecAide" src="http://www.barreverte.fr/wp-content/uploads/2011/01/philippeBlayoBarreRougeAvecAide2.png" alt="" width="546" height="150" /></a>
+
+Quand ces exceptions sont-elles levées ?
+<ul>
+	<li><code>ComparisonFailure</code> est levée par assertEquals(String, String)</li>
+	<li><code>AssertionError</code> est levée par assertEquals(Object, Object) et assertThat</li>
+</ul>
+<code>AssertionError</code> n'est pas spécifique à junit, c'est une <code>java.lang.AssertionError</code>, elle peut provenir du code lui-même plutôt que du test. L'IDE ne l'interprète pas comme le résultat d'un test.
+
+De loin, les messages semblent identiques [1] car <code>assertEquals(Object, Object)</code> affiche des <code>toString()</code>. Voilà pourquoi les variations de comportement du double-clic surprennent. Certains en viennent à ajouter des toString() pour souligner les différences :
+<pre lang="java">assertEquals(attendu.toString(), obtenu.toString());</pre>
+C'est dangereux car l'égalité n'est pas déterminée par le <code>equals()</code> de <code>Object</code>, ce qui viole un contrat Java. En plus, ça ne marche pas pour <code>assertThat</code> qui lève <code>AssertionError</code> même pour deux String (<code>assertThat("Philippe", equalTo("Blayo")</code>). J'aimerais plutôt que :
+<ul>
+	<li><code>equals()</code> détermine la réussite ou l'échec du test (rouge/vert)</li>
+	<li>une comparaison entre les <code>toString()</code> enrichisse l'affichage expected/actual des barres rouges, quelque soit la classe des objets comparés</li>
+</ul>
+Suivant le contexte, je connais deux manières d'y parvenir :
+<ul>
+	<li>utiliser une lib qui lève déjà une <code>ComparisonFailure</code> comme <a href="http://code.google.com/p/fest/">FEST-assert</a></li>
+	<li>coder soi-même une assertion qui lève une <code>ComparisonFailure</code> (<em>custom assertion</em>). En laissant de coté la gestion des <code>null</code>, la substance d'une telle assertion serait :
+<pre lang="java">static void assertLisible(Object expected, Object actual) {
+    if (! expected.equals(actual))
+        throw new ComparisonFailure("",
+            expected.toString(), actual.toString());
+}</pre>
+</li>
+</ul>
+[1] <code>ComparisonFailure</code> met entre crochets la différence <code>bl[ay]o</code> / <code>bl[ya]o</code>, là où <code>AssertionError</code> laisse <code>blayo</code> / <code>blyao</code>. Les messages ne sont donc identiques qu'en apparence. Mais ces crochets ne suffisent pas : une popup ne s'ouvre qu'avec une <code>ComparisonFailure</code>.

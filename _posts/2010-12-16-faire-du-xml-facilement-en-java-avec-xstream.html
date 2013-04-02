@@ -1,0 +1,34 @@
+---
+layout: post
+title: Faire du xml facilement en java avec XStream
+tags:
+- bruno
+- java
+- librairie
+- marshalling
+- unmarshalling
+- xml
+status: publish
+type: post
+published: true
+meta:
+  _wp_old_slug: ''
+  _edit_last: '2'
+---
+Récemment nous avons du sérialiser des objets dans des fichiers, et une des personnes dans l'équipe a proposé XStream. C'est une librairie développée par <a href="http://www.thoughtworks.com/">ThoughtWorks</a> (la société de <a href="http://martinfowler.com/">Martin Fowler</a>) qui permet de faire du marshalling/unmarshalling d'objet en XML. J'avais eu beaucoup de mauvaises expériences avec les librairies XML Java (soit trop intrusives niveau métier comme par exemple JAXB soit trop bas niveau comme DOM/SAX). XStream répond à toutes les attentes :
+<pre lang="java">public class MonObjet {
+    private int monAttributEntier = 3;
+    private String monAttributString = "attribut";
+
+    public static void main(String[] args) {
+        System.out.println(new XStream().toXML(new MonObjet()));
+    }
+}</pre>
+Ce qui donne :
+<pre lang="xml">
+  <MonObjet> 
+     <monAttributEntier>3</monAttributEntier>
+     <monAttributString>attribut</monAttributString>
+  </MonObjet> 
+</pre>
+PS : merci <a title="Pascal" href="http://blog.extremepill.com/" target="_blank">Pascal</a> :-)

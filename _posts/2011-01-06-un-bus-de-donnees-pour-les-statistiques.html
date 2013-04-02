@@ -1,0 +1,45 @@
+---
+layout: post
+title: Un bus de données pour les statistiques
+tags:
+- bruno
+- AMQP
+- architecture
+- bus de données
+- java
+- JMS
+- refactoring
+- scalabilité
+- statistiques
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '2'
+  _wp_old_slug: ''
+---
+Nous maintenons une application WEB grand public développée en JEE avec de fortes exigences en terme de volume de statistiques. Récemment, une nouvelle demande de modification d'architecture de la plateforme par notre client, combinée à de nouveaux objectifs de fréquentation nous a poussé à remettre en cause la gestion de ces statistiques.
+
+L'application en elle-même devait rester iso-fonctionnelle, il s'agissait en quelque sorte d'un<em> refactoring d'architecture</em>.
+<!--more-->
+Les contraintes techniques étaient les suivantes :
+<ul>
+	<li>volumétrie importante : environ 10 millions d'événements par jour, puis 12 fois plus à moyen terme</li>
+	<li>aucun impact sur le service en terme de performance (traitements asynchrones)</li>
+	<li>aucune perte de données, même en mode dégradé (perte de la base de données par exemple)</li>
+	<li>exploitation aisée et transparence de la solution</li>
+</ul>
+Les aspects suivants nous ont fait pencher pour une solution de type bus de données :
+<ul>
+	<li>les statistiques de notre service correspondent à des évènements indépendants</li>
+	<li>l'asynchronisme des traitements</li>
+	<li>le découplage nécessaire avec les applicatifs de façade (les webapps) pour les performances, ainsi qu'avec la base de données pour la haute disponibilité</li>
+	<li>les difficultés rencontrées lors de la refonte précédente des statistiques avec des solutions "maison", en terme de maintenance et d'administration</li>
+</ul>
+Nous avons répertorié 3 types de bus :
+<ul>
+	<li>un bus issu de spécifications d'API : JMS (<a href="http://fr.wikipedia.org/wiki/Java_Message_Service">Java Message Service</a>)</li>
+	<li>un bus issu de spécifications de protocole : AMQP (<a href="http://fr.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol">Advanced Message Queuing Protocol</a>)</li>
+	<li>un bus maison, basé sur nos besoins</li>
+</ul>
+Ce bus de données est maintenant en production et répond aux attentes (avec des petits ajustements restant à faire). Une série d'articles vous expliquera les étapes parcourues depuis le choix de la solution jusqu'à sa mise en production.

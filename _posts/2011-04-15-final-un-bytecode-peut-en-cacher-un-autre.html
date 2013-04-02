@@ -1,0 +1,85 @@
+---
+layout: post
+title: 'final : un bytecode peut en cacher un autre'
+tags:
+- philippe
+- bytecode
+- final
+- java
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '3'
+---
+Quand le résultat d'un code Java me surprend, je regarde son bytecode avec <strong>javap -c</strong>.
+
+Prenons un exemple. Dans notre équipe, nous mettons les variables à <code>final</code> par défaut pour éviter des problèmes de concurrence [1]. J'ai découvert[2] que <code>final</code> pouvait changer le comportement de l'opérateur ternaire <code>? :</code>, comme le montre ce code :<!--more-->
+<pre lang="java">public static void main(String[] args) {
+
+    final int s1 = 6;
+    int s2 = 6;
+
+    System.out.println(false ? s1 : 'X');
+    System.out.println(false ? s2 : 'X');
+}</pre>
+qui affiche :
+<pre>X
+88</pre>
+Comment diable 'X' a-t-il été convertit en entier alors que le résultat est connu à la compilation ? Quand je ne comprends pas, je lis le bytecode (<strong>javap -c</strong>) :
+
+<code>public static void main(java.lang.String[]);
+Code:
+Stack=2, Locals=3, Args_size=1
+0:	bipush	6
+1:	istore_2
+2:	getstatic	#2; //Field java/lang/System.out:Ljava/io/PrintStream;
+5:	bipush	88
+7:	invokevirtual	#3; //Method java/io/PrintStream.println:(C)V
+10:	getstatic	#2; //Field java/lang/System.out:Ljava/io/PrintStream;
+13:	bipush	88
+15:	invokevirtual	#4; //Method java/io/PrintStream.println:(I)V
+18:	return</code>
+<a href="http://www.barreverte.fr/wp-content/uploads/2011/04/bytecodePhilippeBlayo22.png"><img class="alignnone size-full wp-image-1794" title="bytecodePhilippeBlayo" src="http://www.barreverte.fr/wp-content/uploads/2011/04/bytecodePhilippeBlayo22.png" alt="" width="573" height="169" /></a>Décomposons les instructions du premier println (<code>2:</code> à <code>7:</code>) :
+<pre>   2:	getstatic	récupère le champs static System.out
+   5:	bipush	88      empile 88, valeur ascii de X
+   7:	invokevirtual   invoque la méthode println</pre>
+De <code>10: à 15:</code> le second println a l'air identique, mais à y regarder de plus près le type du paramètre diffère : (I) au lieu de (C) :
+<ul>
+	<li>7:  invokevirtual #3; //Method java/io/PrintStream.<strong>println:(C)</strong>V</li>
+	<li>15: invokevirtual	#4; //Method java/io/PrintStream.<strong>println:(I)</strong>V</li>
+</ul>
+Le virtual de invokevirtual indique un appel polymorphe... et la méthode println va s'appliquer à un type int (I) alors que la première invocation prends pour type char (C)
+
+L'énigme #8 de <em>Java Puzzlers</em>[3] nous fournit l'explication par les spécifications de l'opération ternaire <code lang="java">?s1:'X'</code>
+<ul>
+	<li>le résultat est de type int quand parmi les deux opérandes (s1 et 'X') on a
+<ul>
+	<li>un de type char</li>
+	<li>l'autre une constante int représentable en char</li>
+</ul>
+</li>
+	<li>sinon la promotion numérique s'applique</li>
+</ul>
+Le point déterminant est que la constante soit <strong>représentable</strong> sous forme de char. Si l'entier constant est trop grand ou trop petit, la promotion entière vers 88 s'applique :
+<pre lang="java">final int tropGrand = Character.MAX_VALUE + 1;
+final int tropPetit = Character.MIN_VALUE - 1;
+
+System.out.println(false ? tropGrand : 'X');     // Affiche 88
+System.out.println(false ? tropPetit : 'X');     // Affiche 88</pre>
+Le conseil donné dans <em>Java Puzzlers</em> : avoir deux opérandes du même type, ce qui évite tout problème.
+
+Références :
+<ul>
+	<li>[1] <em>Java concurrency in practice</em> de Brian Goetz et al</li>
+	<li>[2] <a href="http://blog.javabien.net">Java bien!</a></li>
+	<li>[3] <em>Java Puzzlers</em> de Joshua Bloch and Neal Gafter</li>
+</ul>
+Note sur le bytecode bipush :
+Contrairement au puzzle #8, j'affecte 6 aux entiers plutôt que zéro car le bytecode dépend de l'entier affecté :
+<ul>
+	<li>de -1 à 5 : iconst (<code>int i = 0</code> devient <code>iconst_0</code>)</li>
+	<li>de 6 à 127 : bipush (<code>int i = 6</code> devient <code>bipush 6</code>)</li>
+	<li>à partir de 128 : sipush (<code>int i = 128</code> devient <code>sipush 128</code>)</li>
+</ul>
+Pour faciliter la compréhension des non-initiés, je préfère garder le même bytecode pour les affectations de 6 et 88.

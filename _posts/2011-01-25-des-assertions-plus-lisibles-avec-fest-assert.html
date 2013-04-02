@@ -1,0 +1,48 @@
+---
+layout: post
+title: Des assertions plus lisibles avec FEST-assert
+tags:
+- philippe
+- eclipse
+- intelliJ IDEA
+- java
+- junit
+- tests
+status: draft
+type: post
+published: false
+meta:
+  _edit_last: '5'
+---
+Sur du code hérité (legacy), nous passons davantage de temps à lire du code qu'à en écrire. FEST (Feature for Easy Software Testing) aide à écrire des assertions plus lisibles.
+
+Par exemple, pour vérifier la présence d'un élément dans une liste, avec junit, nous en sommes réduits à rédiger nous-même le message d'erreur :
+<pre lang="java">assertTrue(liste+" devrait contenir "+element,
+  liste.contains(element));</pre>
+On risque même de ne pas mettre de message du tout (dans le feu de l'action, par paresse, par manque de temps...).
+
+Alors que fest offre une assertion dédiée :
+<pre lang="java">assertThat(liste).contains(element);</pre>
+Le code est plus concis, plus lisible, et on obtient un message d'erreur mieux standardisé :
+<pre>&lt;['Philippe', 'P', 'Blayo']&gt; does not contain element(s):&lt;['Blaye']&gt;</pre>
+Les égalités apportent un bénéfice supplémentaire en levant une <code>ComparisonFailure</code> au lieu d'une <code>AssertionError</code>.
+<pre lang="java">assertThat(listeObtenue).isEqualTo(listeAttendue);</pre>
+Lever une <code>ComparisonFailure</code> permet d'ouvrir la popup de comparaison des IDE (eclipse, intelliJ IDEA) quand on double-clique sur le message d'erreur :
+
+<a href="http://www.barreverte.fr/wp-content/uploads/2011/01/comparaisonAvecFest.png"><img class="alignnone size-full wp-image-1064" title="comparaisonAvecFest" src="http://www.barreverte.fr/wp-content/uploads/2011/01/comparaisonAvecFest.png" alt="" width="566" height="218" /></a>
+
+On peut aussi enchainer les assertions comme dans une phrase :
+<pre lang="java">assertThat("Philippe P Blayo").startsWith("Phil").endsWith("Blayo");</pre>
+Avec une collection
+<pre lang="java">assertThat(noms).hasSize(2).contains("Blayo");</pre>
+le message d'erreur donne davantage de contexte en affichant la liste lorsque la taille ne correspond pas :
+<code>expected size:&lt;2&gt; but was:&lt;3&gt; for &lt;['Philippe', 'P', 'Blayo']&gt;</code>
+
+La seule difficulté que j'ai rencontrée : l'artifactId s'appelle fest-assert et non pas fest-test.
+
+Pour résumer, les avantages que je vois à fest-assert :
+<ul>
+	<li> des messages d'erreurs plus précis</li>
+	<li>des différences plus lisibles (<code>ComparisonFailure</code> au lieu d'<code>AssertionError</code>)</li>
+	<li> un fluent DSL</li>
+</ul>
