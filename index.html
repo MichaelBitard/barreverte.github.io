@@ -7,6 +7,7 @@ layout: default
     <div class="well">
         <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></h1>
 <p>
+le
 {% assign m = post.date | date: "%-m" %}
 {{ post.date | date: "%-d" }}
 {% case m %}
@@ -23,7 +24,7 @@ layout: default
   {% when '11' %}novembre
   {% when '12' %}décembre
 {% endcase %}
-{{ post.date | date: "%Y" }}
+{{ post.date | date: "%Y" }}, par {{ post.author.display_name }}
 </p>
         {% if site.comments == true and post.comments == true and site.disqus != '' %}
           <p class="author"><a href="{{ site.baseurl }}{{ post.url }}/#disqus_thread">Commentaires</a></p>
