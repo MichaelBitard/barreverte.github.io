@@ -41,4 +41,5 @@ comments:
 </ul>
 </ul>
 <p>Le fichier complet</p>
-<p><script src="https://gist.github.com/bamthomas/11221780.js"></script></p>
+
+{% gist bamthomas/11221780 %}
