@@ -34,6 +34,17 @@
             <div class="post-content">
             {{ content }}
             </div>
+            <div class="">
+              Cette entrée a été publiée dans 
+              {% for category in page.categories %}
+                <em>{{ category }}</em>,
+              {% endfor %}
+              avec comme mot(s)-clef(s) 
+              {% for tag in page.tags %}
+                <em>{{ tag }}</em>,
+              {% endfor %}
+              Vous pouvez la mettre en favoris avec ce <a href="{{ page.url }}">permalien</a>. 
+            </div>
             {% if page.comments %}
             <div id="disqus_thread">
                 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
