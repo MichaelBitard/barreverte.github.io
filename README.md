@@ -1,4 +1,3 @@
-barreverte.github.com
-=====================
+# barreverte.github.io
 
 content for blog http://www.barreverte.fr/
