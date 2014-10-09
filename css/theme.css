@@ -59,3 +59,7 @@ body {
 #disqus_thread {
     margin-top: 10px;
 }
+
+ul.side_list {
+    margin-left: -20px;
+}
