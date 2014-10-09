@@ -19,4 +19,22 @@ layout: default
 		<li><a href="http://www.barreverte.fr/author/bruno">Bruno Thomas</a></li>
 	</ul>
 	<div>Pour nous contacter, vous pouvez nous envoyer un <a title="blog@barreverte.fr" href="mailto:blog@barreverte.fr">email</a> !</div>
+	<div>Dernière mise à jour du site : le
+{% assign m = site.time | date: "%-m" %}
+{{ site.time | date: "%-d" }}
+{% case m %}
+  {% when '1' %}janvier
+  {% when '2' %}février
+  {% when '3' %}mars
+  {% when '4' %}avril
+  {% when '5' %}mai
+  {% when '6' %}juin
+ {% when '7' %}juillet
+  {% when '8' %}août
+  {% when '9' %}septembre
+  {% when '10' %}octobre
+  {% when '11' %}novembre
+  {% when '12' %}décembre
+{% endcase %}
+{{ site.time | date: "%Y" }}</p>
 </div>
