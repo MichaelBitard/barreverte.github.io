@@ -37,11 +37,11 @@
             <div class="end_of_post">
               Cette entrée a été publiée dans 
               {% for category in page.categories %}
-                <em>{{ category }}</em>,
+                <em>{{ category }}</em>{% unless forloop.last %},{% endunless %}
               {% endfor %}
               avec comme mot(s)-clef(s) 
               {% for tag in page.tags %}
-                <em>{{ tag }}</em>,
+                <em>{{ tag }}</em>{% unless forloop.last %},{% endunless %}
               {% endfor %}
               Vous pouvez la mettre en favoris avec ce <a href="{{ page.url }}">permalien</a>. 
             </div>
