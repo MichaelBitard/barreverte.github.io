@@ -26,7 +26,7 @@ comments: true
 
 #permalink: /:year/:month/:title
 permalink: /:title
-paginate: 3
+paginate: 9
 
 highlighter: pygments
 markdown: redcarpet
