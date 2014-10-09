@@ -1,10 +1,9 @@
 # Jekyll configuration
-
 name: Barre Verte !
 description: Notes de développeurs sur le logiciel, le design, l'agilité, l'open source, les mobiles, linux...
 
 # url is currently only used only for the RSS feed in feed.xml
-url: http://barreverte.github.io
+url: http://www.barreverte.fr
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
