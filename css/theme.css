@@ -49,3 +49,13 @@ body {
 .author a {
     color: #ee4444;
 }
+
+.end_of_post {
+    margin-top: 30px;
+    font-size: 0.8em;
+    font-color: #ee4444;
+}
+
+#disqus_thread {
+    margin-top: 10px;
+}
