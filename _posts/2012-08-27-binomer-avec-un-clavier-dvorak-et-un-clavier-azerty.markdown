@@ -13,9 +13,9 @@ author_email: jp@barreverte.fr
 author_url: http://www.barreverte.fr/
 excerpt: ! "Nous avons récemment succombé à la geekerie du moment : un clavier <a
   href=\"http://typematrix.com/\" target=\"_blank\">Type Matrix</a> dvorak.\r\n\r\n[caption
-  id=\"attachment_2679\" align=\"aligncenter\" width=\"300\"]<a href=\"http://www.barreverte.fr/wp-content/uploads/2012/08/tmx-2030_gallery-1.png\"><img
+  id=\"attachment_2679\" align=\"aligncenter\" width=\"300\"]<a href=\"/images/tmx-2030_gallery-1.png\"><img
   class=\"size-medium wp-image-2679\" title=\"tmx-2030_gallery-1\" alt=\"Clavier Type
-  Matrix 2030 dvorak\" src=\"http://www.barreverte.fr/wp-content/uploads/2012/08/tmx-2030_gallery-1-300x135.png\"
+  Matrix 2030 dvorak\" src=\"/images/tmx-2030_gallery-1-300x135.png\"
   width=\"300\" height=\"135\" /></a> Clavier Type Matrix 2030 dvorak[/caption]\r\n\r\nSous
   Linux, la commande <tt>setxkbmap</tt> permet de changer le mapping de son clavier.
   Ainsi, pour passer en Dvorak avec la composition pour les accents (3 touches pour
@@ -60,7 +60,10 @@ comments:
     de la session X (autostart.sh pour les dérivés d'OpenBox)
 ---
 <p>Nous avons récemment succombé à la geekerie du moment : un clavier <a href="http://typematrix.com/" target="_blank">Type Matrix</a> dvorak.</p>
-<p>[caption id="attachment_2679" align="aligncenter" width="300"]<a href="http://www.barreverte.fr/wp-content/uploads/2012/08/tmx-2030_gallery-1.png"><img class="size-medium wp-image-2679" title="tmx-2030_gallery-1" alt="Clavier Type Matrix 2030 dvorak" src="http://www.barreverte.fr/wp-content/uploads/2012/08/tmx-2030_gallery-1-300x135.png" width="300" height="135" /></a> Clavier Type Matrix 2030 dvorak[/caption]</p>
+<p align="center"><a href="/images/tmx-2030_gallery-1.png"><img class="size-medium wp-image-2679" title="tmx-2030_gallery-1" alt="Clavier Type Matrix 2030 dvorak" src="/images/tmx-2030_gallery-1-300x135.png" width="300" height="135" /></a>
+<br>
+Clavier Type Matrix 2030 dvorak</p>
+
 <p>Sous Linux, la commande <tt>setxkbmap</tt> permet de changer le mapping de son clavier. Ainsi, pour passer en Dvorak avec la composition pour les accents (3 touches pour écrire <tt>é</tt> : compose (le Alt de droite), apostrophe, e), il faut écrire :<a id="more"></a><a id="more-2674"></a></p>
 <p>&nbsp;</p>
 <p>Après une période d'apprentissage, nous sommes assez contents, mais tout le monde n'est pas prêt ou n'a pas forcément envie de faire cet effort.</p>
