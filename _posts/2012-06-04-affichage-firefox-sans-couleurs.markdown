@@ -33,7 +33,7 @@ comments: []
 <li>exécution de commandes impromptues</li>
 </ul>
 <p>Pendant un binômage VNC, sur une tâche de développement d'écran Web sous firefox (avec firebug, webdevelopper), mon affichage n'avait plus les couleurs des sites :<br />
-<a href="http://www.barreverte.fr/wp-content/uploads/2012/06/capture_affichage_ff.png"><img src="http://www.barreverte.fr/wp-content/uploads/2012/06/capture_affichage_ff-300x249.png" alt="" title="capture_affichage_ff" width="300" height="249" class="aligncenter size-medium wp-image-2622" /></a></p>
+<a href="/images/capture_affichage_ff.png"><img src="/images/capture_affichage_ff-300x249.png" alt="" title="capture_affichage_ff" width="300" height="249" class="aligncenter size-medium wp-image-2622" /></a></p>
 <p>Après avoir cherché un moment, j'ai pu rétablir l'affichage original en faisant about:config dans la barre d'url, et puis en double cliquant sur le paramètre
 <pre>browser.display.use_document_color</pre>
 <p> le passant de false à true.</p>
