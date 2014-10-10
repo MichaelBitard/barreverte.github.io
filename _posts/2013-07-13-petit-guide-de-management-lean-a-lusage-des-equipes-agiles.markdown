@@ -25,5 +25,5 @@ tags: []
 comments: []
 ---
 <p>Il est en ligne depuis mercredi !</p>
-<p><a href="http://leanagilecamp.fr"><img src="http://www.barreverte.fr/wp-content/uploads/2013/07/logo.png" alt="Petit guide de management lean à l'usage des équipes agiles" width="189" height="153" class="aligncenter size-full wp-image-3099" /></a></p>
+<p><a href="http://leanagilecamp.fr"><img src="/images/logoLeanAgileCamp.png" alt="Petit guide de management lean à l'usage des équipes agiles" width="189" height="153" class="aligncenter size-full wp-image-3099" /></a></p>
 <p>Bientôt une série d'articles pour vous expliquer comment s'est déroulé notre booksprint.</p>
