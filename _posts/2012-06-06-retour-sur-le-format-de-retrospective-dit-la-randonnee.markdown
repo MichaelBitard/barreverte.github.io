@@ -116,7 +116,7 @@ Il était mercredi soir, le lendemain avait lieu la rétro. Autant dire que cela
 <li>[60 minutes] Discussions autour des sujets votés par l'équipe</li>
 </ul>
 <p>Jeudi matin, j'ai proposé de diviser l'équipe en deux groupes et d'appliquer le format ci-dessus. Nous avons obtenu des résultats assez homogènes (par souci de compacité de l'article, un seul graphe est affiché ici) :</p>
-<p><a href="http://www.barreverte.fr/wp-content/uploads/2012/05/20120217-GatherData1.jpg"><img class="aligncenter size-full wp-image-2600" title="20120217-GatherData" src="http://www.barreverte.fr/wp-content/uploads/2012/05/20120217-GatherData1.jpg" alt="" width="865" height="634" /></a></p>
+<p><a href="/images/20120217-GatherData1.jpg"><img class="aligncenter size-full wp-image-2600" title="20120217-GatherData" src="/images/20120217-GatherData1.jpg" alt="" width="800"/></a></p>
 <p>Les premiers sommets correspondent aux problèmes rencontrés sur deux stories non validées. En effet, elles comportaient des hypothèses fonctionnelles qui n'étaient pas encore confirmées par le client alors que nous les avions engagées sur le Sprint. Nous avons dû relancer (et patienter) avant de pouvoir poursuivre leur développement.</p>
 <p>Ensuite le graphe a surtout mis en évidence l'accumulation des problèmes en fin de Sprint ainsi que leur non-résolution :</p>
 <ul>
