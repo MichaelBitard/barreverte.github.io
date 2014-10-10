@@ -10,8 +10,8 @@ author:
   url: ''
 author_login: philippe
 author_email: philippe.blayo@gmail.com
-excerpt: ! "<a href=\"http://www.barreverte.fr/wp-content/uploads/2013/12/reviewRadioFrance.png\"><img
-  class=\"size-full wp-image-3194 alignright\" alt=\"reviewRadioFrance\" src=\"http://www.barreverte.fr/wp-content/uploads/2013/12/reviewRadioFrance.png\"
+excerpt: ! "<a href=\"/images/reviewRadioFrance.png\"><img
+  class=\"size-full wp-image-3194 alignright\" alt=\"reviewRadioFrance\" src=\"/images/reviewRadioFrance.png\"
   /></a>Présent à la première rencontre du Lean Agile Camp, Barre verte! livre ses
   impressions sur l'atelier <strong>la voix du client</strong>. Le but est de décortiquer
   une application sous l'angle du livre <a href=\"http://strategyn.com/jobs-to-be-done/\">Job
@@ -33,9 +33,9 @@ tags:
 - lean
 comments: []
 ---
-<p><a href="http://www.barreverte.fr/wp-content/uploads/2013/12/reviewRadioFrance.png"><img class="size-full wp-image-3194 alignright" alt="reviewRadioFrance" src="http://www.barreverte.fr/wp-content/uploads/2013/12/reviewRadioFrance.png" /></a>Présent à la première rencontre du Lean Agile Camp, Barre verte! livre ses impressions sur l'atelier <strong>la voix du client</strong>. Le but est de décortiquer une application sous l'angle du livre <a href="http://strategyn.com/jobs-to-be-done/">Job to be done</a> qui prends comme paradigme que l'utilisateur recrute une application pour faire un travail à sa place. Nous choisissons l'application Radio-France pour android car elle a des notes au dessus de la moyenne et plus de 900 commentaires.</p>
+<p><a href="/images/reviewRadioFrance.png"><img class="size-full wp-image-3194 alignright" alt="reviewRadioFrance" src="/images/reviewRadioFrance.png" /></a>Présent à la première rencontre du Lean Agile Camp, Barre verte! livre ses impressions sur l'atelier <strong>la voix du client</strong>. Le but est de décortiquer une application sous l'angle du livre <a href="http://strategyn.com/jobs-to-be-done/">Job to be done</a> qui prends comme paradigme que l'utilisateur recrute une application pour faire un travail à sa place. Nous choisissons l'application Radio-France pour android car elle a des notes au dessus de la moyenne et plus de 900 commentaires.</p>
 <p>Cette application permet d'accéder à toutes les radios du groupe. Nous décrivons la valeur que nous y voyons :<a id="more"></a><a id="more-3191"></a></p>
-<p><a href="http://www.barreverte.fr/wp-content/uploads/2013/12/appRadioFrance.jpg"><img class="size-full wp-image-3195 alignright" alt="appRadioFrance" src="http://www.barreverte.fr/wp-content/uploads/2013/12/appRadioFrance.jpg" width="186" height="310" /></a></p>
+<p><a href="/images/appRadioFrance.jpg"><img class="size-full wp-image-3195 alignright" alt="appRadioFrance" src="/images/appRadioFrance.jpg" width="186" height="310" /></a></p>
 <ol>
 <li>Je suis bloqué dans cette réunion et l'animateur a fermé la porte à clef alors que ce matin passe l'émission "Rue des entrepreneurs" que j'aimerais bien écouter. Je recrute l'application pour la suivre dans ce lieu incongru.</li>
 <li>Deuxième cas de figure : non seulement l'animateur a fermé la porte à clef, mais il a en plus confisqué mon smartphone. Je veux absolument écouter l'émission après l'atelier et donc après sa diffusion, c'est-à-dire n'importe quand.</li>
@@ -48,7 +48,7 @@ comments: []
 <li>temps d'accès au contenu</li>
 <li>disponibilité</li>
 </ul>
-<p><a href="http://www.barreverte.fr/wp-content/uploads/2013/12/commentaireUtilisateurRadioFrance.png"><img class="size-full wp-image-3196 alignright" alt="commentaireUtilisateurRadioFrance" src="http://www.barreverte.fr/wp-content/uploads/2013/12/commentaireUtilisateurRadioFrance.png" width="314" height="150" /></a>Le lean formule comme hypothèse qu'en examinant les commentaires des utilisateurs nous découvrirons des éléments de contextes que nous n'imaginons pas.<br />
+<p><a href="/images/commentaireUtilisateurRadioFrance.png"><img class="size-full wp-image-3196 alignright" alt="commentaireUtilisateurRadioFrance" src="/images/commentaireUtilisateurRadioFrance.png" width="314" height="150" /></a>Le lean formule comme hypothèse qu'en examinant les commentaires des utilisateurs nous découvrirons des éléments de contextes que nous n'imaginons pas.<br />
 Effectivement les nombreuses plaintes sur l'app store de l'application nous font découvrir trois choses:</p>
 <ul>
 <li>des utilisateurs recrutent l'application pour accéder au site. Nous le découvrons dans les nombreuses plaintes sur une régression de cette fonctionnalité.</li>
