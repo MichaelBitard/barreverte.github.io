@@ -125,7 +125,7 @@ comments:
 <li>quel est notre avancement ? Aucune pièce n'est sortie, nous ne savons pas ce que nous avons fait.</li>
 </ul>
 <p>Le soir, après le dîner, tout le monde continue, et vers 1h du matin, un standard est proposé par Antoine et Régis :<br />
-<a href="http://www.barreverte.fr/wp-content/uploads/2013/07/consignesStylistiques.png"><img class="aligncenter size-full wp-image-3038" alt="consignesStylistiques" src="http://www.barreverte.fr/wp-content/uploads/2013/07/consignesStylistiques.png" width="640" height="528" /></a></p>
+<a href="/images/consignesStylistiques.png"><img class="aligncenter size-full wp-image-3038" alt="consignesStylistiques" src="/images/consignesStylistiques.png" width="640" height="528" /></a></p>
 <h1>2e jour</h1>
 <p>Flash meeting du matin, entrain, nous décidons :</p>
 <ul>
