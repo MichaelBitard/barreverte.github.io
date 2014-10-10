@@ -125,28 +125,28 @@ comments: []
 <p><strong>Notes</strong> :</p>
 <p>Jour 1:</p>
 <ul>
-<li><a href="http://www.barreverte.fr/wp-content/uploads/2012/04/QCon-keynote.pdf">QCon keynote</a></li>
-<li><a href="http://www.barreverte.fr/wp-content/uploads/2012/04/Breaking-the-monolyth.pdf">Breaking the monolyth</a></li>
-<li><a href="http://www.barreverte.fr/wp-content/uploads/2012/04/High-avalability-at-Heroku.pdf">High avalability at Heroku</a></li>
-<li><a href="http://www.barreverte.fr/wp-content/uploads/2012/04/how-software-architects-can-embrace-change.pdf">how software architects can embrace change</a></li>
-<li><a href="http://www.barreverte.fr/wp-content/uploads/2012/04/sustainable-speed-is-king.pdf">sustainable speed is king</a></li>
-<li><a href="http://www.barreverte.fr/wp-content/uploads/2012/04/decisions-decisions.pdf">decisions, decisions</a></li>
+<li><a href="/pdf/qcon2012/QCon-keynote.pdf">QCon keynote</a></li>
+<li><a href="/pdf/qcon2012/Breaking-the-monolyth.pdf">Breaking the monolyth</a></li>
+<li><a href="/pdf/qcon2012/High-avalability-at-Heroku.pdf">High avalability at Heroku</a></li>
+<li><a href="/pdf/qcon2012/how-software-architects-can-embrace-change.pdf">how software architects can embrace change</a></li>
+<li><a href="/pdf/qcon2012/sustainable-speed-is-king.pdf">sustainable speed is king</a></li>
+<li><a href="/pdf/qcon2012/decisions-decisions.pdf">decisions, decisions</a></li>
 </ul>
 <p>Jour 2:</p>
 <ul>
-<li><a href="http://www.barreverte.fr/wp-content/uploads/2012/04/Simple-made-easy.pdf">Simple made easy</a></li>
-<li><a href="http://www.barreverte.fr/wp-content/uploads/2012/04/The-evolution-of-Paas.pdf">The evolution of Paas</a></li>
-<li><a href="http://www.barreverte.fr/wp-content/uploads/2012/04/architecture-for-failure.pdf">architecture for failure</a></li>
-<li><a href="http://www.barreverte.fr/wp-content/uploads/2012/04/Timelines-@-Twitter.pdf">Timelines @ Twitter</a></li>
-<li><a href="http://www.barreverte.fr/wp-content/uploads/2012/04/big-data-architecture-at-facebook.pdf">big data architecture at facebook</a></li>
-<li><a href="http://www.barreverte.fr/wp-content/uploads/2012/04/the-monkeys-and-the-firehose.pdf">the monkeys and the firehose</a></li>
+<li><a href="/pdf/qcon2012/Simple-made-easy.pdf">Simple made easy</a></li>
+<li><a href="/pdf/qcon2012/The-evolution-of-Paas.pdf">The evolution of Paas</a></li>
+<li><a href="/pdf/qcon2012/architecture-for-failure.pdf">architecture for failure</a></li>
+<li><a href="/pdf/qcon2012/Timelines-@-Twitter.pdf">Timelines @ Twitter</a></li>
+<li><a href="/pdf/qcon2012/big-data-architecture-at-facebook.pdf">big data architecture at facebook</a></li>
+<li><a href="/pdf/qcon2012/the-monkeys-and-the-firehose.pdf">the monkeys and the firehose</a></li>
 </ul>
 <p>Jour 3:</p>
 <ul>
-<li><a href="http://www.barreverte.fr/wp-content/uploads/2012/04/resilient-response-in-complex-systems.pdf">resilient response in complex systems</a></li>
-<li><a href="http://www.barreverte.fr/wp-content/uploads/2012/04/faith-evolution-and-programming-languages-from-Haskell-to-Java.pdf">faith evolution and programming languages from Haskell to Java</a></li>
-<li><a href="http://www.barreverte.fr/wp-content/uploads/2012/04/how-github-works.pdf">how github works</a></li>
-<li><a href="http://www.barreverte.fr/wp-content/uploads/2012/04/aint-no-cure-for-the-distributed-blues.pdf">ain't no cure for the distributed blues</a></li>
-<li><a href="http://www.barreverte.fr/wp-content/uploads/2012/04/data-infrastructure-@-linkedin.pdf">data infrastructure @ linkedin</a></li>
-<li><a href="http://www.barreverte.fr/wp-content/uploads/2012/04/Hadoop-Scalable-infrastructure-for-big-data.pdf">Hadoop Scalable infrastructure for big data</a></li>
+<li><a href="/pdf/qcon2012/resilient-response-in-complex-systems.pdf">resilient response in complex systems</a></li>
+<li><a href="/pdf/qcon2012/faith-evolution-and-programming-languages-from-Haskell-to-Java.pdf">faith evolution and programming languages from Haskell to Java</a></li>
+<li><a href="/pdf/qcon2012/how-github-works.pdf">how github works</a></li>
+<li><a href="/pdf/qcon2012/aint-no-cure-for-the-distributed-blues.pdf">ain't no cure for the distributed blues</a></li>
+<li><a href="/pdf/qcon2012/data-infrastructure-@-linkedin.pdf">data infrastructure @ linkedin</a></li>
+<li><a href="/pdf/qcon2012/Hadoop-Scalable-infrastructure-for-big-data.pdf">Hadoop Scalable infrastructure for big data</a></li>
 </ul>
