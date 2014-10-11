@@ -36,7 +36,7 @@ comments:
 - id: 43
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMS0wMS0yMSAxOTowMzo0OSArMDEwMA==
   date_gmt: !binary |-
@@ -59,7 +59,7 @@ comments:
 - id: 312
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMS0xMS0yMiAxNzo0MToxOSArMDEwMA==
   date_gmt: !binary |-

@@ -37,7 +37,7 @@ comments:
 - id: 41
   author: Software craftmanship | Barre Verte !
   author_email: ''
-  author_url: http://www.barreverte.fr/software-craftmanship
+  author_url: /software-craftmanship
   date: !binary |-
     MjAxMS0wMS0yMCAxNDoyODo0MyArMDEwMA==
   date_gmt: !binary |-
@@ -47,7 +47,7 @@ comments:
 - id: 319
   author: Persistance polymorphe | Barre Verte !
   author_email: ''
-  author_url: http://www.barreverte.fr/persistance-polymorphe
+  author_url: /persistance-polymorphe
   date: !binary |-
     MjAxMS0xMS0yOSAxMDowNjozMyArMDEwMA==
   date_gmt: !binary |-
@@ -58,7 +58,7 @@ comments:
 - id: 561
   author: Retour sur la QCon 2012 | Barre Verte !
   author_email: ''
-  author_url: http://www.barreverte.fr/retour-sur-la-qcon-2012
+  author_url: /retour-sur-la-qcon-2012
   date: !binary |-
     MjAxMi0wNC0wOSAxNjoyMDozMCArMDIwMA==
   date_gmt: !binary |-
