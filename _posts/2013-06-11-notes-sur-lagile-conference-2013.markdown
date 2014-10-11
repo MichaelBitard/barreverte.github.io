@@ -19,7 +19,7 @@ excerpt: ! "Les 23 et 24 mai, c'était la 8e édition de l'agile conférence Par
   alt=\"Le chalet de la porte Jaune\" src=\"http://farm9.staticflickr.com/8545/8963978706_36465b9d26_z.jpg\"
   width=\"600\" height=\"400\" /></a>\r\n\r\n"
 wordpress_id: 2828
-wordpress_url: http://www.barreverte.fr/?p=2828
+wordpress_url: /?p=2828
 date: !binary |-
   MjAxMy0wNi0xMSAyMTowNToxMiArMDIwMA==
 date_gmt: !binary |-
@@ -34,7 +34,7 @@ comments:
 - id: 23749
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMy0wNi0xMiAxMzoxNjoxMyArMDIwMA==
   date_gmt: !binary |-

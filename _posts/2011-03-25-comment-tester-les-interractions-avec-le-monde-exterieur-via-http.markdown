@@ -7,10 +7,10 @@ author:
   display_name: Jean-Philippe Caruana
   login: jp
   email: jp@barreverte.fr
-  url: http://www.barreverte.fr/
+  url: /
 author_login: jp
 author_email: jp@barreverte.fr
-author_url: http://www.barreverte.fr/
+author_url: /
 excerpt: ! "Il m'arrive fréquemment d'avoir à écrire du code qui doit parler avec
   un serveur HTTP externe, par exemple, sur mon projet actuel, nous interagissons avec
   :\r\n<ul>\r\n\t<li>un serveur de paiement</li>\r\n\t<li>un serveur de publicités</li>\r\n\t<li>un
@@ -25,7 +25,7 @@ excerpt: ! "Il m'arrive fréquemment d'avoir à écrire du code qui doit parle
   Cela nous permet de simuler tous les intervenants extérieurs à notre produit pour
   nos tests unitaires mais aussi pour nos tests d'acceptance.\r\n\r\n"
 wordpress_id: 1615
-wordpress_url: http://www.barreverte.fr/?p=1615
+wordpress_url: /?p=1615
 date: !binary |-
   MjAxMS0wMy0yNSAxODozNTo1NCArMDEwMA==
 date_gmt: !binary |-
@@ -69,7 +69,7 @@ comments: []
 <li>il est possible de tester des cas d'erreur très difficiles à traiter autrement (un <em>read timeout</em> par exemple)</li>
 </ul>
 <p>Voilà ! J'espère que cet article vous a ouvert de nouvelles perspectives de tests. Nous n'avons pas de soucis de socket qui reste ouverte et qu'on ne peut réutiliser, mais avant d'en arriver là, il nous a fallu peaufiner et peaufiner encore notre code.</p>
-<p>Comme pour la <a href="http://www.barreverte.fr/controler-le-temps-pour-faciliter-les-tests">simulation du temps</a> dans les tests, nous voudrions ouvrir le code de cette librairie, mais il faut que nous voyions cela auprès de notre employeur. Restez branchés !</p>
+<p>Comme pour la <a href="/controler-le-temps-pour-faciliter-les-tests">simulation du temps</a> dans les tests, nous voudrions ouvrir le code de cette librairie, mais il faut que nous voyions cela auprès de notre employeur. Restez branchés !</p>
 <p>Et vous, comment testez-vous vos interractions avec le monde HTTP ?</p>
 <hr />
 <p>ps : Pascal Grange a également écrit sur le sujet et propose une solution très différente mais également intéressante :  <a href="http://pgrange1.blogspot.com/2011/03/tests-unitaires-http-et-java.html" target="_blank">Tests unitaires, HTTP et Java</a></p>

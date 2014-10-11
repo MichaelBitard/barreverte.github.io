@@ -17,7 +17,7 @@ excerpt: ! "<div>\r\n\r\n10 ans après sa parution, le <a href=\"http://agilema
   fonctionnelles en langage machine, le mouvement Agile a replacé les équipes de développement
   au centre de la chaîne de valeur des projets logiciels.\r\n\r\n"
 wordpress_id: 1928
-wordpress_url: http://www.barreverte.fr/?p=1928
+wordpress_url: /?p=1928
 date: !binary |-
   MjAxMS0wNS0wOSAyMToyNDoxMyArMDIwMA==
 date_gmt: !binary |-

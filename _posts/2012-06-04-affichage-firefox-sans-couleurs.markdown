@@ -12,7 +12,7 @@ author_login: bruno
 author_email: bruno@barreverte.fr
 author_url: http://www.barreverte.fr
 wordpress_id: 2620
-wordpress_url: http://www.barreverte.fr/?p=2620
+wordpress_url: /?p=2620
 date: !binary |-
   MjAxMi0wNi0wNCAxNzozMjo0NSArMDIwMA==
 date_gmt: !binary |-

@@ -21,7 +21,7 @@ excerpt: ! "Cette année, Barre Verte était aussi à l'<a href=\"http://www.agi
   JS/Java, scrummaster, coachs)</li>\r\n\t<li>La qualité des discussions</li>\r\n\t<li>Le
   cadre rustique</li>\r\n\t<li>La qualité du repas (ben oui)</li>\r\n</ul>\r\n"
 wordpress_id: 2987
-wordpress_url: http://www.barreverte.fr/?p=2987
+wordpress_url: /?p=2987
 date: !binary |-
   MjAxMy0wNi0yNSAwOTo1MzoxOCArMDIwMA==
 date_gmt: !binary |-

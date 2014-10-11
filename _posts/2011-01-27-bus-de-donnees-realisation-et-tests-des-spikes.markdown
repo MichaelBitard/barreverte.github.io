@@ -21,7 +21,7 @@ excerpt: ! "Nous avons choisi d'évaluer les solutions suivantes :\r\n<ol>\r\n\t
   réaliser une petite servlet qui envoie un objet représentant une statistique sur
   le bus de données, et un consommateur qui reçoit cet objet.\r\n"
 wordpress_id: 938
-wordpress_url: http://www.barreverte.fr/?p=938
+wordpress_url: /?p=938
 date: !binary |-
   MjAxMS0wMS0yNyAyMToxODowNyArMDEwMA==
 date_gmt: !binary |-
@@ -46,7 +46,7 @@ comments:
 - id: 82
   author: Conférence Agile France 2011 | Barre Verte !
   author_email: ''
-  author_url: http://www.barreverte.fr/conference-agile-france-2011
+  author_url: /conference-agile-france-2011
   date: !binary |-
     MjAxMS0wNS0xNSAxNjoxNToxMCArMDIwMA==
   date_gmt: !binary |-

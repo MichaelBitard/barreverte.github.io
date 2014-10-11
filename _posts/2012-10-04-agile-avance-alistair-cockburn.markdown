@@ -24,7 +24,7 @@ excerpt: ! "Mardi et mercredi 11 et 12 nous avons eu la chance de pouvoir partic
   L'échange, le partage de moments, d'informations, de questionnements autour de ce
   thème continue d'intéresser, ça fait du bien."
 wordpress_id: 2695
-wordpress_url: http://www.barreverte.fr/?p=2695
+wordpress_url: /?p=2695
 date: !binary |-
   MjAxMi0xMC0wNCAxODowOTo1MiArMDIwMA==
 date_gmt: !binary |-

@@ -7,10 +7,10 @@ author:
   display_name: Jean-Philippe Caruana
   login: jp
   email: jp@barreverte.fr
-  url: http://www.barreverte.fr/
+  url: /
 author_login: jp
 author_email: jp@barreverte.fr
-author_url: http://www.barreverte.fr/
+author_url: /
 excerpt: ! '<span style="font-size: 16px; color: #444444; line-height: 24px;">Eh oui,
   la grande mode est à <a href="http://git-scm.com/" target="_blank">git</a>, mais
   nous sommes encore nombreux à (être obligés d'')utiliser <a href="http://subversion.apache.org/"
@@ -19,7 +19,7 @@ excerpt: ! '<span style="font-size: 16px; color: #444444; line-height: 24px;">Eh
   je note régulièrement les petites <em>astuces</em> avec svn. En voici certaines
   :'
 wordpress_id: 1803
-wordpress_url: http://www.barreverte.fr/?p=1803
+wordpress_url: /?p=1803
 date: !binary |-
   MjAxMS0wNC0xNSAxNDo0OTozNCArMDIwMA==
 date_gmt: !binary |-
@@ -53,7 +53,7 @@ comments:
 - id: 73
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMS0wNC0xNSAyMzoxMToxOCArMDIwMA==
   date_gmt: !binary |-

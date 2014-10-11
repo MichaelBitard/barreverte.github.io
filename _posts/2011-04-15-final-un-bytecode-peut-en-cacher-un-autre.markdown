@@ -16,7 +16,7 @@ excerpt: ! "Quand le résultat d'un code Java me surprend, je regarde son byteco
   de concurrence [1]. J'ai découvert[2] que <code>final</code> pouvait changer le
   comportement de l'opérateur ternaire <code>? :</code>, comme le montre ce code :"
 wordpress_id: 1701
-wordpress_url: http://www.barreverte.fr/?p=1701
+wordpress_url: /?p=1701
 date: !binary |-
   MjAxMS0wNC0xNSAxNTowNjowNiArMDIwMA==
 date_gmt: !binary |-
@@ -46,7 +46,7 @@ comments:
 - id: 74
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMS0wNC0xNSAyMzoyNDowNCArMDIwMA==
   date_gmt: !binary |-

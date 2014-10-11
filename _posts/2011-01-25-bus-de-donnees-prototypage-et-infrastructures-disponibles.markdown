@@ -20,7 +20,7 @@ excerpt: ! "Une fois identifiée une catégorie de solution (un bus de données)
   faire une implémentation progressive de la solution, soit nous faisons une branche
   logicielle.\r\n"
 wordpress_id: 896
-wordpress_url: http://www.barreverte.fr/?p=896
+wordpress_url: /?p=896
 date: !binary |-
   MjAxMS0wMS0yNSAxNjoxODowNSArMDEwMA==
 date_gmt: !binary |-
@@ -34,7 +34,7 @@ comments:
 - id: 145
   author: Conférence Agile France 2011 | Barre Verte !
   author_email: ''
-  author_url: http://www.barreverte.fr/conference-agile-france-2011
+  author_url: /conference-agile-france-2011
   date: !binary |-
     MjAxMS0wNS0yNCAxOTowNDoyNSArMDIwMA==
   date_gmt: !binary |-

@@ -13,7 +13,7 @@ author_email: philippe.blayo@gmail.com
 excerpt: ! "Quand j'ai besoin d'essayer une lib sans impacter du code existant, je
   crée rapidement un projet jetable avec mvn :\r\n\r\n<code>mvn archetype:generate</code>\r\n\r\n"
 wordpress_id: 975
-wordpress_url: http://www.barreverte.fr/?p=975
+wordpress_url: /?p=975
 date: !binary |-
   MjAxMS0wMi0xOCAxNDoxNDoyNiArMDEwMA==
 date_gmt: !binary |-
@@ -51,7 +51,7 @@ comments:
 - id: 147
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMS0wNS0yNSAxNjowODozOSArMDIwMA==
   date_gmt: !binary |-

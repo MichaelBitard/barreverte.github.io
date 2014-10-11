@@ -20,7 +20,7 @@ excerpt: ! "Un petit mot sur les <a href=\"http://www.xpday.be/\">xpdays bénél
   taille que les cartes. Le lieu est un peu perdu à 30km au nord de Bruxelles, mais
   c'est dans la nature, les salles sont spacieuses avec de la lumière.\r\n\r\n"
 wordpress_id: 2415
-wordpress_url: http://www.barreverte.fr/?p=2415
+wordpress_url: /?p=2415
 date: !binary |-
   MjAxMS0xMi0zMSAxNToyNDozOCArMDEwMA==
 date_gmt: !binary |-

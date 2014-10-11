@@ -27,7 +27,7 @@ excerpt: ! "Dans le précédent article sur les tests javascript, nous avons vu 
   code: 0x80004005\r\n(NS_ERROR_FAILURE)\\\"  nsresult: \\\"0x80004005 (NS_ERROR_FAILURE)\\\"\r\nlocation:
   \\\"JS frame :: jquery.min.js\\\"</pre>\r\n</li>\r\n</ul>\r\n"
 wordpress_id: 2129
-wordpress_url: http://www.barreverte.fr/?p=2129
+wordpress_url: /?p=2129
 date: !binary |-
   MjAxMS0wNy0yNyAxNjo0NDoyMCArMDIwMA==
 date_gmt: !binary |-
@@ -107,7 +107,7 @@ comments:
 - id: 283
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMS0xMC0wNyAxNzoxMzoxMSArMDIwMA==
   date_gmt: !binary |-
@@ -117,7 +117,7 @@ comments:
 
     merci pour cette remarque : auparavant, Firefox et consorts proposaient une icône
     RSS dans la barre d''adresse. Je vais rajouter un lien vers les articles, mais
-    vous la donne d''ores et déjà : http://www.barreverte.fr/feed (bon, j''ai du regarder
+    vous la donne d''ores et déjà : /feed (bon, j''ai du regarder
     dans le source de la page...)
 
     Pour le contact, je vais mettre à jour la page "A propos" avec un e-mail de contact.

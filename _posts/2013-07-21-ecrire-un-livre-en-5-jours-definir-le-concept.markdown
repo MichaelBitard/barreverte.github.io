@@ -26,7 +26,7 @@ excerpt: ! "Ce format s'appelle <a href=\"http://www.booksprints.net/\">bookspri
   de matériel (post-it, stylos, clés USB, feutres, marqueurs...), une grosse imprimante,
   du réseau wifi et un répertoire DropBox.\r\n"
 wordpress_id: 3005
-wordpress_url: http://www.barreverte.fr/?p=3005
+wordpress_url: /?p=3005
 date: !binary |-
   MjAxMy0wNy0yMSAxMzo1MzoxOCArMDIwMA==
 date_gmt: !binary |-
@@ -89,8 +89,8 @@ comments:
   date_gmt: !binary |-
     MjAxMy0xMS0yMiAxMDozNzo0MCArMDEwMA==
   content: ! '[&#8230;] participant à un &quot;booksprint&quot; livre ses impressions
-    et explique les objectifs : http://www.barreverte.fr/ecrire-un-livre-en-5-jours-definir-le-concept
-    http://www.barreverte.fr/ecrire-un-livre-en-5-jours-converger-vers-lobjectif  A
+    et explique les objectifs : /ecrire-un-livre-en-5-jours-definir-le-concept
+    /ecrire-un-livre-en-5-jours-converger-vers-lobjectif  A
     noter que [&#8230;]'
 ---
 <p>Ce format s'appelle <a href="http://www.booksprints.net/">booksprint</a>. Le concept est simple : il s'agit d'écrire un livre en quelques jours avec de nombreux contributeurs. La mise en oeuvre, quant à elle est beaucoup plus complexe. Il faut synchroniser le travail de chacun, partager une vision de fond, s'accorder sur un style si l'on veut une certaine homogénéité d'ensemble. Comme j'ai eu la chance de participer il y a 10 jours à une édition pour le <a href="http://leanagilecamp.fr">Petit guide de management lean à l'usage des équipes agiles</a>, je vous livre mes impressions et descriptions en "<em>embedded</em>".</p>

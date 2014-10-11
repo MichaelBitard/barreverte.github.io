@@ -7,10 +7,10 @@ author:
   display_name: Jean-Baptiste Potonnier
   login: jb
   email: jb@barreverte.fr
-  url: http://www.barreverte.fr/
+  url: /
 author_login: jb
 author_email: jb@barreverte.fr
-author_url: http://www.barreverte.fr/
+author_url: /
 excerpt: ! "J'ai entendu parler d'Haskell pour la première fois à l'université. J'entendais
   que c'était un langage très élégant, amusant et bien plus avancé qu'OCaml. Mais
   OCaml me donnait déjà bien du mal, et c'était ce dernier qui était demandé pour
@@ -22,7 +22,7 @@ excerpt: ! "J'ai entendu parler d'Haskell pour la première fois à l'universit�
   qui permet d'écrire des parseurs très simplement, et dont la lecture du code m'a
   convaincu que la notion de fonction était une abstraction vraiment puissante.\r\n"
 wordpress_id: 2314
-wordpress_url: http://www.barreverte.fr/?p=2314
+wordpress_url: /?p=2314
 date: !binary |-
   MjAxMS0xMi0wNSAxMzo0MDozMCArMDEwMA==
 date_gmt: !binary |-
@@ -37,7 +37,7 @@ comments:
 - id: 329
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMS0xMi0wNSAxNDoxNzoxMyArMDEwMA==
   date_gmt: !binary |-
@@ -125,7 +125,7 @@ comments:
 - id: 340
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMS0xMi0wNiAxNzoxNTozNiArMDEwMA==
   date_gmt: !binary |-

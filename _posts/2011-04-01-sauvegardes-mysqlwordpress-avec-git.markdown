@@ -14,7 +14,7 @@ author_url: http://www.barreverte.fr
 excerpt: ! "Pour assurer les sauvegardes des données de ce site, j'avais commencé
   à faire un script bash qui faisait un dump uniquement si des données avaient changées.
   Mais il était insuffisant, car chaque changement provoquait la sauvegarde de toute
-  la base de données. Pas vraiment incrémentale la démarche.\r\n\r\n<a href=\"http://www.barreverte.fr/author/jp\">JP</a>
+  la base de données. Pas vraiment incrémentale la démarche.\r\n\r\n<a href=\"/author/jp\">JP</a>
   m'a indiqué <a href=\"http://www.patpro.net/blog/index.php/2010/01/11/1347-sauvegarde-de-bases-mysql-via-svn/\">un
   article</a> qui mentionnait l'utilisation de SVN pour des sauvegardes d'une base
   mysql. Mais bien sûr ! Un gestionnaire de version, c'est ce vers quoi le script
@@ -24,7 +24,7 @@ excerpt: ! "Pour assurer les sauvegardes des données de ce site, j'avais commen
   par exemple</li>\r\n\t<li>pouvoir dupliquer la sauvegarde à plusieurs endroits facilement
   avec l'historique</li>\r\n</ul>\r\nAutant réutiliser des outils éprouvés.\r\n\r\n"
 wordpress_id: 1647
-wordpress_url: http://www.barreverte.fr/?p=1647
+wordpress_url: /?p=1647
 date: !binary |-
   MjAxMS0wNC0wMSAxNToxMzoyOCArMDIwMA==
 date_gmt: !binary |-
@@ -55,7 +55,7 @@ comments:
 - id: 66
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMS0wNC0wNSAxMzoyOTowNyArMDIwMA==
   date_gmt: !binary |-
@@ -84,7 +84,7 @@ comments:
     bonne idée que j'aurais dû avoir (Facepalm). Merci bien! ;)
 ---
 <p>Pour assurer les sauvegardes des données de ce site, j'avais commencé à faire un script bash qui faisait un dump uniquement si des données avaient changées. Mais il était insuffisant, car chaque changement provoquait la sauvegarde de toute la base de données. Pas vraiment incrémentale la démarche.</p>
-<p><a href="http://www.barreverte.fr/author/jp">JP</a> m'a indiqué <a href="http://www.patpro.net/blog/index.php/2010/01/11/1347-sauvegarde-de-bases-mysql-via-svn/">un article</a> qui mentionnait l'utilisation de SVN pour des sauvegardes d'une base mysql. Mais bien sûr ! Un gestionnaire de version, c'est ce vers quoi le script allait m'acheminer pour :</p>
+<p><a href="/author/jp">JP</a> m'a indiqué <a href="http://www.patpro.net/blog/index.php/2010/01/11/1347-sauvegarde-de-bases-mysql-via-svn/">un article</a> qui mentionnait l'utilisation de SVN pour des sauvegardes d'une base mysql. Mais bien sûr ! Un gestionnaire de version, c'est ce vers quoi le script allait m'acheminer pour :</p>
 <ul>
 <li>ne garder que les deltas des changements</li>
 <li>être capable de retrouver la dernière version du site en cas de crash serveur</li>

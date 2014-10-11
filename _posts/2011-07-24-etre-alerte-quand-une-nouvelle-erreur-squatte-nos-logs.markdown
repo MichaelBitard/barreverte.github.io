@@ -19,7 +19,7 @@ excerpt: ! "Nous avons des releases de JSP assez fréquentes. Elles n'ont pas d'
   un évènement grave, qui mobiliserait toute l'équipe. Dans la réalité, les logs parfaites
   sont rares et les erreurs \"connues\" sont monnaie courante. \r\n"
 wordpress_id: 2083
-wordpress_url: http://www.barreverte.fr/?p=2083
+wordpress_url: /?p=2083
 date: !binary |-
   MjAxMS0wNy0yNCAyMjoxMjo0NiArMDIwMA==
 date_gmt: !binary |-

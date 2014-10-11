@@ -19,7 +19,7 @@ excerpt: ! "Nous avons parfois besoin d'effectuer une même opération sur plusi
   avec ceux de recette, etc. Il y a au moins trois possibilités à ce type de besoin
   : le faire à la main à la suite; utiliser clusterSSH; ou Gnome Connection Manager."
 wordpress_id: 1911
-wordpress_url: http://www.barreverte.fr/?p=1911
+wordpress_url: /?p=1911
 date: !binary |-
   MjAxMS0wNS0yMSAxMjoyODo0MCArMDIwMA==
 date_gmt: !binary |-

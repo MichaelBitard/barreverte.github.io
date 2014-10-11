@@ -11,7 +11,7 @@ author:
 author_login: bruno
 author_email: bruno@barreverte.fr
 author_url: http://www.barreverte.fr
-excerpt: ! "Une fois le <a href=\"http://www.barreverte.fr/rooter-android-avec-unrevoked\">recovery
+excerpt: ! "Une fois le <a href=\"/rooter-android-avec-unrevoked\">recovery
   clockworkmod installé</a>, vous pouvez facilement changer votre système en entrant
   dans le recovery. Mais avant cela, il est conseillé de faire une sauvegarde de l'actuel
   à l'aide également du recovery : allumez votre mobile en appuyant simultanément

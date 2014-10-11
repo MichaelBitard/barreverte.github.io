@@ -7,16 +7,16 @@ author:
   display_name: Jean-Philippe Caruana
   login: jp
   email: jp@barreverte.fr
-  url: http://www.barreverte.fr/
+  url: /
 author_login: jp
 author_email: jp@barreverte.fr
-author_url: http://www.barreverte.fr/
+author_url: /
 excerpt: Avec Ubuntu, viennnent les JDK 5 et 6. Si vous utilisez update-alternatives,
   vous pouvez d’ores et déjà changer de version à volonté. Mais comment faire si vous
   travaillez sur du code plus ancien qui nécessite une JVM 1.4  qui elle n'est pas
   installée dans votre Ubuntu ?
 wordpress_id: 759
-wordpress_url: http://www.barreverte.fr/?p=759
+wordpress_url: /?p=759
 date: !binary |-
   MjAxMC0xMi0yMiAxMDo0OTowNiArMDEwMA==
 date_gmt: !binary |-
@@ -31,7 +31,7 @@ comments:
 - id: 31
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMC0xMi0yMiAxNTowOTozMSArMDEwMA==
   date_gmt: !binary |-

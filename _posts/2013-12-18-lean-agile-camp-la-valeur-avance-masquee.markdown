@@ -21,7 +21,7 @@ excerpt: ! "<a href=\"/images/reviewRadioFrance.png\"><img
   application permet d'accéder à toutes les radios du groupe. Nous décrivons la valeur
   que nous y voyons :"
 wordpress_id: 3191
-wordpress_url: http://www.barreverte.fr/?p=3191
+wordpress_url: /?p=3191
 date: !binary |-
   MjAxMy0xMi0xOCAxOTo1Njo1NyArMDEwMA==
 date_gmt: !binary |-

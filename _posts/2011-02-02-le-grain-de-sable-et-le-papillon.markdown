@@ -19,7 +19,7 @@ excerpt: ! "Ou comment nous nous sommes plantés sur une mise en production simp
   et de la plateforme. Chez nous, nous avons deux équipes aussi, une équipe \"dev\"
   et une équipe \"système\".\r\n"
 wordpress_id: 1350
-wordpress_url: http://www.barreverte.fr/?p=1350
+wordpress_url: /?p=1350
 date: !binary |-
   MjAxMS0wMi0wMiAwOTowMzoxNCArMDEwMA==
 date_gmt: !binary |-
@@ -36,7 +36,7 @@ comments:
 - id: 51
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMS0wMi0wMiAxMDoyNjoxNCArMDEwMA==
   date_gmt: !binary |-
@@ -57,7 +57,7 @@ comments:
 - id: 54
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMS0wMi0wMiAxNDo1NjowOCArMDEwMA==
   date_gmt: !binary |-
@@ -77,7 +77,7 @@ comments:
 - id: 56
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMS0wMi0wMyAwNDowMzozMyArMDEwMA==
   date_gmt: !binary |-
@@ -101,7 +101,7 @@ comments:
   author: ! 'Bus de données : les failles dans l&#8217;architecture | Barre Verte
     !'
   author_email: ''
-  author_url: http://www.barreverte.fr/bus-de-donnees-les-failles-dans-larchitecture
+  author_url: /bus-de-donnees-les-failles-dans-larchitecture
   date: !binary |-
     MjAxMS0wNS0xMiAxNTozMzozNSArMDIwMA==
   date_gmt: !binary |-
@@ -112,7 +112,7 @@ comments:
 ---
 <p>Ou comment nous nous sommes plantés sur une mise en production simple, provocant des réactions complètement disproportionnées de notre client. Ou plutôt un de nos clients. Nous fournissons un service complet intégrant l'hébergement et le développement logiciel. Chez le client, nous avons également un pôle responsable du "run", et un autre, avec le marketing, qui définit les évolutions du logiciel et de la plateforme. Chez nous, nous avons deux équipes aussi, une équipe "dev" et une équipe "système".<br />
 <a id="more"></a><a id="more-1350"></a><br />
-Cette mise en production améliorait la haute disponibilité de l’application et incluait un upgrade de la version du <a href="http://www.barreverte.fr/un-bus-de-donnees-pour-les-statistiques">bus de données</a>. Nous faisons une répétition avec une personne de l'équipe système, sur la plateforme de pré-production. Cette répétition se passe si bien qu'il est décidé que la mise en production se fera à distance à 5h du matin (plutôt que 2h sur place lorsqu'il y a du risque), et qu'il ne sera pas nécessaire d'avoir l'assistance d'un développeur.<br />
+Cette mise en production améliorait la haute disponibilité de l’application et incluait un upgrade de la version du <a href="/un-bus-de-donnees-pour-les-statistiques">bus de données</a>. Nous faisons une répétition avec une personne de l'équipe système, sur la plateforme de pré-production. Cette répétition se passe si bien qu'il est décidé que la mise en production se fera à distance à 5h du matin (plutôt que 2h sur place lorsqu'il y a du risque), et qu'il ne sera pas nécessaire d'avoir l'assistance d'un développeur.<br />
 <em><br />
 Erreur.<br />
 </em><br />

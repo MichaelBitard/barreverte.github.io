@@ -24,7 +24,7 @@ excerpt: ! "La lecture de cet billet : <a href=\"http://radar.oreilly.com/2010/1
   pas bonne et pourquoi). En revanche, \"check objects before invoking methods on
   them\" amène à la programmation défensive. \r\n"
 wordpress_id: 649
-wordpress_url: http://www.barreverte.fr/?p=649
+wordpress_url: /?p=649
 date: !binary |-
   MjAxMC0xMS0yOCAyMDozOToyNCArMDEwMA==
 date_gmt: !binary |-

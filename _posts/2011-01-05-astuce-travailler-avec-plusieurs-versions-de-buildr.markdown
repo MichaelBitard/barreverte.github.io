@@ -7,16 +7,16 @@ author:
   display_name: Jean-Philippe Caruana
   login: jp
   email: jp@barreverte.fr
-  url: http://www.barreverte.fr/
+  url: /
 author_login: jp
 author_email: jp@barreverte.fr
-author_url: http://www.barreverte.fr/
+author_url: /
 excerpt: ! "<a href=\"http://buildr.apache.org/\">Buildr</a> est un outil écrit en
   ruby qui se substitue à maven. L'installation passe par ruby-gems, aussi il est
   facile de changer la version d'une gem qu'on utilise en lui passant la version entre
   deux underscores :\r\n<code>maGem _uneAutreVersion_ faitQuelqueChose</code>.\r\n\r\n"
 wordpress_id: 913
-wordpress_url: http://www.barreverte.fr/?p=913
+wordpress_url: /?p=913
 date: !binary |-
   MjAxMS0wMS0wNSAxMDoxMDo0OSArMDEwMA==
 date_gmt: !binary |-
@@ -33,7 +33,7 @@ comments:
 - id: 81
   author: Conférence Agile France 2011 | Barre Verte !
   author_email: ''
-  author_url: http://www.barreverte.fr/conference-agile-france-2011
+  author_url: /conference-agile-france-2011
   date: !binary |-
     MjAxMS0wNS0xNSAxNjoxNDo1MyArMDIwMA==
   date_gmt: !binary |-

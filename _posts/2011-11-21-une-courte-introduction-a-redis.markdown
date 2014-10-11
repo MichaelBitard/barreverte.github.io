@@ -7,10 +7,10 @@ author:
   display_name: Jean-Philippe Caruana
   login: jp
   email: jp@barreverte.fr
-  url: http://www.barreverte.fr/
+  url: /
 author_login: jp
 author_email: jp@barreverte.fr
-author_url: http://www.barreverte.fr/
+author_url: /
 excerpt: ! "Quand il s'agit de faire persister ses données, la seule option qui semble
   disponible est d'utiliser un SGBDR (une base de données relationnelle, telle que
   MySQL ou Oracle). Mais on se rend parfois compte qu'un seul outil ne peut résoudre
@@ -28,7 +28,7 @@ excerpt: ! "Quand il s'agit de faire persister ses données, la seule option qui
   prochain article, nous verrons une utilisation typique en écrivant un clone de twitter
   simple et sans prétention.\r\n"
 wordpress_id: 2233
-wordpress_url: http://www.barreverte.fr/?p=2233
+wordpress_url: /?p=2233
 date: !binary |-
   MjAxMS0xMS0yMSAxMTozMzozNyArMDEwMA==
 date_gmt: !binary |-
@@ -56,7 +56,7 @@ comments:
 - id: 310
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMS0xMS0yMiAxMTowNjoyNiArMDEwMA==
   date_gmt: !binary |-
@@ -83,7 +83,7 @@ comments:
 - id: 323
   author: Persistance polymorphe | Barre Verte !
   author_email: ''
-  author_url: http://www.barreverte.fr/persistance-polymorphe
+  author_url: /persistance-polymorphe
   date: !binary |-
     MjAxMS0xMS0yOSAyMjowNDozOCArMDEwMA==
   date_gmt: !binary |-
@@ -111,7 +111,7 @@ comments:
   content: ! '[&#8230;] On peut faire joujou en ligne avec une base NoSQL pour pas
     un Kopek!Ni une ni deux, je cherche un tutoriel sur le sujet, et tombe sur un
     truc vraiement simpe et accessible.Convaincu par l&rsquo;ensemble, je ne peux
-    pas m&rsquo;empêcher de partager.Enojy:http://www.barreverte.fr/une-courte-introduction-a-redis
+    pas m&rsquo;empêcher de partager.Enojy:/une-courte-introduction-a-redis
     [&#8230;]'
 - id: 31785
   author: Johnd129

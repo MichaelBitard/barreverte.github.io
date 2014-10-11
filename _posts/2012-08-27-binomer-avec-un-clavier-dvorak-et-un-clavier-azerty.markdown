@@ -7,10 +7,10 @@ author:
   display_name: Jean-Philippe Caruana
   login: jp
   email: jp@barreverte.fr
-  url: http://www.barreverte.fr/
+  url: /
 author_login: jp
 author_email: jp@barreverte.fr
-author_url: http://www.barreverte.fr/
+author_url: /
 excerpt: ! "Nous avons récemment succombé à la geekerie du moment : un clavier <a
   href=\"http://typematrix.com/\" target=\"_blank\">Type Matrix</a> dvorak.\r\n\r\n[caption
   id=\"attachment_2679\" align=\"aligncenter\" width=\"300\"]<a href=\"/images/tmx-2030_gallery-1.png\"><img
@@ -21,7 +21,7 @@ excerpt: ! "Nous avons récemment succombé à la geekerie du moment : un clav
   Ainsi, pour passer en Dvorak avec la composition pour les accents (3 touches pour
   écrire <tt>é</tt> : compose (le Alt de droite), apostrophe, e), il faut écrire :"
 wordpress_id: 2674
-wordpress_url: http://www.barreverte.fr/?p=2674
+wordpress_url: /?p=2674
 date: !binary |-
   MjAxMi0wOC0yNyAxMzozMjo0MSArMDIwMA==
 date_gmt: !binary |-
@@ -51,7 +51,7 @@ comments:
 - id: 3036
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMi0xMS0wNyAxODowMzoyNCArMDEwMA==
   date_gmt: !binary |-

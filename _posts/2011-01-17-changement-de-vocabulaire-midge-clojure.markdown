@@ -7,10 +7,10 @@ author:
   display_name: Jean-Philippe Caruana
   login: jp
   email: jp@barreverte.fr
-  url: http://www.barreverte.fr/
+  url: /
 author_login: jp
 author_email: jp@barreverte.fr
-author_url: http://www.barreverte.fr/
+author_url: /
 excerpt: ! "Un framework de test pour <a href=\"http://clojure.org/\">Clojure</a>,
   <a href=\"https://github.com/marick/Midje#readme\">midje</a>, apporte un nouvel
   éclairage sur la façon de penser son logiciel et d'écrire des tests : il s'agit
@@ -18,7 +18,7 @@ excerpt: ! "Un framework de test pour <a href=\"http://clojure.org/\">Clojure</a
   \"un exemple de test tout simple\"\r\n     (numerical-reverser 103) =&gt; 301)</pre>\r\nVoici
   ce qu'en dit l'auteur :"
 wordpress_id: 1215
-wordpress_url: http://www.barreverte.fr/?p=1215
+wordpress_url: /?p=1215
 date: !binary |-
   MjAxMS0wMS0xNyAxODoxMDoxNCArMDEwMA==
 date_gmt: !binary |-

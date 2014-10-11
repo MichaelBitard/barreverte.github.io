@@ -28,7 +28,7 @@ excerpt: ! "Ça se passait les <a href=\"http://2014.conference-agile.fr/\">jeud
   éditeurs, mettent en compétition énormément d'acteurs. Pour sortir du lot, il faut
   créer un effet \"whaoo!!\". \r\n"
 wordpress_id: 3286
-wordpress_url: http://www.barreverte.fr/?p=3286
+wordpress_url: /?p=3286
 date: !binary |-
   MjAxNC0wNS0yOCAyMToxMzowNSArMDIwMA==
 date_gmt: !binary |-

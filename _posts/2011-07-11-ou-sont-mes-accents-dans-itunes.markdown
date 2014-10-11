@@ -22,7 +22,7 @@ excerpt: ! "Si vous êtes sous ubuntu, en installation par défaut (ou une autre
   champ\r\nframe id      taille    flags encodage\r\nex : \r\nTPE1 00000007 0000 03
   prince</pre>\r\n"
 wordpress_id: 2027
-wordpress_url: http://www.barreverte.fr/?p=2027
+wordpress_url: /?p=2027
 date: !binary |-
   MjAxMS0wNy0xMSAyMDowODoyMCArMDIwMA==
 date_gmt: !binary |-

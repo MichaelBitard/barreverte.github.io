@@ -11,7 +11,7 @@ author:
 author_login: philippe
 author_email: philippe.blayo@gmail.com
 wordpress_id: 849
-wordpress_url: http://www.barreverte.fr/?p=849
+wordpress_url: /?p=849
 date: !binary |-
   MjAxNC0wNC0yMiAyMjozNDoxOSArMDIwMA==
 date_gmt: !binary |-
@@ -24,7 +24,7 @@ comments:
 - id: 30362
   author: ! 'Créer un chroot (part. 1) : un linux de base | Barre Verte !'
   author_email: ''
-  author_url: http://www.barreverte.fr/creer-un-chroot-part-1-un-linux-de-base
+  author_url: /creer-un-chroot-part-1-un-linux-de-base
   date: !binary |-
     MjAxNC0wNC0yMyAxNTowODowMSArMDIwMA==
   date_gmt: !binary |-
@@ -32,7 +32,7 @@ comments:
   content: ! '[&#8230;] &larr; Lean Agile Camp : la valeur avance masquée Créer un
     chroot (part. 2) : se connecter &rarr; [&#8230;]'
 ---
-<p>Dans un précédent <a href="http://www.barreverte.fr/creer-un-chroot-part-1-un-linux-de-base">billet</a>, nous avons créé un linux de base. Son arborescence a maintenant besoin d'être rattachée à la machine sur laquelle elle va s'exécuter. Pour cela nous allons répliquer les pseudo-systèmes de fichier /dev /proc et /sys déjà présents sur la machine :</p>
+<p>Dans un précédent <a href="/creer-un-chroot-part-1-un-linux-de-base">billet</a>, nous avons créé un linux de base. Son arborescence a maintenant besoin d'être rattachée à la machine sur laquelle elle va s'exécuter. Pour cela nous allons répliquer les pseudo-systèmes de fichier /dev /proc et /sys déjà présents sur la machine :</p>
 <ul>
 <ul>
 <li>/proc contient les infos sur les processus en train de tourner</li>

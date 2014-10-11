@@ -21,7 +21,7 @@ excerpt: ! "Nous sommes lundi, au matin du 3e jour. Où en sommes-nous ?\r\nNous
   le lean.\r\n\r\nL'<strong>objectif</strong> du jour est de <strong>terminer les
   parties agile, et l'aperçu des parties lean</strong>.\r\n"
 wordpress_id: 3075
-wordpress_url: http://www.barreverte.fr/?p=3075
+wordpress_url: /?p=3075
 date: !binary |-
   MjAxMy0wOC0wMSAyMToxMDo0NyArMDIwMA==
 date_gmt: !binary |-
@@ -41,8 +41,8 @@ comments:
     MjAxMy0xMS0yMyAxMDowNjoxOSArMDEwMA==
   date_gmt: !binary |-
     MjAxMy0xMS0yMyAwOTowNjoxOSArMDEwMA==
-  content: ! '[&#8230;] et explique les objectifs : http://www.barreverte.fr/ecrire-un-livre-en-5-jours-definir-le-concept
-    http://www.barreverte.fr/ecrire-un-livre-en-5-jours-converger-vers-lobjectif  A
+  content: ! '[&#8230;] et explique les objectifs : /ecrire-un-livre-en-5-jours-definir-le-concept
+    /ecrire-un-livre-en-5-jours-converger-vers-lobjectif  A
     noter que la NaNoWriMo (National Novel Writing Month), le mois national d&rsquo;écriture
     de [&#8230;]'
 - id: 30564

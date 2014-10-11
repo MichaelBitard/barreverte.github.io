@@ -20,7 +20,7 @@ excerpt: ! "Une barre rouge inattendue. Je scrute le message d'échec du test da
   résultats attendu et obtenu. Et là je m'interroge : pourquoi je n'obtiens pas le
   comparateur quand je double-clique :-( ?"
 wordpress_id: 973
-wordpress_url: http://www.barreverte.fr/?p=973
+wordpress_url: /?p=973
 date: !binary |-
   MjAxMS0wMy0xNCAyMTo0NzoyMyArMDEwMA==
 date_gmt: !binary |-

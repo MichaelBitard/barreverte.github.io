@@ -20,7 +20,7 @@ excerpt: ! "Récemment, j'ai voulu faire du TDD en ligne de commande (sans utili
   Objective Harness</a>), qui normalement est plutôt prévu pour faire des tests de
   <a href=\"http://dojotoolkit.org/\">dojo</a>.\r\n"
 wordpress_id: 1994
-wordpress_url: http://www.barreverte.fr/?p=1994
+wordpress_url: /?p=1994
 date: !binary |-
   MjAxMS0wNi0yOCAxMjo0MzoyOCArMDIwMA==
 date_gmt: !binary |-
@@ -55,7 +55,7 @@ comments:
 - id: 174
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMS0wNi0yOCAyMDozMjo0OSArMDIwMA==
   date_gmt: !binary |-
@@ -96,7 +96,7 @@ comments:
 - id: 179
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMS0wNi0yOCAyMjozMjo1NyArMDIwMA==
   date_gmt: !binary |-

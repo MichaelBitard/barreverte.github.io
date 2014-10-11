@@ -32,7 +32,7 @@ excerpt: ! "Il y a quelques temps, lorsqu'un projet informatique démarrait, une
   <a href=\"http://code.google.com/p/maxtable/\">Maxtable</a>)</li>\r\n\t<li>bases
   orientées graphe (<a href=\"http://neo4j.org/\">Neo4J</a>, <a href=\"http://www.kobrix.com/\">HyperGraphDB</a>)</li>\r\n</ul>\r\n"
 wordpress_id: 2278
-wordpress_url: http://www.barreverte.fr/?p=2278
+wordpress_url: /?p=2278
 date: !binary |-
   MjAxMS0xMS0yOSAxMDowNjoxOSArMDEwMA==
 date_gmt: !binary |-
@@ -64,7 +64,7 @@ comments:
 - id: 562
   author: Retour sur la QCon 2012 | Barre Verte !
   author_email: ''
-  author_url: http://www.barreverte.fr/retour-sur-la-qcon-2012
+  author_url: /retour-sur-la-qcon-2012
   date: !binary |-
     MjAxMi0wNC0wOSAxNjoyMDo1OSArMDIwMA==
   date_gmt: !binary |-
@@ -89,7 +89,7 @@ comments:
 </ul>
 <p><a id="more"></a><a id="more-2278"></a><br />
 Et les autres types de bases qui existaient avant le mouvement NoSQL comme bases objets (<a href="http://www.versant.com/">Versant</a>, <a href="http://www.objectivity.com/">Objectivity</a>), les bases XML (<a href="http://exist-db.org/">eXist</a>, <a href="http://www.xmlmind.com/qizx/">Qizx</a>), qui bénéficieront peut-être d'un regain d'intérêt. Tant mieux. Au sujet des précurseurs, nous pouvons citer d'ailleurs <a href="http://www.oracle.com/technetwork/database/berkeleydb/overview/index.html">BerkeleyDB</a> (1986), base clé-valeur utilisée sur un nombre de projet impressionnant, et <a href="http://www.erlang.org/doc/man/mnesia.html">mnésia</a>, base de tuples/records <a href="http://www.erlang.org/">erlang</a>.</p>
-<p>Grâce à ce mouvement, aux nouveaux produits, aux besoins des sites internet de gros volume, au delà du mouvement NoSQL, une nouvelle vision du stockage des données apparaît : c'est le <strong>fractionnement des modes de stockage vers une persistance aux formes multiples</strong>. La programmation polyglotte représentait le choix du meilleur langage en fonction du besoin, nous avions vu cela par exemple <a title="Alors, cette QCon 2010 ?" href="http://www.barreverte.fr/alors-cette-qcon-2010">à la Qcon en 2010</a>. La <strong>persistance polymorphe, consiste à choisir le meilleur moyen de stockage de données en fonction de son usage</strong>, et d'en avoir éventuellement plusieurs pour un seul module applicatif.</p>
+<p>Grâce à ce mouvement, aux nouveaux produits, aux besoins des sites internet de gros volume, au delà du mouvement NoSQL, une nouvelle vision du stockage des données apparaît : c'est le <strong>fractionnement des modes de stockage vers une persistance aux formes multiples</strong>. La programmation polyglotte représentait le choix du meilleur langage en fonction du besoin, nous avions vu cela par exemple <a title="Alors, cette QCon 2010 ?" href="/alors-cette-qcon-2010">à la Qcon en 2010</a>. La <strong>persistance polymorphe, consiste à choisir le meilleur moyen de stockage de données en fonction de son usage</strong>, et d'en avoir éventuellement plusieurs pour un seul module applicatif.</p>
 <p>Par exemple twitter <a href="http://engineering.twitter.com/2011/11/spiderduck-twitters-real-time-url.html">a créé un module de chargement de page web</a> pour les urls présentes dans les tweets. Appelé SpiderDuck, il utilise HBFS construit sur Hadoop, lui-même fondé sur Hbase, et Cassandra. HBFS sert à stocker les informations récupérées sur les sites pointés par les url. Cassandra sert à stocker les métadonnées des url. A noter également qu'ils utilisent memcached (qui est une structure de données clé/valeur en mémoire), pour cacher les fichiers robots.txt des sites.</p>
 <p>D'autres fonctions d'une application paraissent assez proches des modèles proposés par ces bases. Par exemple :</p>
 <ul>
@@ -111,6 +111,6 @@ Et les autres types de bases qui existaient avant le mouvement NoSQL comme bases
 <pre lang="javascript">
 db.configurations.find({'env': 'itg'});
 </pre>
-<p>Autre solution que nous avons exploré, c'est Redis pour conserver des structures de données comme des listes, des sets triés, etc. Nous évitons ainsi le mapping qui existait entre les paradigmes du monde des langages de programmation et du monde relationnel. Retrouvez <a title="Une courte introduction à Redis" href="http://www.barreverte.fr/une-courte-introduction-a-redis">une courte introduction à Redis sur barreverte</a>.</p>
+<p>Autre solution que nous avons exploré, c'est Redis pour conserver des structures de données comme des listes, des sets triés, etc. Nous évitons ainsi le mapping qui existait entre les paradigmes du monde des langages de programmation et du monde relationnel. Retrouvez <a title="Une courte introduction à Redis" href="/une-courte-introduction-a-redis">une courte introduction à Redis sur barreverte</a>.</p>
 <p>C'est donc de nouvelles perspectives qui sont ouvertes. Il ne s'agit pas de mettre les bases relationnelles au rebut, mais de les utiliser pour des données "froides", dont les accès sont peu fréquents ; ou encore pour des données structurées, conservées sur une durée importante, et dont nous ne connaissons pas l'usage, comme le reporting, les données décisionnelles, juridiques, financières.</p>
 <p>La prochaine fois que vous avez besoin de données persistantes, à vos explorations et prototypes, utilisez la meilleure base pour votre environnement (langage de programmation utilisé, structures à stocker, expressivité et souplesse offerte par le langage de requête, utilisation d'index, architecture plateforme, etc.) ! Nous essayerons de parler plus précisément de ce sujet sur ce blog.</p>

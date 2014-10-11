@@ -7,10 +7,10 @@ author:
   display_name: Jean-Philippe Caruana
   login: jp
   email: jp@barreverte.fr
-  url: http://www.barreverte.fr/
+  url: /
 author_login: jp
 author_email: jp@barreverte.fr
-author_url: http://www.barreverte.fr/
+author_url: /
 excerpt: ! "Bien souvent, il est difficile de tester du code dans lequel l'écoulement
   du temps a une grande importance :\r\n<ul>\r\n\t<li>dans la téléphonie (avec des
   durées de sonnerie, de conversation) avec des statistiques en bout de chaine</li>\r\n\t<li>pour
@@ -23,7 +23,7 @@ excerpt: ! "Bien souvent, il est difficile de tester du code dans lequel l'écou
   classe se déroulent le 10 janvier 2010 à 10h00 parce que cette date m'arrange et
   que je suis capable d'écrire des assertions qui seront toujours valables ?\r\n\r\n"
 wordpress_id: 792
-wordpress_url: http://www.barreverte.fr/?p=792
+wordpress_url: /?p=792
 date: !binary |-
   MjAxMS0wMS0xMiAxMDo0OToxMSArMDEwMA==
 date_gmt: !binary |-
@@ -53,7 +53,7 @@ comments:
 - id: 39
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMS0wMS0xMiAxNToxNDowMCArMDEwMA==
   date_gmt: !binary |-
@@ -64,7 +64,7 @@ comments:
   author: Comment tester les interractions avec le monde extérieur (via HTTP) | Barre
     Verte !
   author_email: ''
-  author_url: http://www.barreverte.fr/comment-tester-les-interractions-avec-le-monde-exterieur-via-http
+  author_url: /comment-tester-les-interractions-avec-le-monde-exterieur-via-http
   date: !binary |-
     MjAxMS0wMy0yNSAxODozNjowMiArMDEwMA==
   date_gmt: !binary |-

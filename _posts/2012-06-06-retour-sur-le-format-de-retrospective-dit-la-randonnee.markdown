@@ -26,7 +26,7 @@ excerpt: ! "Jeune padawan dans le coaching d'équipe, la rétrospective de Sprin
   après une \"grimpette\" qui finit mal que j'ai eu une idée sur le format de rétro
   :"
 wordpress_id: 2591
-wordpress_url: http://www.barreverte.fr/?p=2591
+wordpress_url: /?p=2591
 date: !binary |-
   MjAxMi0wNi0wNiAxMToyNjozOSArMDIwMA==
 date_gmt: !binary |-
@@ -65,13 +65,13 @@ comments:
 - id: 888
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMi0wNi0xMSAwODo0OTowMiArMDIwMA==
   date_gmt: !binary |-
     MjAxMi0wNi0xMSAwNzo0OTowMiArMDIwMA==
   content: ! "Bonjour Xavier,\r\n\r\nl'article est daté du 6 juin et posté par David
-    Boissier, comme indiqué sous le titre de l'article.\r\nLa page <a href=\"http://www.barreverte.fr/a-propos\"
+    Boissier, comme indiqué sous le titre de l'article.\r\nLa page <a href=\"/a-propos\"
     rel=\"nofollow\">a propos</a> donne quelques détails sur les auteurs.\r\n\r\nJe
     laisse répondre David pour les autres questions.\r\nA bientôt.\r\n\r\nps : j'ai
     bien supprimé le commentaire précédent comme demandé."

@@ -10,7 +10,7 @@ author:
   url: ''
 author_login: philippe
 author_email: philippe.blayo@gmail.com
-excerpt: ! "Après avoir <a href=\"http://www.barreverte.fr/le-grain-de-sable-et-le-papillon\">basculé</a>
+excerpt: ! "Après avoir <a href=\"/le-grain-de-sable-et-le-papillon\">basculé</a>
   vers un bus de données rabbitMQ, nous décidons de supprimer son clustering, source
   potentielle de blocages en version 1.8, et qui posait, d'après un expert, des soucis
   à la base de données mnesia sur laquelle il s'appuie.\r\n<a href=\"/images/clusterRabbitPhilippeBlayo1.png\"><img
@@ -24,7 +24,7 @@ excerpt: ! "Après avoir <a href=\"http://www.barreverte.fr/le-grain-de-sable-et
   elle envoie 5 vivants sur un bus et 1 seul sur l'autre. Résultat : le bus surchargé
   s'effondre, nouvel incident."
 wordpress_id: 1857
-wordpress_url: http://www.barreverte.fr/?p=1857
+wordpress_url: /?p=1857
 date: !binary |-
   MjAxMS0wNS0xMiAxNTozMzozMiArMDIwMA==
 date_gmt: !binary |-
@@ -41,7 +41,7 @@ comments:
 - id: 79
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMS0wNS0xMyAxMTo0ODoyMSArMDIwMA==
   date_gmt: !binary |-
@@ -62,7 +62,7 @@ comments:
     si un bus tombe, il faut rééquilibrer les connexions à la main. Ce sera l'occasion
     d'autres articles..."
 ---
-<p>Après avoir <a href="http://www.barreverte.fr/le-grain-de-sable-et-le-papillon">basculé</a> vers un bus de données rabbitMQ, nous décidons de supprimer son clustering, source potentielle de blocages en version 1.8, et qui posait, d'après un expert, des soucis à la base de données mnesia sur laquelle il s'appuie.<br />
+<p>Après avoir <a href="/le-grain-de-sable-et-le-papillon">basculé</a> vers un bus de données rabbitMQ, nous décidons de supprimer son clustering, source potentielle de blocages en version 1.8, et qui posait, d'après un expert, des soucis à la base de données mnesia sur laquelle il s'appuie.<br />
 <a href="/images/clusterRabbitPhilippeBlayo1.png"><img class="alignnone size-full wp-image-1882" title="clusterRabbitPhilippeBlayo" src="/images/clusterRabbitPhilippeBlayo1.png" alt="" width="445" height="176" /></a></p>
 <p>Notre espoir était grand que cette source d'instabilité éliminée, l'architecture du bus serait enfin stable. Que neni !</p>
 <p>De vils fantômes hantent les server.xml : des contextes tomcat inutilisés mais encore déployés leurrent la VIP (<a href="http://fr.wikipedia.org/wiki/Virtual_Ip_Adress">Virtual IP</a>). En voulant équilibrer la charge des 14 serveurs (6 vivants et 8 fantômes) elle envoie 5 vivants sur un bus et 1 seul sur l'autre. Résultat : le bus surchargé s'effondre, nouvel incident.<a id="more"></a><a id="more-1857"></a><br />

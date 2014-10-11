@@ -18,7 +18,7 @@ excerpt: ! "Nous maintenons une application WEB grand public développée en JEE
   de ces statistiques.\r\n\r\nL'application en elle-même devait rester iso-fonctionnelle,
   il s'agissait en quelque sorte d'un<em> refactoring d'architecture</em>.\r\n"
 wordpress_id: 930
-wordpress_url: http://www.barreverte.fr/?p=930
+wordpress_url: /?p=930
 date: !binary |-
   MjAxMS0wMS0wNiAwOToxMDowMSArMDEwMA==
 date_gmt: !binary |-

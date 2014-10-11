@@ -55,7 +55,7 @@ comments:
 - id: 26
   author: Changer la &laquo;&nbsp;ROM&nbsp;&raquo; de son android | /dev/olu
   author_email: ''
-  author_url: http://www.barreverte.fr/changer-la-rom-de-son-android
+  author_url: /changer-la-rom-de-son-android
   date: !binary |-
     MjAxMC0xMC0yNCAxNTozNjoyMyArMDIwMA==
   date_gmt: !binary |-
@@ -66,7 +66,7 @@ comments:
 - id: 28847
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxNC0wMS0zMSAxNzoyMTo0MiArMDEwMA==
   date_gmt: !binary |-

@@ -12,7 +12,7 @@ author_login: bruno
 author_email: bruno@barreverte.fr
 author_url: http://www.barreverte.fr
 wordpress_id: 727
-wordpress_url: http://www.barreverte.fr/?p=727
+wordpress_url: /?p=727
 date: !binary |-
   MjAxMC0xMi0xNiAyMzo1NzowOSArMDEwMA==
 date_gmt: !binary |-
@@ -29,7 +29,7 @@ comments:
 - id: 32
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMC0xMi0yMiAxNToxNDo1MSArMDEwMA==
   date_gmt: !binary |-
@@ -38,7 +38,7 @@ comments:
 - id: 33
   author: Jean-Philippe Caruana
   author_email: jp@barreverte.fr
-  author_url: http://www.barreverte.fr/
+  author_url: /
   date: !binary |-
     MjAxMC0xMi0yMiAxNToyMzoxNyArMDEwMA==
   date_gmt: !binary |-

@@ -11,7 +11,7 @@ author:
 author_login: bruno
 author_email: bruno@barreverte.fr
 author_url: http://www.barreverte.fr
-excerpt: ! "Après avoir eu une <a href=\"http://www.barreverte.fr/faire-du-tdd-javascript-en-ligne-de-commande-avec-qunit\">barre
+excerpt: ! "Après avoir eu une <a href=\"/faire-du-tdd-javascript-en-ligne-de-commande-avec-qunit\">barre
   verte en tests unitaires javascript</a>, j'ai eu besoin d'aller plus loin : nous
   réalisons une application HTML5, or cette application tourne au sein d'un navigateur,
   et utilise jQuery. \r\n\r\nJe me suis tourné alors vers <a href=\"http://code.google.com/p/js-test-driver/\">JsTestDriver</a>.
@@ -19,7 +19,7 @@ excerpt: ! "Après avoir eu une <a href=\"http://www.barreverte.fr/faire-du-tdd-
   navigateurs \"esclaves\". Il lance un petit serveur http, puis les navigateurs sur
   une url pointant vers ce serveur qui va déclencher les tests. \r\n"
 wordpress_id: 2106
-wordpress_url: http://www.barreverte.fr/?p=2106
+wordpress_url: /?p=2106
 date: !binary |-
   MjAxMS0wNy0yMCAyMDo0NzozOSArMDIwMA==
 date_gmt: !binary |-
@@ -43,7 +43,7 @@ comments:
     MjAxMS0wOC0wOSAwNzoxNToxNyArMDIwMA==
   content: ! '[...] Faire des tests javascript avec jQuery [...]'
 ---
-<p>Après avoir eu une <a href="http://www.barreverte.fr/faire-du-tdd-javascript-en-ligne-de-commande-avec-qunit">barre verte en tests unitaires javascript</a>, j'ai eu besoin d'aller plus loin : nous réalisons une application HTML5, or cette application tourne au sein d'un navigateur, et utilise jQuery. </p>
+<p>Après avoir eu une <a href="/faire-du-tdd-javascript-en-ligne-de-commande-avec-qunit">barre verte en tests unitaires javascript</a>, j'ai eu besoin d'aller plus loin : nous réalisons une application HTML5, or cette application tourne au sein d'un navigateur, et utilise jQuery. </p>
 <p>Je me suis tourné alors vers <a href="http://code.google.com/p/js-test-driver/">JsTestDriver</a>. Son fonctionnement est différent des autres outils de test : il utilise de vrais navigateurs "esclaves". Il lance un petit serveur http, puis les navigateurs sur une url pointant vers ce serveur qui va déclencher les tests.<br />
 <a id="more"></a><a id="more-2106"></a><br />
 Il faut définir dans un fichier jsTestDriver.conf (que j'ai mis sous src) où sont situés les fichiers source :</p>

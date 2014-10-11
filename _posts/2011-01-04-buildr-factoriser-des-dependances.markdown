@@ -6,7 +6,7 @@ title: ! 'Buildr : factoriser des dépendances'
 author:
   display_name: Philippe Blayo
 wordpress_id: 869
-wordpress_url: http://www.barreverte.fr/?p=869
+wordpress_url: /?p=869
 categories:
 - java
 - buildr

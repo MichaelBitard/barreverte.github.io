@@ -11,7 +11,7 @@ author:
 author_login: philippe
 author_email: philippe.blayo@gmail.com
 wordpress_id: 2810
-wordpress_url: http://www.barreverte.fr/?p=2810
+wordpress_url: /?p=2810
 date: !binary |-
   MjAxMi0xMS0xNSAyMDo1OTo0MSArMDEwMA==
 date_gmt: !binary |-
@@ -25,7 +25,7 @@ tags:
 - A3
 comments: []
 ---
-<p>Après les conférences <a href="http://www.barreverte.fr/conference-agile-france-2011">Agile France</a> et <a href="http://www.barreverte.fr/retour-sur-xpdays-benelux">XP days Benelux</a>, barre verte! sera représentée au <a href="http://www.lean-it-summit.com/">European Lean IT summit</a> les 22 et 23 novembre 2012. Nous montrerons comment, grâce à la magie du binômage, nous avons utilisé la démarche A3 de résolution de problème au sein d'équipes agiles pour :</p>
+<p>Après les conférences <a href="/conference-agile-france-2011">Agile France</a> et <a href="/retour-sur-xpdays-benelux">XP days Benelux</a>, barre verte! sera représentée au <a href="http://www.lean-it-summit.com/">European Lean IT summit</a> les 22 et 23 novembre 2012. Nous montrerons comment, grâce à la magie du binômage, nous avons utilisé la démarche A3 de résolution de problème au sein d'équipes agiles pour :</p>
 <ul>
 <li>fournir aux managers de nos Product Owner des données pour améliorer leurs décisions d'un projet à l'autre</li>
 <li>corriger un problème de concurrence d'accès en production en moins de deux jours</li>

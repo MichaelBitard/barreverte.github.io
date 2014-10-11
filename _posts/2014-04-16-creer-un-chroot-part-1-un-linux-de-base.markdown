@@ -18,7 +18,7 @@ excerpt: ! "Notre environnement standardisé va s'appuyer sur chroot. Pour l'ini
   lang=\"bash\">grep scripts/</code> sélectionne les scripts</li>\r\n\t<li><code lang=\"bash\">awk
   -F / '{print $NF}'</code> sélectionne leur nom</li>\r\n</ul>\r\n"
 wordpress_id: 799
-wordpress_url: http://www.barreverte.fr/?p=799
+wordpress_url: /?p=799
 date: !binary |-
   MjAxNC0wNC0xNiAxODoyMzozNSArMDIwMA==
 date_gmt: !binary |-
@@ -31,7 +31,7 @@ comments:
 - id: 30357
   author: ! 'Créer un chroot (part. 2) : se connecter | Barre Verte !'
   author_email: ''
-  author_url: http://www.barreverte.fr/creer-un-chroot-part-2-se-connecter
+  author_url: /creer-un-chroot-part-2-se-connecter
   date: !binary |-
     MjAxNC0wNC0yMyAxMDoyNzoyOCArMDIwMA==
   date_gmt: !binary |-
@@ -65,4 +65,4 @@ maverick</pre>
 <pre lang="bash">'chroot'$ adduser barreverte</pre>
 <p>et on peut maintenant se connecter en tant que barreverte :</p>
 <pre lang="bash">'chroot'$ su barreverte</pre>
-<p>Mais cette arborescence a besoin d'être rattachée à la machine sur laquelle elle va s'exécuter, ce qui fera l'objet d'un prochain <a href="http://www.barreverte.fr/creer-un-chroot-part-2-se-connecter">billet</a>...</p>
+<p>Mais cette arborescence a besoin d'être rattachée à la machine sur laquelle elle va s'exécuter, ce qui fera l'objet d'un prochain <a href="/creer-un-chroot-part-2-se-connecter">billet</a>...</p>
