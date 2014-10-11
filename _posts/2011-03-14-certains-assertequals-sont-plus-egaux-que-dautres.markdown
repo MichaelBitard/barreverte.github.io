@@ -11,9 +11,9 @@ author:
 author_login: philippe
 author_email: philippe.blayo@gmail.com
 excerpt: ! "Une barre rouge inattendue. Je scrute le message d'échec du test dans
-  le panneau junit :\r\n\r\n<a href=\"http://www.barreverte.fr/wp-content/uploads/2011/01/philippeBlayoBarreRougeSansAide5.png\"><img
+  le panneau junit :\r\n\r\n<a href=\"/images/philippeBlayoBarreRougeSansAide5.png\"><img
   class=\"alignnone size-full wp-image-1526\" title=\"philippeBlayoBarreRougeSansAide\"
-  src=\"http://www.barreverte.fr/wp-content/uploads/2011/01/philippeBlayoBarreRougeSansAide5.png\"
+  src=\"/images/philippeBlayoBarreRougeSansAide5.png\"
   alt=\"\" width=\"627\" height=\"107\" /></a>\r\n\r\nJe double-clique sur <em>expected:</em>
   pour obtenir le comparateur de l'IDE. Zut rien ne se passe ! Du coup je scrolle
   pour voir tout le message d'erreur, mais je ne distingue aucune différence entre
@@ -63,7 +63,7 @@ comments:
     la story que teste."
 ---
 <p>Une barre rouge inattendue. Je scrute le message d'échec du test dans le panneau junit :</p>
-<p><a href="http://www.barreverte.fr/wp-content/uploads/2011/01/philippeBlayoBarreRougeSansAide5.png"><img class="alignnone size-full wp-image-1526" title="philippeBlayoBarreRougeSansAide" src="http://www.barreverte.fr/wp-content/uploads/2011/01/philippeBlayoBarreRougeSansAide5.png" alt="" width="627" height="107" /></a></p>
+<p><a href="/images/philippeBlayoBarreRougeSansAide5.png"><img class="alignnone size-full wp-image-1526" title="philippeBlayoBarreRougeSansAide" src="/images/philippeBlayoBarreRougeSansAide5.png" alt="" width="627" height="107" /></a></p>
 <p>Je double-clique sur <em>expected:</em> pour obtenir le comparateur de l'IDE. Zut rien ne se passe ! Du coup je scrolle pour voir tout le message d'erreur, mais je ne distingue aucune différence entre résultats attendu et obtenu. Et là je m'interroge : pourquoi je n'obtiens pas le comparateur quand je double-clique :-( ?<a id="more"></a><a id="more-973"></a></p>
 <p>Ca ne vous est jamais arrivé ? Dans mon équipe, ça arrive tout le temps.</p>
 <p>Eclipse et intelliJ IDEA réagissent de la même manière. Leur comportement dépend de l'exception qu'il reçoivent :</p>
@@ -71,7 +71,7 @@ comments:
 <li>avec <code>AssertionError</code> le double-clic ne fait rien</li>
 <li>avec <code>ComparisonFailure</code> le double-clic ouvre la belle popup du comparateur :</li>
 </ul>
-<p><a href="http://www.barreverte.fr/wp-content/uploads/2011/01/philippeBlayoBarreRougeAvecAide2.png"><img class="alignnone size-full wp-image-1534" title="philippeBlayoBarreRougeAvecAide" src="http://www.barreverte.fr/wp-content/uploads/2011/01/philippeBlayoBarreRougeAvecAide2.png" alt="" width="546" height="150" /></a></p>
+<p><a href="/images/philippeBlayoBarreRougeAvecAide2.png"><img class="alignnone size-full wp-image-1534" title="philippeBlayoBarreRougeAvecAide" src="/images/philippeBlayoBarreRougeAvecAide2.png" alt="" width="546" height="150" /></a></p>
 <p>Quand ces exceptions sont-elles levées ?</p>
 <ul>
 <li><code>ComparisonFailure</code> est levée par assertEquals(String, String)</li>
