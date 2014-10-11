@@ -92,7 +92,7 @@ Stack=2, Locals=3, Args_size=1<br />
 13:	bipush	88<br />
 15:	invokevirtual	#4; //Method java/io/PrintStream.println:(I)V<br />
 18:	return</code><br />
-<a href="http://www.barreverte.fr/wp-content/uploads/2011/04/bytecodePhilippeBlayo22.png"><img class="alignnone size-full wp-image-1794" title="bytecodePhilippeBlayo" src="http://www.barreverte.fr/wp-content/uploads/2011/04/bytecodePhilippeBlayo22.png" alt="" width="573" height="169" /></a>Décomposons les instructions du premier println (<code>2:</code> à <code>7:</code>) :</p>
+<a href="/images/bytecodePhilippeBlayo22.png"><img class="alignnone size-full wp-image-1794" title="bytecodePhilippeBlayo" src="/images/bytecodePhilippeBlayo22.png" alt="" width="573" height="169" /></a>Décomposons les instructions du premier println (<code>2:</code> à <code>7:</code>) :</p>
 <pre>   2:	getstatic	récupère le champs static System.out
    5:	bipush	88      empile 88, valeur ascii de X
    7:	invokevirtual   invoque la méthode println</pre>
