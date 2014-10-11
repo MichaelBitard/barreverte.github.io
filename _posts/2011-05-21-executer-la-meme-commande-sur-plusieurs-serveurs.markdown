@@ -36,9 +36,12 @@ comments: []
 <p>Les développeurs aussi. Nous devons créer un répertoire sur les serveurs de recette et d'intégration; suite à un bogue, nous partons à la recherche d'informations dans les logs sur les cinq frontaux; nous avons besoin de comparer les logs de production avec ceux de recette, etc. Il y a au moins trois possibilités à ce type de besoin : le faire à la main à la suite; utiliser clusterSSH; ou Gnome Connection Manager.<a id="more"></a><a id="more-1911"></a></p>
 <p><a title="ClusterSSH" href="http://sourceforge.net/projects/clusterssh/">ClusterSSH</a> permet d'exécuter une commande sur plusieurs machines en même temps, mais honnêtement, il y a mieux. Premièrement, le copier coller n'est pas possible. Deuxièmement, plus il y a de serveurs, plus les consoles sont petites. Avec cinq frontaux, on n'y voit plus rien.</p>
 <p><a href="http://blog.johanbleuzen.fr/">Johan</a> m'a fait découvrir <a title="Gnome Connection Manager" href="http://kuthulu.com/gcm/">Gnome Connection Manager</a>, qui permet de configurer les serveurs une fois pour toutes. Le fichier de configuration est sous SVN.</p>
-<p><a href="http://www.barreverte.fr/wp-content/uploads/2011/05/gnome1.png"><img class="aligncenter size-large wp-image-1975" title="gnome-connection-1" src="http://www.barreverte.fr/wp-content/uploads/2011/05/gnome1-1024x549.png" alt="" width="640" height="343" /></a>Surtout, il permet d'exécuter des commandes sur des clusters de serveurs.</p>
-<p><a href="http://www.barreverte.fr/wp-content/uploads/2011/05/gnome21.png"><img class="aligncenter size-large wp-image-1979" title="gnome-connection-2" src="http://www.barreverte.fr/wp-content/uploads/2011/05/gnome21-1024x76.png" alt="" width="640" height="47" /></a>Il suffit d'appuyer sur <em>[Entrée]</em> pour envoyer la commande.</p>
-<p><a href="http://www.barreverte.fr/wp-content/uploads/2011/05/gnome3.png"><img class="aligncenter size-large wp-image-1978" title="gnome-connection-3" src="http://www.barreverte.fr/wp-content/uploads/2011/05/gnome3-1024x547.png" alt="" width="640" height="341" /></a></p>
+<p><a href="/images/gnome1.png"><img class="aligncenter size-large wp-image-1975" title="gnome-connection-1" src="/images/gnome1-800.png" alt="" width="800" /></a></p>
+<p>Surtout, il permet d'exécuter des commandes sur des clusters de serveurs.</p>
+<p><a href="/images/gnome21.png"><img class="aligncenter size-large wp-image-1979" title="gnome-connection-2" src="/images/gnome21-800.png" alt="" width="800" /></a>
+</p>
+<p>Il suffit d'appuyer sur <em>[Entrée]</em> pour envoyer la commande.</p>
+<p><a href="/images/gnome3.png"><img class="aligncenter size-large wp-image-1978" title="gnome-connection-3" src="/images/gnome3.png" alt="" width="800" /></a></p>
 <p>L'application s'installe très simplement avec Ubuntu, ce serait dommage de s'en priver. Personnellement, je ne peux plus m'en passer pour les commandes groupées.</p>
 <h2>Liens</h2>
 <p>GnomeConnectionManager : <a href="http://kuthulu.com/gcm/">http://kuthulu.com/gcm/</a><br />
