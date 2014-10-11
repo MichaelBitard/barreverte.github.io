@@ -63,7 +63,7 @@ comments:
 <a id="more"></a><a id="more-938"></a><br />
 Voici l'architecture de la plateforme de bench nous servant à tester nos spikes :</p>
 <p style="text-align: center;">
-<a href="http://www.barreverte.fr/wp-content/uploads/2011/01/bench_stats.png"><img class="size-medium wp-image-1321 aligncenter" title="Architecture des tests de charge" src="http://www.barreverte.fr/wp-content/uploads/2011/01/bench_stats-279x300.png" alt="Architecture des tests de charge" width="279" height="300" /></a></p>
+<a href="/images/bench_stats.png"><img class="size-medium wp-image-1321 aligncenter" title="Architecture des tests de charge" src="/images/bench_stats-279x300.png" alt="Architecture des tests de charge" width="279" height="300" /></a></p>
 <p>Nous avons défini des catégories de critères :</p>
 <ul>
 <li>fonctionnels : par exemple, pas d'impact sur les performances des AS, pas de perte de messages, ne pas avoir des messages traités 2 fois même avec plusieurs consommateurs, un temps d'insertion en base inférieur à 10s</li>
@@ -83,7 +83,7 @@ Voici l'architecture de la plateforme de bench nous servant à tester nos spikes
 <p>Nous avons sous-traité la solution Qpid à une autre équipe, car nous ne pouvions pas réaliser les trois spikes dans le temps imparti. Assez rapidement, le développeur qui utilisait Qpid nous a remonté des difficultés importantes de stabilité du broker : régressions entre différentes versions, difficultés de mise en oeuvre. Nous avons décidé en équipe d'abandonner Qpid.</p>
 <p>Restaient RabbitMQ et ActiveMQ. Deux parties de l'équipe ont réalisé de manière simultanée ces spikes et cela à amené une compétition saine entre les différentes parties prenantes de chacune des solutions. Régulièrement, lors de nos "dailies", nous échangions autour des difficultés rencontrées par chacune des équipes. Nous avons souhaité arriver au terme des tests de charge dans des conditions similaires, pour pouvoir comparer le plus objectivement possible. Il y avait du challenge, mais aussi de l'entraide.</p>
 <p>Après deux semaines de tests, nous sommes arrivé au terme de notre campagne de spike avec le tableau de synthèse suivant :</p>
-<table>
+<table class="comparatif">
 <tbody>
 <tr>
 <td>+/-</td>

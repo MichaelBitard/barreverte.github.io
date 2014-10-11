@@ -63,3 +63,10 @@ body {
 ul.side_list {
     margin-left: -20px;
 }
+
+tbody.comparatif,
+tbody.comparatif td {
+    style="border-width: 1px;
+    border-style: solid;
+    border-color:black;
+}
