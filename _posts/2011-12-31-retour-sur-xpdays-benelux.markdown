@@ -12,8 +12,8 @@ author_login: bruno
 author_email: bruno@barreverte.fr
 author_url: http://www.barreverte.fr
 excerpt: ! "Un petit mot sur les <a href=\"http://www.xpday.be/\">xpdays bénélux</a>
-  auxquels nous avons participé avec JP les 1er et 2 décembre dernier.\r\n\r\n<a href=\"http://www.barreverte.fr/wp-content/uploads/2011/12/IMGP52681.jpg\"><img
-  class=\"aligncenter size-large wp-image-2425\" title=\"IMGP5268\" src=\"http://www.barreverte.fr/wp-content/uploads/2011/12/IMGP52681-1024x678.jpg\"
+  auxquels nous avons participé avec JP les 1er et 2 décembre dernier.\r\n\r\n<a href=\"/images/IMGP52681.jpg\"><img
+  class=\"aligncenter size-large wp-image-2425\" title=\"IMGP5268\" src=\"/images/IMGP52681-1024x678.jpg\"
   alt=\"\" width=\"640\" height=\"423\" /></a>\r\n\r\nPremière chose, l'organisation,
   impeccable avec ces bonnes idées : tableaux de programme de la journée avec des
   cartes à emporter. Pochette transparente de taille A6 avec le programme et de même
@@ -33,10 +33,10 @@ tags:
 comments: []
 ---
 <p>Un petit mot sur les <a href="http://www.xpday.be/">xpdays bénélux</a> auxquels nous avons participé avec JP les 1er et 2 décembre dernier.</p>
-<p><a href="http://www.barreverte.fr/wp-content/uploads/2011/12/IMGP52681.jpg"><img class="aligncenter size-large wp-image-2425" title="IMGP5268" src="http://www.barreverte.fr/wp-content/uploads/2011/12/IMGP52681-1024x678.jpg" alt="" width="640" height="423" /></a></p>
+<p><a href="/images/IMGP52681.jpg"><img class="aligncenter size-large wp-image-2425" title="IMGP5268" src="/images/IMGP52681-1024x678.jpg" alt="" width="640" height="423" /></a></p>
 <p>Première chose, l'organisation, impeccable avec ces bonnes idées : tableaux de programme de la journée avec des cartes à emporter. Pochette transparente de taille A6 avec le programme et de même taille que les cartes. Le lieu est un peu perdu à 30km au nord de Bruxelles, mais c'est dans la nature, les salles sont spacieuses avec de la lumière.</p>
 <p><a id="more"></a><a id="more-2415"></a></p>
-<p><a href="http://www.barreverte.fr/wp-content/uploads/2011/12/IMGP5264.jpg"><img class="aligncenter size-large wp-image-2428" title="IMGP5264" src="http://www.barreverte.fr/wp-content/uploads/2011/12/IMGP5264-1024x678.jpg" alt="" width="640" height="423" /></a></p>
+<p><a href="/images/IMGP5264.jpg"><img class="aligncenter size-large wp-image-2428" title="IMGP5264" src="/images/IMGP5264-1024x678.jpg" alt="" width="640" height="423" /></a></p>
 <p>"Rise and Fall of an Agile company" par Jan De Baere. J'ai retenu que dans une société de service, l'agilité a été mise en place avec difficulté pendant 3 ans. À force de travailler ensemble, en utilisant des outils issus de l'agilité, ils étaient capable de dire en allant chez un client</p>
 <blockquote><p>Ah! Il y avait quelqu'un de chez nous dans cette pièce il y a peu</p></blockquote>
 <p>Ils ont créé une identité d'entreprise. Puis le directeur a été changé et en peu de temps (à l'échelle de la semaine), elle a été perdue. Pour Jan De Baere, cette identité était basée sur la confiance. C'est la raison pour laquelle elle était fragile. Cela m'a interrogé sur les capacités d'apprentissage d'une organisation. Comment capitaliser la connaissance d'une entreprise au delà de la construction d'un lien de confiance ?</p>
