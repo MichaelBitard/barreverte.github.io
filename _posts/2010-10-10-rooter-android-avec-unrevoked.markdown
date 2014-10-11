@@ -75,7 +75,7 @@ comments:
     il faut passer par Cyanogen. Par exemple, pour un S4 Mini : http://wiki.cyanogenmod.org/w/Install_CM_for_serranoltexx\r\n\r\nps
     : pas encore testé"
 ---
-<p><a href="http://unrevoked.com"><img src="http://unrevoked.com/recovery/unrevoked-logo.png" alt="Unrevoked" width="490" height="150" /></a></p>
+<p><a href="http://unrevoked.com"><img src="/images/unrevoked-logo.png" alt="Unrevoked" width="490" height="150" /></a></p>
 <p><em>Pré Scriptum : les manipulations décrites ici modifient la mémoire constructeur (ou opérateur) du téléphone en invalidant la garantie, c'est à vous de voir si vous vous sentez suffisamment à l'aise pour récupérer le tir si les choses ne se passent pas comme prévu.</em></p>
 <p>"Rooter", cet anglicisme pas très joli signifie acquérir les droits "root" soit "racine" à l'administration, en l'occurrence de son mobile. l'utilisateur "root" ou super-utilisateur vient du monde <a href="http://fr.wikipedia.org/wiki/Unix">UNIX</a> qui dès le début des années 80 avait défini une politique de gestion des droits sur des systèmes multi-utilisateurs. Si on avait dit aux concepteurs <a href="http://fr.wikipedia.org/wiki/Permissions_Unix">des droits utilisateurs</a> de ces machines (de type serveur) qu'ils seraient utilisés sur des téléphones mobiles 25 ans plus tard (à l'époque encore au stade de la recherche), je pense qu'ils auraient bien halluciné.<br />
 <a id="more"></a><a id="more-471"></a><br />
@@ -108,5 +108,5 @@ Sur nos téléphones dits google-phone ou encore "android" c'est un système bas
 </ul>
 <p>Votre module de recovery a été flashé par unrEVOked et <a href="http://www.clockworkmod.com">clockworkmod</a> a été installé.</p>
 <p>Vous devriez alors voir apparaître l'application "super-utilisateur" que vous n'aviez pas<br />
-<img class="aligncenter size-full wp-image-520" title="Superuser" src="http://www.lagrappe.net/wp-content/Superuser.jpg" alt="Superuser" width="51" height="49" /></p>
+<img class="aligncenter size-full wp-image-520" title="Superuser" src="/images/Superuser.jpg" alt="Superuser" width="51" height="49" /></p>
 <p>J'ai trouvé toutes ces informations sur les forums android comme <a href="http://forum.frandroid.com/">http://forum.frandroid.com/</a>, vous aurez toutes les ressources pour en savoir plus.</p>
