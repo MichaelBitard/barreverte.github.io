@@ -63,7 +63,7 @@ Or, les spécifications id3v2 nous disent :</p>
 <pre lang="bash">$ lame --add-id3v2 \
     --ta "artiste"  --tt "titre à accent" tmp.wav  tmp.mp3</pre>
 <p>Si on fait un hexdump du début du fichier on a (j'ai conservé uniquement la partie pertinente) :<br />
-<img src="http://www.barreverte.fr/wp-content/uploads/2011/07/hexdump_mp3.png" alt="" /></p>
+<img src="/images/hexdump_mp3.png" alt="" /></p>
 <p>En jaune on retrouve les identifiants de frame, en vert c'est le "à" encodé en utf-8 et en rouge les codes d'encodage qui valent 00, donc ISO-8859-1. Si vous donnez ça à iTunes, il affichera "titre Ã  accent".</p>
 <p><strong>EDIT</strong> (4 nov 2012) : c'était avec lame 3.98. La version 3.99 corrige ce problème.</p>
 <p>En bash, ça dépend quel outil :</p>
