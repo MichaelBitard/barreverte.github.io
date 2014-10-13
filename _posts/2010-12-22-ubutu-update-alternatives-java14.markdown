@@ -12,7 +12,7 @@ author_login: jp
 author_email: jp@barreverte.fr
 author_url: /
 excerpt: Avec Ubuntu, viennnent les JDK 5 et 6. Si vous utilisez update-alternatives,
-  vous pouvez d’ores et déjà changer de version à volonté. Mais comment faire si vous
+  vous pouvez d'ores et déjà changer de version à volonté. Mais comment faire si vous
   travaillez sur du code plus ancien qui nécessite une JVM 1.4  qui elle n'est pas
   installée dans votre Ubuntu ?
 wordpress_id: 759
@@ -49,11 +49,11 @@ comments:
     java\r\net choisir quelle version on veut (tout ça c'est bien entendu après avoir
     bien installé java)"
 ---
-<p>Si vous utilisez une distribution Linux de type debian (comme Ubuntu), il existe un  programme formidable nommé update alternatives. Il permet de choisir  entre plusieurs versions d’un même programme, par exemple les JVM java.</p>
-<p>Avec Ubuntu, viennnent les JDK 5 et 6. Si vous utilisez  <em>update-alternatives</em>, vous pouvez d’ores et déjà changer de version à  volonté. Mais comment faire si vous travaillez sur du code plus ancien  qui nécessite une JVM 1.4  qui elle n'est pas installée dans votre Ubuntu ? (c'est plus fréquent qu'on pourrait espérer). Il vous faut d'abord installer à la main cette JVM.<a id="more"></a><a id="more-759"></a></p>
-<p>Je passe les étape d’installation d’une JVM Sun sur un Linux (download chez <del>Sun</del> Oracle, dépliage de l’archive, lancement du binaire etc...).</p>
-<p>Le problème de java, c’est qu’il y a de nombreux binaires : <em>java</em> bien  sûr, mais aussi <em>javac</em> (le compilateur), <em>javadoc</em>, <em>rmic</em> etc… Allez faire  un tour dans le répertoire <em>bin</em> de votre installation de  <em>java</em>, il y a du monde (27 pour un JDK  1.4)</p>
-<p>La commande <em>install</em> de <em>update-alternative</em>s nous indique qu’il faut  lister (avec  l'option —slave) tous les programmes qui changent. Il y en a 27,  c’est assez laborieux à faire à la main, vous en conviendrez.</p>
+<p>Si vous utilisez une distribution Linux de type debian (comme Ubuntu), il existe un  programme formidable nommé update alternatives. Il permet de choisir  entre plusieurs versions d'un même programme, par exemple les JVM java.</p>
+<p>Avec Ubuntu, viennnent les JDK 5 et 6. Si vous utilisez  <em>update-alternatives</em>, vous pouvez d'ores et déjà changer de version à  volonté. Mais comment faire si vous travaillez sur du code plus ancien  qui nécessite une JVM 1.4  qui elle n'est pas installée dans votre Ubuntu ? (c'est plus fréquent qu'on pourrait espérer). Il vous faut d'abord installer à la main cette JVM.<a id="more"></a><a id="more-759"></a></p>
+<p>Je passe les étape d'installation d'une JVM Sun sur un Linux (download chez <del>Sun</del> Oracle, dépliage de l'archive, lancement du binaire etc...).</p>
+<p>Le problème de java, c'est qu'il y a de nombreux binaires : <em>java</em> bien  sûr, mais aussi <em>javac</em> (le compilateur), <em>javadoc</em>, <em>rmic</em> etc… Allez faire  un tour dans le répertoire <em>bin</em> de votre installation de  <em>java</em>, il y a du monde (27 pour un JDK  1.4)</p>
+<p>La commande <em>install</em> de <em>update-alternative</em>s nous indique qu'il faut  lister (avec  l'option —slave) tous les programmes qui changent. Il y en a 27,  c'est assez laborieux à faire à la main, vous en conviendrez.</p>
 <p>Avant la modification :</p>
 <pre>$ sudo update-alternatives --list java
 /usr/lib/jvm/java-1.5.0-sun/jre/bin/java
@@ -69,9 +69,9 @@ comments:
 /usr/lib/jvm/java-1.5.0-sun/jre/bin/java
 /usr/lib/jvm/java-6-sun/jre/bin/java
 /opt/j2sdk1.4.2_18/bin/java</pre>
-<p>A l'utilisation, c’est très simple : voici comment passer en JDK 1.4 sur ma machine :</p>
+<p>A l'utilisation, c'est très simple : voici comment passer en JDK 1.4 sur ma machine :</p>
 <pre>sudo update-alternatives --set java /opt/j2sdk1.4.2_18/bin/java</pre>
-<p>On vérifie que tout s’est bien passé en demandant à java sa version</p>
+<p>On vérifie que tout s'est bien passé en demandant à java sa version</p>
 <pre>$ java -version
 java version "1.4.2_18"
 Java(TM) 2 Runtime Environment, Standard Edition (build 1.4.2_18-b06)

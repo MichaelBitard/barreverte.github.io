@@ -84,7 +84,7 @@ comments: []
 </ul>
 <p>Lean et agile :</p>
 <ul>
-<li><a href="/barre-verte-a-l%E2%80%99echelle-du-projet-definissez-d%E2%80%99abord-votre-succes">Barre verte à l’échelle du projet? Définissez d’abord votre succès!</a></li>
+<li><a href="/barre-verte-a-l%E2%80%99echelle-du-projet-definissez-d%E2%80%99abord-votre-succes">Barre verte à l'échelle du projet? Définissez d'abord votre succès!</a></li>
 </ul>
 <p>Remaniement d'architecture (tous ces articles concernent notre mise en place d'un bus de données, une petite partie de la présentation) :</p>
 <ul>
@@ -92,6 +92,6 @@ comments: []
 <li><a href="/un-bus-de-donnees-pour-les-statistiques">Un bus de données pour les statistiques</a></li>
 <li><a href="/bus-de-donnees-prototypage-et-infrastructures-disponibles">Bus de données, prototypage et infrastructures disponibles</a></li>
 <li><a href="/bus-de-donnees-realisation-et-tests-des-spikes">Bus de données, réalisation et tests des spikes</a></li>
-<li><a href="/bus-de-donnees-les-failles-dans-larchitecture">Bus de données : les failles dans l’architecture</a></li>
+<li><a href="/bus-de-donnees-les-failles-dans-larchitecture">Bus de données : les failles dans l'architecture</a></li>
 </ul>
 <p>Pas encore de billet publié pour la session "du chaos vers la standardisation", mais tout un tas d'articles en préparation à ce sujet : restez branchés.</p>

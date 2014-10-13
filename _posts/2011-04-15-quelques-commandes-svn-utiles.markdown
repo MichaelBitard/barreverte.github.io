@@ -74,7 +74,7 @@ comments:
 <ul>
 <li> du ou des numéros de commit (avec <em>svn log</em>)</li>
 <li> de l'url de la branche d'origine où le commit a été réalisé (<em>svn info</em>)</li>
-<li>... de patience car les merge sont souvent un parcours semé d’embûches sous svn</li>
+<li>... de patience car les merge sont souvent un parcours semé d'embûches sous svn</li>
 </ul>
 <p>Par exemple, pour merger le commit 1000.</p>
 <pre>cd ~/destination/du/merge

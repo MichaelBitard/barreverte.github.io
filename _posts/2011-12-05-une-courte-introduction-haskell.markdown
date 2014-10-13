@@ -190,7 +190,7 @@ Haskell est bien entendu aussi utilisé par des mathématiciens, mais excelle da
 <h2>Fonctions</h2>
 <p>En Haskell, une fonction prend en entrée des valeurs, et retourne une<br />
 valeur (qui peut bien entendu être une fonction). Une fonction ne peut pas provoquer d'effets de bord. Par conséquent, le résultat d'une fonction ne dépend que de ses paramètres. En d'autres termes, la notion d'état n'existe pas. La déclaration d'une fonction consiste en une <em>équation</em>, signifiant que la partie à gauche du signe <code>=</code> est équivalent à la partie droite.</p>
-<p>La commande <code>:t</code> vous sera certainement utile dans l’interpréteur. Elle permet d'afficher le type d'une expression. Par exemple, si je veux connaître le type de la fonction <code>length</code> :<br />
+<p>La commande <code>:t</code> vous sera certainement utile dans l'interpréteur. Elle permet d'afficher le type d'une expression. Par exemple, si je veux connaître le type de la fonction <code>length</code> :<br />
 <script type="text/javascript" src="https://gist.github.com/1388622.js?file=type-length.hs"></script><br />
  Cela se lit comme suit: "Quel que soit le type a, la fonction length prend en argument une liste de a, et retourne un entier".</p>
 <h2>Transformer les éléments d'une liste</h2>
@@ -218,8 +218,8 @@ La description du type nous montre que les arguments sont :</p>
 A ceux qui se poseraient la question, le caractère <code>\</code> a été choisi pour la définition de fonctions anonymes car il ressemble (un peu) au caractère λ.</p>
 <h2 id="style-sans-point-pointless">Style "sans point" (<em>pointless</em>)</h2>
 <p>La fonction <code>(.)</code> permet de composer deux fonctions. Il faut lire le point comme le "rond" en mathématiques. Ainsi <code>f(g x)</code> est équivalent à <code>(f . g) x</code>.<br />
-De plus, une fonction s’écrivant <code>h x = (f . g) x</code> peut aussi s'écrire "sans point" <code>h = f . g</code><br />
-Une source de confusion (et aussi de blagues) vient du terme <em>pointless</em>. Pourquoi appelle-t-on ce style "sans point", alors que justement on utilise le point ? En réalité, dans cette expression, le point ne fait pas référence au caractère, mais à l’argument d'une fonction (en anglais mathématique, on appelle cela le point). Et effectivement, dans une expression <em>pointless</em>, on n'écrit pas les arguments d'une fonction lorsqu'on la définit.</p>
+De plus, une fonction s'écrivant <code>h x = (f . g) x</code> peut aussi s'écrire "sans point" <code>h = f . g</code><br />
+Une source de confusion (et aussi de blagues) vient du terme <em>pointless</em>. Pourquoi appelle-t-on ce style "sans point", alors que justement on utilise le point ? En réalité, dans cette expression, le point ne fait pas référence au caractère, mais à l'argument d'une fonction (en anglais mathématique, on appelle cela le point). Et effectivement, dans une expression <em>pointless</em>, on n'écrit pas les arguments d'une fonction lorsqu'on la définit.</p>
 <h2 id="compréhension-de-liste-list-comprehension">Compréhension de liste (<em>list comprehension</em>)</h2>
 <p>Les compréhensions de liste sont déjà connues des développeurs Python ou Erlang. Les programmeurs Scala pourront aussi trouver des similarités avec le <code>for</code> de ce langage.</p>
 <p>La compréhension de liste permet de transformer et de filtrer des listes dans une même expression. On peut le voir comme une combinaison de <code>filter</code> et de <code>map</code>.</p>

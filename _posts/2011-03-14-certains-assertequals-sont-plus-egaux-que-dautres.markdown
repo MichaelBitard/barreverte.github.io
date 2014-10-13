@@ -59,7 +59,7 @@ comments:
     a encore les mêmes questionnements sur le testing !\r\n\r\nBref, chez nous, on
     est partit sur l'option FestAssert, avec l'idée de garder assertEqual(ObjetAttendu,ObjetObtenu)
     quitte à implémenter un comparateur.\r\n\r\nPrincipale justification: c'est ce
-    qui m'a été spécifié par mon Product Owner dans les critères d’acceptation de
+    qui m'a été spécifié par mon Product Owner dans les critères d'acceptation de
     la story que teste."
 ---
 <p>Une barre rouge inattendue. Je scrute le message d'échec du test dans le panneau junit :</p>

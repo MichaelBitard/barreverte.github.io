@@ -57,7 +57,7 @@ comments: []
 <li>Chacun a un masque, un crapaud et un prince en lui. Si on est crapaud, c'est le crapaud de l'autre qui répondra. <a href="http://my.opera.com/jfjago/blog/">Merci JF</a>.</li>
 <li>Une très bonne idée de startup peut s'avérer plutôt mauvaise une fois confrontée aux autres (=aux votes des autres). Ou l'inverse !</li>
 <li>Faire un pitch lean start up est "facile", c'est plus compliqué d'aller voir "tous" les investisseurs pour défendre son projet. On se lasse vite...</li>
-<li>C'est différent d'échanger avec une majorité d'internes (par rapport à des coachs). Moins de "<em>y a qu'à</em>", "<em>faut qu'on</em>" et d’ayatollah. No offense les coachs, j'aime juste la mixité.</li>
+<li>C'est différent d'échanger avec une majorité d'internes (par rapport à des coachs). Moins de "<em>y a qu'à</em>", "<em>faut qu'on</em>" et d'ayatollah. No offense les coachs, j'aime juste la mixité.</li>
 <li>Les habitants de Valence s'appellent des Valentinois</li>
 </ul>
 <h2>J'ai été intriguée..</h2>
@@ -77,7 +77,7 @@ comments: []
 <li>C'était trop sympa de boire un coup à la gare pour que je ne rate pas mon train !</li>
 <li>J'écris vraiment très mal. C'est frappant quand on voit toutes les restitutions côte à côte.</li>
 </ul>
-<h2>Ç’eut été parfait si</h2>
+<h2>Ç'eut été parfait si</h2>
 <ul>
 <li>Il y avait eu plus de mobilité entre les sessions encours.</li>
 <li>Nous nous étions resynchronisés une ou deux fois au cours de la journée pour adapter le "backlog" des sessions</li>

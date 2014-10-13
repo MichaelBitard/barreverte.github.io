@@ -27,7 +27,7 @@ excerpt: ! "Un petit retour sur la QCon pour animer un peu ce blog qui ne bouge 
   :\r\n<ul>\r\n\t<li><a href=\"http://martinfowler.com/\">Martin Fowler</a> : \"grande
   gueule\" comme il se définit lui même, créateur de tendances et de <a href=\"http://www.thoughtworks.com/\">ThoughtWorks</a></li>\r\n\t<li><a
   href=\"http://homepages.inf.ed.ac.uk/wadler/\">Philip Walder</a> : professeur d'informatique
-  théorique à l'université d’Édimbourg. Auteur de nombreuses publications autour de
+  théorique à l'université d'Édimbourg. Auteur de nombreuses publications autour de
   la programmation fonctionnelle.</li>\r\n\t<li><a href=\"http://damienkatz.net/\">Damien
   Katz</a> : créateur de <a href=\"http://couchdb.apache.org/\">CouchDB</a> et fondateur
   de <a href=\"http://www.couchbase.com/\">Couchbase</a></li>\r\n\t<li>Rich Hickey
@@ -61,7 +61,7 @@ comments: []
 <p>Voici quelques orateurs remarquables :</p>
 <ul>
 <li><a href="http://martinfowler.com/">Martin Fowler</a> : "grande gueule" comme il se définit lui même, créateur de tendances et de <a href="http://www.thoughtworks.com/">ThoughtWorks</a></li>
-<li><a href="http://homepages.inf.ed.ac.uk/wadler/">Philip Walder</a> : professeur d'informatique théorique à l'université d’Édimbourg. Auteur de nombreuses publications autour de la programmation fonctionnelle.</li>
+<li><a href="http://homepages.inf.ed.ac.uk/wadler/">Philip Walder</a> : professeur d'informatique théorique à l'université d'Édimbourg. Auteur de nombreuses publications autour de la programmation fonctionnelle.</li>
 <li><a href="http://damienkatz.net/">Damien Katz</a> : créateur de <a href="http://couchdb.apache.org/">CouchDB</a> et fondateur de <a href="http://www.couchbase.com/">Couchbase</a></li>
 <li>Rich Hickey : créateur du langage <a href="http://clojure.org/">Clojure</a></li>
 <li><a href="http://armstrongonsoftware.blogspot.com/">Joe Armstrong</a> : créateur d'<a href="http://www.erlang.org/">Erlang</a>, abonné à la QCon</li>

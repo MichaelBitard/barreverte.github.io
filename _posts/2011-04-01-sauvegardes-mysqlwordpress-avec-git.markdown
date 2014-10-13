@@ -60,7 +60,7 @@ comments:
     MjAxMS0wNC0wNSAxMzoyOTowNyArMDIwMA==
   date_gmt: !binary |-
     MjAxMS0wNC0wNSAxMjoyOTowNyArMDIwMA==
-  content: ! "\"Je m’en veux de ne pas y avoir pensé avant.\"\r\n--> pareil..."
+  content: ! "\"Je m'en veux de ne pas y avoir pensé avant.\"\r\n--> pareil..."
 - id: 67
   author: Bruno Thomas
   author_email: bruno@barreverte.fr

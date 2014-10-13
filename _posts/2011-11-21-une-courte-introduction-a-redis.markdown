@@ -78,7 +78,7 @@ comments:
     MjAxMS0xMS0yNCAwODozNToxNCArMDEwMA==
   date_gmt: !binary |-
     MjAxMS0xMS0yNCAwNzozNToxNCArMDEwMA==
-  content: ! '[...] Globalisation d’applications en ASP.net MVC 3  Une courte introduction
+  content: ! '[...] Globalisation d'applications en ASP.net MVC 3  Une courte introduction
     à Redis [...]'
 - id: 323
   author: Persistance polymorphe | Barre Verte !

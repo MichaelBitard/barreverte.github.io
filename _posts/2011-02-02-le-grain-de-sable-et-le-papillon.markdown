@@ -95,7 +95,7 @@ comments:
     l'esprit des <a href=\"http://fr.wikipedia.org/wiki/Cinq_pourquoi\" rel=\"nofollow\">5
     Pourquoi</a>, j'aurais envie de demander pourquoi \"Il se trouve que pour des
     raisons de monitoring une modification a été faite sur la plateforme de production
-    il y a un mois. Cette modification n’a pas été reportée sur la pré-production.\"
+    il y a un mois. Cette modification n'a pas été reportée sur la pré-production.\"
     ?"
 - id: 78
   author: ! 'Bus de données : les failles dans l&#8217;architecture | Barre Verte
@@ -112,7 +112,7 @@ comments:
 ---
 <p>Ou comment nous nous sommes plantés sur une mise en production simple, provocant des réactions complètement disproportionnées de notre client. Ou plutôt un de nos clients. Nous fournissons un service complet intégrant l'hébergement et le développement logiciel. Chez le client, nous avons également un pôle responsable du "run", et un autre, avec le marketing, qui définit les évolutions du logiciel et de la plateforme. Chez nous, nous avons deux équipes aussi, une équipe "dev" et une équipe "système".<br />
 <a id="more"></a><a id="more-1350"></a><br />
-Cette mise en production améliorait la haute disponibilité de l’application et incluait un upgrade de la version du <a href="/un-bus-de-donnees-pour-les-statistiques">bus de données</a>. Nous faisons une répétition avec une personne de l'équipe système, sur la plateforme de pré-production. Cette répétition se passe si bien qu'il est décidé que la mise en production se fera à distance à 5h du matin (plutôt que 2h sur place lorsqu'il y a du risque), et qu'il ne sera pas nécessaire d'avoir l'assistance d'un développeur.<br />
+Cette mise en production améliorait la haute disponibilité de l'application et incluait un upgrade de la version du <a href="/un-bus-de-donnees-pour-les-statistiques">bus de données</a>. Nous faisons une répétition avec une personne de l'équipe système, sur la plateforme de pré-production. Cette répétition se passe si bien qu'il est décidé que la mise en production se fera à distance à 5h du matin (plutôt que 2h sur place lorsqu'il y a du risque), et qu'il ne sera pas nécessaire d'avoir l'assistance d'un développeur.<br />
 <em><br />
 Erreur.<br />
 </em><br />

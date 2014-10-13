@@ -43,7 +43,7 @@ comments:
     Il insiste sur la notion d'humilité et l'importance de la pratique :\r\n<blockquote
     cite=\"Pascal's eXtreme Pill\">To XP core values of Communication, Simplicity,
     Feedback, Courage, Respect... we need to add Humility today: the good practitioner
-    needs to keep the beginner’s mind, in the sense of “Shoshin” (http://en.wikipedia.org/wiki/Shoshin).\r\n\r\nMotivated
+    needs to keep the beginner's mind, in the sense of “Shoshin” (http://en.wikipedia.org/wiki/Shoshin).\r\n\r\nMotivated
     persons might devour many books on any subject, but that will not make them proficient
     or experts... Practice only does. Getting involved in real projects for years,
     testing, coding, refactoring, pairing... and the most important, making mistakes.</blockquote>\r\n\r\nA
