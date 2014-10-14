@@ -40,14 +40,14 @@ le {% assign m = page.date | date: "%-m" %}
               {% if page.categories.size > 0 %}
                 dans 
                 {% for category in page.categories %}
-                  <em>{{ category }}</em>{% unless forloop.last %},{% endunless %}
+                  <span class="label label-success">{{ category }}</span>{% unless forloop.last %},{% endunless %}
                 {% endfor %}
               {% endif %}
 
               {% if page.tags.size > 0 %}
                 avec comme mot(s)-clef(s) 
                 {% for tag in page.tags %}
-                  <em>{{ tag }}</em>{% unless forloop.last %},{% endunless %}
+                  <span class="label label-default">{{ tag }}</span>{% unless forloop.last %},{% endunless %}
                 {% endfor %}
               {% endif %}
               Vous pouvez la mettre en favoris avec ce <a href="{{ page.url }}">permalien</a>. 
