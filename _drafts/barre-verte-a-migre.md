@@ -19,7 +19,7 @@ Ce que nous y gagnons :
 - simplicité (une des valeurs cardinale de l'Extreme Programming)
 - uniquenement statique (donc plus léger, hébergeable partout, git-able)
 - plus besoin de payer un serveur
-- plus de soucis avec la base MySQL qui tombait régulièrement, ce qui rendait Barre Verte inaccessible (avec une vilaine page d'erreur). C'était devenu à un tel point que nous avions mis en place un cron pour redémarrer MySQL toutes les nuits... Notre hypothèse la plus forte était que cela venait du plugin StatsPress qui nous permettait d'avoir des tas d'informations comme dans Google Analytics, mais en moins et en faisant tomber le service...
+- plus de soucis avec la base MySQL qui tombait régulièrement, ce qui rendait Barre Verte inaccessible (avec une vilaine page d'erreur). C'était devenu à un tel point que nous avions mis en place un cron pour redémarrer MySQL toutes les nuits... Notre hypothèse la plus forte était que cela venait du plugin StatsPress qui nous permettait d'avoir des tas d'informations comme dans Google Analytics, mais en moins bien et en faisant tomber le service...
 - pour corriger une faute d'orthographe, vous pouvez forker le blog et nous proposer une pull request
 
 # Utilisation de Jekyll
