@@ -20,7 +20,7 @@ Comment fonctionne cette équipe ? C'est très simple : un patient avec de probl
 
 Eh bien dans une équipe agile, c'est pareil. Quand on rencontre un bug ou quand on cherche à faire évoluer son architecture pour le prochain palier de trafic de son service, il n'y a pas de solution immédiate, évidente qui saute aux yeux de tout le monde. Si une solution immédiate existe, alors il n'y a pas à en parler, on l'applique et c'est terminé.
 
-Alors on procède comme le Dr House : on part des symptomes (comportement incorrect de l'application, augmentation des temps de réponse, charge importante de la base de données...) pour arriver au correctif ou à l'évolution souhaitée. On fait des ateliers, ou parle au café, le midi, le soir devant l'entrée du bureau. On émet des hypothèses, on pousse une idée qui nous semble absurde jusqu'au bout afin d'en tirer les bons éléments. On pose des questions, soulève les difficultés posées par une idée, propose des scénarii du type "qu'est-ce qui se passe si le serveur reboote à ce moment précis ?" ou "que se passe-t-il quand le disuqe dur est plein".
+Alors on procède comme le Dr House : on part des symptomes (comportement incorrect de l'application, augmentation des temps de réponse, charge importante de la base de données...) pour arriver au correctif ou à l'évolution souhaitée. On fait des ateliers, ou parle au café, le midi, le soir devant l'entrée du bureau. On émet des hypothèses, on pousse une idée qui nous semble absurde jusqu'au bout afin d'en tirer les bons éléments. On pose des questions, soulève les difficultés posées par une idée, propose des scénarii du type "qu'est-ce qui se passe si le serveur reboote à ce moment précis ?" ou "que se passe-t-il quand le disque dur est plein".
 
 
 # Alors ?
