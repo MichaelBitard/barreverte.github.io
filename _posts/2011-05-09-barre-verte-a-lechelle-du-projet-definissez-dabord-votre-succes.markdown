@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Barre verte à l'échelle du projet? Définissez d'abord votre succès!
 author:
-  display_name: Pascal
+  display_name: Pascal Pratmarty
   login: Pascal
   email: pascal.pratmarty@agitude.fr
   url: http://www.barreverte.fr
