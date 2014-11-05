@@ -69,17 +69,6 @@ comments:
     \"tag:python\"\r\n6) \"tag:programming\"\r\n7) \"tag:haskell\"</pre>\r\n\r\nToutes
     les regex \"habituelles\" sont possibles : un seul caractère (?), plusieurs (*),
     choix entre plusieurs ([ab])."
-- id: 314
-  author: Liens informatiques du mois &#8211; novembre 2011 | Gestion de projet et
-    développement informatique
-  author_email: ''
-  author_url: http://www.forumlogiciel.net/2011/11/liens-informatiques-du-mois-novembre-2011/
-  date: !binary |-
-    MjAxMS0xMS0yNCAwODozNToxNCArMDEwMA==
-  date_gmt: !binary |-
-    MjAxMS0xMS0yNCAwNzozNToxNCArMDEwMA==
-  content: ! '[...] Globalisation d'applications en ASP.net MVC 3  Une courte introduction
-    à Redis [...]'
 - id: 323
   author: Persistance polymorphe | Barre Verte !
   author_email: ''
@@ -113,38 +102,6 @@ comments:
     truc vraiement simpe et accessible.Convaincu par l&rsquo;ensemble, je ne peux
     pas m&rsquo;empêcher de partager.Enojy:/une-courte-introduction-a-redis
     [&#8230;]'
-- id: 31785
-  author: Johnd129
-  author_email: johnd898@gmail.com
-  author_url: ''
-  date: !binary |-
-    MjAxNC0wNy0yMCAwNjoyNDowMiArMDIwMA==
-  date_gmt: !binary |-
-    MjAxNC0wNy0yMCAwNToyNDowMiArMDIwMA==
-  content: I feel like Im regularly seeking interesting features you just read about
-    a number of subjects, but I handle to add in the blog among our translates every
-    day when you fddeeeadfebd
-- id: 32691
-  author: nike nfl jerseys cheap
-  author_email: phkrcqzoctl@gmail.com
-  author_url: http://www.youtube.com/watch?v=bgMY-eHro8Q
-  date: !binary |-
-    MjAxNC0wOC0yNiAwMjo1NToyNSArMDIwMA==
-  date_gmt: !binary |-
-    MjAxNC0wOC0yNiAwMTo1NToyNSArMDIwMA==
-  content: ! "New Custom cheap Raptors jersey\r\n <a href=\"http://www.youtube.com/watch?v=bgMY-eHro8Q\"
-    title=\"nike nfl jerseys cheap\" rel=\"nofollow\">nike nfl jerseys cheap</a>"
-- id: 34419
-  author: Johnk804
-  author_email: johnk984@gmail.com
-  author_url: ''
-  date: !binary |-
-    MjAxNC0wOS0wNiAwODozNToxMCArMDIwMA==
-  date_gmt: !binary |-
-    MjAxNC0wOS0wNiAwNzozNToxMCArMDIwMA==
-  content: Wow! This could be one particular of the most useful blogs We've ever arrive
-    across on this subject. Basically Wonderful. I'm also a specialist in this topic
-    so I can understand your hard work. dddegaffcgdg
 ---
 <p>Quand il s'agit de faire persister ses données, la seule option qui semble disponible est d'utiliser un SGBDR (une base de données relationnelle, telle que MySQL ou Oracle). Mais on se rend parfois compte qu'un seul outil ne peut résoudre tous les problèmes. Ainsi, si on ne dispose que de marteaux, on aura tendance à voir des clous partout.</p>
 <p>Le mouvement NoSQL (comme Not Only SQL), nous propose des alternatives : bases clefs-valeurs, bases orientées document, bases orientées colonnes, bases orientées graphe ; <a href="http://cassandra.apache.org/">Cassandra</a>, <a href="http://www.mongodb.org/">MongoDB</a>, <a href="http://redis.io/">Redis</a>, <a href="http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html">Dynamo</a>, <a href="http://wiki.basho.com/Riak.html">Riak</a>, <a href="http://labs.google.com/papers/bigtable.html">Big Table</a>, <a href="http://project-voldemort.com/">Voldemort</a> sont souvent utilisés par les sites à gros trafic et à tendance "sociale" qui font le buzz : Google, Amazon, Facebook, Twitter, LinkedIn.</p>
