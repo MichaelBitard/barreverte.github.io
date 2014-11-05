@@ -16,33 +16,33 @@ categories:
 
 Un soir, un développeur lâche en partant : « MongoDb c’est de la merde. Leur réplication ça marche pas. Je parie qu’on a aussi le bug en prod. Pour un peu j’en jetterais ma tasse mongo par la fenêtre. »
 
-IMG mongoDb_mug.jpeg
+![Mug MongoDB](/images/mongoDb_mug.jpeg)
 
 Son binôme me confie qu’ils ont travaillé toute l’après-midi sur un test écrit récemment et qui s’avère instable : l’information disparaît entre 2 requêtes. La première remonte une liste de conversations et quand selenium en sélectionne une, elle a disparu de la base !
 
-IMG mongoDb_2requetes1.jpg
+![](/images/mongoDb_2requetes1.jpg)
 
 C’est comme si l’une des requêtes lisait sur le serveur primaire et l’autre sur le secondaire, avant que la réplication ne soit achevée entre les deux.
 
-Premier réflexe : Stackoverflow
+## Premier réflexe : Stackoverflow
 
-IMG stackoverflow.png
+![](/images/stackoverflow.png)
 
 Sur stackoverflow plusieurs questions concernent des problèmes de réplication, avec à chaque fois la même réponse : le nombre de réplica est positionné par défaut à 0 en version 2.4 (écriture asynchrone), il faut augmenter ce paramètre ou bien passer en version 2.6 (dans laquelle il vaut 1 par défaut)
 
 Notre nombre de réplica est pourtant bien positionné à 2 (paramètre w=2 dans le driver mongo) ce qui correspond aux deux machines du cluster. Pour s’en assurer nous passons même ce nombre à 3.
 
-IMG mongo_w_3
+![](/images/mongo_w_3.jpeg)
 
 Avec w=3 mongo reste bloqué : il tente de répliquer l’écriture sur une 3ème machine qui n’existe pas et ne rends donc jamais la main.
 
-IMG wireshark_logo.jpeg
+![](/images/wireshark_logo.jpeg)
 
 Un troisième développeur observe avec wireshark le traffic qui parvient à mongo et voit bien passer les deux requêtes de lecture.
 
-Deuxième réflexe : les logs
+## Deuxième réflexe : les logs
 
-IMG mongoDb_logo.jpeg
+![](/images/mongoDb_logo.jpeg)
 
 Pour aller plus loin, nous cherchons à voir les requêtes dans les logs mongo eux-mêmes en augmentant le niveau de debug :
 
@@ -54,6 +54,6 @@ Après plusieurs heures passées à affiner notre compréhension de ces logs, no
 
 Nous pensons être mûr pour exposer notre cas sur stackoverflow, mais pour devancer les objections des experts, nous choisissons d’abords de valider de manière irréfutable que le clustering mongoDb est en cause. Nous désactivons le mode cluster et lançons le test sur un seul et unique serveur. Il réussit onze fois d’affilée. En mode cluster, il échoue une fois sur 3 :
 
-IMG mongoDb_11_reussites1.jpg
+![](/images/mongoDb_11_reussites1.jpg)
 
 Ce soir-là, nous quittons le travail avec une certitude : le problème vient bien du cluster. Nous verrons dans les prochains articles à quel point nous avions tord.
