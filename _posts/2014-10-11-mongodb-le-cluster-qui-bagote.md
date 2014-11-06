@@ -22,6 +22,7 @@ Son binôme me confie qu’ils ont travaillé toute l’après-midi sur un test 
 
 ![](/images/mongoDb_2requetes1.jpg)
 
+<img style="display: inline; float: left;" alt="Mug MongoDB" src="/images/mongoDb_mug.jpeg"></img>
 C’est comme si l’une des requêtes lisait sur le serveur primaire et l’autre sur le secondaire, avant que la réplication ne soit achevée entre les deux.
 
 ## Premier réflexe : Stackoverflow
