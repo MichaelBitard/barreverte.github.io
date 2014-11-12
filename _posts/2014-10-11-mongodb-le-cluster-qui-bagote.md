@@ -14,20 +14,18 @@ categories:
 - tests
 ---
 
+<img style="display: inline; float: left;" alt="Mug MongoDB" src="/images/mongoDb_mug.jpeg"></img>
 Un soir, un développeur lâche en partant : « MongoDb c’est de la merde. Leur réplication ça marche pas. Je parie qu’on a aussi le bug en prod. Pour un peu j’en jetterais ma tasse mongo par la fenêtre. »
-
-![Mug MongoDB](/images/mongoDb_mug.jpeg)
 
 Son binôme me confie qu’ils ont travaillé toute l’après-midi sur un test écrit récemment et qui s’avère instable : l’information disparaît entre 2 requêtes. La première remonte une liste de conversations et quand selenium en sélectionne une, elle a disparu de la base !
 
 ![](/images/mongoDb_2requetes1.jpg)
 
-<img style="display: inline; float: left;" alt="Mug MongoDB" src="/images/mongoDb_mug.jpeg"></img>
 C’est comme si l’une des requêtes lisait sur le serveur primaire et l’autre sur le secondaire, avant que la réplication ne soit achevée entre les deux.
 
 ## Premier réflexe : Stackoverflow
 
-![](/images/stackoverflow.png)
+<img style="display: inline; float: left;" alt="Logo stackoverflow" src="/images/stackoverflow.png"></img>
 
 Sur stackoverflow plusieurs questions concernent des problèmes de réplication, avec à chaque fois la même réponse : le nombre de réplica est positionné par défaut à 0 en version 2.4 (écriture asynchrone), il faut augmenter ce paramètre ou bien passer en version 2.6 (dans laquelle il vaut 1 par défaut)
 
