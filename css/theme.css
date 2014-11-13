@@ -70,3 +70,19 @@ tbody.comparatif td {
     border-style: solid;
     border-color:black;
 }
+
+img.left {
+    display: inline;
+    float: left;
+}
+
+img.right {
+    display: inline;
+    float: right;
+}
+
+img.center {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
