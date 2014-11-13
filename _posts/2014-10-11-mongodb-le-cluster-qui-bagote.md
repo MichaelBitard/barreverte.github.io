@@ -36,7 +36,7 @@ Notre nombre de réplica est pourtant bien positionné à 2 (paramètre w=2 dans
 
 Avec w=3 mongo reste bloqué : il tente de répliquer l’écriture sur une 3ème machine qui n’existe pas et ne rends donc jamais la main.
 
-<img class="left" style="padding-right: 10px;" alt="Logo wireshark" src="/images/wireshark_logo.jpeg"></img>
+<img class="left" alt="Logo wireshark" src="/images/wireshark_logo.jpeg"></img>
 
 Un troisième développeur observe avec wireshark le traffic qui parvient à mongo et voit bien passer les deux requêtes de lecture.
 

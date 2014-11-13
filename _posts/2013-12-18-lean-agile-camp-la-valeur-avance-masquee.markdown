@@ -11,7 +11,7 @@ author:
 author_login: philippe
 author_email: philippe.blayo@gmail.com
 excerpt: ! "<a href=\"/images/reviewRadioFrance.png\"><img
-  class=\"size-full wp-image-3194 alignright\" alt=\"reviewRadioFrance\" src=\"/images/reviewRadioFrance.png\"
+  class=\"size-full wp-image-3194 alignleft\" alt=\"reviewRadioFrance\" src=\"/images/reviewRadioFrance.png\"
   /></a>Présent à la première rencontre du Lean Agile Camp, Barre verte! livre ses
   impressions sur l'atelier <strong>la voix du client</strong>. Le but est de décortiquer
   une application sous l'angle du livre <a href=\"http://strategyn.com/jobs-to-be-done/\">Job
@@ -33,8 +33,8 @@ tags:
 - lean
 comments: []
 ---
-<p><a href="/images/reviewRadioFrance.png"><img class="size-full wp-image-3194 alignright" alt="reviewRadioFrance" src="/images/reviewRadioFrance.png" /></a>Présent à la première rencontre du Lean Agile Camp, Barre verte! livre ses impressions sur l'atelier <strong>la voix du client</strong>. Le but est de décortiquer une application sous l'angle du livre <a href="http://strategyn.com/jobs-to-be-done/">Job to be done</a> qui prends comme paradigme que l'utilisateur recrute une application pour faire un travail à sa place. Nous choisissons l'application Radio-France pour android car elle a des notes au dessus de la moyenne et plus de 900 commentaires.</p>
-<p>Cette application permet d'accéder à toutes les radios du groupe. Nous décrivons la valeur que nous y voyons :<a id="more"></a><a id="more-3191"></a></p>
+<p><a href="/images/reviewRadioFrance.png"><img class="size-full wp-image-3194 alignleft" alt="reviewRadioFrance" src="/images/reviewRadioFrance.png" /></a>Présent à la première rencontre du Lean Agile Camp, Barre verte! livre ses impressions sur l'atelier <strong>la voix du client</strong>. Le but est de décortiquer une application sous l'angle du livre <a href="http://strategyn.com/jobs-to-be-done/">Job to be done</a> qui prends comme paradigme que l'utilisateur recrute une application pour faire un travail à sa place. Nous choisissons l'application Radio-France pour android car elle a des notes au dessus de la moyenne et plus de 900 commentaires.</p>
+<p>Cette application permet d'accéder à toutes les radios du groupe. Nous décrivons la valeur que nous y voyons :<a id="more"></a><a id="more-3191"></a></p><br style="clear:both;"/>
 <p><a href="/images/appRadioFrance.jpg"><img class="size-full wp-image-3195 alignright" alt="appRadioFrance" src="/images/appRadioFrance.jpg" width="186" height="310" /></a></p>
 <ol>
 <li>Je suis bloqué dans cette réunion et l'animateur a fermé la porte à clef alors que ce matin passe l'émission "Rue des entrepreneurs" que j'aimerais bien écouter. Je recrute l'application pour la suivre dans ce lieu incongru.</li>
