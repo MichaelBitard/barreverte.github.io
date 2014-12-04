@@ -26,10 +26,10 @@ le {% assign m = page.date | date: "%-m" %}
   {% when '11' %}novembre
   {% when '12' %}décembre
 {% endcase %}
-{{ page.date | date: "%Y" }}, par {{ page.author.display_name }}
+{{ page.date | date: "%Y" }}, par <span class="author">{{ page.author.display_name }}</span>
 </p>
             {% if site.comments == true and page.comments == true and site.disqus != '' %}
-                <p class="author"><a href="#disqus_thread">Comments</a></p>
+                <p class="disqus_author"><a href="#disqus_thread">Comments</a></p>
             {% endif %}
             <div class="post-content">
             {{ content }}
