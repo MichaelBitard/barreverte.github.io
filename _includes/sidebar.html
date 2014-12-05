@@ -5,9 +5,10 @@
 <div class="sidebar well">
     <h1>Derniers articles publiés</h1>
     <ul class="side_list">
-        {% for post in site.posts limit:5 %}
+        {% for post in site.posts limit:9 %}
           <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
+          <li><a href="/archive.html">(la suite dans les archives...)</a></li>
     </ul>
 </div>
 
