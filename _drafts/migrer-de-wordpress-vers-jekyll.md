@@ -8,6 +8,7 @@ tags:
 - wordpress
 - jekyll
 - github
+comments: true
 ---
 
 # Utilisation de Jekyll
@@ -45,7 +46,7 @@ Ainsi, la publication d'un article se résume à déplacer un fichier de _drafts
 
 # Migrer un Wordpress vers Jekyll
 
-# Récupérer les anciens articles
+## Récupérer les anciens articles
 
 Dans notre cas, nous avions déjà un blog depuis 2010. Nous voulions donc migrer tous les articles existants en conservant le maximum de contenu et sans changer les URL des articles pour des raisons évidentes de compatibilité des bookmarks ou références à nos articles.
 
@@ -80,7 +81,7 @@ Il vous reste à résoudre le problème des URL. Par défaut, jekyll met la date
 
 Mais je me suis noyé dans un verre d'eau.
 
-En fait, c'est tellement simple quand j'ai failli en pleurer : à la racine du blog se trouve un fichier dant l'importance est capitale : _config.yml. C'est le fichier qui regroupe toute la configurion du blog. Il suffit de changer la ligne 
+En fait, c'est tellement simple quand j'ai failli en pleurer : à la racine du blog se trouve un fichier dont l'importance est capitale : `_config.yml`. C'est le fichier qui regroupe toute la configurion du blog. Il suffit de changer la ligne 
 
 ````
 permalink: /:year/:month/:title
@@ -93,5 +94,5 @@ permalink: /:title
 ````
 
 
-Et tout est l'avenant ! Configurer un compte Google Analytics ? La variable gaaccount est là pour ça ! Mettre en place des commentaires avec disqus ? Il y a aussi une variable pour cela.
+Et tout est l'avenant ! Configurer un compte Google Analytics ? La variable `gaaccount` est là pour ça ! Mettre en place des commentaires avec disqus ? Il y a aussi une variable pour cela (nommée `disqus`)).
 
