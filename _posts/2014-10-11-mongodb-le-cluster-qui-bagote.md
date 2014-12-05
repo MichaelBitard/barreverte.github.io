@@ -12,6 +12,7 @@ categories:
 - agilité
 - NoSQL
 - tests
+comments: true
 ---
 
 <img class="left" alt="Mug MongoDB" src="/images/mongoDb_mug.jpeg"></img>

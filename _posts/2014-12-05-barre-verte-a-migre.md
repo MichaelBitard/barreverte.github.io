@@ -10,6 +10,7 @@ tags:
 - github
 categories:
 - blog
+comments: true
 ---
 
 Nous venons de terminer la migration de [Barre Verte](http://www.barreverte.fr) : auparavant, nous nous hébergions nous-mêmes sous [Wordpress](https://fr.wordpress.org/) chez [Gandi](https://www.gandi.net/), désormais, nous utilisons [Jekyll](http://jekyllrb.com/) hébergé (gratuitement) par [Github](https://github.com/).
