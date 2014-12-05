@@ -29,7 +29,7 @@ le {% assign m = page.date | date: "%-m" %}
 {{ page.date | date: "%Y" }}, par <span class="author">{{ page.author.display_name }}</span>
 </p>
             {% if site.comments == true and page.comments == true and site.disqus != '' %}
-                <p class="author"><a href="#disqus_thread">Comments</a></p>
+                <p class="author goToComments"><a href="#disqus_thread">aller aux commentaires</a></p>
             {% endif %}
             <div class="post-content">
             {{ content }}
