@@ -25,13 +25,13 @@ On y va ?
 
 Jekyll est un moteur de génération blog statique créé par (un ancien de chez) github. Il est écrit en ruby, donc cet article fait l'hypothèse que vous avez déjà ruby et ruby-gem d'installés sur votre poste de travail.
 
-Installer jekyll, c'est très simple, une simple commande `gem` suffit. Ainsi, pour installer jekyll et créer le blog "from scratch" :
+Pour installer jekyll, une commande `gem` suffit. Ainsi, pour installer jekyll et créer le blog "from scratch" :
 
 {% gist jpcaruana/de5e0bc0702028dbaef5 %}
 
-Ensuite, la commande `jekyll serve` vous lance le site en local sur le port 4000 : il suffit de vous rendre sur http://0.0.0.0:4000/ pour voir votre blog en local.
+Ensuite, la commande `jekyll serve` vous lance le site en local sur le port 4000 : puis vous ouvrez le lien http://0.0.0.0:4000/ pour voir votre blog en local.
 
-L'utilisation est très simple : après avoir fait le design de votre site (en touchant le fichier `index.html` et tout ce qui se trouve dans le dossier `_layout`), la création d'un fichier dans `_posts` publie un nouvel article.
+L'utilisation est simple : après avoir fait le design de votre site (en éditant le fichier `index.html` et tout ce qui se trouve dans le dossier `_layout`), la création d'un fichier dans `_posts` publie un nouvel article.
 
 Il vous faudra respecter plusieurs conventions :
 
@@ -42,13 +42,13 @@ Il vous faudra respecter plusieurs conventions :
 ---
 layout: post
 title: Titre de votre article
--- 
+--
 
 Ici, le contenu de votre article, dans votre format préféré
 (personnellement, j'ai choisi markdown)
 ````
 
-Si vous voulez travailler sur un brouillon et ne pas le publier, il vous suffit de mettre le fichier dans le dossiers `_drafts` : ces fichiers ne sont pas publiés. Vous pouvez en revanche les lire avant publication en local en lançant jekyll avec l'option _drafts_ :
+Si vous voulez travailler sur un brouillon, vous créez votre fichier dans le dossiers `_drafts` : ces fichiers ne sont pas publiés. Vous pouvez en revanche les lire avant publication en local en lançant jekyll avec l'option _drafts_ :
 
 {% gist jpcaruana/a1189baf4ff5976cc896 %}
 
@@ -77,13 +77,13 @@ Comme jekyll, __jekyll-migration__ est écrit en ruby. Il y a donc quelques gems
 Et c'est là que les choses se compliquent ! Je ne sais pas si vous êtes tous dans mon cas, mais j'ai toujours rencontré les pires difficultés pour installer la gem mysql. Ici, il y a même la gem mysql2... En tout cas, il faut que vous ayez de quoi parler MySQL depuis votre poste. Sous Ubuntu, il faut installer le paquet `libmysqlclient-dev` avant d'installer la gem mysql/mysql2.
 
 
-Ensuite, pensez à ouvrir le port MySQL vers votre machine. Avec iptable, cela s'écrit ainsi : 
+Ensuite, pensez à ouvrir le port MySQL vers votre machine. Avec iptable, cela s'écrit ainsi :
 
 {% gist jpcaruana/adffbcc485988cf60223 %}
 
 Je vous invite à tester la connexion vers le MySQL de votre blog depuis votre machine en utilisant le client mysql en local.
 
-Ensuite, il faut lancer une commande magique. La commande est magique, car la documentation n'est pas à jour, certaines options sont devenues obligatoires, d'autres ont carrément disparu. Je suis arrivé (de mémoire) à la commande suivante : 
+Ensuite, il faut lancer une commande magique. La commande est magique, car la documentation n'est pas à jour, certaines options sont devenues obligatoires, d'autres ont carrément disparu. Je suis arrivé (de mémoire) à la commande suivante :
 
 {% gist jpcaruana/876be68091e11f4781ec %}
 
@@ -95,28 +95,26 @@ Il vous reste à résoudre le problème des URL. Par défaut, jekyll met la date
 
 Mais je me suis noyé dans un verre d'eau.
 
-En fait, c'est tellement simple quand j'ai failli en pleurer : à la racine du blog se trouve un fichier dont l'importance est capitale : `_config.yml`. C'est le fichier qui regroupe toute la configuration du blog. Il suffit de changer la ligne :
+En fait, c'est tellement bête que j'ai failli en pleurer : à la racine du blog se trouve un fichier dont l'importance est capitale : `_config.yml`. C'est le fichier qui regroupe toute la configuration du blog. Il faut changer la ligne :
 
 ````
 permalink: /:year/:month/:title
 ````
 
-en 
+en
 
 ````
 permalink: /:title
 ````
 
-
 Et tout est l'avenant ! Configurer un compte Google Analytics ? La variable `gaaccount` est là pour ça ! Mettre en place des commentaires avec disqus ? Il y a aussi une variable pour cela (nommée... `disqus`).
 
 Pour les commentaires disqus, il faut ajouter un `comments: true` dans le _front matter_.
 
-On peut aller beaucoup plus loin, en fouillant un peu dans le code source si vous êtes développeur. À titre d'exemple, il m'a été assez très facile de faire apparaître des tags et des catégories en fin d'article.
-
+On peut aller beaucoup plus loin, en fouillant un peu dans le code source si vous êtes développeur. À titre d'exemple, c'est assez immédiat de faire apparaître des tags et des catégories en fin d'article.
 
 # Héberger son blog chez Github
-Enfin, il est facile d'héberger votre blog chez github. Par héberger, j'entends "c'est github qui sert le contenu de votre blog".
+Enfin, héberger votre blog chez github est élémentaire. Par héberger, j'entends "c'est github qui sert le contenu de votre blog".
 
 Pour cela, vous aves 2 options :
 
@@ -126,7 +124,7 @@ Pour cela, vous aves 2 options :
 Voyons cela point par point :
 
 ## Utiliser une URL en github.io
-Pour cette option, c'est très simple. Il faut respecter quelques conventions  et ensuite cela marche tout seul (chapeau bas aux équipes de github) :
+Il faut respecter quelques conventions et cela marche tout seul (chapeau bas aux équipes de github) :
 
 - votre repository __doit__ s'appeller `monuser.github.io`
 - le site __doit__ être dans la branche `master`
@@ -134,7 +132,7 @@ Pour cette option, c'est très simple. Il faut respecter quelques conventions  e
 
 À chaque `git push` sur votre branche `master`, github génère le site statique et le rend disponible partout.
 
-Notez que github permet d'héberger également un site statique pour votre projet open source. Dans ce cas, le code de votre site doit se situer dans une branche nommée `gh-pages`. Ainsi, pour un utilisateur nommé _monuser_ et un projet nommé _monprojet_, le site sera disponible à l'adresse http(s)://monuser.github.io/monprojet. Voir par exemple http://jpcaruana.github.io/presentation_buildr/. 
+Notez que github permet d'héberger également un site statique pour votre projet open source. Dans ce cas, le code de votre site doit se situer dans une branche nommée `gh-pages`. Ainsi, pour un utilisateur nommé _monuser_ et un projet nommé _monprojet_, le site sera disponible à l'adresse http(s)://monuser.github.io/monprojet. Voir par exemple http://jpcaruana.github.io/presentation_buildr/.
 
 ## Utiliser une URL personnelle
 Pour cette option, c'est un petit peu plus compliqué, mais pas tellement :
