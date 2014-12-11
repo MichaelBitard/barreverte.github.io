@@ -44,7 +44,7 @@ layout: post
 title: Titre de votre article
 --
 
-Ici, le contenu de votre article, dans votre format préféré
+Ici, le contenu de votre article, dans votre format préféré à choisir parmi Markdown ou Texile
 (personnellement, j'ai choisi markdown)
 ````
 
@@ -116,7 +116,7 @@ On peut aller beaucoup plus loin, en fouillant un peu dans le code source si vou
 # Héberger son blog chez Github
 Enfin, héberger votre blog chez github est élémentaire. Par héberger, j'entends "c'est github qui sert le contenu de votre blog".
 
-Pour cela, vous aves 2 options :
+Pour cela, vous avez 2 options :
 
 - utiliser une URL github, du type http://monblog.github.io
 - utiliser une URL que vous possédez, par exemple http://www.barreverte.fr (au hasard)
@@ -169,3 +169,5 @@ N'hésitez pas à me suggérer des corrections, améliorations, que ce soit en c
     - [sur le fichier CNAME dans votre repo](https://help.github.com/articles/adding-a-cname-file-to-your-repository/)
     - [sur le paramétrage de votre DNS](https://help.github.com/articles/tips-for-configuring-a-cname-record-with-your-dns-provider/)
 - [Une bonne explication sur le DNS](http://openclassrooms.com/courses/gerer-son-nom-de-domaine), claire et complète
+- [Markdown](http://daringfireball.net/projects/markdown/)
+- [Texile](http://redcloth.org/textile)
