@@ -2,6 +2,8 @@
 name: Barre Verte !
 description: Notes de développeurs sur le logiciel, le design, l'agilité, l'open source, les mobiles, linux...
 
+timezone: Europe/Paris
+
 # url is currently only used only for the RSS feed in feed.xml
 url: http://www.barreverte.fr
 
