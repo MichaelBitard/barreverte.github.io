@@ -1,0 +1,25 @@
+{% include header.html %}
+
+<div class="container container-left">
+    <div class="row">
+        <div class="col-md-3 hidden-xs">
+            {% include sidebar.html %}
+        </div>
+        <div class="col-md-9">
+
+			<div class="well">
+
+            	{{ content }}
+
+			    <p>Voici mes derniers articles :</p>
+			    <ul>
+			        {% for post in site.posts where author in post.author %}
+			          <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+			        {% endfor %}
+			    </ul>
+			</div>
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}
