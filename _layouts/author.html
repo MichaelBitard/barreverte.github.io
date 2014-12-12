@@ -11,13 +11,18 @@
 
             	{{ content }}
 
-			    <p>Voici mes derniers articles :</p>
+        	</div>
+
+        	<!--
+			<div class="well">
+			    <p>Voici les derniers articles publiés :</p>
 			    <ul>
-			        {% for post in site.posts where author in post.author %}
+        			{% for post in site.posts limit:9 %}
 			          <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
 			        {% endfor %}
 			    </ul>
 			</div>
+	`		-->
         </div>
     </div>
 </div>
