@@ -40,7 +40,10 @@ La branche courante develop est à jour.
 
 *A noter que git me parle à la fois en français en en anglais. Je ne sais pas où reporter ce problème, où comment proposer un patch facile.*
 
-À quoi était dû ce soucis ? Visiblement, la nécessité de faire un `git fsck` indique que mon repository local était dans un mauvais état, mais cela ne m'empéchait pas de travailler pour autant. Comment mon repository s'était-il retrouvé dans cet état ? Je l'ignore. Trop de branches tue les branches ?
+À quoi était dû ce soucis ? Visiblement, la nécessité de faire un `git fsck` indique que mon repository local était dans un mauvais état, mais cela ne m'empéchait pas de travailler pour autant.
+
+Comment mon repository s'était-il retrouvé dans cet état ? Je l'ignore.
+Trop de branches tuent les branches ?
 
 Et vous, vous avez déjà eu ce genre de soucis avec `git` ?
 
