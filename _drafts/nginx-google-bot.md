@@ -31,7 +31,7 @@ Disallow: /
 
 Une traduction approximative serait : "*Pour tous les bots (y compris celui de google), merci de ne rien indexer sous l'URL racine de ce site*".
 
-Nginx est, je trouve, à la fois plus simple à paramétrer et plus souple à utiliser que ne l'est Apache. Ainsi, on peut lui demander de répondre pour nous directement le fichier `/robots.txt` sans avoir besoin de ce fichier sur le disque dur de notre serveur :
+Nginx est, je trouve, à la fois plus simple à paramétrer et plus souple à utiliser que ne l'est Apache : on peut lui demander de répondre pour nous un fichier virtuel `/robots.txt` sans en avoir besoin sur le disque dur de notre serveur :
 
 
 ````
@@ -40,4 +40,4 @@ location /robots.txt {
 }
 ````
 
-Et voilà ! J'ai répété cela pour les 4 hôtes virtuels que comporte notre service et depuis le calme est revenu dans mes logs (et j'ai allégé le travail des robots).
+Et voilà ! J'ai répété cela pour les 4 hôtes virtuels de notre service et depuis le calme est revenu dans mes logs (et j'ai allégé le travail des robots).
