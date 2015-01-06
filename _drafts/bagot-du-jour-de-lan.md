@@ -32,7 +32,7 @@ date,queue,event,user,max_chats
 ...
 ````
 
-Donc d'après le code, je prends chaque ligne, du fichier et si toutes les **valeurs** attendues ('login', 'foo', 4) sont **contenues** dans la ligne du fichier CSV alors le test de cette ligne est vert. *WTF ??*
+Donc d'après le code, je prends chaque ligne, du fichier et si toutes les **valeurs** attendues ('login', 'foo', 4) sont **contenues** dans une des lignes du fichier CSV alors le test de cette ligne est vert. *WTF ??*
 
 Il se trouve que nous avions passé le nombre de chats maximum de 4 à 3 pour les tests d'acceptance. Ce test devrait être toujours rouge alors. Ouéééé !! Comme il y a un 4 dans 2014 le test était toujours vert *l'année dernière*, mais pour 2015, il suffit qu'il n'y ait pas de 4 dans la date ou l'heure et il passe rouge.
 
