@@ -9,7 +9,7 @@ tags:
 categories:
 - tests
 ---
-Le 2 janvier est propice à la chasse au bagot : il est fréquent de rentrer encore un peu barbouillé des fêtes de fin d'années et d'être accueilli par une intégration continue rouge. Tests qui fonctionnent qu'en année bissextile, année codée en dur, numéro de mois qui va de 0 à 11, toutes les raisons sont bonnes.
+Le 2 janvier est propice à la chasse au bagot : il est fréquent de rentrer encore un peu barbouillé des fêtes de fin d'années et d'être accueilli par une intégration continue rouge. Tests qui ne fonctionnent qu'en année bissextile, année codée en dur, numéro de mois qui va de 0 à 11, toutes les raisons sont bonnes.
 
 Cela m'est arrivé une nouvelle fois vendredi dernier. En regardant l'historique des réussites/échecs des tests d'acceptance, j'en vois un qui bagote beaucoup depuis le 1er janvier. Il se trouve que ce test est déjà repéré dans notre liste de bagots non résolus, mais la fréquence m'interpelle.
 
