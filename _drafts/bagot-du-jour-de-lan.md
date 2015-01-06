@@ -36,4 +36,4 @@ Donc d'après le code, je prends chaque ligne, du fichier et si toutes les **val
 
 Il se trouve que nous avions passé le nombre de chats maximum de 4 à 3 pour les tests d'acceptance. Ce test devrait être toujours rouge alors. Ouéééé !! Comme il y a un 4 dans 2014 le test était toujours vert *l'année dernière*, mais pour 2015, il suffit qu'il n'y ait pas de 4 dans la date ou l'heure et il passe rouge.
 
-Morale de l'histoire, attention aux assertions trop laxe, de temps en temps cela peut donner des résultats étonnants. Quand j'ai ajouté des TU's et que j'ai relancé les tests d'acceptance, plusieurs d'entre eux sont passés rouge. Toujours ;)
+Morale de l'histoire, attention aux assertions trop laxes, de temps en temps cela peut donner des résultats étonnants. Quand j'ai ajouté des TU's et que j'ai relancé les tests d'acceptance, plusieurs d'entre eux sont passés rouge. Toujours ;)
