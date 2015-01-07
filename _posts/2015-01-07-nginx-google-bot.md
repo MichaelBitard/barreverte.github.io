@@ -10,6 +10,7 @@ tags:
 - bot
 categories:
 - astuces
+comments: true
 ---
 
 Sur le service sur lequel je travaille, j'ai observé de nombreuses erreurs `500` suite à des tentatives du [Google Bot](http://www.google.com/bot.html) de trouver le fichier `/robots.txt`. Voici par exemple une log d'erreur de nginx :
