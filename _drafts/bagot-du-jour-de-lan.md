@@ -36,4 +36,6 @@ Donc d'après le code, je prends chaque ligne du fichier. Si toutes les **valeur
 
 Nous avions passé le `parametre_metier` de 4 à 3 pour tous les tests d'acceptance il y a quelques mois. La modification de ce paramètre n'a donc pas été reportée dans les valeurs attendues. Ce test devrait être rouge ! Mais qu'est-ce que... Ouéééé !! Comme il y a un 4 dans 2014 le test était toujours vert *l'année dernière*, mais pour 2015, il suffit qu'il n'y ait pas de 4 dans la date ou l'heure et il passe rouge.
 
-Morale de l'histoire, attention aux assertions trop laxes, cela peut donner des résultats étonnants. Et encore c'est un euphémisme, car on le voit ici, c'est de la perte de temps, et aussi de confiance dans le harnais de test. Après avoir ajouté des tests unitaires montrant les deux erreurs (pas de vérification par champ et inclusion de valeur) j'ai relancé les tests d'acceptance : plusieurs d'entre eux sont passés rouge. *Toujours* ;)
+Morale de l'histoire, attention aux assertions trop laxes, cela peut donner des résultats étonnants. Et encore c'est un euphémisme, car on le voit ici, c'est de la perte de temps, et aussi de confiance dans le harnais de test. Après avoir ajouté des tests unitaires montrant les deux erreurs (pas de vérification par champ et inclusion de valeur) j'ai relancé les tests d'acceptance : plusieurs d'entre eux sont passés rouge ; *Toujours* rouge ;)
+
+Maintenant, il ne nous reste plus qu'à les faire passer au vert ; *Toujours* :)
