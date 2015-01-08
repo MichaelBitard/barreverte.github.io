@@ -8,6 +8,7 @@ tags:
 - python
 categories:
 - tests
+comments: true
 ---
 Le 2 janvier est propice à la chasse au bagot : il est fréquent de rentrer encore un peu barbouillé des fêtes de fin d'années et d'être accueilli par une intégration continue rouge. Tests qui ne fonctionnent qu'en année bissextile, année codée en dur, numéro de mois qui va de 0 à 11, toutes les raisons sont bonnes.
 
