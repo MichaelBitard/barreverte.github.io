@@ -36,11 +36,3 @@ redcarpet:
 
 exclude: ['README.md', 'LICENSE']
 
-sitemap:
-    file: "/sitemap.xml"
-    exclude:
-        - "/feed"
-    include_posts:
-        - "/index.html"
-    change_frequency_name: "change_frequency"
-    priority_name: "priority"
