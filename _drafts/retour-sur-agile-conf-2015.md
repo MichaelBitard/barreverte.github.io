@@ -13,7 +13,7 @@ tags:
 - conférences
 ---
 
-La semaine dernière, nous avons retrouvé les oies et les canards du chalet de la porte jaune pour la [10e édition de la conférence agile](http://2015.conference-agile.fr/) (anciennement XP Days), pour une thématique "*par delà l'agilité*". Retour sur ce que nous avons retenu de l'ère post-agile.
+La semaine dernière, nous avons retrouvé les oies et les canards du chalet de la porte jaune pour la [10e édition de la conférence agile](http://2015.conference-agile.fr/) (anciennement XP Days), pour une thématique "*par delà l'agilité*". Retour sur ce que nous avons retenu de l'ère post-agile, avec notre filtre forcément subjectif.
 
 # Les nouvelles organisations
 
@@ -42,15 +42,28 @@ Wot ? Ca ne vous dit rien ? C'est Christophe Coupé, Senior Manager, Vinci Consu
 - l'état de maîtrise de la production : taskboard agile, kanban
 - la résolution de problème : par exemple le PDCA
 
-Enfin l'animation de l'obeya est quotidienne et hebdomadaire. Pour plus de précisions, vous pouvez [vous inscrire](mailto:contact@theobeya.net) pour avoir le stater kit qui devrait sortir mi-juillet.
+Enfin l'animation de l'obeya est quotidienne et hebdomadaire. Pour plus de précisions, vous pouvez [vous inscrire](mailto:contact@theobeya.net) pour être mis au courant de la sortie du stater kit qui ne devrait pas tarder (sur le même modèle que celui du [lean pour les équipes agiles](http://leanagilecamp.fr)).
 
-## les entreprises "agiles"
-Startups d'état...
+## entreprises "libérées" et DIY
 
-Entreprises libérées, intelligence collective, retour d'expérience (Anais Victor),
-ou Française des jeux Corinne Werner, les makers ou le mouvement DIY
+Anais Victor est venue nous faire un retour de son expérience en "entreprise libérée". Un reportage d'Arte ["Le bonheur au travail"](http://boutique.arte.tv/f10216-bonheur_travail) avait beaucoup fait parler à ce sujet (jusqu'à la semaine dernière avec un [téléphone sonne](http://www.franceinter.fr/emission-le-telephone-sonne-peut-on-doit-on-etre-heureux-au-travail) dans le cadre de la semaine de la qualité de vie au travail). Intitulé Entreprise libérée - *have a good tripes* ou encore reality check. Le format était intéressant car il confrontait sa vision de product owner avec celle de son CEO, sans complaisance. Dans les reportages ou émissions, une part belle est faite à ce modèle qui applatit la hiérarchie, laisse plus d'autonomie, fait la peau aux "Bullshit Jobs" (expression de [David Graeber](https://fr.wikipedia.org/wiki/David_Graeber)), respecte ses salariés. Son retour oui c'est une expérience riche, mais c'est dur.
+- de mettre en place la transparence des salaires. Ils sont passés par une grille intermédiaire avec une échelle de fruit : à chacun correspond un intervalle salarial.
+- pour les personnes introverties : le modèle d'autorité est remplacé par un modèle d'influence.
 
-Envie de maîtriser son environnement, de comprendre son client, utiliser au mieux les compétences de chacun en respectant les individus, plusieurs écoles de pensées mènent à des organisations plus humaines. Je vous conseille, si ce n'est pas déjà fait de voir le reportage d'arte ["Le bonheur au travail"](http://boutique.arte.tv/f10216-bonheur_travail), peut-être un peu positif sur le sujet mais il ne faut pas bouder son plaisir.
+> vous êtes la moyenne des 5 personnes que vous fréquentez le plus
+
+Chaque personne doit élire 5 influenceurs, peut en changer à tout moment. Cela construit un graphe social d'influence. Un des travers c'est que la confusion entre popularité et influence est ténue. Les influenceurs ont un rôle important, notamment le suivi des entretiens individuels et des augmentations. Anaïs notait cette difficulté pour les personnes introverties.
+
+Corinne Werner, nous a fait également un retour d'expérience sur la conception d'un nouveau jeu pour la française des jeux. Ils ont utilisé l'intelligence collective et la culture des makers (le mouvement DIY intelligence) pour mener à bien ce projet, en passant d'un délais habituel de 2 ans à 1 an.
+
+## la modernisation de l'action publique par le numérique
+
+[Etalab](https://www.etalab.gouv.fr) a pour mission d'ouvrir et de partager les données publiques grâce au site [data.gouv.fr](http://data.gouv.fr) dans le cadre Du secrétariat général pour la modernisation de l'action publique (SGMAP). Matti Schneider vient nous montrer qu'il n'y a pas de contradictions entre startup et système d'état, puisqu'ils "*créent des usages avec des moyens différents*". L'idée est d'utiliser les méthodes des startups pour améliorer les services d'état. Notamment ceux qui sont informatifs (en lecture sur les données).
+
+
+Envie de maîtriser son environnement, de comprendre son client, rendre un service public, utiliser au mieux les compétences de chacun en respectant les individus, plusieurs écoles mènent à des organisations plus humaines. C'était intéressant de constater le mouvement double d'entreprises qui se réforment pour assurer le bien-être de ses employés, comptant sur l'amélioration de leur efficacité pour maintenir ou augmenter son activité (entreprises dites "libres"). Et d'autre part, des pratiques plutôt bottom-up, centrées sur le client et le respect des personnes (lean/agile) qui bénéficient aux collaborateurs.  
+
+
 
 # Simplicité
 
