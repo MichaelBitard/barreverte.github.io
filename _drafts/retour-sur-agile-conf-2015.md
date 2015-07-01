@@ -58,16 +58,40 @@ Corinne Werner, nous a fait également un retour d'expérience sur la conception
 
 ## la modernisation de l'action publique par le numérique
 
-[Etalab](https://www.etalab.gouv.fr) a pour mission d'ouvrir et de partager les données publiques grâce au site [data.gouv.fr](http://data.gouv.fr) dans le cadre Du secrétariat général pour la modernisation de l'action publique (SGMAP). Matti Schneider vient nous montrer qu'il n'y a pas de contradictions entre startup et système d'état, puisqu'ils "*créent des usages avec des moyens différents*". L'idée est d'utiliser les méthodes des startups pour améliorer les services d'état. Notamment ceux qui sont informatifs (en lecture sur les données). 
+[Etalab](https://www.etalab.gouv.fr) a pour mission d'ouvrir et de partager les données publiques grâce au site [data.gouv.fr](http://data.gouv.fr) dans le cadre Du secrétariat général pour la modernisation de l'action publique (SGMAP). Matti Schneider vient nous montrer qu'il n'y a pas de contradictions entre startup et système d'état, puisqu'ils "*créent des usages avec des moyens différents*". L'idée est d'utiliser les méthodes des startups pour améliorer les services d'état. Notamment ceux qui sont informatifs (en lecture sur les données) comme https://mes-aides.gouv.fr/, http://embauche.sgmap.fr/. C'est une stratégie d'[API](https://apientreprise.fr/) avec de petits produits qui puissent interragir, pour ensuite questionner les pratiques administratives, le tout en montrant l'exemple.
 
 
 Envie de maîtriser son environnement, de comprendre son client, rendre un service public, utiliser au mieux les compétences de chacun en respectant les individus, plusieurs écoles mènent à des organisations plus humaines. C'était intéressant de constater le mouvement double d'entreprises qui se réforment par le haut pour assurer le bien-être de ses employés, comptant sur l'amélioration de leur efficacité pour maintenir ou augmenter son activité (entreprises dites "libres"). Et d'autre part, des pratiques plutôt bottom-up, centrées sur le client et le respect des personnes (lean/agile) qui bénéficient aux collaborateurs dans un second temps.
 
+# Simplicité et feedback
 
-# Simplicité
+Retour sur deux des valeurs fondamentales de l'extreme programming avec des sessions autour de la programmation, mais dans des domaines incongrus du test unitaire.
 
-Valeur fondamentale de l'eXtreme Programming, peut-être la plus difficile.
 
-Présentation de Pascal V Covenberg.
+## Test Driven Configuration pour apache
+Tester la configuration d'apache. Que celui qui n'a jamais galéré avec apache2.conf jette le premier test. C'est Antoine qui est aux manettes, il nous montre comment il a aidé ses opés à modifier les fichiers de conf apache sans avoir la main qui tremble lors de la prochaine mise en production. En utilisant shUnit, screen, vim, il se met en capacité d'échanger avec les opés dans leur langage.
 
-Test Driven Configuration pour apache
+Il met en place des "mocks" (utilisation de /etc/hosts pour le DNS, un tomcat avec une servlet qui répond l'écho de l'url demandée), afin de se placer au bon niveau de test, sur la couture (the seam model de working effectively with legacy code), pour trouver le compromis entre tester l'environnement tout entier et tester directement le ficher de conf (asserts sur des parties du fichier).
+
+De cette manière il teste les modifications voulues par les opés, et leur livre un fichier apache.conf qui marche.
+
+## Vers l'intestabilité et au delà
+
+Dans sa série "vous ne pourrez plus dire que votre environnement n'est pas testable", après le TDD sur assembleur atari 2600, voici le
+[jeu de la vie GLSL](http://www.glslsandbox.com/e#26153.0) donc sur un environnement graphique sans console. Par petit pas, [Emmanuel](https://github.com/egaillot) et [Jonathan](https://github.com/jonathanperret) nous montrent comment faire émerger un petit framework de tests sur un environnement graphique, tout en réalisant le [jeux de la vie](https://fr.wikipedia.org/wiki/Jeu_de_la_vie). Le résultat est spectaculaire puisque les traitements des flux d'événement se fait pour chaque point de manière parallèle.
+
+## Simulation humaine de programmation parallèle
+
+Présentation de Pascal Van Cauwenberghe pour comprendre la programmation parallèle, notamment le modèle acteur. L'idée était de simuler ce que fait l'ordinateur avec le public. Cela a permis à notre bloggueur Philippe de comprendre la différence entre Acteur et Channel.
+
+# Et aussi
+
+## Ecoute que coûte
+
+Un petit pas de côté, nous pouvons aussi parler de feedback dans la communication humaine. L'entraînement à l'écoute que nous propose Irène Doan, est intéressant : essayez de raconter une anecdote à deux en même temps pendant 2 minutes, puis relatez à votre binôme ce que vous en avez compris. C'est un test de [Vincent Daviet](https://babagile.wordpress.com/about/) qui nous permet de voir à quel point il est dfficile d'écouter et réfléchir/parler en même temps. Puis une autre anecdote en binôme en écoutant sans parler, et enfin, à tour de rôle en trinôme avec un dessin comme support.
+
+## Un forum ouvert
+Un peu cahotique, avec beaucoup de monde qui discute en off, mais c'est aussi le moyen de revoir des personnes qu'on a pas vu depuis longtemps et d'avoir des discussions aussi intéressantes que certaines sessions.
+
+## Un repas surprenant
+Avec un bus qui nous emmène sur un péniche, en face de la cité de la mode, histoire de changer des autres années. Une présentation longue et dense d'un professeur de français d'une classe de 5e qui pratique l'agilité (entre autres disciplines comme la thermodynamique, la systémique...) pour réaliser des cours ouverts. Pour plus de précision, voir son blog : http://pedagogieagile.com/ et [sa présentation](https://drive.google.com/file/d/0B5qKr_UatV78NEpMeFowc1JMMk0/edit).
