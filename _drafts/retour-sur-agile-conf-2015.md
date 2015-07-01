@@ -90,7 +90,7 @@ De cette manière il teste les modifications demandées par les opés, et leur l
 Dans sa série "vous ne pourrez plus dire que votre environnement n'est pas testable", après le TDD sur assembleur atari 2600, voici le
 [jeu de la vie GLSL](http://www.glslsandbox.com/e#26153.0) donc sur un environnement graphique sans console. Par petit pas, [Emmanuel](https://github.com/egaillot) et [Jonathan](https://github.com/jonathanperret) nous montrent comment faire émerger un petit framework de tests sur un environnement graphique, tout en réalisant le [jeux de la vie](https://fr.wikipedia.org/wiki/Jeu_de_la_vie). La barre verte est affichée en haut de l'écran. Le résultat est spectaculaire puisque les traitements des flux d'événement se fait pour chaque point de manière parallèle.
 
-<a href="http://www.glslsandbox.com/e#26153.0"><img src="images/jeu_de_la_vie_glsl.png" width="700"/></a>
+<a href="http://www.glslsandbox.com/e#26153.0"><img src="images/jeu_de_la_vie_glsl.png" width="500"/></a>
 
 ## Simulation humaine de programmation parallèle
 
@@ -110,3 +110,6 @@ Un peu cahotique, avec beaucoup de monde qui discute en off, mais c'est aussi le
 
 ## Un repas surprenant
 Avec un bus qui nous emmène sur un péniche, en face de la cité de la mode, histoire de changer des autres années. Une présentation longue et dense d'un professeur de français d'une classe de 5e qui pratique l'agilité (entre autres disciplines comme la thermodynamique, la systémique...) pour réaliser des cours ouverts. Pour plus de précision, voir son blog : http://pedagogieagile.com/ et [sa présentation](https://drive.google.com/file/d/0B5qKr_UatV78NEpMeFowc1JMMk0/edit).
+
+Merci donc à toute l'équipe de l'agile conf, aux présentateurs, qui ont pu rendre cette édition possible et si riche.
+Merci à tout ceux qui sont impliqués bénévolement dans l'association agile France.
