@@ -58,11 +58,10 @@ Corinne Werner, nous a fait également un retour d'expérience sur la conception
 
 ## la modernisation de l'action publique par le numérique
 
-[Etalab](https://www.etalab.gouv.fr) a pour mission d'ouvrir et de partager les données publiques grâce au site [data.gouv.fr](http://data.gouv.fr) dans le cadre Du secrétariat général pour la modernisation de l'action publique (SGMAP). Matti Schneider vient nous montrer qu'il n'y a pas de contradictions entre startup et système d'état, puisqu'ils "*créent des usages avec des moyens différents*". L'idée est d'utiliser les méthodes des startups pour améliorer les services d'état. Notamment ceux qui sont informatifs (en lecture sur les données).
+[Etalab](https://www.etalab.gouv.fr) a pour mission d'ouvrir et de partager les données publiques grâce au site [data.gouv.fr](http://data.gouv.fr) dans le cadre Du secrétariat général pour la modernisation de l'action publique (SGMAP). Matti Schneider vient nous montrer qu'il n'y a pas de contradictions entre startup et système d'état, puisqu'ils "*créent des usages avec des moyens différents*". L'idée est d'utiliser les méthodes des startups pour améliorer les services d'état. Notamment ceux qui sont informatifs (en lecture sur les données). 
 
 
-Envie de maîtriser son environnement, de comprendre son client, rendre un service public, utiliser au mieux les compétences de chacun en respectant les individus, plusieurs écoles mènent à des organisations plus humaines. C'était intéressant de constater le mouvement double d'entreprises qui se réforment pour assurer le bien-être de ses employés, comptant sur l'amélioration de leur efficacité pour maintenir ou augmenter son activité (entreprises dites "libres"). Et d'autre part, des pratiques plutôt bottom-up, centrées sur le client et le respect des personnes (lean/agile) qui bénéficient aux collaborateurs.  
-
+Envie de maîtriser son environnement, de comprendre son client, rendre un service public, utiliser au mieux les compétences de chacun en respectant les individus, plusieurs écoles mènent à des organisations plus humaines. C'était intéressant de constater le mouvement double d'entreprises qui se réforment par le haut pour assurer le bien-être de ses employés, comptant sur l'amélioration de leur efficacité pour maintenir ou augmenter son activité (entreprises dites "libres"). Et d'autre part, des pratiques plutôt bottom-up, centrées sur le client et le respect des personnes (lean/agile) qui bénéficient aux collaborateurs dans un second temps.
 
 
 # Simplicité
