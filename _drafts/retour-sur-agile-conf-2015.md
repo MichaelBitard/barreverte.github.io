@@ -82,7 +82,7 @@ Retour sur deux des valeurs fondamentales de l'extreme programming avec des sess
 
 ## Test Driven Configuration pour apache
 
-Tester la configuration d'apache. Que celui qui n'a jamais galéré avec apache2.conf jette le premier test. C'est Antoine qui est aux manettes, il nous montre comment il a aidé ses opés à modifier les fichiers de conf apache sans avoir la main qui tremble lors de la prochaine mise en production. En utilisant shUnit, screen, vim, il se met en capacité d'échanger avec les opés dans leur langage, avec leurs outils.
+Tester la configuration d'apache. Que celui qui n'a jamais galéré avec apache2.conf jette le premier test. C'est Antoine Contal qui est aux manettes, il nous montre comment il a aidé ses opés à modifier les fichiers de conf apache sans avoir la main qui tremble lors de la prochaine mise en production. En utilisant shUnit, screen, vim, il se met en capacité d'échanger avec les opés dans leur langage, avec leurs outils.
 
 Il met en place des "mocks" :
 
