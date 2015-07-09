@@ -5,7 +5,6 @@ author:
   display_name: Bruno Thomas
 login: bruno
 email: bruno@barreverte.fr
-url: http://www.barreverte.fr
 categories:
 - evenements
 - agilité
@@ -99,7 +98,7 @@ De cette manière il teste les modifications demandées par les opés, et leur l
 Dans sa série "vous ne pourrez plus dire que votre environnement n'est pas testable", après le TDD sur assembleur atari 2600, voici le
 [jeu de la vie GLSL](http://www.glslsandbox.com/e#26153.0) donc sur un environnement graphique sans console. Par petit pas, [Emmanuel](https://github.com/egaillot) et [Jonathan](https://github.com/jonathanperret) nous montrent comment faire émerger un petit framework de tests en GLSL, tout en réalisant le [jeux de la vie](https://fr.wikipedia.org/wiki/Jeu_de_la_vie). La barre verte est affichée en haut de l'écran. Le résultat est spectaculaire puisque l'efficacité d'affichage est assurée par le *shader*, chaque pixel est géré de manière pseudo parallèle par le [pixel pipeline](https://en.wikipedia.org/wiki/Graphics_pipeline) (si j'ai bien compris).
 
-<a href="http://www.glslsandbox.com/e#26153.0"><img src="http://www.barreverte.fr/images/jeu_de_la_vie_glsl.png" width="500"/></a>
+<a href="http://www.glslsandbox.com/e#26153.0"><img src="{{ site.baseurl }}/images/jeu_de_la_vie_glsl.png" width="500"/></a>
 
 ## Simulation humaine de programmation parallèle
 
