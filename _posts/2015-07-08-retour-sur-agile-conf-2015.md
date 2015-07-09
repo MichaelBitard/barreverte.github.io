@@ -11,6 +11,7 @@ categories:
 - agilité
 tags:
 - conférences
+comments: true
 ---
 <img src="http://2015.conference-agile.fr/img/logo.png" class="left" width="100"/>
 La semaine dernière, nous avons retrouvé les oies et les canards du chalet de la porte jaune pour la [10e édition de la conférence agile](http://2015.conference-agile.fr/) (anciennement XP Days), pour une thématique "*par delà l'agilité*". Retour sur ce que nous avons retenu de l'ère post-agile, avec notre filtre forcément subjectif.
