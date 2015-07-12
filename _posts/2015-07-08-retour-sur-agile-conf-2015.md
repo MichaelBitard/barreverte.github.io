@@ -28,7 +28,7 @@ L'identification des développeurs se déplace du code vers le client : les équ
 
 De nouveaux soucis apparaissent : la première difficulté est de se repérer parmi un écosystème de plusieurs dizaines d'applications, et de 150 personnes. Des cartographies *business* aident les équipes à se repérer, à trouver les bons interlocuteurs. L'amélioration continue ne peut pas concerner tous les pans de chaque application, il faut faire des choix. Par exemple il ne sert à rien de faire de la [livraison continue](http://continuousdelivery.com/) sur un légacy backend. Autant le modifier et le livrer le moins souvent possible. Enfin, la confiance ne semble pas suffisante : sonar, des graphes de dépendances permettent de conserver la cohésion de l'ensemble.
 
-Au final, on peut alors se demander mais que va devenir le département IT ? [Mary et Tom Poppendieck](http://www.poppendieck.com/) vont plus loin : "Ah vous avez toujours un département IT ?"
+Au final, on peut alors se demander mais que va devenir le département IT ? [Mary et Tom Poppendieck](http://www.poppendieck.com/) vont plus loin : "Ah vous avez toujours d'un département IT ?"
 
 ## Le lean et l'Obeya
 
@@ -117,7 +117,7 @@ Un petit pas de côté, nous pouvons aussi parler de feedback dans la communicat
 Un peu cahotique, avec beaucoup de monde qui discute en off, mais c'est aussi le moyen de revoir des personnes qu'on a pas vu depuis longtemps et d'avoir des discussions aussi intéressantes que certaines sessions.
 
 ## Un repas surprenant
-Avec un bus qui nous emmène sur un péniche, en face de la cité de la mode, histoire de changer des autres années. Une présentation longue et dense d'un professeur de français d'une classe de 5e qui pratique l'agilité (entre autres disciplines comme la thermodynamique, la systémique...) pour réaliser des cours ouverts plus adaptés aux élèves. Pour plus de précision, voir son blog : http://pedagogieagile.com/ et [sa présentation](https://drive.google.com/file/d/0B5qKr_UatV78NEpMeFowc1JMMk0/edit).
+Avec un bus qui nous emmène sur une péniche, en face de la cité de la mode, histoire de changer des autres années. Une présentation longue et dense d'un professeur de français d'une classe de 5e qui pratique l'agilité (entre autres disciplines comme la thermodynamique, la systémique...) pour réaliser des cours ouverts plus adaptés aux élèves. Pour plus de précision, voir son blog : http://pedagogieagile.com/ et [sa présentation](https://drive.google.com/file/d/0B5qKr_UatV78NEpMeFowc1JMMk0/edit).
 
 Merci donc à toute l'équipe de l'agile conf, aux présentateurs, qui ont pu rendre cette édition possible et si riche.
 Merci à tout ceux qui sont impliqués bénévolement dans l'association agile France.
