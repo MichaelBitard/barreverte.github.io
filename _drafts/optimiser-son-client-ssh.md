@@ -57,8 +57,6 @@ Compression yes
 CompressionLevel 9
 ````
 
-À noter que ce réglage n'est pas très efficace si vous faites beaucoup de `scp` volumineux, auquel cas je vous conseille de ne pas activer cette option.
-
 # Garder les connexions ouvertes
 
 Enfin, il est possible de garder ses connexions ouvertes pendant un certain temps. Ssh peut ainsi garder des sockets ouvertes pendant la durée désirée. En outre, si vous établissez plusieurs connexions avec un même serveur, votre client `ssh` va réutiliser la socket existante et faire du multiplexage : autant dire que vos connexions seront instantannées. Ici, un paramétrage pour garder les connexions ouvertes pendant 1/2h :
