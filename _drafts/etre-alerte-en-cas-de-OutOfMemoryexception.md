@@ -55,9 +55,8 @@ EOF
 slack "#prod" "$message"
 ````
 
-Depuis que nous avons mis cela en place sur tous nos services, nous avons pu réagir rapidement en production et avons du travail devant nous pour éviter que cela ne se reproduise à nouveau.
+Depuis que nous avons mis cela en place sur tous nos services, nous avons pu rapidement mettre en place des solutions de contournement pour préserver la production, puis mener des actions de fond pour éviter que cela ne se reproduise.
 
 ---
 
 Pour information, voici la [liste des options de la JVM](http://www.oracle.com/technetwork/java/javase/tech/vmoptions-jsp-140102.html)
-
