@@ -1,5 +1,5 @@
 ---
-layout: default_old
+layout: default_with_pagination
 ---
 
 {% for post in paginator.posts %}
@@ -36,17 +36,3 @@ le
     </div>
 </div>
 {% endfor %}
-
-<div class="pagination">
-  {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-        <a class="btn btn-default" href="{{ site.baseurl}}/index.html" class="previous">Articles plus récents</a>
-      {% else %}
-        <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.previous_page }}" class="previous">Articles plus récents</a>
-      {% endif %}
-  {% endif %}
-  <span class="page_number ">Page {{ paginator.page }} de {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.next_page }}" class="next">Articles plus anciens</a>
-  {% endif %}
-</div>
