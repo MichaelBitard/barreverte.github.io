@@ -21,12 +21,9 @@ Je vous propose une petite fiche de lecture sur un livre que j'ai lu récement e
 
 # _DroidMaker_ par Michael Rubin
 
-![Couverture de DroidMaker](/images/droidmaker.jpg)
-
-
 ![Couverture de DroidMaker]({{ site.url }}/images/droidmaker.jpg)
 
-_DroidMaker: George Lucas and the Digital Revolution_ (quel titre !) écrit par [Michael Rubin](https://about.me/rubin), a été publié en anglais en 2005 par Triad Pub Co. Il n'existe à ma connaissance pas de traduction en français à ce jour. À noter : un site web ([droidmaker.com](http://www.droidmaker.com/index.html)) a même été créé autour de ce livre, afin de pouvoir creuser plus loin.
+_DroidMaker: George Lucas and the Digital Revolution_ (quel titre !) écrit par [Michael Rubin](https://about.me/rubin), a été publié en anglais en 2005 par Triad Pub Co. Il n'existe à ma connaissance pas de traduction en français à ce jour. À noter : un site web ([droidmaker.com](http://www.droidmaker.com/index.html)) a même été créé autour de ce livre, pour pouvoir aller plus loin.
 
 ## De quoi est-ce que ça parle ?
 
@@ -35,12 +32,38 @@ _DroidMaker_ parle de la révolution **totale** amenée George Lucas (et Francis
 * ne plus passer par le corporatisme des studios hollywoodiens
 * le réalisateur en maître tout puissant
 * la révolution des effets spéciaux réalistes, en particulier par ordinateur
-* les films entiérement générés par ordinateur (Pixar avec Toy Story)
+* les films entiérement générés par ordinateur (avec la création de Pixar et le premier long métrage 100% réalisé par ordinateur, Toy Story)
 * les logiciels de montage vidéo et sonore
 * l'exigence pour la qualité des cinémas aux États-Unis, avec le standard THX
 
-## Ce que j'ai appris
+C'est le rêve d'indépendance d'un petit réalisateur prêt à investir durablement pour se créer les outils dont il a besoin. C'est l'histoire d'un patron qui traite ses employés comme sa fammille, en leur laissant une autonomie incroyable, en leur faisant confiance.
 
+## Cinéma
+On démarre avec Francis Coppola et George Lucas
+
+sillicon valey / nord de SF
+
+films indep > 100 millions $ de recette (gone with the wind)
+
+## Lucasfilm Computer Division
+
+motion blur
+
+Ed Catmull and Alvy Ray Smith
+
+pixar
+
+[NYIT](http://www.nyit.edu/), le New York Institute of technology
+
+## THX et le son des salles de cinéma
+
+## L'édition non linéaire (film et son)
+
+EditDroid : ![La console EditDroid]({{ site.url }}/images/ph_EditDroid.jpg)
+
+SoundDroid : ![Un screenshot de SoundDroid]({{ site.url }}/images/ph_SoundDroid.jpg)
+
+## Les jeux vidéos et Atari
 
 ## Ce que j'ai plus ou moins aimé
 
@@ -67,17 +90,6 @@ Des liens à retenir ou pour aller plus loin avec Michael Rubin :
 * [le blog de l'auteur](http://www.droidmaker.blogspot.fr/)
 * [le porfolio photo de l'auteur](http://www.byrubin.com/) (plutôt doué le gars)
 
-
-
-
-![La console EditDroid](/images/ph_EditDroid.jpg)
-
-![La console EditDroid]({{ site.url }}/images/ph_EditDroid.jpg)
-
-
-![Un screenshot de SoundDroid](/images/ph_SoundDroid.jpg)
-
-![Un screenshot de SoundDroid]({{ site.url }}/images/ph_SoundDroid.jpg)
 
 
 
