@@ -18,6 +18,6 @@ Travail en équipe, amélioration continue, remise en questions, curiosité, eff
 
 Quelques liens :
 
-* [mon site perso](http://perso.mines-albi.fr/~caruana/index.html)
-* [mon CV](http://perso.mines-albi.fr/~caruana/CV.html)
+* [mon site perso](http://jp.caruana.fr/)
+* [mon CV](http://jp.caruana.fr/CV.html)
 * [mon profil LinkedIn](https://www.linkedin.com/in/jpcaruana)
