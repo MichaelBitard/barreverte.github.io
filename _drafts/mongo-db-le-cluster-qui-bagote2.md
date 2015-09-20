@@ -2,9 +2,9 @@
 layout: post
 title: MongoDb le cluster qui bagote, la suite
 author:
-display_name: Bruno Thomas
-login: bruno
-email: bruno@barreverte.fr
+  display_name: Bruno Thomas
+  login: bruno
+  email: bruno@barreverte.fr
 categories:
 - agilité
 - nosql
@@ -16,7 +16,7 @@ tags:
 comments: true
 ---
 
-Avant d'avoir dépassé un an et un jour après la publication du [premier épisode](http://www.barreverte.fr/mongodb-le-cluster-qui-bagote/), nous reprenons où nous nous étions arrêtés : nous avons un test d'acceptance instable et nous avons acquis la certitude que le cluster mongo est soit mal configuré soit buggué.
+Avant d'avoir dépassé un an et un jour après la publication du [premier épisode](http://www.barreverte.fr/mongodb-le-cluster-qui-bagote/), nous reprenons où nous nous étions arrêtés : nous avons un test d'acceptance instable et nous avons acquis la certitude que le cluster mongo en est la cause. Soit il est mal configuré soit buggué.
 
 Dans nos précédentes investigations, nous sommes passés par la case logs, à savoir pour mongoDB, les syslogs, mais aussi les oplogs, les logs interne mongo, eux même dans la base `local`. Dans ces observations, nous avons vu des lignes qui nous ont interpelées :
 
@@ -42,7 +42,7 @@ Une suppression automatique... ahem... cela nous fait penser au Time To Live (TT
 ```
 db.conversations.createIndex( { "date": 1 }, { expireAfterSeconds: 3600*24*366 } )
 ```
-Nous devons conserver nos conversations pendant un an et un jour. Pour la durée de notre test, ça devrait aller... sauf... sauf que comme il s'agit d'un test de statistique, nous sommes en temps simulé. Or nous avons utilisé la date de l'écriture du test comme date de référence et cela date de plus d'un an. Du coup l'enregistrement est probablement supprimé par mongoDB.
+Nous devons conserver nos conversations pendant un an et un jour. Pour la durée de notre test, ça devrait aller... sauf... sauf que... comme il s'agit d'un test de statistique, nous sommes en temps simulé. Or nous avons utilisé la date de l'écriture du test comme date de référence et cela date de plus d'un an. Du coup l'enregistrement est probablement supprimé par mongoDB.
 
 Pour étayer cette hypothèse, nous changeons la date du temps de référence pour une date récente, et le test passe vert, *toujours*.
 
