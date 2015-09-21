@@ -69,3 +69,5 @@ Tout est clair maintenant, comme nous l'avions lancé en mode cluster **avant** 
 switched to db local
 > db.dropDatabase()
 ```
+
+Morale de l'histoire, une nouvelle fois nous voyons l'antipattern "il y a un bug dans la JVM (ici mongoDB)", alors que le problème se situe *entre la chaise et le clavier*.  
