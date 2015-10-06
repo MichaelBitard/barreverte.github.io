@@ -40,9 +40,9 @@ ExecStopPost=/usr/bin/docker rm -v mongo
 WantedBy=multi-user.target
 ````
 
-Cela démarre l'impage mongo en version 3.0.6, fait corresspondre le port 27017 du conteneur sur le même port de ma machine, et lance mongo avec le nouveau moteur Wired Tiger. Ensuite, à l'arrêt du service, le conteneur est entièrement détruit.
+Cela démarre l'image mongo en version 3.0.6, fait correspondre le port 27017 du conteneur sur le même port de ma machine, et lance mongo avec le nouveau moteur Wired Tiger. Ensuite, à l'arrêt du service, le conteneur est entièrement détruit.
 
-Pour démarrer le service, 2 options : 
+Pour démarrer le service, 2 options :
 
 - `sudo service mongo start`
 - `sudo systemctl start mongo.service`
@@ -55,4 +55,4 @@ Enfin, pour lancer ce mongo au démarrage de votre machine, il faut lui dire cec
 sudo systemctl enable mongo.service
 ````
 
-Voilà ! Rien de plus simple comme on peut le voir. Je vous laisse pour exercice la conversion pour un MySQL, un redis ou un Cassandra...
+Voilà ! Rien de plus simple comme on peut le voir. Je vous laisse pour exercice la conversion pour un MySQL, un redis, un Cassandra ou encore pour un système avec upstart ([indice](https://docs.docker.com/articles/host_integration/)).
