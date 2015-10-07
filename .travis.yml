@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+ - "2.2.3"
+install: gem install jekyll
+script: jekyll build
+notifications:
+  email:
+    recipients:
+      - blog@barreverte.fr
+    on_success: always
+    on_failure: always
