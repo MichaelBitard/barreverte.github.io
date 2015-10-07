@@ -40,7 +40,7 @@ ExecStopPost=/usr/bin/docker rm -v mongo
 WantedBy=multi-user.target
 ````
 
-Cela démarre l'image mongo en version 3.0.6, fait correspondre le port 27017 du conteneur sur le même port de ma machine, et lance mongo avec le nouveau moteur Wired Tiger. Ensuite, à l'arrêt du service, le conteneur est entièrement détruit.
+Cela démarre l'image mongo en version 3.0.6, fait correspondre le port 27017 du conteneur sur le même port de ma machine, et lance mongo avec le nouveau moteur Wired Tiger. Ensuite, à l'arrêt du service, le conteneur est entièrement détruit (les données de mongo aussi).
 
 Pour démarrer le service, 2 options :
 
