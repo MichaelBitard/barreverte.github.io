@@ -16,7 +16,14 @@ Cela m'est arrivé une nouvelle fois vendredi dernier. En regardant l'historique
 
 C'est le test d'un export de statistique en fichier CSV. [Sélénium](http://www.seleniumhq.org/) entre une date début et une date fin dans les champs d'un formulaire et clique sur le bouton exporter. Je suis le fil du code et j'arrive ici :
 
-{% gist bamthomas/b9213bd712d85aa4f3f6 %}
+````python
+def assert_dict_is_in_csv(exported_file_content, expected_line_dict):
+    lines = exported_file_content.rstrip('\r\n').split('\r\n')
+    for line in lines:
+        if all(['%s' % value in line for value in expected_line_dict.values()]):
+            return
+    raise AssertionError('%s not in file [%s]' % (expected_line_dict, lines))
+````
 
 OK, la ligne attendue (la variable `expected_line_dict` ci-dessus) est la suivante :
 

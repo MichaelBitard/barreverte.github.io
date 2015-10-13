@@ -27,7 +27,11 @@ Jekyll est un moteur de génération blog statique créé par (un ancien de chez
 
 Pour installer jekyll, une commande `gem` suffit. Ainsi, pour installer jekyll et créer le blog "from scratch" :
 
-{% gist jpcaruana/de5e0bc0702028dbaef5 %}
+````bash
+gem install jekyll
+jekyll new barreverte.github.io
+cd barreverte.github.io
+```
 
 Ensuite, la commande `jekyll serve` vous lance le site en local sur le port 4000 : puis vous ouvrez le lien http://0.0.0.0:4000/ pour voir votre blog en local.
 
@@ -50,8 +54,9 @@ Ici, le contenu de votre article, dans votre format préféré à choisir parmi 
 
 Si vous voulez travailler sur un brouillon, vous créez votre fichier dans le dossiers `_drafts` : ces fichiers ne sont pas publiés. Vous pouvez en revanche les lire avant publication en local en lançant jekyll avec l'option _drafts_ :
 
-{% gist jpcaruana/a1189baf4ff5976cc896 %}
-
+````bash
+jekyll serve --drafts --watch
+````
 
 L'option _watch_ ordonne à jekyll de surveiller le répertoire du site et de le regénérer à chaque changement de contenu.
 
@@ -72,20 +77,42 @@ Pour la migration depuis un Wordpress auto-hébergé, nous avons la possibilité
 
 Comme jekyll, __jekyll-migration__ est écrit en ruby. Il y a donc quelques gems à installer sur votre poste, en particulier la gem MySQL :
 
-{% gist jpcaruana/976f5ec53c95cc28df3e %}
+````bash
+gem install jekyll-import
+gem install mysql
+gem install mysql2
+gem install sequel
+gem install unidecode
+````
 
 Et c'est là que les choses se compliquent ! Je ne sais pas si vous êtes tous dans mon cas, mais j'ai toujours rencontré les pires difficultés pour installer la gem mysql. Ici, il y a même la gem mysql2... En tout cas, il faut que vous ayez de quoi parler MySQL depuis votre poste. Sous Ubuntu, il faut installer le paquet `libmysqlclient-dev` avant d'installer la gem mysql/mysql2.
 
 
 Ensuite, pensez à ouvrir le port MySQL vers votre machine. Avec iptable, cela s'écrit ainsi :
 
-{% gist jpcaruana/adffbcc485988cf60223 %}
+````
+-A INPUT -p tcp -m tcp -s VOTRE_IP --dport VOTRE_PORT_MYSQL -j ACCEPT
+````
 
 Je vous invite à tester la connexion vers le MySQL de votre blog depuis votre machine en utilisant le client mysql en local.
 
 Ensuite, il faut lancer une commande magique. La commande est magique, car la documentation n'est pas à jour, certaines options sont devenues obligatoires, d'autres ont carrément disparu. Je suis arrivé (de mémoire) à la commande suivante :
 
-{% gist jpcaruana/876be68091e11f4781ec %}
+````bash
+ruby -rubygems -e 'require "jekyll-import";
+    JekyllImport::Importers::WordPress.run({
+      "dbname"   => "blog",
+      "user"     => "votreUser",
+      "password" => "sonMotDePasseSecret",
+      "host"     => "votreServeur.com",
+      "table_prefix"   => "wp_",
+      "clean_entities" => true,
+      "comments"       => true,
+      "categories"     => true,
+      "tags"           => true,
+      "more_excerpt"   => true
+    })'
+````
 
 Tous vos articles sont présents ! Ils sont au format HTML ; vous attendrez d'écrire un nouvel article pour utiliser un langage de Markup plus simple, comme Markdown par exemple.
 
