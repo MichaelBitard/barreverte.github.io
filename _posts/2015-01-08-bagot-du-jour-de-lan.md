@@ -27,7 +27,7 @@ def assert_dict_is_in_csv(exported_file_content, expected_line_dict):
 
 OK, la ligne attendue (la variable `expected_line_dict` ci-dessus) est la suivante :
 
-````
+````python
 {'event': 'login', 'user': 'foo', 'parametre_metier': 4}
 ````
 
