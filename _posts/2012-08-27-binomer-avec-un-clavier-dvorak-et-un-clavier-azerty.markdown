@@ -66,25 +66,64 @@ Clavier Type Matrix 2030 dvorak</p>
 
 <p>Sous Linux, la commande <tt>setxkbmap</tt> permet de changer le mapping de son clavier. Ainsi, pour passer en Dvorak avec la composition pour les accents (3 touches pour écrire <tt>é</tt> : compose (le Alt de droite), apostrophe, e), il faut écrire :</p>
 
-{% gist jpcaruana/3314899 %}
+````
+setxkbmap dvorak en -option compose:ralt
+````
 
 <p>Après une période d'apprentissage, nous sommes assez contents, mais tout le monde n'est pas prêt ou n'a pas forcément envie de faire cet effort.</p>
 <p>Dans un premier temps, j'ai donc mappé sur le raccourci <tt>Windows + F5</tt> une commande de basculement dvorak/azerty. (NB: La touche Windows s'appelle Start sur mon clavier)</p>
 <p>J'utilise <a href="http://lxde.org/">LXDE</a> comme gestionnaire de fenêtres, un mapping se rajoute ainsi dans le fichier <tt>~/.config/openbox/lxde-rc.xml</tt> :</p>
 
-{% gist jpcaruana/3314957 %}
+````xml
+<keybind key="W-F5">
+    <action name="Execute">
+        <command>~/bin/switch_dv_fr</command>
+    </action>
+</keybind>
+````
 
 <p>Le script de bascule <tt>~/bin/switch_dv_fr</tt> est le suivant :</p>
 
-{% gist jpcaruana/3315019 %}
+````bash
+#!/bin/bash
+
+kbd=`setxkbmap -query | grep layout | awk '{print $2}'`
+
+if [ 'fr' = $kbd ]
+then 
+        notify-send 'Keyboard is now Dvorak'
+        setxkbmap dvorak en -option compose:ralt
+else
+        notify-send 'Keyboard is now French'
+        setxkbmap fr -option ""
+fi
+````
 
 <p>(<tt>notify-send</tt> permet d'afficher une notification dans Linux)</p>
 <p>Ce n'était toujours pas satisfaisant, car il fallait taper une combinaison de touches avant de se passer le clavier. Heuereusement, avec Linux il est possible d'avoir deux claviers branchés avec deux mappings différents. Le programme <tt>xinput</tt> permet de configurer les périphériques d'entrée. Pour obtenir la liste de tous les périphériques branchés sur sa machine, il suffit de taper <tt>xinput list</tt>. Chez moi cela donne :</p>
 
-{% gist jpcaruana/3315089 %}
+````
+⎡ Virtual core pointer                          id=2    [master pointer  (3)]
+⎜   ↳ Virtual core XTEST pointer                id=4    [slave  pointer  (2)]
+⎜   ↳ Logitech USB Optical Mouse                id=8    [slave  pointer  (2)]
+⎜   ↳ HID 046a:0023                             id=10   [slave  pointer  (2)]
+⎜   ↳ TypeMatrix.com USB Keyboard               id=13   [slave  pointer  (2)]
+⎣ Virtual core keyboard                         id=3    [master keyboard (2)]
+    ↳ Virtual core XTEST keyboard               id=5    [slave  keyboard (3)]
+    ↳ Power Button                              id=6    [slave  keyboard (3)]
+    ↳ Power Button                              id=7    [slave  keyboard (3)]
+    ↳ HID 046a:0023                             id=9    [slave  keyboard (3)]
+    ↳ Dell WMI hotkeys                          id=11   [slave  keyboard (3)]
+    ↳ TypeMatrix.com USB Keyboard               id=12   [slave  keyboard (3)]
+````
 
 <p>On constate que mon clavier Type Matrix possède l'identifiant 12 et mon autre clavier (un HID 046a:0023) le 9. Du coup, maintenant que je connais le nom de mes claviers, je peux trouver leurs identifiants et les passer à <tt>setxkbmap</tt> grâce à l'option <tt>--device</tt>. Le script final donne :</p>
 
-{% gist jpcaruana/3314811 %}
+````bash
+DVORAK=`xinput list | grep TypeMatrix | grep keyboard | sed 's/.*id=\([0-9]*\).*/\1/'`
+AZERTY=`xinput list | grep HID | grep keyboard | sed 's/.*id=\([0-9]*\).*/\1/'`
+setxkbmap -device $DVORAK dvorak -option compose:ralt
+setxkbmap -device $AZERTY fr -option ""
+````
 
 <p>Nous pouvons désormais binômer sur mon poste avec deux claviers différents !</p>

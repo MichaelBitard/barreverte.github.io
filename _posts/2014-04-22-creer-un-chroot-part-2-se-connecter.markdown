@@ -34,12 +34,41 @@ comments:
 ---
 <p>Dans un précédent <a href="/creer-un-chroot-part-1-un-linux-de-base">billet</a>, nous avons créé un linux de base. Son arborescence a maintenant besoin d'être rattachée à la machine sur laquelle elle va s'exécuter. Pour cela nous allons répliquer les pseudo-systèmes de fichier /dev /proc et /sys déjà présents sur la machine :</p>
 <ul>
-<ul>
 <li>/proc contient les infos sur les processus en train de tourner</li>
 <li>/sys contient des informations système sur comment créer les périphériques (numéros de séries...)</li>
 <li>/dev contient les fichiers d'accès aux périphériques eux-même (recréés dynamiquement par udev à chaque redémarage à partir des infos de /sys)</li>
 </ul>
-</ul>
-<p>Le fichier complet</p>
+<p>Le fichier complet :</p>
 
-{% gist bamthomas/11221780 %}
+````bash
+bindir=$(dirname $0)
+root_dir=$bindir/root_dir
+
+montePointsPourChroot() {
+  sudo echo -ne « mounting pseudo filesystems: »
+  for pseudo in dev proc sys
+  do
+    sudo mount –bind /$pseudo $root_dir/$pseudo
+    echo -ne  » $pseudo »
+  done
+  echo «  »
+}
+
+demontePointsPourChroot() {
+  echo -ne « unmounting pseudo filesystems: »
+  for pseudo in dev/pts proc sys dev
+  do
+    sudo umount -l $root_dir/$pseudo
+    echo -ne  » $pseudo »
+  done
+  echo «  »
+}
+
+montePointsPourChroot
+
+echo « /root/.bashrc va lancer $root_dir/init_chroot.sh »
+sudo su -c « chroot $root_dir /bin/bash »
+sudo su -c « chroot $root_dir /arrete_chroot.sh »
+
+demontePointsPourChroot
+````
