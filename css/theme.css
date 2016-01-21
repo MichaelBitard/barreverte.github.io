@@ -113,3 +113,27 @@ img.aligncenter {
     margin-left: auto;
     margin-right: auto;
 }
+
+@media print {
+    a, a:link {
+        text-decoration: none;
+        color: black;
+    }
+
+    #sidebar,
+    #navbar,
+    #footer {
+        display: none
+    }
+
+    .content {
+        width: 95%;
+        padding: 10px;
+        margin: 0;
+    }
+
+    header {
+        padding: 10px;
+    }
+}
+
