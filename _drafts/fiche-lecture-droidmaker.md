@@ -27,9 +27,9 @@ _DroidMaker: George Lucas and the Digital Revolution_ (quel titre !) écrit par 
 
 ## De quoi est-ce que ça parle ?
 
-_DroidMaker_ parle de la révolution **totale** amenée George Lucas (et Francis Ford Coppola) dans le cinema moderne. Je parle de révolution totale car 
+_DroidMaker_ parle de la révolution **totale** amenée George Lucas (et Francis Ford Coppola) dans le cinema moderne, le passage du monde des studios tout puissants (à l'ancienne) au cinéma moderne et indépendant (désormais _mainstream_). Où se situe cette révolution ? 
 
-* ne plus passer par le corporatisme des studios hollywoodiens
+* dans le passage d'un corporatisme des studios hollywoodiens et des syndicats à plus de liberté et de créativité
 * le réalisateur en maître tout puissant
 * la révolution des effets spéciaux réalistes, en particulier par ordinateur
 * les films entiérement générés par ordinateur (avec la création de Pixar et le premier long métrage 100% réalisé par ordinateur, Toy Story)
@@ -39,11 +39,13 @@ _DroidMaker_ parle de la révolution **totale** amenée George Lucas (et Francis
 C'est le rêve d'indépendance d'un petit réalisateur prêt à investir durablement pour se créer les outils dont il a besoin. C'est l'histoire d'un patron qui traite ses employés comme sa fammille, en leur laissant une autonomie incroyable, en leur faisant confiance.
 
 ## Cinéma
-On démarre avec Francis Coppola et George Lucas
+On démarre avec Francis Coppola et George Lucas qui se sont battus contre le système hollywoodien de l'époque. On y croise également leurs comparses de la côte Est, Steven Spielberg et Martin Scorcese. Tous ont participé à cette émancipation des studios hollywoodiens.
 
-sillicon valey / nord de SF
+Auparavant, la pression des syndicats était telle que non seulement il était impossible d'obtenir un poste sans recourir au piston (par son oncle déjà présent au studio par exemple), mais il fallait vraiment partir du bas de l'échelle avant de pouvoir obtenir un poste qui correspond plus à ses passions. Également, il était preque impossible de réaliser le moindre film sans avoir l'obligation d'engager toute une floppée d'assistants-réal ou chef-op, même pour un petit film. Le cinéma indépendant ne pouvait quasiment pas exister.
 
-films indep > 100 millions $ de recette (gone with the wind)
+Un aspect intéressant de la démarche de Coppola/Lucas, c'est d'avoir quitté la région de Los Angeles pour aller plus au nord, à San Francisco et la Sillicon Valley. On comprend bien que ce mouvement aura des conséquences sur leur façon d'aborder le cinéma et celo mènera à la création d'outils numériques inédits et à l'informatisation du cinéma.
+
+Tous ces réalisateurs ont pu obtenir leur indépendance (financière, puis artistique) en utilisant les studios existants, quitte à faire des oeuvres de commande (comme le Parrain !). Avec le succès est arrivé l'argent, et avec l'argent, un nouveau système a pu naître des cendres moribondes du cinéma hollywoodien de l'époque. Ainsi, ce sont les films de ces réalisateurs qui ont les premiers dépassé la barre symbolique des 100 millions de dollars de recette ; ceci n'était pas arrivé depuis Autant en emporte le vent, un film de 1939 !
 
 ## Lucasfilm Computer Division
 
@@ -57,11 +59,29 @@ pixar
 
 ## THX et le son des salles de cinéma
 
+J'ai été surpris d'apprendre que les salles de cinéma de l'époque (fin des années 1970) étaient dans un piteux état ; j'avais une image de l'âge d'or du cinéma et pensais que la technique avait suivi, mais il n'en n'éait en fait rien ! Les systémes de diffusion des images comme du son dataient souvent de 20 ou 30, dans un état d'entretien déplorable avec un son mauvais (haut parleurs perforés, gauche/droite inversé). Quand un réalisateur s'échine coeur et âme pour réaliser un film et qu'il le visualise dans une salle "normale", la déception était immense. On imagine George Lucas allez voir son Star Wars avec une image floue et mal éclairée, un son stéréo inversé dans lequel il manque toutes les basses ou les aigus, alors qu'il disposait chez lui d'une salle dernier cri pour pouvoir apprécier le travail de ses équipes.
+
+Il fallait prendre les choses en main, et George Lucas a travaillé énormément pour tirer vers le haut l'ensemble des salles de cinéma des États-Unis en proposant le label THX, quitte  à financer certaines lasse prestigieuses avec ses fonds propres.
+
+Aujourd'hui, d'immenses progrès ont été réalisés dans ce domaine, et c'est encore à George Lucas qu'on doit cela.
+
 ## L'édition non linéaire (film et son)
 
-EditDroid : ![La console EditDroid]({{ site.url }}/images/ph_EditDroid.jpg)
+Une grande partie du livre est consacrée à la création des logiciels de montage "non linéaires" dont Adobe Premiere ou Apple Final Cut pro sont aujourd'hui des hériters dans le domaine de l'image, ou Pro Tools dans le domaine du son. Cela a pris des années pour les équipes de la Lucasfilm Computer Division pour créer ces deux logiciels et métamorphoser complètement le montage d'un film ou l'enregistrement d'un album. Malgré un échec commercial, ils ont ouvert la voie à tous les logiciels qu'on utilise désormais dans ces milieux.
 
-SoundDroid : ![Un screenshot de SoundDroid]({{ site.url }}/images/ph_SoundDroid.jpg)
+Pour le montage d'un film, il fallait auparavant noter dans des carnets quelle portion de film (à l'image près) de quelle bobine il fallait physiquement *couper* puis *coller* pour faire le montage. Cela pouvait représenter des centaines de chiffes qu'il fallait noter consciencieusement et chaque monteur avait son propre système de notation. Il fallait ensuite synchroniser la piste son avec l'image pour que l'illusion du cinéma opère. Un travail de titan. Tout était noté à la main, il faillait chercher la bobine, la mettre dans le projecteur, noter les identifiants d'image, passer à la découpe, coller les images avec du scotch, recommencer. Pour chaque plan. Tous les films.
+
+Francis Coppola avait expérimenté une solution à base de vidéo. Les bandes vidéo sont beaucoup moins chères que les bandes 35mm utilisées dans le cinéma. L'idée était d'avoir plusieurs copies du film cinéma' d'essayer plusieurs montages pour choisir le meilleur pour ensuite réaliser le montage sur le film 35mm. Mais les différences de résolution (va vidéo a une trés faible résolution quand on la compare à la pellicule 35mm) mais surtout la différence du nombre d'images par secondes ont été fatales pour la création d'un tel outil.
+
+IL fallait donc pouvoir travailler de manière numérique. J'admire la vision exceptionnelle de ces chercheurs qui ont cru à l'augmentation exponetielle des capacités de stockage des ordinateurs (avec un prix en baisse) sans lequel il étati tout simplement impossible du numériser un film en entier et de le faire tenir sur un disque dur. Pendant longtemps, les équipe ont travaillé sur des LaserDisc. Il s'agissait de la même idée que pour la vidéo, à savoir avoir plusieurs copies du film pour accéder en temps réel à l'extrait que l'on désire, mais sans les soucis de difference du nombre d'images par seconde.
+
+Le produit qui en a résuté se nommait EditDroid. Voici une photo de la console de travail :
+
+![La console EditDroid]({{ site.url }}/images/ph_EditDroid.jpg)
+
+SoundDroid. Voici une impression d'écran de logiciel en cours de fonctionnement :
+
+![Un screenshot de SoundDroid]({{ site.url }}/images/ph_SoundDroid.jpg)
 
 ## Les jeux vidéos et Atari
 
@@ -78,7 +98,7 @@ J'ai plutôt bien aimé :
 
 J'ai plutot moins aimé :
 
-* certains chapitres un peu longs par rapport aux autres plus excitants (en particulier toute la partie sur New York)
+* certains chapitres un peu longs par rapport aux autres plus excitants (en particulier toute la partie sur New York est un peu rébarbative)
 * le tarif élevé (même d'occasion)
 
 ---
