@@ -1,7 +1,7 @@
 language: ruby
 rvm:
  - "2.2.3"
-install: gem install jekyll
+install: gem install jekyll --version 2.4
 script: jekyll build
 #notifications:
 #  email:
