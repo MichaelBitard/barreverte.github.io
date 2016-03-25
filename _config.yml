@@ -29,10 +29,11 @@ comments: true
 permalink: /:title
 paginate: 9
 
-highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+#highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
 
 exclude: ['README.md', 'LICENSE', '*.sh']
 encoding: utf-8
