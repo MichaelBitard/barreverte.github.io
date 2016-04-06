@@ -32,7 +32,8 @@ Au final, on peut alors se demander mais que va devenir le département IT ? [Ma
 
 ## Le lean et l'Obeya
 
-<a href="https://www.flickr.com/photos/31719094@N04/18344115044" title="IMGP0535 by bamthomas, sur Flickr"><img src="https://c2.staticflickr.com/4/3944/18344115044_5dc1007701.jpg" class="right" width="500" height="331"class="right" width="500" height="331" alt="IMGP0535"></a>
+<a href="https://www.flickr.com/photos/31719094@N04/18344115044" title="IMGP0535 by bamthomas, sur Flickr">
+<img src="https://c2.staticflickr.com/4/3944/18344115044_5dc1007701.jpg" class="right" width="500" height="331"></a>
 
 Une autre piste de dépassement de l'agile, qui était très présente dans les présentations l'année dernière, c'est le lean management. Cette année, Sandrine Olivencia et Régis Médina viennent nous parler d'[Obeya](http://fr.slideshare.net/operaepartners/lobeya-agile-france-2015).
 
