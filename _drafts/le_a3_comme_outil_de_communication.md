@@ -184,6 +184,11 @@ Notre A3 était loin d'être terminé, et nous ne savons pas si son début suit 
 
 Mais il a joué son rôle de média de communication entre notre perception opérationnelle de terrain et une vision tactique et stratégique (?) du management. 
 
+Que pensez-vous de la démarche ?
+Avez-vous déjà entrepris ce type d'action ?
+Avec quels outils, quels résultats ? 
+Qu'avez-vous appris ?
+
 # Postface
 
 Le produit est toujours en exploitation, il n'y a plus d'évolutions, les 3 ETP ont été réduits à 1 ETP : un des dévelopeurs fait la maintenance et tient la boutique. Le code a été amélioré. Le nombre de clients a continué d'augmenter (il y en a 350). Le nombre de chat a un peu augmenté suite à un autre pilote réalisé avec une grosse entreprise française, mais nous sommes encore loin de la cible du CA à 10K€.
