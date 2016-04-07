@@ -19,11 +19,11 @@ Afin de mieux comprendre la situation au moment où nous décidons de faire un A
 
 * `janvier 2012` : lancement du projet de chat par le marketing, nous sommes deux développeurs au départ
 * `février 2012` : nous sommes 4 puis assez vite 5, 6 devs sur le projet
-* `juillet 2012` : nous avons selon nous un MVP et nous proposons au PO/marketing de le tester avec des clients de confiance et dans la cible de clientèle. Le marketting refuse, car il n'y a pas suffisamment de fonctionnalités
+* `juillet 2012` : nous avons selon nous un MVP et nous proposons au PO/marketing de le tester avec des clients de confiance et dans la cible de clientèle. Le marketing refuse, car il n'y a pas suffisamment de fonctionnalités
 * `juin 2013` : commercialisation du produit
 * `début 2014` : pour améliorer les relations entre le PO et l'équipe, un proxy PO rejoint l'équipe. Il fait partie de l'équipe et travaille de manière étroite avec le PO
 * `début mars 2014` : rétrospective projet sur 2 jours avant changement de manager dans l'équipe marketing. Deux jours laborieux, avec des dissensions au sein même de l'équipe marketing. Les décisions prises ne seront pas suivies d'effets
-* `début 2015` : le nombre de client augmente régulièrement (~100) mais le nombre de *chats* reste faible (~1650/mois). Les retours clients sont plutôt bons sur l'ergonomie et le fonctionnement global de l'outil. La roadmap marketting prévoit de diminuer le nombre de "resources" sur le projet en passant de 5 à 3 ETP (Equivalent Temps Plein)
+* `début 2015` : le nombre de client augmente régulièrement (~100) mais le nombre de *chats* reste faible (~1650/mois). Les retours clients sont plutôt bons sur l'ergonomie et le fonctionnement global de l'outil. La roadmap marketing prévoit de diminuer le nombre de "resources" sur le projet en passant de 5 à 3 ETP (Equivalent Temps Plein)
 
 # Comprendre le problème
 
@@ -169,7 +169,8 @@ Nous avons compris qu'il y avait eu des désacords sur le ciblage de clientèle.
 * [n+3] indiquant qu'il voyait bien une stratégie reposant sur 2 pilliers : du développement interne pour le milieu de marché afin de maitriser les produits, défricher des marchés, et l'intégration de progiciels (Oracle, Cisco, ...) pour les grands comptes afin de rassurer les DSI
 * nous représentons un tout petit projet à l'échelle de l'entité
 * une contrainte réglementaire arrive 6 mois plus tard, du coup il ne faut pas compter sur une décision avant cette échéance
-* malgré une réduction du temps de présentation, nous avons encore été trop longs et interpellés par [N+4] pour presser le rythme. Nous comptions 20mn, rétrospectivement, je pense que la présentation même du A3 devait tenir en 10mn, peut-être moins. C'est un support, pas un but.
+* malgré une réduction du temps de présentation, nous avons encore été trop longs et interpellés par [N+4] pour presser le rythme. Nous comptions 20mn, rétrospectivement, je pense que la présentation même du A3 devait tenir en 10mn, peu
+t-être moins. C'est un support, pas un but.
 
 
 # Ce que nous avons appris
