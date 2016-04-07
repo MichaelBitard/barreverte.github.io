@@ -74,7 +74,7 @@ Nous prenons donc rendez-vous avec la partie marketing n+2, et avec notre n+3 pu
 * qu'il faut attendre de présenter le problème avant de donner le document car les personnes se plongent dans le A3 et n'écoutent plus
 * le manager côté marketing se sent remis en question. Il explique qu'il est au courant de cette situation et de ces chiffres. Certaines contre-mesures sont déjà prises : changement de nom (*NDLR : à ce jour il n'a toujours pas changé*), et "*coselling*" avec des *AdWords*. En somme les commerciaux vont vendre le *chat* avec une autre offre de *SEO* (*Search Engine Optimization*) chez google. Cela signifie que nous allons reproduire les mêmes effets délétères que ceux constatés auparavant : vendre le chat à des personnes n'en ayant pas besoin, ou approchées pour un autre produit. Cela produit les résultats qu'on connaît : augmentation du nombre de client, mais stagnation du nombre de chats, donc du CA
 * notre connaissance du problème nous permet de comprendre son point de vue, et de parler le ***même langage***
-* nous avons été trop longs
+* nous avons été trop longs lors de la présentation
 
 # L'entretien
 
@@ -169,6 +169,7 @@ Nous avons compris qu'il y avait eu des désacords sur le ciblage de clientèle.
 * [n+3] indiquant qu'il voyait bien une stratégie reposant sur 2 pilliers : du développement interne pour le milieu de marché afin de maitriser les produits, défricher des marchés, et l'intégration de progiciels (Oracle, Cisco, ...) pour les grands comptes afin de rassurer les DSI
 * nous représentons un tout petit projet à l'échelle de l'entité
 * une contrainte réglementaire arrive 6 mois plus tard, du coup il ne faut pas compter sur une décision avant cette échéance
+* malgré une réduction du temps de présentation, nous avons encore été trop longs et interpellés par [N+4] pour presser le rythme. Nous comptions 20mn, rétrospectivement, je pense que la présentation même du A3 devait tenir en 10mn, peut-être moins. C'est un support, pas un but.
 
 
 # Ce que nous avons appris
