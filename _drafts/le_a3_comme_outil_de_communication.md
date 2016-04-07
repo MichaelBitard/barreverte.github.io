@@ -135,7 +135,7 @@ Il encourage à faire le choix d'une certaine forme de vulnérabilité, car selo
 > 
 > Il est conseillé dans une démarche a3 vers le management de s'adresser à une personne pertinente (qui connaît le problème et qui a les leviers d'action), et de confiance.
 >
-> Les deux conditions me semblaient remplies. La pertinence car [marketing n+3] gère la roadmap produit, et [n+3] le budget. Vous êtes donc la première personne qui soit "au dessus de la mèlée".
+> Les deux conditions me semblaient remplies. La pertinence car [marketing n+3] gère la roadmap produit, et [n+3] le budget. Vous êtes donc la première personne qui soit "au dessus de la mêlée".
 > La confiance, par intuition.
 >
 > Comme j'ai vu que je n'aurais pas l'occasion de vous présenter le document, je voulais au moins l'envoyer.
@@ -175,7 +175,10 @@ Nous avons compris qu'il y avait eu des désacords sur le ciblage de clientèle.
 
 Faire un A3 demande beaucoup d'énergie et de persévérance. C'est une course d'endurance. Ce qui m'a aidé à aller jusqu'à l'entretien, de la même manière qu'on prépare un marathon, c'est de mettre en place des entraînements rituels (les rendez-vous avec un coach, les petits points seul le matin, alors que le bureau est calme, les binômages réguliers).
 
-Pour arriver à reccueillir les informations nécessaires à la représentation de notre problème, il a fallu faire entre 15 et 20 entretiens avec des personnes à qui nous ne parlions pas ou très peu : support produit, commerciaux, bizdev, marketing, management, et des personnes extérieures au projet voire à l'entreprise. Cette démarche est enrichissante car elle évite les réactions défensives de groupe, type "Eux v.s. Nous", et assure une prise de distance. Un peu comme si on voyait l'ouvrage vue d'avion.
+Pour arriver à reccueillir les informations nécessaires à la représentation de notre problème, il a fallu faire entre 15 et 20 entretiens avec des personnes à qui nous ne parlions pas ou très peu : support produit, commerciaux, bizdev, marketing, management, et des personnes extérieures au projet voire à l'entreprise. Cette démarche est enrichissante car elle évite les réactions défensives de groupe, type "Eux v.s. Nous", et assure une prise de distance. Un peu comme si on voyait l'ouvrage vue d'avion. Temporairement, ce travail autour du A3 aura mis en concert un ensemble de personnes qui n'avaient pas l'habitude de se cottoyer :
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="fr" dir="ltr">Le A3, c&#39;est + pour apprendre à travailler ensemble que pour le problęme lui meme. @BorisEveque <a href="https://twitter.com/hashtag/LeanSummitFR?src=hash">#LeanSummitFR</a></p>&mdash;  (@MPIgnace) <a href="https://twitter.com/MPIgnace/status/717996192592961537">April 7, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 C'est cette vision qui nous a donné l'énergie d'insister auprès de N+4. Sans le A3, au premier obstacle, nous aurions reculé. Nous avons aussi acquis les termes et finalités du management (sur notre domaine) : CA, croissance, équilibre budgétaire, modèle économique, modèle de facturation, marché... Une forme de langage nous permettant de comprendre et nous faire comprendre. 
 
