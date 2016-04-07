@@ -193,7 +193,7 @@ Qu'avez-vous appris ?
 
 # Postface
 
-Le produit est toujours en exploitation, il n'y a plus d'évolutions, les 3 ETP ont été réduits à 1 ETP : un des dévelopeurs fait la maintenance et tient la boutique. Le code a été amélioré. Le nombre de clients a continué d'augmenter (il y en a 350). Le nombre de chat a un peu augmenté suite à un autre pilote réalisé avec une grosse entreprise française, mais nous sommes encore loin de la cible du CA à 10K€.
+Le produit est toujours en exploitation, il n'y a plus que des petites évolutions, les 3 ETP ont été réduits à 1 ETP : un des dévelopeurs fait la maintenance et tient la boutique. Le code a été amélioré. Le nombre de clients a continué d'augmenter (il y en a 373). Le nombre de chat a un peu augmenté suite à un autre pilote réalisé avec une grosse entreprise française, il se situe autour de 4700, mais nous sommes encore loin de la cible du CA à 10K€.
 
 En ce qui me concerne, cette expérience a contribué à me faire prendre la décision de quitter l'entreprise quelque temps plus tard. Ce qui est bien sûr positif :)
 
