@@ -11,7 +11,7 @@ categories:
 - leanagile
 ---
 
-Il y a peu encore, je travaillais pour un groupe de télécom qui commercialise une offre de messagerie instantannée (ou *chat*) pour que les internautes puissent entrer en communication avec des conseillers. Il comprends une distribution des *chats* dans des files d'attentes, des outils d'aide pour les conseillers, des outils de supervision/administration.
+Il y a peu encore, je travaillais pour un groupe de télécom qui commercialise une offre de messagerie instantannée (ou *chat*) pour que les internautes puissent entrer en communication avec des conseillers. Il comprend une distribution des *chats* dans des files d'attentes, des outils d'aide pour les conseillers et des outils de supervision/administration.
 
 # Petite chronologie projet
 
@@ -19,7 +19,7 @@ Afin de mieux comprendre la situation au moment où nous décidons de faire un A
 
 * `janvier 2012` : lancement du projet de chat par le marketing, nous sommes deux développeurs au départ
 * `février 2012` : nous sommes 4 puis assez vite 5, 6 devs sur le projet
-* `juillet 2012` : nous avons selon nous un MVP et nous proposons au PO/marketing de le tester avec des clients de confiance et dans la cible de clientelle. Le marketting refuse, car il n'y a pas suffisemment de fonctionnalités
+* `juillet 2012` : nous avons selon nous un MVP et nous proposons au PO/marketing de le tester avec des clients de confiance et dans la cible de clientèle. Le marketting refuse, car il n'y a pas suffisamment de fonctionnalités
 * `juin 2013` : commercialisation du produit
 * `début 2014` : pour améliorer les relations entre le PO et l'équipe, un proxy PO rejoint l'équipe. Il fait partie de l'équipe et travaille de manière étroite avec le PO
 * `début mars 2014` : rétrospective projet sur 2 jours avant changement de manager dans l'équipe marketing. Deux jours laborieux, avec des dissensions au sein même de l'équipe marketing. Les décisions prises ne seront pas suivies d'effets
@@ -29,7 +29,7 @@ Afin de mieux comprendre la situation au moment où nous décidons de faire un A
 
 Dans l'équipe, nous redoutons que faute de Chiffre d'Affaire, nous enclenchions une spirale infernale :
 
-![spirale](images/spirale_neko.jpg)
+![spirale](/images/spirale_neko.jpg)
 
 Je décide alors d'utiliser un [A3, un outil lean](http://fr.slideshare.net/operaepartners/a3-driven-problem-solving), pour comprendre le problème du nombre de *chats* demeurant faible (le CA est proportionnel puisque nous sommes payés au *chat*). Comme son nom l'indique le A3 c'est une feuille A3 recto sur laquelle est décrit de manière objective et synthétique un problème :
 
@@ -43,11 +43,11 @@ Je décide alors d'utiliser un [A3, un outil lean](http://fr.slideshare.net/oper
 
 Je me fais aider de l'équipe, en binômant régulièrement avec chaque personne, et en proposant des réunion courtes de brainstorming à plusieurs. Je vois un coach chaque semaine pour faire le point de la semaine écoulée et prévoir les actions à mener pour la suivante. Il me donne un cadre théorique, des réflexions et me motive pour continuer cette tâche.
 
-![séance de travail](images/a3_bureau.jpg)
+![séance de travail](/images/a3_bureau.jpg)
 
 Je travaille 2 mois sur ce A3. Avec mon coach, nous choisissons de le faire de manière manuscrite et utilisons la technique des collages successifs pour faire évoluer les différentes parties du document.
 
-![séance de travail](images/a3.png){:height="480px" width="600px"}
+![séance de travail](/images/a3.png){:height="480px" width="600px"}
 
 
 # Remonter le problème
@@ -55,12 +55,12 @@ Je travaille 2 mois sur ce A3. Avec mon coach, nous choisissons de le faire de m
 Nous devenons peu à peu experts de ce problème. Nous comprenons rapidement que les leviers de décision sont en dehors de notre sphère d'influence : notre management "proche" (n+1, n+2) ne peut pas prendre les décisions qui permettraient de tester nos hypothèses. Mon coach lean m'indique que dans le cadre d'une démarche A3 de remontée de problème au management, deux choses sont à prendre en considération pour choisir la bonne personne :
 
 > elle doit comprendre le problème et avoir les leviers d'action pour le suivre
->
+
 > elle doit être de confiance
 
 Dans notre cas, il faut remonter à notre N+3 pour avoir la personne qui gère le budget de développement du *chat*. Mais c'est l'entité marketing, celle de notre *product owner*, qui a la responsabilité de la roadmap :
 
-![hierarchie](images/hierarchie_mgmt.jpg)
+![hierarchie](/images/hierarchie_mgmt.jpg)
 
 Cela signifie que si nous voulons rencontrer un manager qui a **tous** les leviers d'action, il faut remonter jusqu'à notre n+4. C'est une personne qui gère un CA de 150M€ et 2500 personnes. Son temps est précieux et notre problème à 3M€ semble sous-dimentionné. Nous décidons d'aller au bout de cette démarche. Un binôme de l'équipe présentera le A3. Notre management proche nous indique qu'il soutiendra cette démarche, mais il est sceptique sur son résultat, et nous demande de faire tous les échelons avant de solliciter un entretien avec notre n+4 afin de :
 
@@ -72,7 +72,7 @@ Bonne idée ! Cela nous permettra de compléter notre A3 avec des éléments nou
 Nous prenons donc rendez-vous avec la partie marketing n+2, et avec notre n+3 puisque nous tenons régulièrement informés nos deux managers directs. Nous constatons lors de cet entretien préparatoire :
 
 * qu'il faut attendre de présenter le problème avant de donner le document car les personnes se plongent dans le A3 et n'écoutent plus
-* le manager côté marketing se sent remis en question. Il explique qu'il est au courant de cette situation et de ces chiffres. Certaines contre-mesures sont déjà prises : changement de nom (*NDLR : à ce jour il n'a toujours pas changé*), et "*coselling*" avec des *AdWords*. En somme les commerciaux vont vendre le *chat* avec une autre offre de *SEO* (*Search Engine Optimization*) chez google. Cela signifie que nous allons reproduire les mêmes effets délétères que ceux constatés auparavant : vendre le chat à des personnes n'en ayant pas besoin, ou approchées pour un autre produit. Cela produit les résultats qu'on connaît : augmentation du nombre de client, mais stagnation du nombre de chats, donc du CA
+* le manager côté marketing se sent remis en question. Il explique qu'il est au courant de cette situation et de ces chiffres. Certaines contre-mesures sont déjà prises : changement de nom (*NDLR : à ce jour il n'a toujours pas changé*), et "*coselling*" avec des *AdWords*. En somme les commerciaux vont vendre le *chat* avec une autre offre de *SEO* (*Search Engine Optimization*) chez google. Cela signifie que nous allons reproduire les mêmes effets délétères que ceux constatés auparavant : vendre le chat à des personnes n'en ayant pas besoin, ou approchées pour un autre produit. Cela produit les résultats qu'on connaît : augmentation du nombre de clients, mais stagnation du nombre de chats, donc du CA
 * notre connaissance du problème nous permet de comprendre son point de vue, et de parler le ***même langage***
 * nous avons été trop longs lors de la présentation
 
@@ -90,7 +90,7 @@ A présent, il faut arriver à obtenir un entretien avec ce manager très occup�
 >
 > Nous avons le sentiment que le produit apporte de la valeur, d'autant plus que les secteurs relation client et web sont au coeur de la stratégie du groupe.
 >
-> Nous avons voulu étayer cette intuition à l'aide d'un outil lean de centré sur la résolution de problème : le A3 (http://a3thinking.com/).
+> Nous avons voulu étayer cette intuition à l'aide d'un outil lean de centré sur la résolution de problème : le A3 ([a3thinking.com](http://a3thinking.com/)).
 >
 > Nous pensons que ces remontées terrain peuvent vous intéresser, et éclairer des décisions dont nous n'avons pas les prérogatives. Le cas échéant, j'aurais besoin de vingt minutes pour vous communiquer ce document et l'expliquer.
 >
@@ -104,7 +104,7 @@ La réponse arrive le lendemain :
 >  Je transfère votre mail à [n+2 marketing] qui pilote l'offre ainsi qu'à [n+3 marketing] car je pense effectivement ces remontées intéressantes.
 > Suis preneuse [n+2 marketing], [n+3 marketing] de vos retours.
 
-Donc retour vers les personnes que nous avons déjà vu, et qui n'ont pas tous les leviers décisionnels. A ce stade, nous n'avons plus rien à perdre, et surtout [n+4] n'a pas vu le doc. Forts de notre expérience acquise grâce au A3, nous savons aussi que la motivation de départ n'était pas le groupe. Nous voulons au moins nous donner la chance qu'elle le voie :
+Donc retour vers les personnes que nous avons déjà vues, et qui n'ont pas tous les leviers décisionnels. A ce stade, nous n'avons plus rien à perdre, et surtout [n+4] n'a pas vu le doc. Forts de notre expérience acquise grâce au A3, nous savons aussi que la motivation de départ n'était pas le groupe. Nous voulons au moins nous donner la chance qu'elle le voie :
 
 
 > > La solution dont vous parlez, je vois bien son intérêt et son lien direct avec notre stratégie [...]
