@@ -125,7 +125,7 @@ C'est tout. Nous nous demandons un moment ce que ce point d'interrogation signif
 
 A cette époque, je suis en train de lire [Never Eat Alone](http://keithferrazzi.com/products/never-eat-alone/) et dans le chapitre 17 consacré aux "*Small talks*" Keith Ferrazzi nous dit :
 
-> la première chose que les experts en conversation ont tendence à faire c'est d'établir des règles sur ce qui peut être, ou ne peut être dit. Ils prétendent que la première fois que vous rencontrez une personne vous devriez éviter les sujets déplaisants, trop personnels ou controversés.
+> la première chose que les experts en conversation ont tendance à faire c'est d'établir des règles sur ce qui peut être, ou ne peut être dit. Ils prétendent que la première fois que vous rencontrez une personne vous devriez éviter les sujets déplaisants, trop personnels ou controversés.
 > 
 > Faux! N'écoutez pas ces gens!
 
@@ -169,8 +169,7 @@ Nous avons compris qu'il y avait eu des désacords sur le ciblage de clientèle.
 * [n+3] indiquant qu'il voyait bien une stratégie reposant sur 2 pilliers : du développement interne pour le milieu de marché afin de maitriser les produits, défricher des marchés, et l'intégration de progiciels (Oracle, Cisco, ...) pour les grands comptes afin de rassurer les DSI
 * nous représentons un tout petit projet à l'échelle de l'entité
 * une contrainte réglementaire arrive 6 mois plus tard, du coup il ne faut pas compter sur une décision avant cette échéance
-* malgré une réduction du temps de présentation, nous avons encore été trop longs et interpellés par [N+4] pour presser le rythme. Nous comptions 20mn, rétrospectivement, je pense que la présentation même du A3 devait tenir en 10mn, peu
-t-être moins. C'est un support, pas un but.
+* malgré une réduction du temps de présentation, nous avons encore été trop longs et interpellés par [N+4] pour presser le rythme. Nous comptions 20mn, rétrospectivement, je pense que la présentation même du A3 devait tenir en 10mn, peut-être moins. C'est un support, pas un but.
 
 
 # Ce que nous avons appris
