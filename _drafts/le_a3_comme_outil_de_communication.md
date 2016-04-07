@@ -174,7 +174,7 @@ Nous avons compris qu'il y avait eu des désacords sur le ciblage de clientèle.
 
 # Ce que nous avons appris
 
-Faire un A3 demande beaucoup d'énergie et de persévérance. C'est une course d'endurance. Ce qui m'a aidé à aller au bout, de la même manière qu'on prépare un marathon, c'est de mettre en place des entraînements rituels (les rendez-vous avec un coach, les petits points seul le matin, alors que le bureau est calme, les binômages réguliers).
+Faire un A3 demande beaucoup d'énergie et de persévérance. C'est une course d'endurance. Ce qui m'a aidé à aller jusqu'à l'entretien, de la même manière qu'on prépare un marathon, c'est de mettre en place des entraînements rituels (les rendez-vous avec un coach, les petits points seul le matin, alors que le bureau est calme, les binômages réguliers).
 
 Pour arriver à reccueillir les informations nécessaires à la représentation de notre problème, il a fallu faire entre 15 et 20 entretiens avec des personnes à qui nous ne parlions pas ou très peu : support produit, commerciaux, bizdev, marketing, management, et des personnes extérieures au projet voire à l'entreprise. Cette démarche est enrichissante car elle évite les réactions défensives de groupe, type "Eux v.s. Nous", et assure une prise de distance. Un peu comme si on voyait l'ouvrage vue d'avion.
 
