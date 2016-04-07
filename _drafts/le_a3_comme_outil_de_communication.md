@@ -92,8 +92,7 @@ A présent, il faut arriver à obtenir un entretien avec ce manager très occup�
 >
 > Nous avons voulu étayer cette intuition à l'aide d'un outil lean de centré sur la résolution de problème : le A3 (http://a3thinking.com/).
 >
-> Nous pensons que ces remontées terrain peuvent vous intéresser, et éclairer des décisions dont nous n'avons pas les prérogatives. Le cas
-échéant, j'aurais besoin de vingt minutes pour vous communiquer ce document et l'expliquer.
+> Nous pensons que ces remontées terrain peuvent vous intéresser, et éclairer des décisions dont nous n'avons pas les prérogatives. Le cas échéant, j'aurais besoin de vingt minutes pour vous communiquer ce document et l'expliquer.
 >
 > Bien à vous,
 
@@ -164,7 +163,7 @@ Nous lui avons renvoyé le A3 et avons finalement obtenu un rendez-vous.
 
 A 9h du matin à son étage, il a une réunion une demi-heure plus tard, il faut décider "GO/NO-GO" pour le projet. Nous refaisons la présentation du A3. Nous attendions qu'il nous explique (ou rappelle pour les autres managers présents) la stratégie du groupe à moyen/long terme, et replace le projet dans cette perspective afin de décider sur des bases concrètes si il s'inscrivait dans ce futur. Finalement il a demandé aux managers qui étaient présents ([marketing n+2/n+3] et [n+3]) ce qu'ils en pensaient.
 
-Nous avons compris qu'il y avait eu des désacords sur le ciblage de clientèle. Et puis, [n+4] a du partir pour sa réunion, et nous n'avons plus compris le langage employé. Pour ma part, je pense que c'était une forme prononcée de "***galimatias doré***" comme disait mon grand-père. Nous avons cependant compris les choses suivantes :
+Nous avons compris qu'il y avait eu des désacords sur le ciblage de clientèle. Et puis, [n+4] a du partir pour sa réunion, et nous n'avons plus compris le langage employé. Pour ma part, je pense que c'était une forme prononcée de "***galimatias doré***" comme disait mon grand-père. Nous avons cependant appris les choses suivantes :
 
 * [marketing n+2] disant dans sa barbe et le brouhaha "peut-être nous-sommes nous trompés ?"
 * [n+3] indiquant qu'il voyait bien une stratégie reposant sur 2 pilliers : du développement interne pour le milieu de marché afin de maitriser les produits, défricher des marchés, et l'intégration de progiciels (Oracle, Cisco, ...) pour les grands comptes afin de rassurer les DSI
@@ -178,11 +177,11 @@ Faire un A3 demande beaucoup d'énergie et de persévérance. C'est une course d
 
 Pour arriver à reccueillir les informations nécessaires à la représentation de notre problème, il a fallu faire entre 15 et 20 entretiens avec des personnes à qui nous ne parlions pas ou très peu : support produit, commerciaux, bizdev, marketing, management, et des personnes extérieures au projet voire à l'entreprise. Cette démarche est enrichissante car elle évite les réactions défensives de groupe, type "Eux v.s. Nous", et assure une prise de distance. Un peu comme si on voyait l'ouvrage vue d'avion.
 
-C'est cette vision qui nous a donné l'énergie d'insister auprès de N+4. Sans le A3, au premier obstacle, nous aurions reculé. Nous avons aussi acquis les termes et finalités du management (sur notre domaine) : CA, croissance, équilibre, modèle économique, modèle de facturation, marché... Une forme de langage nous permettant de comprendre et nous faire comprendre. 
+C'est cette vision qui nous a donné l'énergie d'insister auprès de N+4. Sans le A3, au premier obstacle, nous aurions reculé. Nous avons aussi acquis les termes et finalités du management (sur notre domaine) : CA, croissance, équilibre budgétaire, modèle économique, modèle de facturation, marché... Une forme de langage nous permettant de comprendre et nous faire comprendre. 
 
-Notre A3 était loin d'être terminé, et nous ne savons pas si son début suit vraiment l'orthodoxie de la méthode lean. Nous avons essayé par la suite de l'utiliser pour faire un suivi des actions en comité de pilotage. Les points sont restés en suspens pendant longtemps, ils doivent toujours l'être. Il semble être nécessaire d'avoir un appui managerial pour aborder la partie "contre-mesures". 
+Notre A3 était loin d'être terminé, et nous ne savons pas si son début respecte vraiment l'orthodoxie de la méthode lean. Nous avons essayé par la suite de l'utiliser pour faire un suivi des actions en comité de pilotage. Les points sont restés en suspens pendant longtemps, ils doivent toujours l'être. Il semble être nécessaire d'avoir un appui managerial pour aborder la partie "contre-mesures". 
 
-Mais il a joué son rôle de média de communication entre notre perception opérationnelle de terrain et une vision tactique et stratégique (?) du management. 
+Mais il a joué son rôle de média de communication entre notre perception opérationnelle de terrain et la vision tactique et stratégique du management. 
 
 Que pensez-vous de la démarche ?
 Avez-vous déjà entrepris ce type d'action ?
