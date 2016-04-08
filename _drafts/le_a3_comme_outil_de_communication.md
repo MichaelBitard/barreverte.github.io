@@ -11,7 +11,7 @@ categories:
 - leanagile
 ---
 
-Il y a peu encore, je travaillais pour un groupe de télécom qui commercialise une offre de messagerie instantannée (ou *chat*) pour que les internautes puissent entrer en communication avec des conseillers. Il comprend une distribution des *chats* dans des files d'attentes, des outils d'aide pour les conseillers et des outils de supervision/administration.
+Il y a peu encore, je travaillais pour un groupe de télécom qui commercialise une messagerie instantanée d'entreprise permettant aux internautes de communiquer avec le service client depuis un site web. Il comprend une distribution des *chats* dans des files d'attentes, des outils d'aide pour les conseillers et des outils de supervision/administration.
 
 # Petite chronologie projet
 
@@ -23,6 +23,7 @@ Afin de mieux comprendre la décision de faire un A3, faisons une petit éclaira
 * `juin 2013` : commercialisation du produit
 * `début 2014` : pour améliorer les relations entre le PO et l'équipe, un proxy PO rejoint l'équipe. Il fait partie de l'équipe et travaille de manière étroite avec le PO
 * `début mars 2014` : rétrospective projet sur 2 jours avant changement de manager dans l'équipe marketing. Deux jours laborieux, avec des dissensions au sein même de l'équipe marketing. Les décisions prises ne seront pas suivies d'effets
+* `fin 2014` : notre PO nous indique qu'il faudrait atteindre 10K€/mois en juillet 2015 pour qu'il considère que nous avons réussi
 * `début 2015` : le nombre de client augmente régulièrement (~100) mais le nombre de *chats* reste faible (~1650/mois). Les retours clients sont plutôt bons sur l'ergonomie et le fonctionnement global de l'outil. La roadmap marketing prévoit de diminuer le nombre de "resources" sur le projet en passant de 5 à 3 ETP (Equivalent Temps Plein)
 
 # Comprendre le problème
@@ -52,24 +53,24 @@ Je travaille deux mois sur ce A3. Avec mon coach, nous choisissons de le faire d
 
 # Remonter le problème
 
-Nous devenons peu à peu experts de ce problème. Nous comprenons rapidement que les leviers de décision sont en dehors de notre sphère d'influence : notre management "proche" (n+1, n+2) ne peut pas prendre les décisions qui permettraient de tester nos hypothèses. Mon coach Lean m'indique que dans le cadre d'une démarche A3 de remontée de problème au management, deux choses sont à prendre en considération pour choisir la bonne personne :
+Nous devenons peu à peu experts de ce problème. Nous comprenons rapidement que les leviers de décision sont en dehors de notre sphère d'influence : Didier, Gennifer, notre management "proche" (*NDLR les noms ont été changés*) ne peut pas prendre les décisions qui permettraient de tester nos hypothèses. Mon coach Lean m'indique que dans le cadre d'une démarche A3 de remontée de problème au management, deux choses sont à prendre en considération pour choisir la bonne personne :
 
 > elle doit comprendre le problème et avoir les leviers d'action pour le suivre
 
 > elle doit être de confiance
 
-Dans notre cas, il faut remonter à notre N+3 pour avoir la personne qui gère le budget de développement du *chat*. Mais c'est l'entité marketing, celle de notre *product owner*, qui a la responsabilité de la roadmap :
+Dans notre cas, il faut remonter à Jacques pour avoir la personne qui gère le budget de développement du *chat*. Mais c'est l'entité marketing, celle de notre *product owner*, qui a la responsabilité de la roadmap :
 
 ![hierarchie](/images/hierarchie_mgmt.jpg)
 
-Cela signifie que si nous voulons rencontrer un manager qui a **tous** les leviers d'action, il faut remonter jusqu'à notre n+4. C'est une personne qui gère un CA de 150M€ et 2500 personnes. Son temps est précieux et notre problème à 3M€ semble sous-dimentionné. Nous décidons d'aller au bout de cette démarche. Un binôme de l'équipe présentera le A3. Notre management proche nous indique qu'il soutiendra cette démarche, mais il est sceptique sur son résultat, et nous demande de faire tous les échelons avant de solliciter un entretien avec notre n+4 afin de :
+Cela signifie que si nous voulons rencontrer un manager qui a **tous** les leviers d'action, il faut remonter jusqu'à Brice. C'est une personne qui gère un CA de 150M€ et 2500 personnes. Son temps est précieux et notre problème à 3M€ semble sous-dimentionné. Nous décidons d'aller au bout de cette démarche. Un binôme de l'équipe présentera le A3. Notre management proche nous indique qu'il soutiendra cette démarche, mais il est sceptique sur son résultat, et nous demande de faire tous les échelons avant de solliciter un entretien avec Brice afin de :
 
 * ne pas heurter un manager intermédiaire qui pourrait mal prendre une escalade
 * consolider toutes les informations avant de présenter une synthèse au grand manager
 
 Bonne idée ! Cela nous permettra de compléter notre A3 avec des éléments nouveaux et de faire une répétition générale (nous répétons déjà devant d'autres personnes).
 
-Nous prenons donc rendez-vous avec la partie marketing n+2, et avec notre n+3 puisque nous tenons régulièrement informés nos deux managers directs. Nous constatons lors de cet entretien préparatoire :
+Nous prenons donc rendez-vous avec Sylvia et Jacques puisque nous tenons régulièrement informés nos deux managers directs. Nous constatons lors de cet entretien préparatoire :
 
 * qu'il faut attendre de présenter le problème avant de donner le document car les personnes se plongent dans le A3 et n'écoutent plus
 * le manager côté marketing se sent remis en question. Il explique qu'il est au courant de cette situation et de ces chiffres. Certaines contre-mesures sont déjà prises : changement de nom (*NDLR : à ce jour il n'a toujours pas changé*), et "*coselling*" avec des *AdWords*. En somme les commerciaux vont vendre le *chat* avec une autre offre de *SEO* (*Search Engine Optimization*) chez google. Cela signifie que nous allons reproduire les mêmes effets délétères que ceux constatés auparavant : vendre le chat à des personnes n'en ayant pas besoin, ou approchées pour un autre produit. Cela produit les résultats qu'on connaît : augmentation du nombre de clients, mais stagnation du nombre de chats, donc du CA
@@ -80,7 +81,7 @@ Nous prenons donc rendez-vous avec la partie marketing n+2, et avec notre n+3 pu
 
 ## Une prise de contact par mail
 
-A présent, il faut arriver à obtenir un entretien avec ce manager très occupé. Je fais un brouillon, le fais relire par chaque personne de l'équipe, et j'intègre les remarques. L'objectif que nous nous fixons est d'être succint et susciter la curiosité. Nous envoyons le message suivant sans le document :
+A présent, il faut arriver à obtenir un entretien avec ce manager très occupé. Je fais un brouillon, le fais relire par chaque personne de l'équipe, et j'intègre les remarques. L'objectif que nous nous fixons est d'être succinct et susciter la curiosité. Nous envoyons le message suivant sans le document :
 
 > Bonjour,
 >
@@ -101,10 +102,10 @@ La réponse arrive le lendemain :
 > [...]
 > La solution dont vous parlez, je vois bien son intérêt et son lien direct avec notre stratégie néanmoins nous avons été incapable de la vendre à notre plus gros client : le Groupe - qui l'a testée mais a préféré une autre.
 >
->  Je transfère votre mail à [n+2 marketing] qui pilote l'offre ainsi qu'à [n+3 marketing] car je pense effectivement ces remontées intéressantes.
-> Suis preneuse [n+2 marketing], [n+3 marketing] de vos retours.
+>  Je transfère votre mail à Sylvia qui pilote l'offre ainsi qu'à Oscar car je pense effectivement ces remontées intéressantes.
+> Suis preneuse Sylvia, Oscar vos retours.
 
-Donc retour vers les personnes que nous avons déjà vues, et qui n'ont pas tous les leviers décisionnels. À ce stade, nous n'avons plus rien à perdre, et surtout [n+4] n'a pas vu le document. Forts de notre expérience acquise grâce au A3, nous savons aussi que la motivation de départ n'était pas le groupe. Nous voulons au moins nous donner la chance qu'elle le voie :
+Donc retour vers les personnes que nous avons déjà vues, et qui n'ont pas tous les leviers décisionnels. À ce stade, nous n'avons plus rien à perdre, et surtout Brice n'a pas vu le document. Forts de notre expérience acquise grâce au A3, nous savons aussi que la motivation de départ n'était pas le groupe. Nous voulons au moins nous donner la chance qu'elle le voie :
 
 
 > > La solution dont vous parlez, je vois bien son intérêt et son lien direct avec notre stratégie [...]
@@ -113,7 +114,7 @@ Donc retour vers les personnes que nous avons déjà vues, et qui n'ont pas tous
 > 
 > > Je transfère votre mail [...]
 > 
-> J'ai montré ce A3 à [n+2 marketing] et [n+3]. Je voulais constater l'alignement stratégique autour de ce produit pour savoir où nous allons. Cette direction a des impacts directs sur les développements en cours, et sur l'efficacité de l'équipe.
+> J'ai montré ce A3 à Sylvia et Jacques. Je voulais constater l'alignement stratégique autour de ce produit pour savoir où nous allons. Cette direction a des impacts directs sur les développements en cours, et sur l'efficacité de l'équipe.
 > 
 > Je vous joins le document au format électronique, si vous avez des questions, je suis à votre disposition.
 
@@ -129,13 +130,13 @@ A cette époque, je suis en train de lire [Never Eat Alone](http://keithferrazzi
 > 
 > Faux! N'écoutez pas ces gens!
 
-Il encourage à faire le choix d'une certaine forme de vulnérabilité, car selon lui, il y a bien plus d'avantages à partager de l'information qu'à la dissimuler, même si cela représente un risque. Alors nous suivons ses conseils, et répondons à [N+4] :
+Il encourage à faire le choix d'une certaine forme de vulnérabilité, car selon lui, il y a bien plus d'avantages à partager de l'information qu'à la dissimuler, même si cela représente un risque. Alors nous suivons ses conseils, et répondons à Brice :
 
 > > ?
 > 
 > Il est conseillé dans une démarche a3 vers le management de s'adresser à une personne pertinente (qui connaît le problème et qui a les leviers d'action), et de confiance.
 >
-> Les deux conditions me semblaient remplies. La pertinence car [marketing n+3] gère la roadmap produit, et [n+3] le budget. Vous êtes donc la première personne qui soit "au dessus de la mêlée".
+> Les deux conditions me semblaient remplies. La pertinence car Oscar gère la roadmap produit, et Jacques le budget. Vous êtes donc la première personne qui soit "au dessus de la mêlée".
 > La confiance, par intuition.
 >
 > Comme j'ai vu que je n'aurais pas l'occasion de vous présenter le document, je voulais au moins l'envoyer.
@@ -161,15 +162,15 @@ Nous lui avons renvoyé le A3 et avons finalement obtenu un rendez-vous.
 
 ## La réunion
 
-A 9h du matin à son étage, il a une réunion une demi-heure plus tard, il faut décider "GO/NO-GO" pour le projet. Nous refaisons la présentation du A3. Nous attendions qu'il nous explique (ou rappelle pour les autres managers présents) la stratégie du groupe à moyen/long terme, et replace le projet dans cette perspective afin de décider sur des bases concrètes s'il s'inscrivait dans ce futur. Finalement il a demandé aux managers qui étaient présents ([marketing n+2/n+3] et [n+3]) ce qu'ils en pensaient.
+A 9h du matin à son étage, il a une réunion une demi-heure plus tard, il faut décider "GO/NO-GO" pour le projet. Nous refaisons la présentation du A3. Nous attendions qu'il nous explique (ou rappelle pour les autres managers présents) la stratégie du groupe à moyen/long terme, et replace le projet dans cette perspective afin de décider sur des bases concrètes s'il s'inscrivait dans ce futur. Finalement il a demandé aux managers qui étaient présents (Sylvia, Oscar et Jacques) ce qu'ils en pensaient.
 
-Nous avons compris qu'il y avait eu des désaccords sur le ciblage de clientèle. Et puis, [n+4] a dû partir pour sa réunion, et nous n'avons plus compris le langage employé. Pour ma part, je pense que c'était une forme prononcée de "***galimatias doré***" comme disait mon grand-père. Nous avons cependant appris les choses suivantes :
+Nous avons compris qu'il y avait eu des désaccords sur le ciblage de clientèle. Et puis, Brice a dû partir pour sa réunion, et nous n'avons plus compris le langage employé. Pour ma part, je pense que c'était une forme prononcée de "***galimatias doré***" comme disait mon grand-père. Nous avons cependant appris les choses suivantes :
 
-* [marketing n+2] disant dans sa barbe et le brouhaha "peut-être nous-sommes nous trompés ?"
-* [n+3] indiquant qu'il voyait bien une stratégie reposant sur 2 piliers : du développement interne pour le milieu de marché afin de maitriser les produits, défricher des marchés, et l'intégration de progiciels (Oracle, Cisco, ...) pour les grands comptes afin de rassurer les DSI
+* Sylvia disant dans sa barbe et le brouhaha "peut-être nous-sommes nous trompés ?"
+* Jacques indiquant qu'il voyait bien une stratégie reposant sur 2 piliers : du développement interne pour le milieu de marché afin de maitriser les produits, défricher des marchés, et l'intégration de progiciels (Oracle, Cisco, ...) pour les grands comptes afin de rassurer les DSI
 * nous représentons un tout petit projet à l'échelle de l'entité
 * une contrainte réglementaire arrive 6 mois plus tard, du coup il ne faut pas compter sur une décision avant cette échéance
-* malgré une réduction du temps de présentation, nous avons encore été trop longs et interpellés par [N+4] pour presser le rythme. Nous comptions 20mn, rétrospectivement, je pense que la présentation même du A3 devait tenir en 10mn, peut-être moins. C'est un support, pas un but.
+* malgré une réduction du temps de présentation, nous avons encore été trop longs et interpellés par Brice pour presser le rythme. Nous comptions 20mn, rétrospectivement, je pense que la présentation même du A3 devait tenir en 10mn, peut-être moins. C'est un support, pas un but.
 
 
 # Ce que nous avons appris
@@ -181,7 +182,7 @@ Pour arriver à recueillir les informations nécessaires à la représentation d
 <blockquote class="twitter-tweet" data-lang="en"><p lang="fr" dir="ltr">Le A3, c&#39;est + pour apprendre à travailler ensemble que pour le problęme lui meme. @BorisEveque <a href="https://twitter.com/hashtag/LeanSummitFR?src=hash">#LeanSummitFR</a></p>&mdash;  (@MPIgnace) <a href="https://twitter.com/MPIgnace/status/717996192592961537">April 7, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-C'est cette vision qui nous a donné l'énergie d'insister auprès de N+4. Sans le A3, au premier obstacle, nous aurions reculé. Nous avons aussi acquis les termes et finalités du management (sur notre domaine) : CA, croissance, équilibre budgétaire, modèle économique, modèle de facturation, marché... Une forme de langage nous permettant de comprendre et nous faire comprendre. 
+C'est cette vision qui nous a donné l'énergie d'insister auprès de Brice. Sans le A3, au premier obstacle, nous aurions reculé. Nous avons aussi acquis les termes et finalités du management (sur notre domaine) : CA, croissance, équilibre budgétaire, modèle économique, modèle de facturation, marché... Une forme de langage nous permettant de comprendre et nous faire comprendre. 
 
 Notre A3 était loin d'être terminé, et nous ne savons pas si son début respecte vraiment l'orthodoxie de la méthode Lean. Nous avons essayé par la suite de l'utiliser pour faire un suivi des actions en comité de pilotage. Les points sont restés en suspens pendant longtemps, ils doivent toujours l'être. Il semble être nécessaire d'avoir un appui managerial pour aborder la partie "contre-mesures". 
 
