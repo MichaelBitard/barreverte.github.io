@@ -15,7 +15,7 @@ Il y a peu encore, je travaillais pour un groupe de télécom qui commercialise 
 
 # Petite chronologie projet
 
-Afin de mieux comprendre la situation au moment où nous décidons de faire un A3, faisons une petit éclairage de l'histoire du produit :
+Afin de mieux comprendre la décision de faire un A3, faisons une petit éclairage de l'histoire du produit :
 
 * `janvier 2012` : lancement du projet de chat par le marketing, nous sommes deux développeurs au départ
 * `février 2012` : nous sommes 4 puis assez vite 5, 6 devs sur le projet
@@ -41,18 +41,18 @@ Je décide alors d'utiliser un [A3, un outil lean](http://fr.slideshare.net/oper
 * un suivi des résutats de ces contre-mesures
 * les enseignements de ces expérimentations
 
-Je me fais aider de l'équipe, en binômant régulièrement avec chaque personne, et en proposant des réunion courtes de brainstorming à plusieurs. Je vois un coach chaque semaine pour faire le point de la semaine écoulée et prévoir les actions à mener pour la suivante. Il me donne un cadre théorique, des réflexions et me motive pour continuer cette tâche.
+Je me fais aider de l'équipe, en binômant régulièrement avec chaque personne, et en proposant des réunions courtes de brainstorming à plusieurs. Je vois un coach chaque semaine pour faire le point de la semaine écoulée et prévoir les actions à mener pour la suivante. Il me donne un cadre théorique, des réflexions et me motive pour continuer cette tâche.
 
 ![séance de travail](/images/a3_bureau.jpg)
 
-Je travaille 2 mois sur ce A3. Avec mon coach, nous choisissons de le faire de manière manuscrite et utilisons la technique des collages successifs pour faire évoluer les différentes parties du document.
+Je travaille deux mois sur ce A3. Avec mon coach, nous choisissons de le faire de manière manuscrite et utilisons la technique des collages successifs pour faire évoluer les différentes parties du document.
 
 ![séance de travail](/images/a3.png){:height="480px" width="600px"}
 
 
 # Remonter le problème
 
-Nous devenons peu à peu experts de ce problème. Nous comprenons rapidement que les leviers de décision sont en dehors de notre sphère d'influence : notre management "proche" (n+1, n+2) ne peut pas prendre les décisions qui permettraient de tester nos hypothèses. Mon coach lean m'indique que dans le cadre d'une démarche A3 de remontée de problème au management, deux choses sont à prendre en considération pour choisir la bonne personne :
+Nous devenons peu à peu experts de ce problème. Nous comprenons rapidement que les leviers de décision sont en dehors de notre sphère d'influence : notre management "proche" (n+1, n+2) ne peut pas prendre les décisions qui permettraient de tester nos hypothèses. Mon coach Lean m'indique que dans le cadre d'une démarche A3 de remontée de problème au management, deux choses sont à prendre en considération pour choisir la bonne personne :
 
 > elle doit comprendre le problème et avoir les leviers d'action pour le suivre
 
@@ -80,7 +80,7 @@ Nous prenons donc rendez-vous avec la partie marketing n+2, et avec notre n+3 pu
 
 ## Une prise de contact par mail
 
-A présent, il faut arriver à obtenir un entretien avec ce manager très occupé. Je fais un brouillon, le fais relire par chaque personne de l'équipe, et j'intègre les remarques. L'objectif que nous nous fixons est d'être succincts et susciter la curiosité. Nous envoyons le message suivant sans le document :
+A présent, il faut arriver à obtenir un entretien avec ce manager très occupé. Je fais un brouillon, le fais relire par chaque personne de l'équipe, et j'intègre les remarques. L'objectif que nous nous fixons est d'être succint et susciter la curiosité. Nous envoyons le message suivant sans le document :
 
 > Bonjour,
 >
@@ -104,7 +104,7 @@ La réponse arrive le lendemain :
 >  Je transfère votre mail à [n+2 marketing] qui pilote l'offre ainsi qu'à [n+3 marketing] car je pense effectivement ces remontées intéressantes.
 > Suis preneuse [n+2 marketing], [n+3 marketing] de vos retours.
 
-Donc retour vers les personnes que nous avons déjà vues, et qui n'ont pas tous les leviers décisionnels. A ce stade, nous n'avons plus rien à perdre, et surtout [n+4] n'a pas vu le doc. Forts de notre expérience acquise grâce au A3, nous savons aussi que la motivation de départ n'était pas le groupe. Nous voulons au moins nous donner la chance qu'elle le voie :
+Donc retour vers les personnes que nous avons déjà vues, et qui n'ont pas tous les leviers décisionnels. À ce stade, nous n'avons plus rien à perdre, et surtout [n+4] n'a pas vu le document. Forts de notre expérience acquise grâce au A3, nous savons aussi que la motivation de départ n'était pas le groupe. Nous voulons au moins nous donner la chance qu'elle le voie :
 
 
 > > La solution dont vous parlez, je vois bien son intérêt et son lien direct avec notre stratégie [...]
@@ -117,7 +117,7 @@ Donc retour vers les personnes que nous avons déjà vues, et qui n'ont pas tous
 > 
 > Je vous joins le document au format électronique, si vous avez des questions, je suis à votre disposition.
 
-Voila, nous avons au moins envoyé le document et indiqué nos motivations. Nous pensons que l'épisode est clos. Mais le lendemain, nous avons un mail de réponse. Il a été envoyé uniquement sur mon adresse, sans tout le monde en copie :
+Voilà, nous avons au moins envoyé le document et indiqué nos motivations. Nous pensons que l'épisode est clos. Mais le lendemain, nous avons un mail de réponse. Il a été envoyé uniquement sur mon adresse, sans tout le monde en copie :
 
 > ?
 
@@ -161,12 +161,12 @@ Nous lui avons renvoyé le A3 et avons finalement obtenu un rendez-vous.
 
 ## La réunion
 
-A 9h du matin à son étage, il a une réunion une demi-heure plus tard, il faut décider "GO/NO-GO" pour le projet. Nous refaisons la présentation du A3. Nous attendions qu'il nous explique (ou rappelle pour les autres managers présents) la stratégie du groupe à moyen/long terme, et replace le projet dans cette perspective afin de décider sur des bases concrètes si il s'inscrivait dans ce futur. Finalement il a demandé aux managers qui étaient présents ([marketing n+2/n+3] et [n+3]) ce qu'ils en pensaient.
+A 9h du matin à son étage, il a une réunion une demi-heure plus tard, il faut décider "GO/NO-GO" pour le projet. Nous refaisons la présentation du A3. Nous attendions qu'il nous explique (ou rappelle pour les autres managers présents) la stratégie du groupe à moyen/long terme, et replace le projet dans cette perspective afin de décider sur des bases concrètes s'il s'inscrivait dans ce futur. Finalement il a demandé aux managers qui étaient présents ([marketing n+2/n+3] et [n+3]) ce qu'ils en pensaient.
 
-Nous avons compris qu'il y avait eu des désacords sur le ciblage de clientèle. Et puis, [n+4] a du partir pour sa réunion, et nous n'avons plus compris le langage employé. Pour ma part, je pense que c'était une forme prononcée de "***galimatias doré***" comme disait mon grand-père. Nous avons cependant appris les choses suivantes :
+Nous avons compris qu'il y avait eu des désaccords sur le ciblage de clientèle. Et puis, [n+4] a dû partir pour sa réunion, et nous n'avons plus compris le langage employé. Pour ma part, je pense que c'était une forme prononcée de "***galimatias doré***" comme disait mon grand-père. Nous avons cependant appris les choses suivantes :
 
 * [marketing n+2] disant dans sa barbe et le brouhaha "peut-être nous-sommes nous trompés ?"
-* [n+3] indiquant qu'il voyait bien une stratégie reposant sur 2 pilliers : du développement interne pour le milieu de marché afin de maitriser les produits, défricher des marchés, et l'intégration de progiciels (Oracle, Cisco, ...) pour les grands comptes afin de rassurer les DSI
+* [n+3] indiquant qu'il voyait bien une stratégie reposant sur 2 piliers : du développement interne pour le milieu de marché afin de maitriser les produits, défricher des marchés, et l'intégration de progiciels (Oracle, Cisco, ...) pour les grands comptes afin de rassurer les DSI
 * nous représentons un tout petit projet à l'échelle de l'entité
 * une contrainte réglementaire arrive 6 mois plus tard, du coup il ne faut pas compter sur une décision avant cette échéance
 * malgré une réduction du temps de présentation, nous avons encore été trop longs et interpellés par [N+4] pour presser le rythme. Nous comptions 20mn, rétrospectivement, je pense que la présentation même du A3 devait tenir en 10mn, peut-être moins. C'est un support, pas un but.
@@ -176,14 +176,14 @@ Nous avons compris qu'il y avait eu des désacords sur le ciblage de clientèle.
 
 Faire un A3 demande beaucoup d'énergie et de persévérance. C'est une course d'endurance. Ce qui m'a aidé à aller jusqu'à l'entretien, de la même manière qu'on prépare un marathon, c'est de mettre en place des entraînements rituels (les rendez-vous avec un coach, les petits points seul le matin, alors que le bureau est calme, les binômages réguliers).
 
-Pour arriver à reccueillir les informations nécessaires à la représentation de notre problème, il a fallu faire entre 15 et 20 entretiens avec des personnes à qui nous ne parlions pas ou très peu : support produit, commerciaux, bizdev, marketing, management, et des personnes extérieures au projet voire à l'entreprise. Cette démarche est enrichissante car elle évite les réactions défensives de groupe, type "Eux v.s. Nous", et assure une prise de distance. Un peu comme si on voyait l'ouvrage vue d'avion. Temporairement, ce travail autour du A3 aura mis en concert un ensemble de personnes qui n'avaient pas l'habitude de se cottoyer :
+Pour arriver à recueillir les informations nécessaires à la représentation de notre problème, il a fallu faire entre 15 et 20 entretiens avec des personnes à qui nous ne parlions pas ou très peu : support produit, commerciaux, bizdev, marketing, management, et des personnes extérieures au projet voire à l'entreprise. Cette démarche est enrichissante car elle évite les réactions défensives de groupe, type "Eux v.s. Nous", et assure une prise de distance. Un peu comme si on voyait l'ouvrage vu d'avion. Temporairement, ce travail autour du A3 aura mis en concert un ensemble de personnes qui n'avaient pas l'habitude de se cotoyer :
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="fr" dir="ltr">Le A3, c&#39;est + pour apprendre à travailler ensemble que pour le problęme lui meme. @BorisEveque <a href="https://twitter.com/hashtag/LeanSummitFR?src=hash">#LeanSummitFR</a></p>&mdash;  (@MPIgnace) <a href="https://twitter.com/MPIgnace/status/717996192592961537">April 7, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 C'est cette vision qui nous a donné l'énergie d'insister auprès de N+4. Sans le A3, au premier obstacle, nous aurions reculé. Nous avons aussi acquis les termes et finalités du management (sur notre domaine) : CA, croissance, équilibre budgétaire, modèle économique, modèle de facturation, marché... Une forme de langage nous permettant de comprendre et nous faire comprendre. 
 
-Notre A3 était loin d'être terminé, et nous ne savons pas si son début respecte vraiment l'orthodoxie de la méthode lean. Nous avons essayé par la suite de l'utiliser pour faire un suivi des actions en comité de pilotage. Les points sont restés en suspens pendant longtemps, ils doivent toujours l'être. Il semble être nécessaire d'avoir un appui managerial pour aborder la partie "contre-mesures". 
+Notre A3 était loin d'être terminé, et nous ne savons pas si son début respecte vraiment l'orthodoxie de la méthode Lean. Nous avons essayé par la suite de l'utiliser pour faire un suivi des actions en comité de pilotage. Les points sont restés en suspens pendant longtemps, ils doivent toujours l'être. Il semble être nécessaire d'avoir un appui managerial pour aborder la partie "contre-mesures". 
 
 Mais il a joué son rôle de média de communication entre notre perception opérationnelle de terrain et la vision tactique et stratégique du management. 
 
@@ -194,7 +194,7 @@ Qu'avez-vous appris ?
 
 # Postface
 
-Le produit est toujours en exploitation, il n'y a plus que des petites évolutions, les 3 ETP ont été réduits à 1 ETP : un des dévelopeurs fait la maintenance et tient la boutique. Le code a été amélioré. Le nombre de clients a continué d'augmenter (il y en a 373). Le nombre de chat a un peu augmenté suite à un autre pilote réalisé avec une grosse entreprise française, il se situe autour de 4700, mais nous sommes encore loin de la cible du CA à 10K€.
+Le produit est toujours en exploitation, il n'y a plus que des petites évolutions, les 3 ETP ont été réduits à 1 ETP : un des développeurs fait la maintenance et tient la boutique. Le code a été amélioré. Le nombre de clients a continué d'augmenter (il y en a 373). Le nombre de chat a un peu augmenté suite à un autre pilote réalisé avec une grosse entreprise française. Il se situe autour de 4700, mais nous sommes encore loin de la cible du CA à 10K€.
 
 En ce qui me concerne, cette expérience a contribué à me faire prendre la décision de quitter l'entreprise quelque temps plus tard. Ce qui est bien sûr positif :)
 
