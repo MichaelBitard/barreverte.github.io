@@ -28,7 +28,7 @@ Afin de mieux comprendre la décision de faire un A3, faisons une petit éclaira
 
 # Comprendre le problème
 
-Dans l'équipe, nous redoutons que faute de Chiffre d'Affaire, nous enclenchions une spirale infernale : quand le budget baisse on fait moins de développements, nous sommes moins concurrentiels, les ventes sont plus difficiles, ce qui va a son tour diminuer la part de budget consacré au produit. D'autre part, en étant dans une dynamique de décroissance, les équipes opérationnelles vont avoir une diminution de motivation.
+Dans l'équipe, nous redoutons que faute de Chiffre d'Affaire, nous enclenchions une spirale infernale : quand le budget baisse nous faisons moins de développements, nous sommes moins concurrentiels, les ventes sont plus difficiles, ce qui va a son tour diminuer la part de budget consacré au produit. D'autre part, en étant dans une dynamique de décroissance, les équipes opérationnelles vont avoir une diminution de motivation, être moins efficaces et créatives.
 
 ![spirale](/images/spirale_neko.jpg)
 
