@@ -23,20 +23,20 @@ Afin de mieux comprendre la décision de faire un A3, faisons une petit éclaira
 * `juin 2013` : commercialisation du produit
 * `début 2014` : pour améliorer les relations entre le PO et l'équipe, un proxy PO rejoint l'équipe. Il fait partie de l'équipe et travaille de manière étroite avec le PO
 * `début mars 2014` : rétrospective projet sur 2 jours avant changement de manager dans l'équipe marketing. Deux jours laborieux, avec des dissensions au sein même de l'équipe marketing. Les décisions prises ne seront pas suivies d'effets
-* `fin 2014` : notre PO nous indique qu'il faudrait atteindre 10K€/mois en juillet 2015 pour qu'il considère que nous avons réussi
+* `fin 2014` : notre PO nous indique qu'il faudrait atteindre 10K€/mois en juillet 2015 pour que le marketing considère que le projet est un succès
 * `début 2015` : le nombre de client augmente régulièrement (~100) mais le nombre de *chats* reste faible (~1650/mois). Les retours clients sont plutôt bons sur l'ergonomie et le fonctionnement global de l'outil. La roadmap marketing prévoit de diminuer le nombre de "resources" sur le projet en passant de 5 à 3 ETP (Equivalent Temps Plein)
 
 # Comprendre le problème
 
-Dans l'équipe, nous redoutons que faute de Chiffre d'Affaire, nous enclenchions une spirale infernale :
+Dans l'équipe, nous redoutons que faute de Chiffre d'Affaire, nous enclenchions une spirale infernale : quand le budget baisse on fait moins de développements, nous sommes moins concurrentiels, les ventes sont plus difficiles, ce qui va a son tour diminuer la part de budget consacré au produit. D'autre part, en étant dans une dynamique de décroissance, les équipes opérationnelles vont avoir une diminution de motivation.
 
 ![spirale](/images/spirale_neko.jpg)
 
 Je décide alors d'utiliser un [A3, un outil lean](http://fr.slideshare.net/operaepartners/a3-driven-problem-solving), pour comprendre le problème du nombre de *chats* demeurant faible (le CA est proportionnel puisque nous sommes payés au *chat*). Comme son nom l'indique le A3 c'est une feuille A3 recto sur laquelle est décrit de manière objective et synthétique un problème :
 
 * en quoi il est important pour la société
-* son contexte : la réalité observée de manière quantitative
-* la cible à atteindre représentant une réalité souhaitée
+* son contexte : la performance observée au cours du temps
+* la cible à atteindre représentant une performance souhaitée
 * ses causes
 * des contre-mesures permettant de tester la validité des causes identifiées
 * un suivi des résutats de ces contre-mesures
@@ -72,8 +72,8 @@ Bonne idée ! Cela nous permettra de compléter notre A3 avec des éléments nou
 
 Nous prenons donc rendez-vous avec Sylvia et Jacques puisque nous tenons régulièrement informés nos deux managers directs. Nous constatons lors de cet entretien préparatoire :
 
-* qu'il faut attendre de présenter le problème avant de donner le document car les personnes se plongent dans le A3 et n'écoutent plus
-* le manager côté marketing se sent remis en question. Il explique qu'il est au courant de cette situation et de ces chiffres. Certaines contre-mesures sont déjà prises : changement de nom (*NDLR : à ce jour il n'a toujours pas changé*), et "*coselling*" avec des *AdWords*. En somme les commerciaux vont vendre le *chat* avec une autre offre de *SEO* (*Search Engine Optimization*) chez google. Cela signifie que nous allons reproduire les mêmes effets délétères que ceux constatés auparavant : vendre le chat à des personnes n'en ayant pas besoin, ou approchées pour un autre produit. Cela produit les résultats qu'on connaît : augmentation du nombre de clients, mais stagnation du nombre de chats, donc du CA
+* qu'il faut attendre de présenter la démarche avant de donner le document car les personnes se plongent dans le A3 et n'écoutent plus
+* le manager côté marketing se sent remis en question. Il explique qu'il est au courant de cette situation et de ces chiffres. Certaines contre-mesures sont déjà prises : changement de nom (*NDLR : à ce jour il n'a toujours pas changé*), et "*coselling*" avec des *AdWords*. En somme les commerciaux vont vendre le *chat* avec une autre offre de *SEO* (*Search Engine Optimization*) chez google. Cela signifie que nous allons reproduire les mêmes effets délétères que ceux constatés auparavant : vendre le chat à des personnes n'en ayant pas besoin, ou approchées pour un autre produit. Cela produit les résultats qu'on connaît : augmentation du nombre de clients, mais stagnation du nombre de chats, donc du CA (les client utilise l'offre de SEO et pas le chat)
 * notre connaissance du problème nous permet de comprendre son point de vue, et de parler le ***même langage***
 * nous avons été trop longs lors de la présentation
 
@@ -122,7 +122,7 @@ Voilà, nous avons au moins envoyé le document et indiqué nos motivations. Nou
 
 > ?
 
-C'est tout. Nous nous demandons un moment ce que ce point d'interrogation signifie. Mais nous nous accordons sur le fait que l'envoi uniquement sur mon adresse laisse penser qu'une porte reste entre-ouverte.
+Un point d’interrogation. C'est tout. Nous nous demandons un moment ce qu'il signifie. Mais nous nous accordons sur le fait que l'envoi uniquement sur mon adresse laisse penser qu'une porte reste entre-ouverte.
 
 A cette époque, je suis en train de lire [Never Eat Alone](http://keithferrazzi.com/products/never-eat-alone/) et dans le chapitre 17 consacré aux "*Small talks*" Keith Ferrazzi nous dit :
 
@@ -175,7 +175,7 @@ Nous avons compris qu'il y avait eu des désaccords sur le ciblage de clientèle
 
 # Ce que nous avons appris
 
-Faire un A3 demande beaucoup d'énergie et de persévérance. C'est une course d'endurance. Ce qui m'a aidé à aller jusqu'à l'entretien, de la même manière qu'on prépare un marathon, c'est de mettre en place des entraînements rituels (les rendez-vous avec un coach, les petits points seul le matin, alors que le bureau est calme, les binômages réguliers).
+Faire un A3 demande beaucoup d'énergie et de persévérance. C'est une course d'endurance. Ce qui m'a aidé à aller jusqu'à l'entretien, comme la préparation du marathon que je faisais en parallèle, c'est de mettre en place des entraînements rituels (les rendez-vous avec un coach, les petits points seul le matin, alors que le bureau est calme, les binômages réguliers).
 
 Pour arriver à recueillir les informations nécessaires à la représentation de notre problème, il a fallu faire entre 15 et 20 entretiens avec des personnes à qui nous ne parlions pas ou très peu : support produit, commerciaux, bizdev, marketing, management, et des personnes extérieures au projet voire à l'entreprise. Cette démarche est enrichissante car elle évite les réactions défensives de groupe, type "Eux v.s. Nous", et assure une prise de distance. Un peu comme si on voyait l'ouvrage vu d'avion. Temporairement, ce travail autour du A3 aura mis en concert un ensemble de personnes qui n'avaient pas l'habitude de se cotoyer :
 
