@@ -22,7 +22,7 @@ Je vous propose une petite fiche de lecture sur un livre que j'ai lu récement e
 
 # _DroidMaker_ par Michael Rubin
 
-![Couverture de DroidMaker]({{ site.url }}/images/droidmaker.jpg)
+![Couverture de DroidMaker]({{ site.url }}/images/droidmaker/droidmaker.jpg)
 
 _DroidMaker: George Lucas and the Digital Revolution_ (quel titre !) écrit par [Michael Rubin](https://about.me/rubin), a été publié en anglais en 2005 par Triad Pub Co. Il n'existe à ma connaissance pas de traduction en français à ce jour. À noter : un site web ([droidmaker.com](http://www.droidmaker.com/index.html)) a même été créé autour de ce livre, pour pouvoir aller plus loin.
 
@@ -50,7 +50,7 @@ Tous ces réalisateurs ont pu obtenir leur indépendance (financière, puis arti
 
 ## Lucasfilm Computer Division
 
-![Lucasfilm]({{ site.url }}/images/Lucasfilm_Ltd._logo.svg)
+![Lucasfilm]({{ site.url }}/images/droidmaker/Lucasfilm_Ltd._logo.svg)
 
 motion blur
 
@@ -82,7 +82,7 @@ Il fallait donc pouvoir travailler de manière numérique. J'admire la vision ex
 
 Le produit qui en a résulté se nommait [EditDroid](https://en.wikipedia.org/wiki/EditDroid). Voici une photo de la console de travail, nommée "Darth Vador" :
 
-![La console EditDroid]({{ site.url }}/images/ph_EditDroid.jpg)
+![La console EditDroid]({{ site.url }}/images/droidmaker/ph_EditDroid.jpg)
 
 ### SoundDroid et... le son
 
@@ -90,13 +90,13 @@ Le produit qui en a résulté se nommait [EditDroid](https://en.wikipedia.org/wi
 
 Voici une impression d'écran de logiciel en cours de fonctionnement :
 
-![Un screenshot de SoundDroid]({{ site.url }}/images/ph_SoundDroid.jpg)
+![Un screenshot de SoundDroid]({{ site.url }}/images/droidmaker/ph_SoundDroid.jpg)
 
 ## Les jeux vidéos et Atari
 
 Toute une partie de l'ouvrage concerne l'aventure d'[Atari](https://fr.wikipedia.org/wiki/Atari), "premier" éditeur de jeux vidéos à l'échelle mondiale jusqu'au "crash" des jeux vidéos de 1983 avec le tristement célèbre [E.T.](https://fr.wikipedia.org/wiki/E.T._the_Extra-Terrestrial_%28jeu_vid%C3%A9o%29), le "pire jeu vidéo de l'histoire".
 
-![ET par Atari]({{ site.url }}/images/ET2600-Pit.gif)
+![ET par Atari]({{ site.url }}/images/droidmaker/ET2600-Pit.gif)
 
 ## Ce que j'ai plus ou moins aimé
 
