@@ -5,6 +5,7 @@ author:
   display_name: Jean-Philippe Caruana
 tags:
 - agile
+comments: true
 ---
 
 

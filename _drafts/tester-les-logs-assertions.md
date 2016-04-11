@@ -11,6 +11,7 @@ categories:
 - agilité
 - tests
 - java
+comments: true
 ---
 
 Parce qu'ils peuvent sauver la vie quand un soucis survient en production, nous testons les log avec des assertions comme :

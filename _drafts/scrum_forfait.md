@@ -11,6 +11,7 @@ tags:
 categories:
 - scrum
 - agilité
+comments: true
 ---
 
 # un email

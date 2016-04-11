@@ -7,6 +7,7 @@ tags:
 - booksprint
 categories:
 - leanagile
+comments: true
 ---
 
 A refaire :)

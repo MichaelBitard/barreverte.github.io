@@ -8,6 +8,7 @@ tags:
 - alias
 categories:
 - linux
+comments: true
 ---
 
 Je me déplace sur une machine distante dans un but bien précis. Si je vais sur la machine qui héberge les logs, c'est pour les consulter et je reproduis la même séquence :

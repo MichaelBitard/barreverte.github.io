@@ -10,6 +10,7 @@ tags:
 categories:
 - java
 - tests
+comments: true
 ---
 
 Lors d'une barre rouge sur l'assertion d'un log, un message du style Pas trouvé "Mon log" parmi les logs de niveau info n'aide pas beaucoup. J'aimerais davantage de contexte : si ce log n'a pas été trouvé, quels sont les autres logs présents ?

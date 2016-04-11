@@ -9,6 +9,7 @@ tags:
 - A3
 categories:
 - leanagile
+comments: true
 ---
 
 Il y a peu encore, je travaillais pour un groupe de télécom qui commercialise une messagerie instantanée d'entreprise permettant aux internautes de communiquer avec le service client depuis un site web. Il comprend une distribution des *chats* dans des files d'attentes, des outils d'aide pour les conseillers et des outils de supervision/administration.

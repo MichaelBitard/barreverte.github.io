@@ -3,6 +3,7 @@ layout: post
 title: L'encodage des caractères, parent pauvre de l'informatique
 author:
   display_name: Bruno Thomas
+comments: true
 ---
 
 Thread 'pardon pour ce stupide pb d'encodage'

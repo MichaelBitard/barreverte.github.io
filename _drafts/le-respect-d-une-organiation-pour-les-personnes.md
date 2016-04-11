@@ -3,6 +3,7 @@ layout: post
 title: Le respect d'une organisation pour les personnes
 author:
   display_name: Bruno Thomas
+comments: true
 ---
 le respect c'est de personne à personne. Eventuellement de personne à être vivant --> documenter
 

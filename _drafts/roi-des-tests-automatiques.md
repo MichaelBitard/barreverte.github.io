@@ -10,6 +10,7 @@ tags:
 categories:
 - agilité
 - tests
+comments: true
 ---
 
 L'industrie du logiciel est encore loin d'avoir systématiquement des tests automatiques. Le coût est tout de suite visible et rédhibitoire, contrairement à son gain. Personnellement, j'en fais dans mon développement car il me donne de la confiance et m'aide à construire le produit. Pourtant, certaines personnes restent hermétiques à mon enthousiasme. Entre deux réponses à un appel d'offres, un client lambda privilégiera la plus "compétitive" (= la moins chère), quitte à en payer le prix plus tard.

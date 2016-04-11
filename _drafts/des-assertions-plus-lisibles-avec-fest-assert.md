@@ -10,6 +10,7 @@ tags:
 categories:
 - java
 - tests
+comments: true
 ---
 
 Sur du code hérité (legacy), nous passons davantage de temps à lire du code qu'à en écrire. FEST (Feature for Easy Software Testing) aide à écrire des assertions plus lisibles.

@@ -7,6 +7,7 @@ tags:
 - tests
 categories:
 - java
+comments: true
 ---
 
 Pour capturer les logs, nous utilisons l'approche de plus en plus répandue de l'espionnage. Log4j permet d'ajouter un appender au rootLogger. On va donc créer le notre en implementant l'interface Appender :

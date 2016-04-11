@@ -3,6 +3,7 @@ layout: post
 title: Une idée d'organisation... apprenante
 author:
   display_name: Pascal Pratmarty
+comments: true
 ---
 
 Tant de langages, de paradigmes, de techniques inexplorées... en sondant l'état de la science informatique, j'ai souvent le sentiment d'observer un véritable puits sans fond, qui tantôt m'effraie, tantôt me fascine. Pour l'avoir ressenti au moins une fois, nous pouvons tous comprendre le plaisir intellectuel, presque jouissif,  généré par la découverte et la maîtrise de l'un ou l'autre de ces joujoux.

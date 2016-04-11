@@ -8,6 +8,7 @@ tags:
 - comparaison
 categories:
 - agile
+comments: true
 ---
 
 L'autre soir, je regardais un épisode de Dr House (oui, ça arrive) et j'ai été frappé par la similitude entre le fonctionnement de son équipe et celui d'une équipe agile.
