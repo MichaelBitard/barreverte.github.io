@@ -6,7 +6,7 @@ author:
 tags:
 - agile
 - lean
-- a3
+- A3
 categories:
 - leanagile
 ---
@@ -134,7 +134,7 @@ Il encourage à faire le choix d'une certaine forme de vulnérabilité, car selo
 
 > > ?
 > 
-> Il est conseillé dans une démarche a3 vers le management de s'adresser à une personne pertinente (qui connaît le problème et qui a les leviers d'action), et de confiance.
+> Il est conseillé dans une démarche A3 vers le management de s'adresser à une personne pertinente (qui connaît le problème et qui a les leviers d'action), et de confiance.
 >
 > Les deux conditions me semblaient remplies. La pertinence car Oscar gère la roadmap produit, et Jacques le budget. Vous êtes donc la première personne qui soit "au dessus de la mêlée".
 > La confiance, par intuition.
