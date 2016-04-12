@@ -49,7 +49,7 @@ Je me fais aider de l'équipe, en binômant régulièrement avec chaque personne
 
 Je travaille deux mois sur ce A3. Avec mon coach, nous choisissons de le faire de manière manuscrite et utilisons la technique des collages successifs pour faire évoluer les différentes parties du document.
 
-![séance de travail](/images/a3.png){:height="480px" width="600px"}
+[![A3](/images/a3.png){:height="480px" width="600px"}](/images/a3.png)
 
 
 # Remonter le problème
@@ -74,15 +74,21 @@ Bonne idée ! Cela nous permettra de compléter notre A3 avec des éléments nou
 Nous prenons donc rendez-vous avec Sylvia et Jacques puisque nous tenons régulièrement informés nos deux managers directs. Nous constatons lors de cet entretien préparatoire :
 
 * qu'il faut attendre de présenter la démarche avant de donner le document car les personnes se plongent dans le A3 et n'écoutent plus
-* Sylvia se sent remise en question. Elle explique qu'elle est au courant de cette situation et de ces chiffres. Certaines contre-mesures sont déjà prises : changement de nom (*NDLR : à ce jour il n'a toujours pas changé*), et "*coselling*" avec des *AdWords*. En somme les commerciaux vont vendre le *chat* avec une autre offre de *SEO* (*Search Engine Optimization*) chez google. Cela signifie que nous allons reproduire les mêmes effets délétères que ceux constatés auparavant : vendre le chat à des personnes n'en ayant pas besoin, ou approchées pour un autre produit. Cela produit les résultats qu'on connaît : augmentation du nombre de clients, mais stagnation du nombre de chats, donc du CA (les clients utilisent l'offre de SEO et pas le chat)
 * notre connaissance du problème nous permet de comprendre son point de vue, et de parler le ***même langage***
 * nous avons été trop longs lors de la présentation
+* Sylvia se sent remise en question. Elle explique qu'elle est au courant de cette situation et de ces chiffres. Certaines contre-mesures sont déjà prises : changement de nom (*NDLR : à ce jour il n'a toujours pas changé*), et "*coselling*" avec des *AdWords*. En somme les commerciaux vont vendre le *chat* avec une autre offre de *SEO* (*Search Engine Optimization*) chez google. Cela signifie que nous allons reproduire les mêmes effets délétères que ceux constatés auparavant : vendre le chat à des personnes n'en ayant pas besoin, ou approchées pour un autre produit. Cela produit les résultats qu'on connaît : augmentation du nombre de clients, mais stagnation du nombre de chats, donc du CA (les clients utilisent l'offre de SEO et pas le chat)
+
+![nombre_clients](/images/a3_diagramme.png)
 
 # L'entretien
 
 ## Une prise de contact par mail
 
-A présent, il faut arriver à obtenir un entretien avec ce manager très occupé. Je fais un brouillon, le fais relire par chaque personne de l'équipe, et j'intègre les remarques. L'objectif que nous nous fixons est d'être succinct et susciter la curiosité. Nous envoyons le message suivant sans le document :
+A présent, il faut arriver à obtenir un entretien avec ce manager très occupé. Pour certains, c'est mission impossible :
+
+> "n-2 du PDG c'est une entité quasi mythologique, et en tout état de cause inaccessible."
+
+Je fais un brouillon, le fais relire par chaque personne de l'équipe, et j'intègre les remarques. L'objectif que nous nous fixons est d'être succinct et susciter la curiosité. Nous envoyons le message suivant sans le document :
 
 > Bonjour,
 >
