@@ -145,6 +145,37 @@ img.aligncenter {
     color:#FFF;
 }
 
+/* category_box ======================================================== */
+.category_box {
+    list-style:none;
+    margin:0;
+    padding:5px 0 ;
+    overflow:hidden;
+}
+.category_box li {
+    line-height:28px;
+}
+.category_box.inline li {
+    float:left;
+}
+.category_box a {
+    padding: 3px 6px;
+    margin: 2px;
+    background: #eee;
+    color:#005F6B;
+    border-radius: 3px;
+    text-decoration:none;
+}
+.category_box a span{
+    vertical-align:super;
+    font-size:0.8em;
+}
+.category_box a.active {
+    background:#57A957;
+    border:1px solid #4C964D;
+    color:#FFF;
+}
+
 @media print {
     a, a:link {
         text-decoration: none;
