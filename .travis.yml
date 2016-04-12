@@ -1,11 +1,17 @@
-language: ruby
-rvm:
- - "2.2.3"
-install: gem install jekyll --version 3.0.3
-script: jekyll build
+sudo: required
+
+services:
+  - docker
+
+before_install:
+- docker pull jekyll/jekyll:pages
+
+script:
+- docker run --rm --volume=$(pwd):/srv/jekyll -it jekyll/jekyll:pages jekyll build
+
 notifications:
   email:
     recipients:
       - blog@barreverte.fr
-    on_success: never
+    on_success: change
     on_failure: always
