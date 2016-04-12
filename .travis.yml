@@ -7,7 +7,7 @@ before_install:
 - docker pull jekyll/jekyll:pages
 
 script:
-- docker run --rm --volume=$(pwd):/srv/jekyll -it jekyll/jekyll:pages jekyll build
+- docker run --rm --volume=$(pwd):/srv/jekyll -it jekyll/jekyll:pages jekyll build --drafts
 
 notifications:
   email:
