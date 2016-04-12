@@ -1,11 +1,11 @@
 language: ruby
 rvm:
  - "2.2.3"
-install: gem install jekyll --version 2.4
+install: gem install jekyll --version 3.0.3
 script: jekyll build
-#notifications:
-#  email:
-#    recipients:
-#      - blog@barreverte.fr
-#    on_success: always
-#    on_failure: always
+notifications:
+  email:
+    recipients:
+      - blog@barreverte.fr
+    on_success: never
+    on_failure: always
