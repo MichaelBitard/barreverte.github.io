@@ -36,5 +36,5 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-exclude: ['README.md', 'LICENSE', '*.sh']
+exclude: ['README.md', 'LICENSE', '*.sh', '.travis.yml']
 encoding: utf-8
