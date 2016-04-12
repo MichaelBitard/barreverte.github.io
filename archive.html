@@ -4,6 +4,7 @@ title: Archives
 ---
 
 {%for post in site.posts %}
+    {% assign m = post.date | date: "%-m" %}
     {% unless post.next %}
         <h1>{{ post.date | date: '%Y' }}</h1>
         <ul>
@@ -16,6 +17,21 @@ title: Archives
             <ul>
         {% endif %}
     {% endunless %}
-    <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d" }} - {{ post.title }}</a></li>
+    <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: " %-d" }}
+{% case m %}
+  {% when '1' %}Jan.
+  {% when '2' %}Fév.
+  {% when '3' %}Mars
+  {% when '4' %}Avr.
+  {% when '5' %}Mai
+  {% when '6' %}Juin
+  {% when '7' %}Juil.
+  {% when '8' %}Août
+  {% when '9' %}Sept.
+  {% when '10' %}Oct.
+  {% when '11' %}Nov.
+  {% when '12' %}Déc.
+{% endcase %}
+        - {{ post.title }}</a></li>
 {% endfor %}
 </ul>
