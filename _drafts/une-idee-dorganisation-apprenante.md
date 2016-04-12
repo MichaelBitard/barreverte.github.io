@@ -90,10 +90,10 @@ Dans mon expérience passée, le résultat était très visuel et simple (voir p
 
 
 Flux Valeur 1 : Transformation idées et besoins :
-![Flux Valeur 1 : Transformation idées et besoins](/images/Flux-Valeur-1-Transformation-idees-et-besoins.jpg)
+![Flux Valeur 1 : Transformation idées et besoins](/images/Flux-Valeur-1-Transformation-idees-et-besoins.jpg){:width="700px"}
 
 Flux Valeur 2 : Du dev à la mise en production :
-![Flux Valeur 2 : Du dev à la mise en production](/images/Flux-Valeur-2-Du-dev-a-la-mise-en-production.jpg)
+![Flux Valeur 2 : Du dev à la mise en production](/images/Flux-Valeur-2-Du-dev-a-la-mise-en-production.jpg){:width="700px"}
 
 # Conlusion
 Résultat : nous n'avons pas respecté à la lettre tous ces points (loin de là), mais avons concocté notre propre "meilleure voie " adaptée à notre contexte. Ce mail a permis de tout de suite démarrer l'année par un échange très constructif, en prenant de la hauteur par rapport à nos ambitions pour l'année, et définissant les contours précis d'une organisation de départ à partir de laquelle nous pourrions nous améliorer sereinement.
