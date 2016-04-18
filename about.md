@@ -11,7 +11,7 @@ Nous sommes plusieurs développeurs "agiles", nous souhaitons partager nos solut
 
 Par ailleurs nous voulons parler d'informatique en français, dans un domaine où l'anglais règne, alors que beaucoup de français se passionnent pour le développement informatique.
 
-#Qui sommes-nous ?
+# Qui sommes-nous ?
 
 * [Philippe Blayo](/author/philippe)
 * [David Boissier](/author/david)
