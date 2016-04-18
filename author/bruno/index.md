@@ -3,7 +3,8 @@ layout: author
 name: bruno
 ---
 
-#Bruno Thomas
+# Bruno Thomas
+
 Je m'appelle Bruno Thomas
 
 Quelques liens :

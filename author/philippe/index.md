@@ -3,7 +3,8 @@ layout: author
 name: philippe
 ---
 
-#Philippe Blayo
+# Philippe Blayo
+
 Je m'appelle Philippe Blayo
 
 Quelques liens :

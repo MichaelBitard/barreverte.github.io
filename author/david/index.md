@@ -3,7 +3,8 @@ layout: author
 name: david
 ---
 
-#David Boissier
+# David Boissier
+
 Je m'appelle David Boissier
 
 Quelques liens :

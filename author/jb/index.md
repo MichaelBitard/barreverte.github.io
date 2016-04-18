@@ -3,7 +3,8 @@ layout: author
 name: jb
 ---
 
-#Jean-Baptiste Potonnier
+# Jean-Baptiste Potonnier
+
 Je m'appelle Jean-Baptiste Potonnier
 
 Quelques liens :

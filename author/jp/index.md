@@ -3,7 +3,7 @@ layout: author
 name: jp
 ---
 
-#Jean-Philippe Caruana
+# Jean-Philippe Caruana
 
 J'aime penser qu'il y a de la place pour des développeurs expérimentés, personnes de confiance qui savent partager leur vision, transmettre leurs idées et soutenir les meilleures idées des autres membres de leur équipe.
 
