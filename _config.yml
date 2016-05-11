@@ -27,7 +27,9 @@ comments: true
 
 #permalink: /:year/:month/:title
 permalink: /:title/
-gems: [jekyll-paginate]
+gems:
+- jekyll-paginate
+- jekyll-seo-tag
 paginate: 9
 
 #highlighter: rouge
