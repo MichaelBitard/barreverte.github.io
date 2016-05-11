@@ -1,5 +1,5 @@
 <h1><a href="{{ site.baseurl}}{{ page.url }}">{{ page.title }}</a></h1>
-
+{% assign author_name = page.author.display_name %}
 <p>
     le {% assign m = page.date | date: "%-m" %}
     {{ page.date | date: "%-d" }}
@@ -17,7 +17,7 @@
     {% when '11' %}novembre
     {% when '12' %}décembre
     {% endcase %}
-    {{ page.date | date: "%Y" }}, par <span class="author">{{ page.author.display_name }}</span>
+    {{ page.date | date: "%Y" }}, par <span class="author"><a href="{{ site.baseurl }}/author/{{ site.data.authors[author_name].short }}/">{{ author_name }}</a></span>
 </p>
 {% if site.comments == true and page.comments == true and site.disqus != '' %}
 <p class="author goToComments"><a href="#disqus_thread">aller aux commentaires</a></p>
