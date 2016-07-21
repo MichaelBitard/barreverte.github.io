@@ -4,12 +4,13 @@ status: publish
 published: true
 title: Quid du MP3 pour écouter chez soi ?
 author:
-  display_name: admin
-  login: admin
-  email: thomasbam@gmail.com
-  url: ''
-author_login: admin
-author_email: thomasbam@gmail.com
+  display_name: Bruno Thomas
+  login: bruno
+  email: bruno@barreverte.fr
+  url: http://www.barreverte.fr
+author_login: bruno
+author_email: bruno@barreverte.fr
+author_url: http://www.barreverte.fr
 excerpt: ! "Je reprends un mail envoyé il y a peu, car d'autres personnes que les
   destinataires sont intéressées.\r\n\r\nRécemment, nous avons eu la chance de pouvoir
   nous offrir des nouvelles enceintes : des kefs iQ9 et puis nous avons ajouté une

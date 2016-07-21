@@ -27,13 +27,13 @@ Jekyll est un moteur de génération blog statique créé par (un ancien de chez
 
 Pour installer jekyll, une commande `gem` suffit. Ainsi, pour installer jekyll et créer le blog "from scratch" :
 
-````bash
+```bash
 gem install jekyll
 jekyll new barreverte.github.io
 cd barreverte.github.io
 ```
 
-Ensuite, la commande `jekyll serve` vous lance le site en local sur le port 4000 : puis vous ouvrez le lien http://0.0.0.0:4000/ pour voir votre blog en local.
+Ensuite, la commande `jekyll serve` vous lance le site en local sur le port 4000 : puis vous ouvrez le lien [0.0.0.0:4000/](http://0.0.0.0:4000/) pour voir votre blog en local.
 
 L'utilisation est simple : après avoir fait le design de votre site (en éditant le fichier `index.html` et tout ce qui se trouve dans le dossier `_layout`), la création d'un fichier dans `_posts` publie un nouvel article.
 
@@ -125,13 +125,13 @@ Mais je me suis noyé dans un verre d'eau.
 En fait, c'est tellement bête que j'ai failli en pleurer : à la racine du blog se trouve un fichier dont l'importance est capitale : `_config.yml`. C'est le fichier qui regroupe toute la configuration du blog. Il faut changer la ligne :
 
 ````
-permalink: /:year/:month/:title
+permalink: /:year/:month/:title/
 ````
 
 en
 
 ````
-permalink: /:title
+permalink: /:title/
 ````
 
 Et tout est l'avenant ! Configurer un compte Google Analytics ? La variable `gaaccount` est là pour ça ! Mettre en place des commentaires avec disqus ? Il y a aussi une variable pour cela (nommée... `disqus`).
