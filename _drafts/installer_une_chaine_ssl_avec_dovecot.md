@@ -18,42 +18,42 @@ Afin de pouvoir utiliser le service de messagerie avec la couche SSL, il nous a 
 Je vais voir dans notre fichier de configuration `/etc/dovecot/dovecot.conf` comment sont configurés les certificats. Je trouve :
 
 ````
-ssl_cert = </etc/ssl/certs/dune.crt
-ssl_key = </etc/ssl/private/dune.key
+ssl_cert = </etc/ssl/certs/monServeur.crt
+ssl_key = </etc/ssl/private/monServeur.key
 ````
 
 OK donc j'achète et je télécharge notre nouveau certificat chez Gandi. Je me dis qu'il suffit de le copier à la place de l'ancien, avec le même nom, et je recharge dovecot au cas où il le monte en mémoire.
 
 ````sh
-$ cp /etc/ssl/certs/dune.crt dune.crt.old && cp dune.crt /etc/ssl/certs/
+$ cp /etc/ssl/certs/monServeur.crt monServeur.crt.old && cp monServeur.crt /etc/ssl/certs/
 $ service dovecot restart
 ````
 
 J'essaye de récupérer mes messages depuis mon Thunderbird, j'ai une erreur SSL `identité inconnue`. Je vais voir les logs dovecot et je vois :
 
 ````
-Jul 18 11:36:46 dune dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=xx.xx.xx.xx, lip=yy.yy.yy.yy, TLS handshaking: SSL_accept() failed: error:14094416:SSL routines:SSL3_READ_BYTES:sslv3 alert certificate unknown: SSL alert number 46, session=<w/nxtOU3RwBOwT0M>
+Jul 18 11:36:46 monServeur dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=xx.xx.xx.xx, lip=yy.yy.yy.yy, TLS handshaking: SSL_accept() failed: error:14094416:SSL routines:SSL3_READ_BYTES:sslv3 alert certificate unknown: SSL alert number 46, session=<w/nxtOU3RwBOwT0M>
 ````
 
 Je comprends que le certificat de notre fournisseur n'est pas le bon, puisque le mien est neuf, fraîchement installé. Alors je vérifie le certificat. Je trouve dans notre répertoire `/etc/ssl/certs/` un certificat intermédiaire Gandi. J'essaye :
 
 ````
-$ openssl verify -CAfile /etc/ssl/certs/GandiStandardSSLCA.pem dune.crt
-dune.crt: OU = Domain Control Validated, OU = Gandi Standard Wildcard SSL, CN = *.dune.io
+$ openssl verify -CAfile /etc/ssl/certs/GandiStandardSSLCA.pem monServeur.crt
+monServeur.crt: OU = Domain Control Validated, OU = Gandi Standard Wildcard SSL, CN = *.monServeur.io
 error 20 at 0 depth lookup:unable to get local issuer certificate
 ````
 
 Sur le site de notre fournisseur de certificat, lorsque nous le téléchargeons, il propose aussi de télécharger le certificat "intermédiaire". Surprise ! Il s'appelle `GandiStandardSSLCA2.pem`. Je le copie dans `/etc/ssl/certs/` et à présent :
 
 ````
-$ openssl verify -CAfile /etc/ssl/certs/GandiStandardSSLCA2.pem dune.crt
-dune.crt: OK
+$ openssl verify -CAfile /etc/ssl/certs/GandiStandardSSLCA2.pem monServeur.crt
+monServeur.crt: OK
 ````
 
 J'essaye de récupérer mes mails dans Thunderbird. Toujours la même alerte `Impossible de vérifier ce certificat car l'émetteur est inconnu`. L'erreur est différente côté dovecot :
 
 ````
-Jul 18 11:45:15 dune dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=xx.xx.xx.xx, lip=yy.yy.yy.yy, TLS: SSL_read() failed: error:14094418:SSL routines:SSL3_READ_BYTES:tlsv1 alert unknown ca: SSL alert number 48, session=<qcIvFiY4rABOwT0M>
+Jul 18 11:45:15 monServeur dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=xx.xx.xx.xx, lip=yy.yy.yy.yy, TLS: SSL_read() failed: error:14094418:SSL routines:SSL3_READ_BYTES:tlsv1 alert unknown ca: SSL alert number 48, session=<qcIvFiY4rABOwT0M>
 ````
 
 Dans l'état du certificat sur thunderbird, il est indiqué `Ce site essaie de s'identifier lui-même avec des informations invalides`. Quand je clique sur le bouton "Voir" je vois la ligne
@@ -68,44 +68,44 @@ Grâce à la ***chaine SSL***, ce n'est pas nécessaire.
 Quand je vérifie par ligne de commande l'état de mon certificat imap j'obtiens :
 
 ````
-$ openssl s_client -crlf  -connect imap.dune.io:993
+$ openssl s_client -crlf  -connect imap.monServeur.io:993
 CONNECTED(00000003)
-depth=0 OU = Domain Control Validated, OU = Gandi Standard Wildcard SSL, CN = *.dune.io
+depth=0 OU = Domain Control Validated, OU = Gandi Standard Wildcard SSL, CN = *.monServeur.io
 verify error:num=20:unable to get local issuer certificate
 verify return:1
-depth=0 OU = Domain Control Validated, OU = Gandi Standard Wildcard SSL, CN = *.dune.io
+depth=0 OU = Domain Control Validated, OU = Gandi Standard Wildcard SSL, CN = *.monServeur.io
 verify error:num=27:certificate not trusted
 verify return:1
-depth=0 OU = Domain Control Validated, OU = Gandi Standard Wildcard SSL, CN = *.dune.io
+depth=0 OU = Domain Control Validated, OU = Gandi Standard Wildcard SSL, CN = *.monServeur.io
 verify error:num=21:unable to verify the first certificate
 verify return:1
 ---
 Certificate chain
-0 s:/OU=Domain Control Validated/OU=Gandi Standard Wildcard SSL/CN=*.dune.io
+0 s:/OU=Domain Control Validated/OU=Gandi Standard Wildcard SSL/CN=*.monServeur.io
 i:/C=FR/ST=Paris/L=Paris/O=Gandi/CN=Gandi Standard SSL CA 2
 ---
 Server certificate
 ...
 ````
 
-Je crée alors la chaîne de dune : dune -> gandi -> USERTrust en concaténant les certificats (USERTrust était déjà dans le fichier pem de Gandi) :
+Je crée alors la chaîne de monServeur : monServeur -> gandi -> USERTrust en concaténant les certificats (USERTrust était déjà dans le fichier pem de Gandi) :
 
 ````
-$ cat dune.crt GandiStandardSSLCA2.pem  > dune-chain.crt
-$ cp dune-chain.crt /etc/ssl/certs/dune.crt
+$ cat monServeur.crt GandiStandardSSLCA2.pem  > monServeur-chain.crt
+$ cp monServeur-chain.crt /etc/ssl/certs/monServeur.crt
 ````
 
 Je redémarre dovecot. Je relance ma commande :
 
 ````
-$ openssl s_client  -crlf  -connect imap.dune.io:993
+$ openssl s_client  -crlf  -connect imap.monServeur.io:993
 CONNECTED(00000003)
 depth=2 C = US, ST = New Jersey, L = Jersey City, O = The USERTRUST Network, CN = USERTrust RSA Certification Authority
 verify error:num=20:unable to get local issuer certificate
 verify return:0
 ---
 Certificate chain
-0 s:/OU=Domain Control Validated/OU=Gandi Standard Wildcard SSL/CN=*.dune.io
+0 s:/OU=Domain Control Validated/OU=Gandi Standard Wildcard SSL/CN=*.monServeur.io
 i:/C=FR/ST=Paris/L=Paris/O=Gandi/CN=Gandi Standard SSL CA 2
 1 s:/C=FR/ST=Paris/L=Paris/O=Gandi/CN=Gandi Standard SSL CA 2
 i:/C=US/ST=New Jersey/L=Jersey City/O=The USERTRUST Network/CN=USERTrust RSA Certification Authority
@@ -119,7 +119,7 @@ Server certificate
 Il y a toujours une erreur mais la chaîne est là. Il ne trouve pas USERTrust. C'est la racine, et elle est déjà installée. Il faut ajouter -CApath pour aller chercher ce certificat racine :
 
 ````
-$ openssl s_client -CApath /etc/ssl/certs/ -crlf  -connect imap.dune.io:993
+$ openssl s_client -CApath /etc/ssl/certs/ -crlf  -connect imap.monServeur.io:993
 CONNECTED(00000003)
 depth=3 C = SE, O = AddTrust AB, OU = AddTrust External TTP Network, CN = AddTrust External CA Root
 verify return:1
@@ -127,11 +127,11 @@ depth=2 C = US, ST = New Jersey, L = Jersey City, O = The USERTRUST Network, CN 
 verify return:1
 depth=1 C = FR, ST = Paris, L = Paris, O = Gandi, CN = Gandi Standard SSL CA 2
 verify return:1
-depth=0 OU = Domain Control Validated, OU = Gandi Standard Wildcard SSL, CN = *.dune.io
+depth=0 OU = Domain Control Validated, OU = Gandi Standard Wildcard SSL, CN = *.monServeur.io
 verify return:1
 ---
 Certificate chain
-0 s:/OU=Domain Control Validated/OU=Gandi Standard Wildcard SSL/CN=*.dune.io
+0 s:/OU=Domain Control Validated/OU=Gandi Standard Wildcard SSL/CN=*.monServeur.io
 i:/C=FR/ST=Paris/L=Paris/O=Gandi/CN=Gandi Standard SSL CA 2
 1 s:/C=FR/ST=Paris/L=Paris/O=Gandi/CN=Gandi Standard SSL CA 2
 i:/C=US/ST=New Jersey/L=Jersey City/O=The USERTRUST Network/CN=USERTrust RSA Certification Authority
