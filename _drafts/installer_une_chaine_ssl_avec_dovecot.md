@@ -94,7 +94,7 @@ Server certificate
 ...
 ````
 
-Je crée alors la chaîne de monServeur : monServeur -> gandi -> USERTrust en concaténant les certificats (USERTrust était déjà dans le fichier pem de Gandi) :
+On peut voir l'absence de chaîne car il a bien vu que `Gandi Standard SSL CA 2` avait certifié monServeur, mais il s'arrête là. La profondeur (`depth`) est de 1 (ou zero si on compte comme un informaticien). Je crée alors la chaîne de monServeur : `monServeur -> gandi -> USERTrust` en concaténant les certificats (USERTrust était déjà dans le fichier pem de Gandi) :
 
 ````
 $ cat monServeur.crt GandiStandardSSLCA2.pem  > monServeur-chain.crt
@@ -124,7 +124,7 @@ Server certificate
 
 ## Indication du chemin des certificats racines
 
-Il y a toujours une erreur mais la chaîne est là. Il ne trouve pas USERTrust. C'est la racine, et elle est déjà installée. Il faut ajouter `-CApath` pour aller chercher ce certificat racine :
+Il y a toujours une erreur mais la chaîne `monServeur -> gandi -> USERTrust` est là (depth=2). Il ne trouve pas USERTrust. C'est la racine, et elle est déjà installée. Il faut ajouter `-CApath` pour aller chercher ce certificat racine :
 
 ````
 $ openssl s_client -CApath /etc/ssl/certs/ -crlf  -connect imap.monServeur.io:993
