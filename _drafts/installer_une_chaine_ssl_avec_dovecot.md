@@ -37,7 +37,7 @@ J'essaye de récupérer mes messages depuis mon Thunderbird, j'ai une erreur SSL
 Jul 18 11:36:46 monServeur dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=xx.xx.xx.xx, lip=yy.yy.yy.yy, TLS handshaking: SSL_accept() failed: error:14094416:SSL routines:SSL3_READ_BYTES:sslv3 alert certificate unknown: SSL alert number 46, session=<w/nxtOU3RwBOwT0M>
 ````
 
-Je comprends que le certificat de notre fournisseur n'est pas le bon, puisque le mien est neuf, fraîchement installé. Alors je vérifie le certificat. Je trouve dans notre répertoire `/etc/ssl/certs/` un certificat intermédiaire Gandi. J'essaye :
+Le certificat de notre fournisseur n'est pas le bon, puisque le mien est neuf, fraîchement installé. Alors je vérifie le certificat. Je trouve dans notre répertoire `/etc/ssl/certs/` un certificat intermédiaire Gandi. J'essaye :
 
 ````
 $ openssl verify -CAfile /etc/ssl/certs/GandiStandardSSLCA.pem monServeur.crt
