@@ -45,14 +45,14 @@ monServeur.crt: OU = Domain Control Validated, OU = Gandi Standard Wildcard SSL,
 error 20 at 0 depth lookup:unable to get local issuer certificate
 ````
 
-## Installation manuelle dans le client mail
-
 Sur le site de notre fournisseur de certificat, lorsque nous le téléchargeons, il propose aussi de télécharger le certificat "intermédiaire". Surprise ! Il s'appelle `GandiStandardSSLCA2.pem`. Je le copie dans `/etc/ssl/certs/` et à présent :
 
 ````
 $ openssl verify -CAfile /etc/ssl/certs/GandiStandardSSLCA2.pem monServeur.crt
 monServeur.crt: OK
 ````
+
+## Installation manuelle dans le client mail
 
 J'essaye de récupérer mes mails dans Thunderbird. Toujours la même alerte `Impossible de vérifier ce certificat car l'émetteur est inconnu`. L'erreur est différente côté dovecot :
 
