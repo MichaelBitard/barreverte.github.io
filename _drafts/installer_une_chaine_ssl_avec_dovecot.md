@@ -94,7 +94,7 @@ Server certificate
 ...
 ````
 
-On peut voir l'absence de chaîne car il a bien vu que `Gandi Standard SSL CA 2` avait certifié monServeur, mais il s'arrête là. La profondeur (`depth`) est de 1 (ou zero si on compte comme un informaticien). Je crée alors la chaîne de monServeur : `monServeur -> gandi -> USERTrust` en concaténant les certificats (USERTrust était déjà dans le fichier pem de Gandi) :
+On constate l'absence de chaîne car `Gandi Standard SSL CA 2` a certifié monServeur, mais la vérification s'arrête là. La profondeur (`depth`) est de 1 (ou zero si on compte comme un informaticien). Je crée alors la chaîne de monServeur : `monServeur -> gandi -> USERTrust` en **concaténant** les certificats (USERTrust était déjà dans le fichier pem de Gandi) :
 
 ````
 $ cat monServeur.crt GandiStandardSSLCA2.pem  > monServeur-chain.crt
