@@ -122,9 +122,13 @@ Server certificate
 ...
 ````
 
+Il y a toujours une erreur mais la chaîne `monServeur -> gandi -> USERTrust` est là (depth=2).
+
 ## Indication du chemin des certificats racines
 
-Il y a toujours une erreur mais la chaîne `monServeur -> gandi -> USERTrust` est là (depth=2). Il ne trouve pas USERTrust. C'est la racine, et elle est déjà installée. Il faut ajouter `-CApath` pour aller chercher ce certificat racine :
+Il ne trouve pas USERTrust. C'est la racine, et elle est déjà installée dans les clients mails. Donc ici, c'est juste l'exécution de la commande `openssl` qui est incorrecte, mais la configuration SSL est bonne côté serveur. J'essaye sur mon mobile, ça fonctionne. Et sur tous les autres clients jusqu'à présent.
+
+Pour avoir une vraie barreverte(©) dans notre ligne de commande il faut ajouter `-CApath` pour dire à `openssl` où se trouvent les certificats racine :
 
 ````
 $ openssl s_client -CApath /etc/ssl/certs/ -crlf  -connect imap.monServeur.io:993
@@ -150,6 +154,6 @@ Server certificate
 ...
 ````
 
-Tout est ok cette fois. J'essaye sur mon mobile, ça fonctionne. Et sur tous les autres clients jusqu'à présent.
+Tout est ok cette fois.
 
 A noter que l'organisation va être cachée par thunderbird et les clients mails. Une fois que je me suis connecté une fois sur notre serveur mail, je retrouve USERTRUST -> Gandi CA 2 dans les certificats. Si vous remettez le certificat seul, sans la chaîne, ça fonctionnera sur les clients s'étant déjà connectés une fois.
