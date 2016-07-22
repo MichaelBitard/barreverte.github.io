@@ -128,7 +128,7 @@ Il y a toujours une erreur mais la chaîne `monServeur -> gandi -> USERTrust` es
 
 Il ne trouve pas USERTrust. C'est la racine, et elle est déjà installée dans les clients mails. Donc ici, c'est juste l'exécution de la commande `openssl` qui est incorrecte, mais la configuration SSL est bonne côté serveur. J'essaye sur mon mobile, ça fonctionne. Et sur tous les autres clients jusqu'à présent.
 
-Pour avoir une vraie barreverte(©) dans notre ligne de commande il faut ajouter `-CApath` pour dire à `openssl` où se trouvent les certificats racine :
+Pour avoir une vraie barreverte(©) dans notre ligne de commande, il faut ajouter `-CApath` pour indiquer à `openssl` où se trouvent les certificats racine :
 
 ````
 $ openssl s_client -CApath /etc/ssl/certs/ -crlf  -connect imap.monServeur.io:993
