@@ -15,6 +15,8 @@ Nous avons entamé avec quelques amis développeurs notre cure de dégooglelisat
 
 Afin de pouvoir utiliser le service de messagerie avec la couche SSL, il nous a fallu acheter un certificat SSL et l'installer. La semaine dernière, le certificat arrivait en fin de validité, j'ai du le changer. Manque de chance, le certificat "intermédaire", celui de Gandi avait changé aussi, et nous n'avions pas documenté l'installation d'origine. Comme j'ai un peu galéré, alors que c'est très simple, je mets pour mémoire les étapes ici.
 
+## Le problème du certificat intermédiaire
+
 Je vais voir dans notre fichier de configuration `/etc/dovecot/dovecot.conf` comment sont configurés les certificats. Je trouve :
 
 ````
@@ -43,6 +45,8 @@ monServeur.crt: OU = Domain Control Validated, OU = Gandi Standard Wildcard SSL,
 error 20 at 0 depth lookup:unable to get local issuer certificate
 ````
 
+## Installation manuelle dans le client mail
+
 Sur le site de notre fournisseur de certificat, lorsque nous le téléchargeons, il propose aussi de télécharger le certificat "intermédiaire". Surprise ! Il s'appelle `GandiStandardSSLCA2.pem`. Je le copie dans `/etc/ssl/certs/` et à présent :
 
 ````
@@ -63,7 +67,9 @@ Organisation (O) <Ne fait pas partie du certificat>
 ````
 Je comprends que le certificat de Gandi n'est pas envoyé par dovecot. Alors je vais dans `Edition > Préférences > Avancé > Certificats` de thunderbird et je clique sur `Voir les certificats` puis j'importe manuellement mon certificat `GandiStandardSSLCA2.pem`. Maintenant sur mon thunderbird, ça fonctionne. Sur mon mobile ça ne fonctionne pas. On ne va pas importer ce certificat dans **tous** nos clients mail ?
 
-Grâce à la ***chaine SSL***, ce n'est pas nécessaire.
+## Utilisation de la chaîne SSL
+
+Heureusement, grâce à la ***chaine SSL***, ce n'est pas nécessaire.
 
 Quand je vérifie par ligne de commande l'état de mon certificat imap j'obtiens :
 
@@ -116,7 +122,9 @@ Server certificate
 ...
 ````
 
-Il y a toujours une erreur mais la chaîne est là. Il ne trouve pas USERTrust. C'est la racine, et elle est déjà installée. Il faut ajouter -CApath pour aller chercher ce certificat racine :
+## Indication du chemin des certificats racines
+
+Il y a toujours une erreur mais la chaîne est là. Il ne trouve pas USERTrust. C'est la racine, et elle est déjà installée. Il faut ajouter `-CApath` pour aller chercher ce certificat racine :
 
 ````
 $ openssl s_client -CApath /etc/ssl/certs/ -crlf  -connect imap.monServeur.io:993
