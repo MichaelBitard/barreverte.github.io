@@ -72,6 +72,12 @@ Nous avons du ajouter une fonction d'envoi de mails à notre backend. Pour nos t
 
 C'est là que la nouvelle version avec résolution de nom de docker va nous aider. Nous mettons à jour notre packet docker 1.9 -> 1.12 et réinstallons l'exécutable docker-compose 1.5 -> 1.8. Il nous faut modifier notre fichier `docker-compose.yaml` :
 
+Les changements consistent :
+
+* à déclarer la version 2 en début de fichier
+* à ajouter un niveau de déclaration avec la liste des services
+* à supprimer les liens
+
 ````
 version: '2'
 services:
@@ -110,12 +116,6 @@ services:
       - "5432:5432"
 ````
 
-Les changements consistent :
-
-* à déclarer la version 2 en début de fichier
-* à ajouter un niveau de déclaration avec la liste des services
-* à supprimer les liens
-
 Si vous êtes dans un répertoire qui s'appelle `monprojet`, docker compose va créer un réseau qui s'appelle `monprojet`. Et puis il va créer les containers indiqués dans le fichier, et les ajouter à ce réseau avec le nom d'hôte du service (ici `dev`, `nginx`, `backend`, `postgresql`).
 
 Vous pouvez visualiser les réseau docker en faisant :
@@ -145,7 +145,7 @@ dev:
 
 A présent, le host `frontend` sera résolu de la même manière que `nginx` et je retrouve mes tests d'acceptance verts. Avec cette fois la possibilité de pointer de mon backend vers dev:1125 pour mon serveur SMTP.
 
-Le bonus : avant si vous modifiiez un container autre que celui de dev, lorsque vous le redémarriez avec docker-compose, comme dev était lié à ce container, il redémarrait dev aussi. Avec le mécanisme du réseau, ce n'est plus nécessaire.
+**Le bonus** : avant si vous modifiiez un container autre que celui de dev, lorsque vous le redémarriez avec docker-compose, comme dev était lié à ce container, il redémarrait dev aussi. Avec le mécanisme du réseau, ce n'est plus nécessaire.
 
 Bien sûr, si vous lancez un docker compose avec un autre nom de projet, il va vous faire un nouveau réseau, et du coup vos deux environnements seront étanches :
 
@@ -167,4 +167,5 @@ c4193ae576fb        none                null              local
 e20d13fe2b5c        prj2_default        bridge            local
 ````
 
-Il est possible ensuite de ne pas utiliser le réseau par défaut et définir ses propres réseaux, de paramétrer ses réseaux (passerelle, driver), les possibilités sont très larges. Pour plus d'infos sur le fonctionnement du réseau docker : cf https://docs.docker.com/engine/userguide/networking/
+Il est possible ensuite de ne pas utiliser le réseau par défaut et définir ses propres réseaux, de paramétrer ses réseaux (passerelle, driver), les possibilités sont très larges. Pour plus d’infos sur le fonctionnement du réseau docker, je vous invite à vous reporter à [la documentation chez
+docker](https://docs.docker.com/engine/userguide/networking/)
