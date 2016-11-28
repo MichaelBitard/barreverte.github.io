@@ -20,7 +20,7 @@ L'objectif est double :
 
 J'ai binômé avec Paul qui m'a montré comment faire pour mettre en oeuvre une stack minimale ES6. En tant qu'expert frontend il m'a conseillé de mettre en place un build JS pour le code du front. Il m'a montré le gestionnaire de packets JS [yarn](https://yarnpkg.com/), [babel](https://babeljs.io/) pour la transpilation en ES5, [mocha](http://mochajs.org/) pour le test runner, [expect](https://github.com/Automattic/expect.js) pour les assertions. Nous avons pu transformer un bout de code que j'avais amené et des tests unitaires relatifs.
 
-Emballé par le résultat, j'ai modifié la hiérarchie de mon source pour séparer le code backend et code frontend. Puis j'ai repris tous les bouts de code javascript du site et les ai transformés pour qu'ils puissent passer à la moulinette babel. Même si je n'ai pas mis en oeuvre immédiatement toutes les possibilités de syntaxe offertes par ES6 (classes, etc), les impacts étaient assez importants.
+Emballé par le résultat, j'ai modifié la hiérarchie de mon source pour séparer code backend et code frontend. Puis j'ai repris tous les bouts de code javascript du site et les ai transformés pour qu'ils puissent passer à la moulinette babel. Même si je n'ai pas mis en oeuvre immédiatement toutes les possibilités de syntaxe offertes par ES6 (classes, etc), les impacts étaient assez importants.
 
 Je n'aurais pas pu éviter des régressions sans **les tests unitaires JS et les tests d'acceptance sélénium**. J'ai ajouté [webpack](https://webpack.js.org/) pour pouvoir packager le code et le déployer dans le site.
 
