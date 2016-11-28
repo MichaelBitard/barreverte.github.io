@@ -1,5 +1,13 @@
-
-# Une migration vers ES6 et un pas de plus en écoconception
+---
+layout: post
+title: Une migration vers ES6 et un pas de plus en écoconception
+author:
+  display_name: Bruno Thomas
+tags:
+- javascript
+- es6
+comments: true
+---
 
 Actuelement je travaille sur un site web en mode SaaS pour les avocats. Comme le javascript n'était pas ma tasse de thé, j'avais négligé cet aspect, en accumulant le minimum de code (backbone/semantic-ui) dans de petits fichiers qui commençaient à grossir. Conscient de cette dette technique qui s'y accumulait, il y a une dixaine de jour je suis allé aux Javascript Les 10 Doigts Dedans (ou [JSLDD](http://jsldd.org/) pour les intimes) afin de rencontrer des férus du JS qui pourraient me faire aimer un peu mieux le JS et prendre soin de cet aspect incontournable du site.
 

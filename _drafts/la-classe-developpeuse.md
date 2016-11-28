@@ -2,7 +2,7 @@
 layout: post
 title: La classe développeuse
 author:
-display_name: Bruno Thomas
+  display_name: Bruno Thomas
 tags:
 - politique
 - développeur
