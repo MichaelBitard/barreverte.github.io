@@ -65,7 +65,7 @@ Je me reporte sur [JMeter](http://jmeter.apache.org/) que j'avais déjà utilis�
 
 ![Config jmeter](../images/migration_es6/jmeter_config.png)
 
-Ne pas oublier de cliquer sur "récupérer les ressources incluses" dans les requêtes HTTP, puis d'ajouter un gestionnaire de cache HTTP pour qu'il se comporte comme un navigateur avec les dépendances Javascript/CSS/Images. Mais une fois configuré il fait bien son boulot, et me permet de faire 100 itérations avec un seul utilisateur sur un scénario qui charge toutes les pages. Ce scénario pourra toujours me reservir pour faire quelques tests de charge sur le serveur, je n'aurais qu'à modifier le paramètre du nombre d'utilisateurs concurrents.
+Ne pas oublier de cliquer sur "récupérer les ressources incluses" dans les requêtes HTTP, puis d'ajouter un gestionnaire de cache HTTP pour qu'il se comporte comme un navigateur avec les dépendances Javascript/CSS/Images. Mais une fois configuré il fait bien son boulot, et me permet de faire 100 itérations avec un seul utilisateur sur un scénario qui charge toutes les pages. Ce scénario pourra toujours me resservir pour faire quelques tests de charge sur le serveur, je n'aurai qu'à modifier le paramètre du nombre d'utilisateurs concurrents.
 
 A présent les résultats sont bien différents :
 
