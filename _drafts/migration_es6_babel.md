@@ -1,11 +1,11 @@
 
 # Une migration vers ES6 et un pas de plus en écoconception
 
-Actuelement je travaille sur un site web en mode SaaS pour les avocats. Comme le javascript n'était pas ma tasse de thé, j'avais négligé cet aspect, en accumulant le minimum de code (backbone/semantic-ui) dans de petits fichiers qui commençaient à grossir. Conscient de la dette technique qui commençait à s'accumuler, il y a une dixaine de jour je suis allé aux Javascript Les 10 Doigts Dedans (ou [JSLDD](http://jsldd.org/) pour les intimes) afin de rencontrer des gens qui pourraient me faire aimer un peu mieux le JS et prendre soin de cet aspect incontournable du site.
+Actuelement je travaille sur un site web en mode SaaS pour les avocats. Comme le javascript n'était pas ma tasse de thé, j'avais négligé cet aspect, en accumulant le minimum de code (backbone/semantic-ui) dans de petits fichiers qui commençaient à grossir. Conscient de cette dette technique qui s'y accumulait, il y a une dixaine de jour je suis allé aux Javascript Les 10 Doigts Dedans (ou [JSLDD](http://jsldd.org/) pour les intimes) afin de rencontrer des férus du JS qui pourraient me faire aimer un peu mieux le JS et prendre soin de cet aspect incontournable du site.
 
 L'objectif est double :
 
-- diminution de la dette : rationnaliser l'utilisation du JS dans le HTML, améliorer la testabilité du code JS, la lisibilité du code de production, s'ouvrir des portes d'amélioration du design du code (par ex pouvoir intégrer plus simplement des librairies comme [riot.js](http://riotjs.com/)
+- diminution de la dette : rationnaliser l'utilisation du JS dans le HTML, améliorer la testabilité du code JS, la lisibilité du code de production, s'ouvrir des portes d'amélioration du design du code (par ex pouvoir intégrer plus simplement des librairies comme [riot.js](http://riotjs.com/))
 - diminuer la taille des pages, en minifiant les fichiers javascript du site (pour les librairies, j'utilisais déjà les versions minifiées)
 
 *Et enfin, pouvoir apprécier cet écosystème du frontend ?*
