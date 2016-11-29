@@ -13,7 +13,7 @@ Actuellement je travaille sur un site web en mode SaaS pour travailleurs indépe
 
 L'objectif est double :
 
-- diminuer la dette technique : rationnaliser l'utilisation du JS dans le HTML, améliorer la testabilité du code JS, la lisibilité du code de production, s'ouvrir des portes d'amélioration du design du code (par ex pouvoir intégrer plus simplement des librairies comme [riot.js](http://riotjs.com/))
+- diminuer la dette technique : rationnaliser l'utilisation du JS dans le HTML, améliorer la testabilité du code JS, la lisibilité du code de production, s'ouvrir des portes d'amélioration du design du code (par exemple pouvoir intégrer plus simplement des librairies comme [riot.js](http://riotjs.com/))
 - diminuer la taille des pages, en minifiant les fichiers javascript du site (pour les librairies, j'utilisais déjà les versions minifiées)
 
 *Et enfin, pouvoir apprécier cet écosystème du frontend ?*
