@@ -144,4 +144,4 @@ On passe d'une taille de page moyenne de **12,14 Ko à 9,78 Ko**, c'est à dire 
 
 L'étape suivante sera l'utilisation de fichiers javasript avec un hash code, pour recharger uniquement les fichiers modifiés. Actuellement nous utilisons des chemins virtuels avec la version du site. Cela oblige les navigateurs de chaque utilisateur à recharger toutes les resources (js/css/images) lorsque le site a évolué. Ou encore la gestion des ressources CSS avec webpack.
 
-PS : merci à ut7 pour l'organisation du JSLDD et Paul pour son binômage instructif, ils sont l'étincelle qui m'a permis de faire l'allumage de ce refactoring.
+PS : merci à ut7 pour l'organisation du JSLDD et Paul pour son binômage instructif
