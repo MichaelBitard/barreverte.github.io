@@ -10,15 +10,16 @@ categories:
 - agilité
 comments: true
 ---
-L'équipe dans laquelle je suis a adopté le cadre SCRUM pour son mode de fonctionnement. Les rituels classiques tels que la réunion du matin et l'indéboulonnable trio **revue/rétrospective/planning** sont appliqués scrupuleusement.
+L'équipe dans laquelle je suis a adopté le cadre SCRUM pour son mode de fonctionnement. Les rituels classiques tels que la réunion du matin et l'indéboulonnable trio **revue/rétrospective/planning** est appliqué scrupuleusement.
 
 Les Sprints s'enchaînent. Si le format de la rétrospective peut varier en fonction de la situation (c'est même hautement conseillé), celui de la revue et du planning sont plutôt standards. Pour éviter de tomber dans une routine qui lasserait les participants, je me suis appuyé sur la Faciliation Graphique pour les dynamiser un peu.
 
 ### Dessine moi un bilan
 
-Le bilan factuel d'un sprint, c'est souvent un tableau contenant les story engagées avec comme colonnes, libellé, fini ou pas, nombre de points. Les interviews pré-retrospective sont une mine d'information et permettent de dégager une tendance. Exemple, notre Sprint 13 avait beaucoup (trop) de story démarrées en plus d'être non priorisées ou non chiffrées. Du coup, j'ai eu l'idée d'utiliser la métaphore de la livraison par avion :
+La revue d'un sprint, c'est souvent une démonstration auprès du Product Owner suivie d'un bilan du travail qui a été accompli ainsi que les obstacles/frottements rencontrés.
+Notre Sprint 13 avait beaucoup (trop) de story démarrées en plus d'être non priorisées ou non chiffrées. Comment représenter graphiquement cette accumulation de travail non terminé ? J'ai eu l'idée de dessiner une livraison par avion :
 
-* les story finies et livrées sur une ile,
+* les story finies et livrées sur une ile à la taille restreinte,
 * les story non priorisées en cours de réalisation en plein ciel,
 * une non chiffrée juste balancée depuis l'avion (car "prise en compte à la dernière minute").
 
