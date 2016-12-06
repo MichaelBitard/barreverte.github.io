@@ -17,6 +17,7 @@ Les Sprints s'enchaînent. Si le format de la rétrospective peut varier en fonc
 ### Dessine moi un bilan
 
 Le bilan factuel d'un sprint, c'est souvent un tableau contenant les story engagées avec comme colonnes, libellé, fini ou pas, nombre de points. Les interviews pré-retrospective sont une mine d'information et permettent de dégager une tendance. Exemple, notre Sprint 13 avait beaucoup (trop) de story démarrées en plus d'être non priorisées ou non chiffrées. Du coup, j'ai eu l'idée d'utiliser la métaphore de la livraison par avion :
+
 * les story finies et livrées sur une ile,
 * les story non priorisées en cours de réalisation en plein ciel,
 * une non chiffrée juste balancée depuis l'avion (car "prise en compte à la dernière minute").
@@ -24,6 +25,7 @@ Le bilan factuel d'un sprint, c'est souvent un tableau contenant les story engag
 ![Revue du Sprint](/images/sprintReviewAvion.jpg)
 
 Représenter ce Sprint de cette manière :
+
 * interpelait chaque membre de l'équipe
 * pouvait servir de terreau pour la rétrospective. Le problème était visible, compris par chacun, l'équipe a décidé d'agir dessus. Du coup la rétrospective a été assez courte mais efficace
 
