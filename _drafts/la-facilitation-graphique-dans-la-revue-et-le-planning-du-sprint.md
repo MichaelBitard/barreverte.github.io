@@ -1,5 +1,6 @@
+---
 layout: post
-title: Un peu de vie dans les rituels SCRUM
+title: La facilitation graphique dans la revue et le planning du sprint
 author:
   display_name: David Boissier
 tags:
