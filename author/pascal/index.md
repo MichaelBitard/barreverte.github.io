@@ -9,4 +9,4 @@ Je m'appelle Pascal Pratmarty
 
 Quelques liens :
 
-* [mon profil LinkedIn](https://www.linkedin.com/profile/view?id=369269)
+* [mon profil LinkedIn](https://fr.linkedin.com/in/pascalpratmarty)

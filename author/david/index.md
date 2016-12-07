@@ -9,4 +9,4 @@ Je m'appelle David Boissier
 
 Quelques liens :
 
-* [mon profil LinkedIn](https://www.linkedin.com/profile/view?id=35965858)
+* [mon profil LinkedIn](https://fr.linkedin.com/in/davidboissier)

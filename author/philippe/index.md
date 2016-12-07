@@ -9,4 +9,4 @@ Je m'appelle Philippe Blayo
 
 Quelques liens :
 
-* [mon profil LinkedIn](https://www.linkedin.com/profile/view?id=16069447)
+* [mon profil LinkedIn](https://fr.linkedin.com/in/philippe-blayo-54746b5)

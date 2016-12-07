@@ -9,4 +9,4 @@ Je m'appelle Jean-Baptiste Potonnier
 
 Quelques liens :
 
-* [mon profil LinkedIn](https://www.linkedin.com/profile/view?id=6550104)
+* [mon profil LinkedIn](https://fr.linkedin.com/in/jean-baptiste-potonnier-6a023a2)
