@@ -57,16 +57,14 @@ function build_tree(values) {
 
 function mkdir_p(path_items, node) {
   let path_item = path_items[0];
-  let n = node.children.find(_node => {return _node.name == path_item ? _node: undefined});
+  let n = node.children.filter(child => child.name === path_item)[0];
   if (n === undefined) {
     path_items.pop();
-    let current_node = node;
-    path_items.forEach(dir => {
+    return path_items.reduce((current_node, dir) => {
       let new_dir = new Node(dir, {filename: current_node.data.filename + '/' + dir}, []);
       current_node.children.push(new_dir);
-      current_node = new_dir;
-    });
-    return current_node;
+      return new_dir;
+    }, node);
   } else {
     path_items.shift();
     return mkdir_p(path_items, n);
