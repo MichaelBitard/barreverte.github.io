@@ -14,7 +14,7 @@ L'équipe dans laquelle je suis a adopté le cadre SCRUM pour son mode de foncti
 
 Les Sprints s'enchaînent. Si le format de la rétrospective peut varier en fonction de la situation (c'est même hautement conseillé), celui de la revue et du planning sont plutôt standards. Pour éviter de tomber dans une routine qui lasserait les participants, je me suis appuyé sur la Faciliation Graphique pour les dynamiser un peu.
 
-### Dessine moi un bilan
+### Ambiance feutrée 
 
 La revue d'un sprint, c'est souvent une démonstration auprès du Product Owner suivie d'un bilan du travail qui a été accompli ainsi que les obstacles/frottements rencontrés.
 Notre Sprint 13 avait beaucoup (trop) de story démarrées en plus d'être non priorisées ou non chiffrées. Comment représenter graphiquement cette accumulation de travail non terminé ? J'ai eu l'idée de dessiner une livraison par avion :
@@ -42,4 +42,8 @@ Revenons au Sprint 13 dans lequel l'équipe s'était un peu éparpillée, la dé
 
 ![Planning du Sprint](/images/sprintPlanningSunRoad.jpg)
 
-Les métaphores sont nombreuses pour la revue et le planning. Il faut toujours veiller à ce qu'elles viennent soutenir l'objectif du rituel en question. Et si dessiner fait peur, il ne faut pas s'inquiéter. Juste avoir les idées claires en tête, être minimaliste et efficace, essayer trois ou quatre fois avant (ne pas hésiter à demander l'avis à quelques personnes). Si votre facilitation graphique n'est pas parfaite lors de l'exécution, personne ne vous le reprochera.
+### Alors, dessiner c'est gagné ?
+
+À la manière d'un coach, le facilitateur doit veiller à ne pas introduire de biais afin de ne pas influencer la direction que l'équipe souhaite prendre. Pour la rétrospective ce sprint 13, nous étions tous conscients qu'elle serait fermée. L'important pour nous était de régler un problème majeur dans l'immédiat. Nous avons peut-être raté certains sujets mais s'ils étaient importants, ils seraient revenus par la grande porte à la rétro suivante. Les effets furent intéressants. En n'ayant que 3 stories, nous avons profité pour attaquer (et livrer !) des petites taches de refactoring legacy.
+
+Encore une fois, être bon au dessin n'est pas un pré-requis. Il faut juste avoir les idées claires, ne pas hésiter à s'entraîner et demander l'avis à son entourage. Personne ne vous en voudra pour avoir raté certains pictogrammes, l'important est que le dessin ait un sens et qu'il aide l'équipe à décider.
