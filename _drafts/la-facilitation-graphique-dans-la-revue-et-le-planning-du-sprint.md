@@ -12,7 +12,7 @@ comments: true
 ---
 L'équipe dans laquelle je suis a adopté le cadre SCRUM pour son mode de fonctionnement. Les rituels classiques tels que la réunion du matin et l'indéboulonnable trio **revue/rétrospective/planning** est appliqué scrupuleusement.
 
-Les Sprints s'enchaînent. Si le format de la rétrospective peut varier en fonction de la situation (c'est même hautement conseillé), celui de la revue et du planning sont plutôt standards. Pour éviter de tomber dans une routine qui lasserait les participants, je me suis appuyé sur la Faciliation Graphique pour les dynamiser un peu.
+Les Sprints de deux semaines s'enchaînent. Si le format de la rétrospective peut varier en fonction de la situation (c'est même hautement conseillé), celui de la revue et du planning sont plutôt standards. Pour éviter de tomber dans une routine qui lasserait les participants, je me suis appuyé sur la Faciliation Graphique pour les dynamiser un peu.
 
 ### Ambiance feutrée 
 
