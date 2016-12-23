@@ -52,7 +52,7 @@ Avec websocket :
 
 [![Wireshark websocket](/images/migration_polling_websocket/wireshark_websocket.png){:height="300px" width="400px"}](/images/migration_polling_websocket/wireshark_websocket.png)
 
-On voit à présent les TCP Keep-Alive toutes les 45 secondes avec 2 fois 66 octets (avec le ACK).
+On voit à présent les TCP Keep-Alive toutes les 45 secondes, ce qui fait 2 fois 66 octets (avec le ACK).
 
 Si les messages envoyés par polling et websocket sont les mêmes, la différence sera essentiellement liée à la maintenance de la connexion sur le temps d'utilisation du service pour chaque utilisateur. Donc nous aurons `964 octets` toutes les 30 secondes pour le polling et `132 octets` toutes les 45 secondes pour la websocket. C'est à dire que nous divisions par 7,3 le nombre d'informations échangées à chaque requête, et nous faisons trois requêtes HTTP pour deux Keep-Alive/ACK. Donc nous échangeons **10 fois moins de données** en ayant une meilleure réactivité à la réception d'un mail.
 
@@ -64,6 +64,16 @@ De la même manière, les échanges IMAP sont diminués. Au lieu de faire un FET
 142 bytes on the wire (1136 bits)
 ````
 
-Soit 142 octets avec un ACK de 66 octets : `208 octets`, on a la maintenance de la ligne de vie. En mode IDLE, le serveur envoie un 'OK Still here' (83 octets) toutes les 2 minutes (pour [Dovecot](http://dovecot.org/)), avec un ACK TCP, `149 octets` au total. Ce qui fait **plus de 5 fois moins de données** là encore en améliorant la réactivité du service.
+Soit 142 octets avec un ACK de 66 octets : `208 octets`, on est en attente d'informations de la part du serveur avec juste la maintenance de la ligne de vie. En mode IDLE, le serveur envoie un 'OK Still here' (83 octets) toutes les 2 minutes (pour [Dovecot](http://dovecot.org/)), avec un ACK TCP, soit `149 octets` au total. Ce qui fait **plus de 5 fois moins de données** là encore en améliorant la réactivité du service.
 
 Enfin, nous avons transformé notre mail_fetcher multithreadé avec un client IMAP actif par thread en mail_fetcher monothreadé événementiel, ce qui le rend moins gourmand en mémoire et CPU.
+
+Au final, nous avons :
+
+- une meilleure expérience utilisateur avec un temps de réponse diminué pour la réception d'un email
+- [créé une librairie](https://github.com/bamthomas/aioimaplib) IMAP asynchrone
+- diminué par plus de 10 la sollicitation du réseau (client <-> serveur HTTP + serveur HTTP <-> serveur IMAP)
+- diminué l'utilisation des serveurs
+- appris sur la programmation asynchrone en python
+
+Nous avons transformé [notre tâche simple en tâche difficile](http://dominicwilliams.net/en/pair_diff.html) (notifier l'utilisateur de l'arrivée d'un nouveau message par scrutation en push serveur). La contrainte d'une meilleure utilisation des resources nous a poussé à changer de braquet en technicité et d'apprendre. 
