@@ -28,6 +28,8 @@ Côté serveur, dès qu'un utilisateur se connecte, un client IMAP est créé et
 - si un utilisateur est connecté toute la journée, et qu'il ne reçoit aucun message, l'application est sollicitée, le réseau également, pour rien
 - l'expérience utilisateur est dégradée par le temps de polling : comme nous avons positionné ce temps à 30 secondes, au pire il devra attendre une minute pour être notifié d'un nouveau message. Dans l'absolu c'est pas beaucoup, mais nous nous sommes habitués à une certaine immédiateté. Ce délais peut par exemple nuire à l'image qu'on se fait d'une application
 
+### Passer en événementiel
+
 Pour en apprendre un peu plus sur le sujet, nous avons fait un [spike](http://www.extremeprogramming.org/rules/spike.html) afin de valider l'intérêt d'une solution événementielle.
 
 - côté serveur, nous utilisons l'[instruction IDLE](https://tools.ietf.org/html/rfc2177) de l'IMAP4 et nous programmons le batch de récupération de mail en [python asynchrone](https://docs.python.org/3/library/asyncio.html) pour que le serveur se mette au repos lorsque rien ne se passe sur la connexion IMAP. Pour la partie web, nous utilisons un worker [gaiohttp](http://docs.gunicorn.org/en/stable/design.html#asyncio-workers) de [green unicorn](http://gunicorn.org/) en passant par [aiohttp](https://aiohttp.readthedocs.io/en/stable/). En effet cela permet d'utiliser une application [pyramid](https://trypyramid.com/) en mode asynchrone. Comme le reste du projet utilise pyramid pour le web, nous contrôlons l'authentification par le même token, c'est pratique, et on ne change pas de techno. Enfin, ce sont des projets opensource reconnus qui se basent sur la couche asynchrone native de python ([asyncio](https://docs.python.org/3/library/asyncio.html)) contrairement à [twisted](https://twistedmatrix.com/) ou [tornado](http://www.tornadoweb.org) ;
@@ -40,6 +42,8 @@ websocket.onmessage = function (evt) {
     update_ui(evt.data);
 }
 ````
+
+### Pour le WEB
 
 Nous voulons alors mesurer l'écart d'utilisation du réseau. Comme la websocket est un mode connecté, le navigateur ne nous indique pas tout, notamment les trames TCP/IP de keep alive. Nous faisons un dump TCP avec [wireshark](https://www.wireshark.org/).
 
@@ -55,7 +59,7 @@ Avec websocket :
 
 On voit à présent les TCP Keep-Alive toutes les 45 secondes, ce qui fait 2 fois 66 octets (avec le ACK).
 
-En résumé, nous avons :
+En résumé :
 
 
 | Polling | Websocket |
@@ -66,6 +70,8 @@ En résumé, nous avons :
 
 
 Nous divisions par 7,3 le nombre d'informations échangées à chaque requête, et nous faisons trois requêtes HTTP pour deux Keep-Alive/ACK. Donc nous échangeons **10 fois moins de données** en ayant une meilleure réactivité à la réception d'un mail.
+
+### Pour l'IMAP
 
 De la même manière, les échanges IMAP sont diminués. Avec le polling, on fait un FETCH toutes les 30 secondes :
 
@@ -84,15 +90,19 @@ Soit 142 octets avec un ACK de 66 octets : `208 octets`. En mode événementiel,
 | toutes les 30s | toutes les 2mn |
 
 
-Ce qui fait **plus de 5 fois moins de données** là encore en améliorant la réactivité du service.
+Ce qui fait **presque 5 fois moins de données** là encore en améliorant la réactivité du service.
 
-Enfin, nous avons transformé notre mail_fetcher multithreadé avec un client IMAP actif par thread en mail_fetcher monothreadé événementiel, ce qui le rend moins gourmand en mémoire et CPU.
+### En résumé
 
-Au final, nous obtenons :
+![Synthèse](/images/migration_polling_websocket/synthese.png)
+
+Nous avons transformé notre mail_fetcher multithreadé avec un client IMAP actif par thread en mail_fetcher monothreadé événementiel, ce qui le rend moins gourmand en mémoire et CPU.
+
+Nous obtenons :
 
 - une meilleure expérience utilisateur avec un temps de réponse diminué pour la réception d'un email
 - [une librairie](https://github.com/bamthomas/aioimaplib) IMAP asynchrone
-- une diminution de plus de 10x de la sollicitation du réseau (client <-> serveur HTTP + serveur HTTP <-> serveur IMAP)
+- une division par 9 de la sollicitation du réseau (client <-> serveur HTTP + serveur HTTP <-> serveur IMAP)
 - une diminution de l'utilisation des serveurs
 - un apprentissage sur la programmation asynchrone en python
 
@@ -103,3 +113,5 @@ Pour bien faire, il reste à travailler la fiabilité et le déploiement :
 - un fallback en longtime polling pour les clients qui ne supportent pas les websockets
 - la détection côté client d'un lien cassé et le rétablissement automatique d'une nouvelle websocket
 - le dimentionnement du nombre de clients websocket que peut servir une machine. [Ce fil stackoverflow](http://stackoverflow.com/questions/15872788/maximum-concurrent-socket-io-connections) peut aider.
+
+Nous pourrions également calculer en fonction du nombre d'utilisateurs l'économie en eau et en émission de CO2 en se basant sur le modèle d'[Ecoindex](http://www.ecoindex.fr/quest-ce-que-ecoindex/). Mais cela fera l'objet d'un autre article :)
