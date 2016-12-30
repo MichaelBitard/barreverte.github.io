@@ -114,4 +114,6 @@ Pour bien faire, il reste à travailler la fiabilité et le déploiement :
 - la détection côté client d'un lien cassé et le rétablissement automatique d'une nouvelle websocket
 - le dimentionnement du nombre de clients websocket que peut servir une machine. [Ce fil stackoverflow](http://stackoverflow.com/questions/15872788/maximum-concurrent-socket-io-connections) peut aider.
 
-Nous pourrions également calculer en fonction du nombre d'utilisateurs l'économie en eau et en émission de CO2 en se basant sur le modèle d'[Ecoindex](http://www.ecoindex.fr/quest-ce-que-ecoindex/). Mais cela fera l'objet d'un autre article :)
+Nous calculerons également l'économie en eau et en émission de CO2 en fonction du nombre d'utilisateurs, en se basant sur le modèle d'[Ecoindex](http://www.ecoindex.fr/quest-ce-que-ecoindex/). Mais cela fera l'objet d'un autre article :)
+
+Bonne année à vous !!
