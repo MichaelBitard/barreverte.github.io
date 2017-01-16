@@ -12,7 +12,7 @@ comments: true
 
 Pour faire suite à une mini série sur l'[écoconception](https://www.greenit.fr/categorie/logiciels/), je voulais partager un remaniement récent de transformation d'un polling web en push serveur (avec une websocket), et les conséquences en terme d'utilisation de bande passante.
 
-Dans le projet sur lequel je travaille actuellement, nous intégrons le mail dans un site web. Nous montrons par exemple à l'utilisateur s'il a reçu de nouveaux emails. Le plus simple, au départ a été de de faire du polling (requêtes régulières vers le serveur) avec un [setInterval](http://www.w3schools.com/jsref/met_win_setinterval.asp) :
+Dans le projet sur lequel je travaille actuellement, nous intégrons le mail dans un site web. Nous montrons par exemple à l'utilisateur s'il a reçu de nouveaux emails. Le plus simple, au départ a été de faire du polling (requêtes régulières vers le serveur) avec un [setInterval](http://www.w3schools.com/jsref/met_win_setinterval.asp) :
 
 ````javascript
 setInterval(function () {
