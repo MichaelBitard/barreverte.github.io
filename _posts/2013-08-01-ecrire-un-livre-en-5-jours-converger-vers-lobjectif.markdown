@@ -77,7 +77,7 @@ L'organisation semble très fluide ce jour-ci. Voici comment s'est déroulé ma 
 
 [![Avec Framasoft](http://farm6.staticflickr.com/5451/9277039444_103b89ee1b_z.jpg)](http://www.flickr.com/photos/31719094@N04/9277039444/)
 
-<p>Cette fois-ci nous utilisons <a href="http://lite.framapad.org/">framapad</a> basé sur <a href="http://etherpad.org/">etherpad</a> pour pouvoir écrire de manière collaborative. Je me souviens d'un moment agréable et productif : nous étions "dans le flux".</p>
+<p>Cette fois-ci nous utilisons <a href="https://framapad.org/">framapad</a> basé sur <a href="http://etherpad.org/">etherpad</a> pour pouvoir écrire de manière collaborative. Je me souviens d'un moment agréable et productif : nous étions "dans le flux".</p>
 <p>Il est déjà 19h, Flash meeting ! Objectif à nouveau raté. Les problèmes remontés sont les suivants :</p>
 <ul>
 <li>nous avons eu du mal avec Raphaël à interpréter le titre "trouver les leviers d'amélioration". La partie leviers a provoqué de nombreuses discussions mais elle nous a poussé à faire un pas de côté pour considérer autrement l'amélioration continue</li>
