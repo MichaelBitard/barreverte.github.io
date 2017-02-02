@@ -164,4 +164,6 @@ Il faut se mettre en flux : il joue le rôle de <em>chief engineer</em> qui assu
 <li>il apprend à "trouver les croix" : identifier précisément la racine d'un problème dans un environnement complexe</li>
 </ul>
 <p>J'ai l'impression d'une certaine nervosité dans le groupe : il existe un doute sur le concept global et le risque de rater notre lecteur. En revanche j'observe toujours un haut niveau d'exigence : le <em>good enough</em> c'est pour le processus, pas pour les pièces livrées. C'est aussi peut-être ce qui fait que nous avons du mal à "sortir" des pièces.</p>
-<p>Le constat est là, nous produisons, mais nous ne savons pas où nous en sommes, et nous ne visualisons toujours pas le livre. A suivre...</p>
+
+Le constat est là, nous produisons, mais nous ne savons pas où nous en sommes, et nous ne visualisons toujours pas le livre.
+[A suivre...](/ecrire-un-livre-en-5-jours-converger-vers-lobjectif)
