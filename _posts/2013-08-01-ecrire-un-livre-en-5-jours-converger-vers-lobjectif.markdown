@@ -74,7 +74,9 @@ L'organisation semble très fluide ce jour-ci. Voici comment s'est déroulé ma 
 <p><a href="/images/leanagile_org_3e_jour.jpg"><img class="aligncenter size-full wp-image-3082" alt="leanagile_org_3e_jour" src="/images/leanagile_org_3e_jour.jpg" width="800"/></a></p>
 <p>J'ai binômé la plupart du temps avec Raphaël. Nous avons éclairci nos idées le matin avec Philippe et Christophe O. nous étions 4. Les deux binômes pendant 1/2h font de leur côté un recensement des grandes lignes à aborder dans le thème de "trouver les leviers de l'amélioration continue". Nous nous sommes retrouvés ensuite 1/2h pour mettre en commun. Nous convenons que Raphaël et moi rédigeons la partie. Nous partons pour en définir l'architecture.</p>
 <p>C'est l'heure du repas. Nous en profitons pour discuter avec Antoine et Philippe afin de recueillir leur vision du contenu ce chapitre. Plus généralement, nous parlons d'amélioration continue en agile et en lean. Nous commençons à y voir plus clair avec Raphaël. Après le repas nous faisons la structure du chapitre. Puis nous travaillons avec Antoine qui rédigera la partie lean, pour concevoir ensemble la continuité entre nos parties : les limitations de l'agile, et comment le lean permet d'aller plus loin.</p>
-<p><a title="rédaction avec framapad" href="http://www.flickr.com/photos/31719094@N04/9277039444/"><img alt="IMGP3697.jpg" class="src="http://farm6.staticflickr.com/5451/9277039444_103b89ee1b_z.jpg" width="640" height="424" /></a></p>
+
+[![Avec Framasoft](http://farm6.staticflickr.com/5451/9277039444_103b89ee1b_z.jpg)](http://www.flickr.com/photos/31719094@N04/9277039444/)
+
 <p>Cette fois-ci nous utilisons <a href="http://lite.framapad.org/">framapad</a> basé sur <a href="http://etherpad.org/">etherpad</a> pour pouvoir écrire de manière collaborative. Je me souviens d'un moment agréable et productif : nous étions "dans le flux".</p>
 <p>Il est déjà 19h, Flash meeting ! Objectif à nouveau raté. Les problèmes remontés sont les suivants :</p>
 <ul>
