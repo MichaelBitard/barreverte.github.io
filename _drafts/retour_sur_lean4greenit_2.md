@@ -1,6 +1,6 @@
 ---
 layout: post
-title: L'écoconception pour les devs : de l'optimisation
+title: L'écoconception pour les devs, de l'optimisation ?
 author:
   display_name: Bruno Thomas
 tags:
@@ -8,7 +8,7 @@ tags:
 comments: true
 ---
 
-Lors de l'Agile Open, j'ai été déçu que mon sujet sur l'écoconception n'ait pas attiré grand monde : nous étions au plus 5. Pour ceux qui ne connaissent pas l'événement, il y a beaucoup d'indépendants, *coaches* et *software craftmen* passionnés. C'est précisément ce qui m'intéressait : l'avis d'experts du développement. Mais le peu de personnes "votant avec leur pieds" pour l'écoconception était déjà un enseignement, et grâce aux personnes qui sont venues échanger sur le sujet (merci à elles), j'ai pu comprendre pourquoi.
+Lors de l'[Agile Open France](http://agileopenfrance.com/), j'ai été déçu que mon sujet sur l'écoconception n'ait pas attiré grand monde : nous étions au plus 5. Pour ceux qui ne connaissent pas l'événement, il y a beaucoup d'indépendants, *coaches* et *software craftmen* passionnés. C'est précisément ce qui m'intéressait : l'avis d'experts du développement. Mais le peu de personnes "votant avec leurs pieds" pour l'écoconception était déjà un enseignement, et grâce aux personnes qui sont venues échanger sur le sujet (merci à elles), j'ai pu comprendre pourquoi.
 
 > "c'est un problème d'optimisation, ça coûte"
 
@@ -22,7 +22,7 @@ Et donc, ce n'est pas un sujet, car un bon *craftman* ou artisant logiciel, gard
 
 Car de l'autre côté, si on considère non plus l'efficacité de l'exploitation des programmes sur les serveurs, mais l'efficacité du développement et de la maintenance de ces programmes, l'optimisation coûte, et peut même coûter très cher. Souvent l'optimisation du code d'un programme est antinomique avec sa lisibilité et sa testabilité : l'amélioration du temps de traitement d'un programme par la machine demandera à l'humain plus d'efforts pour le comprendre. Essayez de lire de l'assembleur, du javascript minifié ou du bytecode. Essayez également de poser des tests unitaires sur du code Java principalement statique.
 
-Donc plus le code est optimisé, plus il sera cher à élaborer et à maintenir. Les société qui développent les services veulent minimiser les coûts de développement. Il existe une certaine inadéquation entre les coûts de développement et les coûts d'exploitation. Calculer le ROI en exploitation d'un investissement d'optimisation du code n'est pas simple besogne.
+Plus le code est optimisé, plus il sera cher à élaborer et à maintenir. Les sociétés qui développent les services veulent minimiser les coûts de développement. Il existe une certaine inadéquation entre ces coûts de développement et les coûts d'exploitation. Calculer le ROI en exploitation d'un investissement d'optimisation du code n'est pas simple besogne.
 
 ## Optimisation certes, et aussi
 
@@ -47,3 +47,5 @@ Si on prend en compte le cycle de vie des produits technologiques, une grande pa
 En tant que développeur nous pouvons faire en sorte qu'un site se "dégrade" tout en restant fonctionnel : les bords ronds d'une CSS3 seront carrés, le *smooth scrolling* en javascript n'est pas rendu, mais la page est chargée, ou l'ancre atteinte, etc. En faisant de la sorte, nos utilisateurs peuvent consulter nos sites même avec un vieux mobile, et nous ne pesons pas dans leur décision de changer de mobile.
 
 En revanche, cela demande généralement de consacrer plus de temps au développement, pour tester le site avec différents mobiles, et adapter le code en fonction des manquements.
+
+### respect des standards

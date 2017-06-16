@@ -8,6 +8,6 @@ tags:
 comments: true
 ---
 
-Ok, après avoir lu un grand nombre de préconisations pour diminuer l'empreinte écologique du son site, je me suis dit qu'il fallait tester ce que cela pouvait apporter... Et alors vient la question "où commencer ?"  
+Ok, je veux diminuer l'empreinte écologique de mon site. Après avoir lu un grand nombre de préconisations, je me suis dit qu'il fallait tester ce que cela pouvait réellement apporter... mais où commencer ? Quels seront les bénéfices ou inconvénients pour les utilisateurs ? Comment quantifier les améliorations ? Quelle méthode adopter ?
 
-1: la face cachée du numérique - Fabrice Flipo, Michelle Dobré et Marion Michot
+
