@@ -26,7 +26,6 @@ J'ai moi-même vécu récemment une situation extra-professionnelle de nomadisme
 
 Ce défaut de connectivité a fait s'envenimer la situation.
 
-L'idée serait donc d'expérimenter mon activité de développement en situation nomade.  C'est une étape supplémentaire par rapport au travail à distance que je pratique déjà ponctuellement : ajouter à la distance le déplacement. D'autres métiers comme le coaching ont été évoqués.
 
 
 > beta.gouv.fr
