@@ -32,13 +32,14 @@ Ce défaut de connectivité a fait s'envenimer la situation.
 
 Comment mettre en oeuvre l'auto-organisation dans une bulle hébergée au sein d'une bureaucratie ? C'est le défi que tentent de relever les membres de beta.gouv.fr, l'incubateur des startups d'état. Deux éléments qui m'ont marqués :
 
-- Il est tellement difficile pour un nouvel arrivant de trouver comment obtenir un badge que la page wiki de l'incubateur a été utilisée par un membre d'une autre entité. Une fois la procédure éprouvée, elle a été automatisée dans un robot sur slack (il s'agit juste d'un mail a envoyer à la bonne personne avec les bonnes informations)
+- Il est tellement difficile de trouver comment obtenir un badge que la page wiki de l'incubateur a été utilisée par un nouvel arrivant d'une autre entité. Une fois éprouvée, la procédure a été automatisée dans un robot sur slack (il s'agit juste d'un mail a envoyer à la bonne personne avec les bonnes informations)
 
 - La moitié des échanges sur slack restent privés. L'orateur, Matti Schneider, indiquait que les membres s'auto-censure en pensant que la conversation n'intéressera pas d'autres personnes. Il s'agit d'un filtrage à priori alors que le filtrage devrait se faire à posteriori pour éviter de recréer une hiérarchie liée à la détention de certaines informations.
 
+Dans mon travail, l'utilisation de slack est massive et l'information échangée précieuse. Précieuse dans le sens où quand je rencontre un problème déjà évoqué, je me souviens que la réponse y a été donnée quelque part. Tout le problème est sur quel channel. J'ai rarement en tête des mots clefs suffisament discriminant pour une recherche globale (on parle d'une vingtaine d'équipes qui échangent sur slack depuis plusieurs années). A l'inverse si l'échange s'est déroulé en privé, je me souviens très bien avec qui et je retrouve très vite l'information. Je sais aussi que ces échanges privés sont perdus lorsque la personne quitte l'entreprise. Reste à trouver un équilibre. Il m'arrive parfois de recopier une réponse donnée en privé sur un channel publique.
 
 
-Toujours à propos de beta.gouv.fr, pendant que Laurent Bossavit finalise leur newsletter, je tente de m'y abonner sur mon mobile. L'expérience utilisateur s'avère difficile sur mobile (seulement un quart des requêtes): 
+Toujours à propos de beta.gouv.fr, pendant que Laurent Bossavit finalise leur newsletter, je tente de m'y abonner sur mon mobile. L'expérience utilisateur s'y avère difficile (le mobile ne représente qu'un quart des requêtes): 
 
 - j'ai toutes les peines du monde à trouver le formulaire : il n'est révélé que quand je glisse mon doigt jusqu'à l'extrème limite de la page mais une animation masque ce formulaire jusqu'au dernier moment. Laurent aurait aimé filmer ma tête.
 
