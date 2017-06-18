@@ -40,14 +40,14 @@ Comment mettre en oeuvre l'auto-organisation dans une bulle hébergée au sein d
 
 Toujours à propos de beta.gouv.fr, pendant que Laurent Bossavit finalise leur newsletter, je tente de m'y abonner sur mon mobile. L'expérience utilisateur s'avère difficile sur mobile (seulement un quart des requêtes): 
 
-- j'ai toutes les peines du monde à trouver le formulaire : il n'est révélé que quand je glisse mon doigt jusqu'à l'extrème limite de la page mais une animation masque ce formulaire jusqu'au dernier moment. Laurent aurait aimé filmé ma tête.
+- j'ai toutes les peines du monde à trouver le formulaire : il n'est révélé que quand je glisse mon doigt jusqu'à l'extrème limite de la page mais une animation masque ce formulaire jusqu'au dernier moment. Laurent aurait aimé filmer ma tête.
 
 - quand je clique pour indiquer mon adresse électronique, le clavier masque le formulaire et je doit taper en aveugle.
 
 
 > La pourriture du code
 
-Arnaud Lemaire propose d'appeler pourriture du code la dette technique subit. Je soutiens cette idée car le terme de dette technique (qui reste pertinent quand elle est choisit) nous amène dans le champs sémantique de la finance et donne à penser que des stratégies de couverture sont possibles alors qu'on est plus proche d'une entropie.
+Arnaud Lemaire propose d'appeler pourriture du code la dette technique subit. J'aime cette idée car le terme de dette technique (qui reste pertinent quand elle est choisit) nous amène dans le champs sémantique de la finance et donne à penser que des stratégies de couverture sont possibles alors qu'on est plus proche d'une entropie.
 
 
 En conclusion je mesure tout le chemin parcouru par cette conférence depuis sa toute première édition en 2006 où elle s'appelait XP Day France (je me souviens encore avec émotion avoir été en reconnaissance avec Patrice Petit pour évaluer l'Espace Hamelin dans lequel elle s'était tenue). La conférence est maintenant tellement connue qu'elle se tient à guichets fermés sans que les organisateurs aient besoin de communiquer. Bien qu'étant devenue non marchande elle est aussi devenue bénéficiaire tout en gardant un tarif relativement bas.
