@@ -9,7 +9,7 @@ comments: true
 ---
 
 
-> nomadopen.eu
+> [nomadopen.eu](http://nomadopen.eu)
 
 Ma plus grande découverte lors de l'open space du premier jour est Nomad Open (nomadopen.eu), une non-conférence sur le travail nomade : le vivre et l'expérimenter en continuant son travail depuis un train qui traverse la France, l'Espagne et l'Italie.
 
@@ -28,7 +28,7 @@ Ce défaut de connectivité a fait s'envenimer la situation.
 
 
 
-> beta.gouv.fr
+> [beta.gouv.fr](http://beta.gouv.fr)
 
 Comment mettre en oeuvre l'auto-organisation dans une bulle hébergée au sein d'une bureaucratie ? C'est le défi que tentent de relever les membres de beta.gouv.fr, l'incubateur des startups d'état. Deux éléments qui m'ont marqués :
 
