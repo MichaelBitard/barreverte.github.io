@@ -34,11 +34,10 @@ En tant que développeur, on peut améliorer son code pour consommer moins de CP
 
 > Pour une même application, un langage interprété comme Python consomme 100 fois plus qu’un langage compilé comme Java. (...) pour les langages compilés orientés objets, Java consomme moins que du C++ avec les options par défaut et autant en niveau d'optimisation O3.
 
-Ces différences sont liées à la nature du programme orienté calcul (et donc utilisant quasiment exclusivement le CPU), par opposition à un programme orienté entrées/sorties. Un serveur d'application faisant du web en architecture 3 tiers, sera plutôt lié à l'optimisation de l'utilisation des entrées/sorties réseau.
+Ces différences sont liées à la nature du programme orienté calcul (et donc utilisant quasiment exclusivement le CPU), par opposition à un programme orienté entrées/sorties. Un serveur d'application faisant du web en architecture 3 tiers, sera plutôt lié à l'optimisation de l'utilisation des entrées/sorties réseau. Ce que montre l'article, c'est que l'environnement technologique aura des conséquences importantes sur la puissance consommée par les serveurs.
 
-La programmation asynchrone est par exemple une bonne alternative pour les programmes orientés entrées/sorties
+Les environnements web, avec un grand nombre de communications réseau (proxies, base de données, bus de données), de lecture-écriture de fichiers, utilisent de plus en plus la programmation asynchrone. NodeJS, [asyncio](https://docs.python.org/3/library/asyncio.html) pour python3, [NIO](https://stackoverflow.com/questions/33692992/does-jdk7-nio-2-use-epoll-etc-on-linux) pour Java, basés sur les couches epoll (pour linux) et kqueue (pour FreeBSD/MacOS), ont eu un essor important pour des raisons de [performance](http://www.kegel.com/c10k.html). Ces solutions sont aussi intéressante au niveau de l'écoconception puisqu'elles permettent aux serveurs d'attendre des événements sur des entrées sorties.
 
-Mais ce que montre l'article, c'est que l'environnement technologique aura des conséquences importantes sur la puissance consommée par les serveurs.
 
 ### obsolescence programmée
 
@@ -47,5 +46,3 @@ Si on prend en compte le cycle de vie des produits technologiques, une grande pa
 En tant que développeur nous pouvons faire en sorte qu'un site se "dégrade" tout en restant fonctionnel : les bords ronds d'une CSS3 seront carrés, le *smooth scrolling* en javascript n'est pas rendu, mais la page est chargée, ou l'ancre atteinte, etc. En faisant de la sorte, nos utilisateurs peuvent consulter nos sites même avec un vieux mobile, et nous ne pesons pas dans leur décision de changer de mobile.
 
 En revanche, cela demande généralement de consacrer plus de temps au développement, pour tester le site avec différents mobiles, et adapter le code en fonction des manquements.
-
-### respect des standards

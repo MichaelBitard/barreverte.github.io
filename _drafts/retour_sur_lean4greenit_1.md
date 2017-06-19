@@ -8,7 +8,7 @@ tags:
 comments: true
 ---
 
-Il y a un an environ, j'ai débuté [un projet d'entreprise](https://classe.io) avec deux amis associés. Ils voulaient intégrer une démarche éco-responsable dans la construction d'un service en ligne pour classer ses mails dans des dossiers dématérialisés. Comme je ne suis pas réfractaire au principe de l'écologie, et que je n'en avait presque pas entendu parler pour l'IT, j'ai essayé de me renseigner sur l'écoconception logicielle et de l'appliquer pour l'architecture du site.
+Il y a un an environ, j'ai débuté [un projet d'entreprise](https://classe.io) avec deux amis associés. Ils voulaient intégrer une démarche éco-responsable dans la construction d'un service en ligne pour classer ses mails dans des dossiers dématérialisés. Comme je ne suis pas réfractaire au principe de l'écologie, et que je n'en avais presque pas entendu parler pour l'IT, j'ai essayé de me renseigner sur l'écoconception logicielle et de l'appliquer pour l'architecture du site.
 
 Pour faire court, dans mes recherches sur ce domaine je n'ai pas trouvé grand chose. Je me suis demandé :
 
@@ -18,9 +18,11 @@ Afin d'apporter des éléments de réponse à cette question, j'ai proposé un s
 
 ## Eco-truc, greenIT wot ?
 
-GreenIT, éco-reponsabilité des services informatiques, écoconception, ["conception responsable des services numériques"](https://collectif.greenit.fr/), j'ai compris que derrière ces termes se cachaient deux aspects :
+Les termes d'*informatique dans les nuages*, de *[serverless architecture](https://www.martinfowler.com/articles/serverless.html)*, plateformes dématérialisées, serveurs viruels, évoquent pour nous, utilisateurs des services IT/web, une forme d'évanescence, d'immatérialité des infrastructures informatiques.
 
-1. prendre conscience que les services numériques ont un impact sur l'environnement, d'autant plus que les enjeux environnementaux sont globaux, comme internet. Il y a une certaine congruence entre les deux ;
+GreenIT, éco-reponsabilité des services informatiques, écoconception, ["conception responsable des services numériques"](https://collectif.greenit.fr/), derrière ces expressions se cachent deux aspects :
+
+1. prendre conscience que les services numériques ont un impact sur l'environnement, d'autant plus que leurs usages et leur adoption sont de plus en plus larges. Par ailleurs, les enjeux environnementaux sont globaux, comme internet. Il y a une certaine congruence entre les deux ;
 2. adopter une approche de rationalisation de l'usage des infrastructures informatiques, en intégrant une réflexion dès la conception des logiciels et du matériel
 
 Cette démarche est complexe car elle n'est pas uniquement liée à l'exploitation des machines (par exemple la consommation électrique des centres d'hébergement), mais elle doit englober tout le cycle de vie des produits :
@@ -32,8 +34,8 @@ En regardant l'ensemble du cycle pour les produits manufacturés impliqués dans
 > "OK, ça représente 2% des émissions de CO2, occupons-nous des 98%"
 
 Oui mais ces 2% ne représentent que l'exploitation des infrastructures du web et cette statistique est statique.
- 
-La production de ces produits électroniques nécessite des matières premières non renouvelables et pour certaines en voie d'épuisement. L'OCDE [donne encore 30 ans d'exploitation](http://www.statistiques.developpement-durable.gouv.fr/fileadmin/documents/Produits_editoriaux/Publications/Etudes_et_documents/2009/etudes_documentsN6_02.pdf) pour le cuivre, plomb, nickel, argent, étain, zinc. Cette production dégage également des déchets environnementaux et des gaz à effet de serre. 
+
+La production de ces produits électroniques nécessite des matières premières non renouvelables et pour certaines en voie d'épuisement. L'OCDE [donne encore 30 ans d'exploitation](http://www.statistiques.developpement-durable.gouv.fr/fileadmin/documents/Produits_editoriaux/Publications/Etudes_et_documents/2009/etudes_documentsN6_02.pdf) pour le cuivre, plomb, nickel, argent, étain, zinc. Cette production dégage également des déchets environnementaux et des gaz à effet de serre.
 
 Le recyclage est une gageure car de plus en plus de matières sont employées pour la miniaturisation, et beaucoup sont toxiques : mercure, cadnium, chrome, diphényls polybromés, PVC, baryum, beryllium, phosphore, etc. Pour certaines de ces matières, ce ne sont pas des quantités négligeables : en 2000 les équipements électroniques et informatiques utilisaient 22% de la consommation annuelle de mercure [1]. Par ailleurs, ces matières se retrouvent souvent traitées dans des pays en voie de développement dans des conditions plus que précaires.
 
