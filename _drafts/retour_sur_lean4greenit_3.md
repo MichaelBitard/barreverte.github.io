@@ -8,6 +8,4 @@ tags:
 comments: true
 ---
 
-Ok, je veux diminuer l'empreinte écologique de mon site. Après avoir lu un grand nombre de préconisations, je me suis dit qu'il fallait tester ce que cela pouvait réellement apporter... mais où commencer ? Quels seront les bénéfices ou inconvénients pour les utilisateurs ? Comment quantifier les améliorations ? Quelle méthode adopter ?
-
-
+Ok, après avoir lu chiffres et articles sur le sujet, je souhaite faire attention à l'empreinte écologique de mon site. Les préconisations [sont nombreuses](https://checklists.opquast.com/ecoconception-web/), alors où commencer ? Quels seront les bénéfices ou inconvénients pour les utilisateurs ? Comment quantifier les améliorations ? Quelle méthode adopter ?
