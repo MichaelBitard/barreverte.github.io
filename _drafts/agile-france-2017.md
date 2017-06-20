@@ -48,7 +48,7 @@ Toujours à propos de beta.gouv.fr, pendant que Laurent Bossavit finalise leur n
 
 > La pourriture du code
 
-Arnaud Lemaire propose d'appeler pourriture du code la dette technique subit. J'aime cette idée car le terme de dette technique (qui reste pertinent quand elle est choisit) nous amène dans le champs sémantique de la finance et donne à penser que des stratégies de couverture sont possibles alors qu'on est plus proche d'une entropie.
+Arnaud Lemaire propose d'appeler pourriture du code la dette technique subie. J'aime cette idée car le terme de dette technique (qui reste pertinent quand elle est choisie) nous amène dans le champs sémantique de la finance et donne à penser que des stratégies de couverture sont possibles alors qu'on est plus proche d'une entropie.
 
 
 En conclusion je mesure tout le chemin parcouru par cette conférence depuis sa toute première édition en 2006 où elle s'appelait XP Day France (je me souviens encore avec émotion avoir été en reconnaissance avec Patrice Petit pour évaluer l'Espace Hamelin dans lequel elle s'était tenue). La conférence est maintenant tellement connue qu'elle se tient à guichet fermé sans que les organisateurs aient besoin de communiquer. Bien qu'étant devenue non marchande elle est aussi bénéficiaire tout en gardant un tarif relativement bas.
