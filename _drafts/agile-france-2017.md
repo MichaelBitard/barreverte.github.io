@@ -25,6 +25,7 @@ J'ai moi-même vécu récemment une situation extra-professionnelle de nomadisme
 
 
 Ce défaut de connectivité a fait s'envenimer la situation.
+Une situation qui ne devrait plus se reproduire puisque ce même 15 juin 2017 entrait en vigueur une directive qui a vu globalisé par l'Europe l'accès aux données/SMS/appels aux tarifs locaux.
 
 
 
@@ -35,6 +36,9 @@ Comment mettre en oeuvre l'auto-organisation dans une bulle hébergée au sein d
 - Il est tellement difficile de trouver comment obtenir un badge que la page wiki de l'incubateur a été utilisée par un nouvel arrivant d'une autre entité. Une fois éprouvée, la procédure a été automatisée dans un robot sur slack (il s'agit juste d'un mail a envoyer à la bonne personne avec les bonnes informations)
 
 - La moitié des échanges sur slack restent privés. L'orateur, Matti Schneider, indiquait que les membres s'auto-censurent en pensant que la conversation n'intéressera pas d'autres personnes. Il s'agit d'un filtrage à priori alors que le filtrage devrait se faire à posteriori pour éviter de recréer une hiérarchie liée à la détention de certaines informations.
+
+![Usage des canaux privés et public chez beta.gouv.fr](/images/slack-beta-gouv-fr.png)
+
 
 Dans mon travail, l'utilisation de slack est massive et l'information échangée précieuse. Précieuse dans le sens où quand je rencontre un problème déjà évoqué, je me souviens que la réponse y a été donnée quelque part. Tout le problème est sur quel channel. J'ai rarement en tête des mots clefs suffisament discriminants pour une recherche globale (on parle d'une vingtaine d'équipes qui échangent sur slack depuis plusieurs années). A l'inverse si l'échange s'est déroulé en privé, je me souviens très bien avec qui et je retrouve très vite l'information. Je sais aussi que ces échanges privés sont perdus lorsque la personne quitte l'entreprise. Reste à trouver un équilibre. Il m'arrive parfois de recopier une réponse donnée en privé sur un channel publique ou dans Jira.
 
