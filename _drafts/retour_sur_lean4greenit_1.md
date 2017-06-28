@@ -22,7 +22,7 @@ Les termes d'*informatique dans les nuages*, de *[serverless architecture](https
 
 GreenIT, éco-reponsabilité des services informatiques, écoconception, ["conception responsable des services numériques"](https://collectif.greenit.fr/), derrière ces expressions se cachent deux aspects :
 
-1. prendre conscience que les services numériques ont un impact sur l'environnement, d'autant plus que leurs usages et leur adoption sont de plus en plus larges. Par ailleurs, les enjeux environnementaux sont globaux, comme internet. Il y a une certaine congruence entre les deux ;
+1. prendre conscience que les services numériques ont un impact sur l'environnement. Par ailleurs, les enjeux environnementaux sont globaux, comme internet. Il y a une certaine congruence entre les deux ;
 2. adopter une approche de rationalisation de l'usage des infrastructures informatiques, en intégrant une réflexion dès la conception des logiciels et du matériel
 
 Cette démarche est complexe car elle n'est pas uniquement liée à l'exploitation des machines (par exemple la consommation électrique des centres d'hébergement), mais elle doit englober tout le cycle de vie des produits :
@@ -33,9 +33,9 @@ En regardant l'ensemble du cycle pour les produits manufacturés impliqués dans
 
 > "OK, ça représente 2% des émissions de CO2, occupons-nous des 98%"
 
-Oui mais ces 2% ne représentent que l'exploitation des infrastructures du web et cette statistique est statique.
+Oui mais ces 2% ne sont que l'exploitation des infrastructures du web et cette statistique est statique.
 
-La production de ces produits électroniques nécessite des matières premières non renouvelables et pour certaines en voie d'épuisement. L'OCDE [donne encore 30 ans d'exploitation](http://www.statistiques.developpement-durable.gouv.fr/fileadmin/documents/Produits_editoriaux/Publications/Etudes_et_documents/2009/etudes_documentsN6_02.pdf) pour le cuivre, plomb, nickel, argent, étain, zinc. Cette production dégage également des déchets environnementaux et des gaz à effet de serre.
+La production des produits électroniques nécessite des matières premières non renouvelables et pour certaines en voie d'épuisement. L'OCDE [donne encore 30 ans d'exploitation](http://www.statistiques.developpement-durable.gouv.fr/fileadmin/documents/Produits_editoriaux/Publications/Etudes_et_documents/2009/etudes_documentsN6_02.pdf) pour le cuivre, plomb, nickel, argent, étain, zinc. Cette production dégage également des déchets environnementaux et des gaz à effet de serre.
 
 Le recyclage est une gageure car de plus en plus de matières sont employées pour la miniaturisation, et beaucoup sont toxiques : mercure, cadnium, chrome, diphényls polybromés, PVC, baryum, beryllium, phosphore, etc. Pour certaines de ces matières, ce ne sont pas des quantités négligeables : en 2000 les équipements électroniques et informatiques utilisaient 22% de la consommation annuelle de mercure [1]. Par ailleurs, ces matières se retrouvent souvent traitées dans des pays en voie de développement dans des conditions plus que précaires.
 
