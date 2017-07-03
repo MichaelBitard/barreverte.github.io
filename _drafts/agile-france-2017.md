@@ -47,9 +47,12 @@ Une des choses que j'apprécie à Agile France se sont les conversations en marg
 
 - j'ai toutes les peines du monde à trouver le formulaire : il n'est révélé que quand je glisse mon doigt jusqu'à l'extrème limite de la page mais une animation le masque jusqu'au dernier moment. Laurent aurait aimé filmer ma tête.
 
+![Je tente de trouver le formulaire pour m'abonner à la newletter](/images/beta_gouv_fr_newletter.jpg)
+
 - quand je clique pour indiquer mon adresse électronique, le clavier masque le formulaire et je dois taper en aveugle.
 
-Cela étant dit, le mobile-first serait difficilement justifiable puisque les accès par mobile ne représentent qu'un quart de leur [traffic](http://stats.data.gouv.fr/index.php?module=CoreHome&action=index&idSite=21&period=range&date=previous30#?module=Dashboard&action=embeddedIndex&idSite=21&period=range&date=previous30&idDashboard=1).
+Cela étant dit, le mobile-first serait difficilement justifiable puisque les accès par mobile ne représentent qu'un quart de leur [traffic](http://stats.data.gouv.fr/index.php?module=CoreHome&action=index&idSite=21&period=range&date=previous30#?module=Dashboard&action=embeddedIndex&idSite=21&period=range&date=previous30&idDashboard=1) :
+
 ![Part des terminaux mobiles dans le traffic 2017 de beta.gouv.fr](/images/beta_gouv_fr_traffic.png)
 
 # La pourriture du code
