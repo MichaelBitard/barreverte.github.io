@@ -43,12 +43,13 @@ Comment mettre en oeuvre l'auto-organisation dans une bulle hébergée au sein d
 Dans mon travail, l'utilisation de slack est massive et l'information échangée précieuse. Précieuse dans le sens où quand je rencontre un problème déjà évoqué, je me souviens que la réponse y a été donnée quelque part. Tout le problème est sur quel channel. J'ai rarement en tête des mots clefs suffisament discriminants pour une recherche globale (on parle d'une vingtaine d'équipes qui échangent sur slack depuis plusieurs années). A l'inverse si l'échange s'est déroulé en privé, je me souviens très bien avec qui et je retrouve très vite l'information. Je sais aussi que ces échanges privés sont perdus lorsque la personne quitte l'entreprise. Reste à trouver un équilibre. Il m'arrive parfois de recopier une réponse donnée en privé sur un channel publique ou dans Jira.
 
 
-Toujours à propos de beta.gouv.fr, pendant que Laurent Bossavit finalise leur newsletter, je tente de m'y abonner sur mon mobile. L'expérience utilisateur s'y avère difficile (d'un autre coté, le mobile-first serait difficilement justifiable puisque les accès par mobile ne représentent qu'un quart du traffic):
+Toujours à propos de beta.gouv.fr, pendant que Laurent Bossavit finalise leur newsletter, je tente de m'y abonner sur mon mobile. L'expérience utilisateur s'y avère difficile :
 
 - j'ai toutes les peines du monde à trouver le formulaire : il n'est révélé que quand je glisse mon doigt jusqu'à l'extrème limite de la page mais une animation le masque jusqu'au dernier moment. Laurent aurait aimé filmer ma tête.
 
 - quand je clique pour indiquer mon adresse électronique, le clavier masque le formulaire et je dois taper en aveugle.
 
+Cela étant dit, le mobile-first serait difficilement justifiable puisque les accès par mobile ne représentent qu'un quart de leur [traffic](http://stats.data.gouv.fr/index.php?module=CoreHome&action=index&idSite=21&period=range&date=previous30#?module=Dashboard&action=embeddedIndex&idSite=21&period=range&date=previous30&idDashboard=1).
 
 # La pourriture du code
 
