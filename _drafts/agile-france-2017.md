@@ -43,17 +43,18 @@ Comment mettre en oeuvre l'auto-organisation dans une bulle hébergée au sein d
 Dans mon travail, l'utilisation de slack est massive et l'information échangée précieuse. Précieuse dans le sens où quand je rencontre un problème déjà évoqué, je me souviens que la réponse y a été donnée quelque part. Tout le problème est sur quel channel. J'ai rarement en tête des mots clefs suffisament discriminants pour une recherche globale (on parle d'une vingtaine d'équipes qui échangent sur slack depuis plusieurs années). A l'inverse si l'échange s'est déroulé en privé, je me souviens très bien avec qui et je retrouve très vite l'information. Je sais aussi que ces échanges privés sont perdus lorsque la personne quitte l'entreprise. Reste à trouver un équilibre. Il m'arrive parfois de recopier une réponse donnée en privé sur un channel publique ou dans Jira.
 
 
-Toujours à propos de beta.gouv.fr, pendant que Laurent Bossavit finalise leur newsletter, je tente de m'y abonner sur mon mobile. L'expérience utilisateur s'y avère difficile :
+Une des choses que j'apprécie à Agile France se sont les conversations en marge des conférences : assit sur un banc pendant que Laurent Bossavit finalise la newsletter de beta.gouv.fr, je tente de m'y abonner sur mon mobile. L'expérience utilisateur s'y avère difficile :
 
 - j'ai toutes les peines du monde à trouver le formulaire : il n'est révélé que quand je glisse mon doigt jusqu'à l'extrème limite de la page mais une animation le masque jusqu'au dernier moment. Laurent aurait aimé filmer ma tête.
 
 - quand je clique pour indiquer mon adresse électronique, le clavier masque le formulaire et je dois taper en aveugle.
 
 Cela étant dit, le mobile-first serait difficilement justifiable puisque les accès par mobile ne représentent qu'un quart de leur [traffic](http://stats.data.gouv.fr/index.php?module=CoreHome&action=index&idSite=21&period=range&date=previous30#?module=Dashboard&action=embeddedIndex&idSite=21&period=range&date=previous30&idDashboard=1).
+![Part des terminaux mobiles dans le traffic 2017 de beta.gouv.fr](/images/beta_gouv_fr_traffic.png)
 
 # La pourriture du code
 
-Arnaud Lemaire propose d'appeler pourriture du code la dette technique subie. J'aime cette idée car le terme de dette technique (qui reste pertinent quand elle est choisie) nous amène dans le champs sémantique de la finance et donne à penser que des stratégies de couverture sont possibles alors qu'on est plus proche d'une entropie. Les astres étaient très alignés en ce 15 Juin 2017 puisque le même jour était soutenue en Finlande une [thèse](http://www.doria.fi/bitstream/handle/10024/136260/Jesse%20Yli-Huumo%20A4.pdf) sur la dette technique.
+Arnaud Lemaire propose d'appeler pourriture du code la dette technique subie. J'aime cette idée car le terme de dette technique (qui reste pertinent quand elle est choisie) donne à penser que des stratégies de couverture sont possibles alors qu'on est plus proche d'une entropie. Les astres étaient très alignés en ce 15 Juin 2017 puisque le même jour était soutenue en Finlande une [thèse](http://www.doria.fi/bitstream/handle/10024/136260/Jesse%20Yli-Huumo%20A4.pdf) sur la dette technique.
 
 
 En conclusion je mesure tout le chemin parcouru par cette conférence depuis sa toute première édition en 2006 où elle s'appelait XP Day France (je me souviens encore avec émotion avoir été en reconnaissance avec Patrice Petit pour évaluer l'Espace Hamelin dans lequel elle s'était tenue). La conférence est maintenant tellement connue qu'elle se tient à guichet fermé sans que les organisateurs aient besoin de communiquer. Bien qu'étant devenue non marchande elle est aussi bénéficiaire tout en gardant un tarif relativement bas.
