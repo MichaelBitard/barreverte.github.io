@@ -59,5 +59,6 @@ Cela étant dit, le mobile-first serait difficilement justifiable puisque les ac
 
 Arnaud Lemaire propose d'appeler pourriture du code la dette technique subie. J'aime cette idée car le terme de dette technique (qui reste pertinent quand elle est choisie) donne à penser que des stratégies de couverture sont possibles alors qu'on est plus proche d'une entropie. Les astres étaient très alignés en ce 15 Juin 2017 puisque le même jour était soutenue en Finlande une [thèse](http://www.doria.fi/bitstream/handle/10024/136260/Jesse%20Yli-Huumo%20A4.pdf) sur la dette technique.
 
+# Une conférence qui s'installe dans la durée
 
 En conclusion je mesure tout le chemin parcouru par cette conférence depuis sa toute première édition en 2006 où elle s'appelait XP Day France (je me souviens encore avec émotion avoir été en reconnaissance avec Patrice Petit pour évaluer l'Espace Hamelin dans lequel elle s'était tenue). La conférence est maintenant tellement connue qu'elle se tient à guichet fermé sans que les organisateurs aient besoin de communiquer. Bien qu'étant devenue non marchande elle est aussi bénéficiaire tout en gardant un tarif relativement bas.
