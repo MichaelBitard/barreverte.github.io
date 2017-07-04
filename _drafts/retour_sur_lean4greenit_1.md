@@ -31,7 +31,7 @@ La prise en compte de ces deux enjeux est complexe car elle n'est pas uniquement
 
 En regardant l'ensemble du cycle pour les produits manufacturés impliqués dans la mise en oeuvre et l'utilisation d'un service en ligne, nous réalisons l'étendue de l'impacts des technologies de l'information : production, acheminement, utilisation, recyclage des mobiles, serveurs, routeurs, ordinateurs portables, ordinateurs fixes, tablettes, switches, répéteurs, antennes, câbles, fibre optique, climatiseurs, onduleurs, etc.
 
-> "OK, ça représente 2% des émissions de CO2, occupons-nous des 98%" ententra-t-on
+> "OK, ça représente 2% des émissions de CO2, occupons-nous des 98%" entendra-t-on
 
 Oui mais ces 2% ne représentent que l'exploitation des infrastructures du web et cette statistique est statique.
 
