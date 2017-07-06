@@ -48,6 +48,7 @@ Une des choses que j'apprécie à Agile France se sont les conversations en marg
 - j'ai toutes les peines du monde à trouver le formulaire : il n'est révélé que quand je glisse mon doigt jusqu'à l'extrème limite de la page mais une animation le masque jusqu'au dernier moment. Laurent aurait aimé filmer ma tête.
 
 ![Je tente de trouver le formulaire pour m'abonner à la newletter](/images/beta_gouv_fr_newletter.jpg)
+![Le formulaire pour s'abonner à la newletter est révélé en faisant disparaître le reste de la page](/images/beta_gouv_fr_newletter_with_form.png)
 
 - quand je clique pour indiquer mon adresse électronique, le clavier masque le formulaire et je dois taper en aveugle.
 
