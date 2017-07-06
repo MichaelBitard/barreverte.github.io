@@ -4,7 +4,7 @@ title: Agile France 2017
 author:
   display_name: Philippe Blayo
 tags:
-- Agile Conférence
+- Agile Conférence Slack Nomade UX Dette Technique
 comments: true
 ---
 
