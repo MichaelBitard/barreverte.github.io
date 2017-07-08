@@ -11,6 +11,7 @@ comments: true
 
 # [nomadopen.eu](http://nomadopen.eu)
 
+![La non-conférence Nomad Open devrait traverser en train des zones montagneuses](/images/train.jpg)
 Ma plus grande découverte lors de l'open space du premier jour est [Nomad Open](http://nomadopen.eu), une non-conférence sur le travail nomade : le vivre et l'expérimenter en continuant son travail depuis un train qui traverse la France, l'Espagne et l'Italie. Pour ceux qui seraient intéressés, les dates de cette première édition sont en cours de discussion, n'hésitez pas à envoyer un mail pour vous manifester.
 
 J'ai moi-même vécu récemment une situation extra-professionnelle de nomadisme qui avait provoqué beaucoup d'incompréhensions et de malentendus :
@@ -52,7 +53,7 @@ Une des choses que j'apprécie à Agile France se sont les conversations en marg
 
 - quand je clique pour indiquer mon adresse électronique, le clavier masque le formulaire et je dois taper en aveugle.
 
-Cela étant dit, le mobile-first serait difficilement justifiable puisque les accès par mobile ne représentent qu'un quart de leur [traffic](http://stats.data.gouv.fr/index.php?module=CoreHome&action=index&idSite=21&period=range&date=previous30#?module=Dashboard&action=embeddedIndex&idSite=21&period=range&date=previous30&idDashboard=1) :
+Cela étant dit, le mobile-first serait difficilement justifiable puisque les accès par mobile ne représentent qu'un quart de leur [traffic](http://stats.data.gouv.fr/index.php?module=CoreHome&action=index&idSite=21&period=range&date=previous30#?module=Dashboard&action=embeddedIndex&idSite=21&period=range&date=previous30&idDashboard=1) (j'ai appris à cette occasion que ces données étaient publiques) :
 
 ![Part des terminaux mobiles dans le traffic 2017 de beta.gouv.fr](/images/beta_gouv_fr_traffic.png)
 
