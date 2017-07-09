@@ -11,7 +11,7 @@ comments: true
 
 # [nomadopen.eu](http://nomadopen.eu)
 
-<img class="left" alt="La non-conférence Nomad Open devrait traverser en train des zones montagneuses" src="/images/train_small.jpg"/>
+![La non-conférence Nomad Open devrait traverser en train des zones montagneuses](/images/train.jpg)
 Ma plus grande découverte lors de l'open space du premier jour est [Nomad Open](http://nomadopen.eu), une non-conférence sur le travail nomade : le vivre et l'expérimenter en continuant son travail depuis un train qui traverse la France, l'Espagne et l'Italie. Pour ceux qui seraient intéressés, les dates de cette première édition sont en cours de discussion, n'hésitez pas à envoyer un mail pour vous manifester.
 
 J'ai moi-même vécu récemment une situation extra-professionnelle de nomadisme qui avait provoqué beaucoup d'incompréhensions et de malentendus :
