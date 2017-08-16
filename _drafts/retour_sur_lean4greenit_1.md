@@ -55,7 +55,7 @@ Bref, si je souhaite participer à l'efficacité écologique, cela implique :
 
 et concerne bien plus que le périmètre des équipes de développement. Cependant, ces dernières peuvent apporter leurs éclairages techniques sur la manière dont les machines vont exécuter leur code.
 
-Nous continuerons cet article avec un focus plus précis sur le développement logiciel.
+Nous continuerons cet article avec un éclairage sur le dévelopement logiciel et le *software craftmanship*.
 
 1. la face cachée du numérique - Fabrice Flipo, Michelle Dobré et Marion Michot
 2. Gartner : http://www.gartner.com/newsroom/id/3165317
