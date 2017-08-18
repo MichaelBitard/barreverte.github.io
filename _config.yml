@@ -27,7 +27,7 @@ comments: true
 
 #permalink: /:year/:month/:title
 permalink: /:title/
-gems:
+plugins:
 - jekyll-paginate
 - jekyll-seo-tag
 paginate: 9
