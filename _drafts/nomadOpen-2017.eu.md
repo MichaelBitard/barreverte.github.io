@@ -4,7 +4,9 @@ title: Nomad Open EU 2017
 author:
   display_name: Philippe Blayo
 tags:
-- Nomade Conférence Train
+- nomade
+- conférences
+- train
 comments: true
 ---
 

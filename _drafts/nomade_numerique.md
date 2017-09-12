@@ -4,7 +4,10 @@ title: Le nomadisme numérique
 author:
   display_name: Philippe Blayo
 tags:
-- Nomade Conférence Train Marche
+- nomade
+- conférences
+- train
+- marche
 comments: true
 ---
 # Les intermèdes
