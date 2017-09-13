@@ -10,14 +10,8 @@ tags:
 - marche
 comments: true
 ---
-A l'avènement d'internet j'ai entendu la prédiction que certains travailleurs redeviendraient nomades.
-C'est l'agriculture qui a rendu homo sapiens sédentaire. Les outils numériques ouvriraient la voie à un retour possible du nomadisme.
-
-Quelques décennies plus tard le nomadisme numérique porte l'idée d'utiliser la technologie pour supprimer les barrières au choix de son lieu de travail. Si j'ai envie de travailler au bord d'une rivière qui descente le flanc d'une montagne sans habitation autour de moi, je le fait.
-Comme mon travail va probablement à un moment donné nécessiter que j’interagisse avec un être humain à distance, il me faut également un moyen de le faire depuis ce lieu reculé.
-Si une pluie diluvienne me tombe dessus, j'ai intérêt à ce que mon ordinateur portable soit à l'épreuve de l'eau, il n'y a bien sûr pas que des avantages.
-Un autre élément c'est que si la semaine suivante j'ai envie de travailler en ayant une vue sur Notre Dame de Paris, il
-va falloir que je me déplace. Ce mouvement est une des différences fondamentale entre le travail à distance et le nomadisme numérique, en tout cas dans sa forme la plus radicale.
+L'agriculture a rendu l'homme sédentaire.
+A l'avènement d'internet des voix ont prédit que des formes de nomadismes reviendraient.
 
 <img class="right" alt="La première conférence DNX, en 2014" src="/images/dnx_berlin_2014_small.jpg"/>Ces dernières années des conférences sont nées sur ce thème comme Nomad Summit en 2015 ou DNX en 2014 dont la newsletter totalise 20000 abonnés et qui se tient à guichet fermés.
 
