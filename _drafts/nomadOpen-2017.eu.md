@@ -58,3 +58,8 @@ Un voyageur milanais me disait l'année dernière que la différence entre un to
 
 Okiwi la veille => wine blockchain
 courbe de spéculation des bitcoin et telurium
+
+## Une conférence dans un bateau
+
+<img class="right" alt="Une conférence en bateau" src="/images/nomadcruise_small.jpg"/>Un membre Espagnol de la communauté locale nous dit qu'il a entendu parlé d'une autre conférence qui se déplace : nomad cruise. Elle se déroule sur un bateau où présentations et ateliers s'égrennent le long de sa traversée de l'Atlantique.
+

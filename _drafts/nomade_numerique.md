@@ -19,13 +19,12 @@ Si une pluie diluvienne me tombe dessus, j'ai intérêt à ce que mon ordinateur
 Un autre élément c'est que si la semaine suivante j'ai envie de travailler en ayant une vue sur Notre Dame de Paris, il
 va falloir que je me déplace. Ce mouvement est une des différences fondamentale entre le travail à distance et le nomadisme numérique, en tout cas dans sa forme la plus radicale.
 
-Ces dernières années des conférences sont nées sur ce thème comme Nomad Summit en 2015 ou Digital Nomad Conference DNX en 2014 qui totaliserait 20000 abonnés à sa newsletter.
+<img class="right" alt="La première conférence DNX, en 2014" src="/images/dnx_berlin_2014_small.jpg"/>Ces dernières années des conférences sont nées sur ce thème comme Nomad Summit en 2015 ou DNX en 2014 dont la newsletter totalise 20000 abonnés et qui se tient à guichet fermés.
 
 Ces conférences sur le nomadisme numérique adoptent des formes très classiques, avec des salles et des amphithéâtres.
 De la même manière que les premières conférences agiles suivaient ces formes classiques. Ensuite la forme de l'Open Space est apparue comme une manière plus "agile" de faire une conférence agile.
 
-Des conférences se sont tenues cette année qui représentent une manière plus "nomade" de faire une conférence. 
-Elles gardent la forme de l'open space mais la font évoluer d'une manière que je trouve très prometteuse.
+Comment faire une conférence d'une manière plus nomade ?
 
 
 # La valeur fondamentale des intermèdes
