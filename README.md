@@ -4,3 +4,6 @@
 
 content for blog http://www.barreverte.fr
 (migrated to github)
+
+# recharger docker
+$ docker rmi jekyll/jekyll:pages
