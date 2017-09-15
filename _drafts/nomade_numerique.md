@@ -10,10 +10,10 @@ tags:
 - marche
 comments: true
 ---
-L'agriculture a rendu l'homme sédentaire.
+<img class="right" alt="La première conférence DNX, en 2014" src="/images/dnx_berlin_2014_small.jpg"/>L'agriculture a rendu l'homme sédentaire.
 A l'avènement d'internet des voix ont prédit que des formes de nomadismes reviendraient.
 
-<img class="right" alt="La première conférence DNX, en 2014" src="/images/dnx_berlin_2014_small.jpg"/>Ces dernières années des conférences sont nées sur ce thème comme Nomad Summit en 2015 ou DNX en 2014 dont la newsletter totalise 20000 abonnés et qui se tient à guichet fermés.
+Ces dernières années des conférences sont nées sur ce thème comme Nomad Summit en 2015 ou DNX en 2014 dont la newsletter totalise 20000 abonnés et qui se tient à guichet fermés.
 
 Ces conférences sur le nomadisme numérique adoptent des formes très classiques, avec des salles et des amphithéâtres.
 De la même manière que les premières conférences agiles suivaient ces formes classiques. Ensuite la forme de l'Open Space est apparue comme une manière plus "agile" de faire une conférence agile.
@@ -21,7 +21,7 @@ De la même manière que les premières conférences agiles suivaient ces formes
 Comment faire une conférence d'une manière plus nomade ?
 
 
-# La valeur fondamentale des intermèdes
+# La valeur des intermèdes
 
 Lors d'une conférence, qu'elle soit open space ou plus classique je me déplace de salle en salle.
 Je trouve de la valeur à la fois dans ce que j'entends dans les salles et dans ce que j'entends en dehors des salles, dans les intermèdes, les errances, les pauses.
@@ -52,4 +52,4 @@ Nomad Open se veut une conférence plus ambitieuse dans sa forme puisque les dé
 - conférence open space
 
 J'ai été surpris de constater que pour certaines tâches je devenais plus productif dans un train que dans un bureau. D'autres participants ont partagé cette constatation.
-Ces formes éphémères de travail me paraissent donc intéressantes à explorer. Les articles qui vont suivre relatent mes expériences.
+Ces formes éphémères de travail me paraissent donc intéressantes à explorer. Les articles qui vont suivre relatent mes apprentissages.
