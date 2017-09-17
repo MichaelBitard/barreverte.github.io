@@ -10,7 +10,7 @@ tags:
 - marche
 comments: true
 ---
-<img class="right" alt="La première conférence DNX, en 2014" src="/images/dnx_berlin_2014.jpg"/>L'agriculture a rendu l'homme sédentaire.
+<img class="right" alt="La première conférence DNX, en 2014" src="/images/dnx_berlin_2014.jpg"/>L'agriculture aurait rendu l'homme sédentaire.
 A l'avènement d'internet des voix ont prédit que des formes de nomadismes reviendraient.
 
 Ces dernières années des conférences sont nées sur ce thème comme Nomad Summit en 2015 ou DNX en 2014 dont la newsletter totalise 20000 abonnés et qui se tient à guichets fermés.
