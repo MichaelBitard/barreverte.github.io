@@ -8,9 +8,13 @@ tags:
 comments: true
 ---
 
-<img class="right" alt="Le courriel envoyé par teammood" src="/images/teammood_mail.png"/>Team mood est un service en ligne pour améliorer le bonheur au travail. Le principe : demander tous les soirs à chaque membre d'une équipe comment s'est passée sa journée avec une note de 1 à 5 et un commentaire optionnel. Comme ces deux éléments sont visibles par toute l'équipe, ils déclenchent des conversations à la machine à café le lendemain matin. C'est dans ces conversations que résident la valeur du service. Ca m'a rappelé airbnb où l'essentiel de l'expérience utilisateur se situe en dehors du site.
+<img class="right" alt="Le courriel envoyé par teammood" src="/images/teammood_mail.png"/>Team mood est un service en ligne dont le but est d'améliorer le bonheur au travail. Le principe : demander tous les soirs à chaque membre d'une équipe comment s'est passée sa journée avec une note de 1 à 5 et un commentaire optionnel. Comme ces deux éléments sont visibles par toute l'équipe, ils déclenchent des conversations à la machine à café le lendemain matin. C'est dans ces conversations que résident la valeur du service. Ca m'a rappelé airbnb où l'essentiel de l'expérience utilisateur se situe en dehors du site.
+
+Par exemple un responsable relate qu'il a pu se rendre compte qu'une réunion n'avait pas de valeur et ainsi la supprimer.
 
 Teammood a eu du succès très rapidement puisqu'après une première année qui a générée 22 000 Euros de chiffre d'affaire la deuxième année devrait en générer 50 à 60 000. Le modèle économique est de facturer 1 Euro par membre d'équipe (après 30 jours d'accès gratuits). Il y a aujourd'hui plus d'une centaine de clients, principalement des manageurs et des coachs.
+
+
 
 # International dès le premier jour
 
@@ -40,7 +44,11 @@ Le deuxième élément que je trouve intéressant c'est la différence dans la g
 
 ## Résoudre un problème
 
-<img class="left" alt="Vous avez trouvé des clés ? Saisissez le code afin de contacter le propriétaire" src="/images/keysmag.png"/>Le produit www.keysmag.net permettait de retrouver des clefs perdues. Il partait d'un problème à résoudre (auquel le fondateur avait lui-même été confronté). C'est l'idée de l'appli qui fait un job à ma place (retrouver mes clefs). La solution résolvait le problème avec un appréciable taux de succés de 70%. Le problème lui-même n'était sans doute pas suffisamment douloureux, sauf pour la sous-population des parents d'adolescents qui perdent leur clefs. Mais cette sous-population s'est avèrée trop réduite.
+Le produit www.keysmag.net permettait de retrouver des clefs perdues :
+
+<img class="left" alt="Vous avez trouvé des clés ? Saisissez le code afin de contacter le propriétaire" src="/images/keysmag.jpg"/>
+
+Il partait d'un problème à résoudre (auquel le fondateur avait lui-même été confronté). C'est l'idée de l'appli qui fait un job à ma place (retrouver mes clefs). La solution résolvait le problème avec un appréciable taux de succés de 70%. Le problème lui-même ne semble suffisamment douloureux pour la sous-population des parents d'adolescents qui perdent leur clefs, mais cette sous-population s'est avèrée trop réduite.
 
 ## Tester une idée
 
