@@ -8,11 +8,21 @@ tags:
 comments: true
 ---
 
-<img class="right" alt="Le courriel envoyé par teammood" src="/images/teammood_mail.png"/>Team mood est un service en ligne dont le but est d'améliorer le bonheur au travail. Le principe : demander tous les soirs à chaque membre d'une équipe comment s'est passée sa journée avec une note de 1 à 5 et un commentaire optionnel. Comme ces deux éléments sont visibles par toute l'équipe, ils déclenchent des conversations à la machine à café le lendemain matin. C'est dans ces conversations que résident la valeur du service. Ca m'a rappelé airbnb où l'essentiel de l'expérience utilisateur se situe en dehors du site.
+<img class="right" alt="Le courriel envoyé par teammood" src="/images/teammood_mail.png"/>[Teammood] est un service en ligne dont le but est d'améliorer le bonheur au travail. Le principe : demander tous les soirs à chaque membre d'une équipe comment s'est passée sa journée avec une note de 1 à 5 et un commentaire optionnel.
 
-Par exemple un responsable relate qu'il a pu se rendre compte qu'une réunion n'avait pas de valeur et ainsi la supprimer.
+Comme ces deux éléments sont visibles par toute l'équipe, ils déclenchent des conversations à la machine à café le lendemain matin. C'est dans ces conversations que résident la valeur du service. Ca m'a rappelé airbnb où l'essentiel de l'expérience utilisateur se situe en dehors du site.
 
-Teammood a eu du succès très rapidement puisqu'après une première année qui a générée 22 000 Euros de chiffre d'affaire la deuxième année devrait en générer 50 à 60 000. Le modèle économique est de facturer 1 Euro par membre d'équipe (après 30 jours d'accès gratuits). Il y a aujourd'hui plus d'une centaine de clients, principalement des manageurs et des coachs.
+Le témoignage qui m'a le plus marqué est donné sur la page des tarifs par un membre d'AirFrance :
+
+> Grâce à TeamMood, nous avons montré qu'une de nos réunions hebdomadaire n'avait de valeur ajoutée pour personne.
+
+Un autre témoignage a attiré mon attention sur la question de la durée, question que je ne m'étais même pas posée :
+
+> Honêtement, je suis surpris par le taux de participation. Tous le monde était content de s'y mettre, mais, contrairement à ce que j'avais imaginé, il n'y a pas de baisse de particiaption significative avec le temps.
+
+
+
+Le succès a été très rapide puisqu'après une première année à 22 000 Euros de chiffre d'affaire la deuxième année devrait en générer 50 à 60 000. Le modèle économique est de facturer 1 Euro par membre d'équipe (après 30 jours d'accès gratuits). Il y a aujourd'hui plus d'une centaine de clients, principalement des manageurs et des coachs.
 
 
 
@@ -86,3 +96,4 @@ Je devrais faire de même sur les projets open sources auxquels je contribue. Pa
 
 Pour finir sur le précédent produit de Nicolas (dont il a arrêté la commercialisation), j'ai vu fleurir dans le métro des publicités pour un service concurrent qui promet de retrouver ses clefs perdues avec un émetteur bluetooth. Nicolas me disait que cette approche fonctionne très bien pour retrouver des clefs perdues dans un appartement. Pour des clefs perdues dans la rue, il faut qu'un téléphone équipé de l'appli passe à proximité, ce qui est très limitant. A l'inverse l'approche low-tech de Nicola ne consommait pas d'énergie.
 
+[Teammood]: http://teammood.com
