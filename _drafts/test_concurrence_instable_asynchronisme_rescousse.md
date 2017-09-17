@@ -12,8 +12,8 @@ comments: true
 
 
 I
-
-````python
+<pre>
+  <code class="python">
  import unittest
  from asyncio import ensure_future, wait, Lock
  from concurrent.futures import ThreadPoolExecutor
@@ -23,7 +23,7 @@ I
  from os import remove
 
 
-class TestConcurrenceAsync(asynctest.TestCase):
+ class TestConcurrenceAsync(asynctest.TestCase):
     def tearDown(self): remove('fichier.txt')
 
     async def test_acces_fichier_concurrent_ko(self):
@@ -46,7 +46,7 @@ class TestConcurrenceAsync(asynctest.TestCase):
             self.assertEqual('ligne 1\nligne 2\n', await contenu.read())
 
 
-class TestConcurrenceMultithreadee(unittest.TestCase):
+ class TestConcurrenceMultithreadee(unittest.TestCase):
     def tearDown(self): remove('fichier.txt')
 
     def test_acces_fichier_concurrent(self):
@@ -60,7 +60,7 @@ class TestConcurrenceMultithreadee(unittest.TestCase):
             self.assertEqual('ligne 1\nligne 2\n', contenu.read())
 
 
-async def ecrit_dans_fichier_async(nom_fichier, ligne, lock):
+ async def ecrit_dans_fichier_async(nom_fichier, ligne, lock):
     async with lock:
         try:
             async with aiofiles.open(nom_fichier): pass
@@ -73,7 +73,7 @@ async def ecrit_dans_fichier_async(nom_fichier, ligne, lock):
             await fichier.write('%s\n' % ligne)
 
 
-def ecrit_dans_fichier_sync(nom_fichier, ligne):
+ def ecrit_dans_fichier_sync(nom_fichier, ligne):
     try:
         with open(nom_fichier): pass
     except FileNotFoundError:
@@ -83,5 +83,5 @@ def ecrit_dans_fichier_sync(nom_fichier, ligne):
 
     with open(nom_fichier, mode=mode_ouverture) as fichier:
         fichier.write('%s\n' % ligne)
-````python
-
+  </code>
+</pre>
