@@ -18,13 +18,16 @@ Ma première découverte concerne team mood, un produit pour améliorer le bonhe
 
 ## Le Ukulélé
 
-Une autre découverte : l’émergence du Ukulélé. En très forte croissance en Amérique du nord, la facilité à appréhender cet instrument de musique séduit un public de plus en plus large. Sur youtube le marché de la formation est déjà pris avec un [formateur](https://www.patreon.com/uketeacher) qui gagne 5000 dollars par mois en crowd funding (il avait annoncé qu'il en ferait son activité principale s'il atteignait 500 dollars).
+Une autre découverte : l’émergence du Ukulélé. En très forte croissance en Amérique du nord, la facilité à appréhender cet instrument de musique séduit un public de plus en plus large. Sur youtube le marché de la formation est déjà pris avec un [formateur](https://www.patreon.com/uketeacher) qui gagne 5000 dollars par mois en financement participatif (il avait annoncé qu'il en ferait son activité principale s'il atteignait 500 dollars).
 Son modèle est de fournir ses nouveaux tutoriels 24 heures en avance aux donateurs qui atteignent un petit montant symbolique (5 dollars si je me souviens bien).
-C'est une très belle réussite mais Nathaniel Richand me disait qu'il n'y a de la place que pour une seule personne dans le monde (une [deuxième](https://www.patreon.com/cynthialin) a par exemple moins de succès). Il a donc choisis de lancer un service dont il est le premier utilisateur : les partitions annotées. De par sa petite taille le Ukulélé s'emporte facilement en ballade mais de telles partitions imprimées s'avèrent plus volumineuses que l'instrument lui-même. L'idée est donc de les fournir en ligne via une communauté facebook.
+C'est une très belle réussite mais Nathaniel Richand me disait qu'il n'y a de la place que pour une seule personne dans le monde (une [deuxième](https://www.patreon.com/cynthialin) a par exemple moins de succès).
+Il a donc lancé une [communauté](www.doyoukulele.com) autour d'un [service](https://www.facebook.com/doyoukulele/) dont il est le premier utilisateur : fournir tout ce qu'il faut à un débutant pour qu'il apprenne une chanson.
+De par sa petite taille le Ukulélé s'emporte facilement en ballade.
+Aussi transporter des partitions annotées s'avère plus volumineu que l'instrument lui-même.
 
 ## Le financement participatif
 
-Sur la question du crowd funding cela m'a rappelé Vue.js, un framework Javascript léger et progressif qui après avoir dépassé angular gagne du terrain sur react en terme d'étoiles sur github. L'auteur gagne 10000 dollars par mois en crowd funding de donations par des fans pour qu'il continue à développer cet écosystème open source (sa licence MIT semblant faire partie du succès de son adoption chez certains GAFA). Et j'ai découvert récemment un autre exemple avec le réseaux social open source Mastodon lancé ce 1er Avril et qui est financé par 3000 dollars mensuels sur patreon.
+Sur la question du financement participatif cela m'a rappelé Vue.js, un framework Javascript léger et progressif qui après avoir dépassé angular gagne du terrain sur react en terme d'étoiles sur github. L'auteur gagne 10000 dollars par mois en financement participatif de donations par des fans pour qu'il continue à développer cet écosystème open source (sa licence MIT semblant faire partie du succès de son adoption chez certains GAFA). Et j'ai découvert récemment un autre exemple avec le réseaux social open source Mastodon lancé ce 1er Avril et qui est financé par 3000 dollars mensuels sur patreon.
 
 # Apprentissages
 
