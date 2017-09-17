@@ -18,7 +18,7 @@ Ces dernières années des conférences sont nées sur ce thème comme Nomad Sum
 Ces conférences sur le nomadisme numérique adoptent des formes très classiques, avec des salles et des amphithéâtres.
 De la même manière que les premières conférences agiles suivaient ces formes classiques. Ensuite la forme de l'Open Space est apparue comme une manière plus "agile" de faire une conférence agile.
 
-Comment faire une conférence d'une manière plus nomade ?
+A la lumière de ce qui s'est passé pour l'agilité se pose donc la question : comment faire une conférence d'une manière plus nomade ?
 
 
 # La valeur des intermèdes
@@ -32,10 +32,7 @@ Puisque ces intermèdes-déplacements génèrent autant de valeur, la question s
 
 # Des conférences nomades ?
 
-J'ai participé cet été à deux conférences qui explorent ce concept :
-
-- Walking Dev
-- Nomad Open
+J'ai participé cet été à deux conférences qui explorent ce concept.
 
 ## Walking Dev
 
@@ -52,4 +49,4 @@ Nomad Open se veut une conférence plus ambitieuse dans sa forme puisque les dé
 - conférence open space
 
 J'ai été surpris de constater que pour certaines tâches je devenais plus productif dans un train que dans un bureau. D'autres participants ont partagé cette constatation.
-Ces formes éphémères de travail me paraissent donc intéressantes à explorer. Cet article ouvre une série qui relate mes apprentissages sur le sujet.
+Ces formes éphémères de travail me paraissent donc intéressantes à explorer. Cet article ouvre une série d'articles qui relate mes apprentissages sur le sujet.
