@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Team Mood
+title: Team Mood &#58; analyse d'un succès
 author:
   display_name: Philippe Blayo
 tags:
@@ -22,7 +22,7 @@ Un autre témoignage a attiré mon attention sur la question de la durée, quest
 
 
 
-Le succès a été très rapide puisqu'après une première année à 22 000 Euros de chiffre d'affaire la deuxième année devrait en générer 50 à 60 000. Le modèle économique est de facturer 1 Euro par membre d'équipe (après 30 jours d'accès gratuits). Il y a aujourd'hui plus d'une centaine de clients, principalement des manageurs et des coachs.
+Le succès a été très rapide : après une première année à 22 000 Euros de chiffre d'affaire, la deuxième devrait en générer 50 à 60 000. Le modèle économique ? Facturer 1 Euro par membre d'équipe, après 30 jours d'accès gratuits. Il y a aujourd'hui plus d'une centaine de clients, principalement des manageurs et des coachs.
 
 
 
@@ -56,7 +56,8 @@ Le deuxième élément que je trouve intéressant c'est la différence dans la g
 
 Le produit www.keysmag.net permettait de retrouver des clefs perdues :
 
-<img class="left" alt="Vous avez trouvé des clés ? Saisissez le code afin de contacter le propriétaire" src="/images/keysmag.jpg"/>
+<img alt="Vous avez trouvé des clés ? Saisissez le code afin de contacter le propriétaire" src="/images/keysmag.jpg"/>
+
 
 Il partait d'un problème à résoudre (auquel le fondateur avait lui-même été confronté). C'est l'idée de l'appli qui fait un job à ma place (retrouver mes clefs). La solution résolvait le problème avec un appréciable taux de succés de 70%. Le problème lui-même ne semble suffisamment douloureux pour la sous-population des parents d'adolescents qui perdent leur clefs, mais cette sous-population s'est avèrée trop réduite.
 
@@ -91,8 +92,14 @@ Une autre chose que fait Nicolas c'est dire merci pour chaque bug pertinent ouve
 
 Je devrais faire de même sur les projets open sources auxquels je contribue. Par exemple le dernier ticket qui a été ouvert sur aioimaplib, un utilisateur a demandé à ce que toutes nos exceptions héritent d'une même classe de base pour qu'il puisse plus facilement se reconnecter en cas de perte de connection pendant un IDLE. Moi je me disais "il faut que je pousse rapidement pour montrer qu'on est réactif, comme ça on va peut-être gagner une étoile" et c'est lui qui a dit merci. J'aurais peut-être dû le remercier pour avoir pris le temps d'ouvrir ce ticket et ajouter que tous le monde bénéficiera de l'amélioration qu'il a demandé. A voir à l'usage si cette pratique est pertinente auprès d'une population de développeurs.
 
+# L'avenir : slack
 
-## A la recherche des clefs perdues
+La fonctionnalité développée cet été, à la demande des utilisateur, c'est l'intégration dans slack. Nicolas racontait que ce n'était pas aussi facile qu'on pouvait l'imaginer. Sur les quatres manières possible d'écrire un robot slack, il avait du en essayer trois avant de parvenir à ses fins.
+
+Cette orientation vers slack me paraît très pertinente dans la mesure où le concurrent payant qui m'a le plus marqué est le japonais vibe.work qui propose en plus de mesurer le morale des conversations sur les canaux slack moyennant 120$ par mois. Cette approche ne me paraît cependant pas dénuée de dangers dans un milieu ou la bienveillance ne serait pas largement répandue.
+
+
+# A la recherche des clefs perdues
 
 Pour finir sur le précédent produit de Nicolas (dont il a arrêté la commercialisation), j'ai vu fleurir dans le métro des publicités pour un service concurrent qui promet de retrouver ses clefs perdues avec un émetteur bluetooth. Nicolas me disait que cette approche fonctionne très bien pour retrouver des clefs perdues dans un appartement. Pour des clefs perdues dans la rue, il faut qu'un téléphone équipé de l'appli passe à proximité, ce qui est très limitant. A l'inverse l'approche low-tech de Nicola ne consommait pas d'énergie.
 
