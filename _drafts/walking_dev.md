@@ -14,11 +14,11 @@ comments: true
 
 C'est à la conférence Nomad Open que j'ai entendu parlé de "walking dev" : une conférence open space qui comme son nom l'indique se déroule en marchant. Aucun lien avec la série télévisée américaine "the walking dead", mais la similitude m'a fait retenir le nom.
 
-Des agilistes et des innovateurs s'étaient donc rassemblés à Toulouse en cette fin Août pour explorer la question du passage à l'échelle de l'agilité sous l'angle de la permaculture. Comme souvent j'ai beaucoup appris dans des conversations impromptus que les intermèdes pédestres ont grandement facilitées (une des spécificités de cette conférence).
+Des agilistes s'étaient donc rassemblés à Toulouse en cette fin Août pour explorer la question du passage à l'échelle de l'agilité sous l'angle de la permaculture. Comme souvent j'ai beaucoup appris dans des conversations impromptus que les intermèdes pédestres ont grandement facilitées (une des spécificités de cette conférence).
 
 # Découvertes
 
-Ma première découverte concerne team mood, un produit pour améliorer le bonheur au travail auquel je consacre un article complet.
+Ma première découverte concerne teammood, un niko niko électronique auquel je consacre un article complet.
 
 ## Le Ukulélé
 
@@ -35,7 +35,7 @@ Sur la question du financement participatif cela m'a rappelé Vue.js, un framewo
 
 # Apprentissages
 
-Après plus de dix ans passés à faire des daily meeting je continue à apprendre des choses sur le sujet. Un coach rapportait qu'une de ses équipes avait atteint un tel niveau de maturité qu'ils avaient remplacés les questions habituelles par :
+Après plus de dix ans passés à faire des daily meeting je continue à apprendre sur le sujet. Un coach rapportait qu'une de ses équipes avait atteint un tel niveau de maturité qu'ils avaient remplacés les questions habituelles par :
 - qu'est-ce que j'ai appris hier ?
 - que vais-je apprendre aujourd'hui ?
 
