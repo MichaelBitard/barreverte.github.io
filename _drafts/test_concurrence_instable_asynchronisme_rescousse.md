@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test de concurrence instable : l'asynchronisme à la rescousse !
+title: Test de concurrence instable &#58; l'asynchronisme à la rescousse !
 author:
   display_name: Philippe Blayo
 tags:
