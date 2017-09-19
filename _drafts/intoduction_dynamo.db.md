@@ -13,13 +13,13 @@ comments: true
 Amazon a publié un SDK Java qui permet d’interagir avec tous les services AWS, y compris DynamoDB.
 
 # Principes généraux
-DynamoDB est une base de données clef/valeur "_infiniement scalable_". On ne paye qu'à l'usage selon 3 axes, selon notre réglage sur chaque table :
+DynamoDB est une base de données clef/valeur "_infiniment scalable_". On ne paye qu'à l'usage selon 3 axes, selon notre réglage sur chaque table :
 
 * la _quantité_ de données stockées
 * la capacité en _lecture_ par seconde
 * la capacité en _écriture_ par seconde
 
-DynamoDB s'intègre très bien avec Amason  Redshift et EMR (Elastic Map Reduce, Hadoop).
+DynamoDB s'intègre très bien avec Amason Redshift et EMR (Elastic Map Reduce, Hadoop).
 
 Vue hiérarchique :
 
