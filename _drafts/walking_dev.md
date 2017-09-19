@@ -4,11 +4,11 @@ title: Walking Dev
 author:
   display_name: Philippe Blayo
 tags:
-- Conférence
-- Marche
-- Agilité
-- Permaculture
-- Permagilité
+- conférences
+- marche
+- agile
+- permaculture
+- permagilité
 comments: true
 ---
 

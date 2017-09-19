@@ -4,7 +4,8 @@ title: Team Mood &#58; analyse d'un succès
 author:
   display_name: Philippe Blayo
 tags:
-- Bonheur au travail Lean Startup
+- bonheur au travail
+- lean startup
 comments: true
 ---
 
@@ -74,12 +75,12 @@ Un utilisateur de team mood écrivait il y a un an dans un retour qu'il s'était
 > nous avons entrepris de connaître le degré de « Happiness » de nos collaborateurs. Facile encore une fois: Demandons leur.
 >
 > Outre l’aspect chronophage de cette démarche, il y a des caractères qui ne souhaitent pas se livrer ou expliquer les raisons pour lesquelles ils/elles sont de mauvaise humeur.
-> 
+>
 > Nous avons donc cherché un outil simple qui nous permettrait d’obtenir l’humeur globale de nos équipes anonymement."
 
 # Commencer sans code
 
-Nicolas revenait également sur l'importance de commencer sans investissement conséquent en terme de code. 
+Nicolas revenait également sur l'importance de commencer sans investissement conséquent en terme de code.
 Il me donnait l'exemple des sites de vente de chaussures en ligne. Il fût un temps où l'on pensait que vendre des chaussures en ligne était impossible car tout le monde voudrait essayer les chaussures avant de les acheter. Un des premiers vendeurs en ligne a donc commencé par prendre des photos de chaussures dans les magasins autour de chez lui.
 Quand une commande lui était faite en ligne il se rendait dans le magasin pour l'acheter la paire et il envoyait le colis.
 

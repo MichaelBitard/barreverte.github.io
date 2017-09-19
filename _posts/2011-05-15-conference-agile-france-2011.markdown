@@ -58,7 +58,8 @@ tags:
 - software craftmanship
 - devops
 - agile france
-- conférence
+- agile
+- conférences
 - lean
 - architecture
 - se voir en vrai
