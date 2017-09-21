@@ -45,7 +45,7 @@ La taille maximum d'un item est de **64 ko**. Le nom des attributs _compte_ dans
 ## Les indexes
 
 * les données sont indexées sur les clefs primaires
-* les **LSI** (Local Secondary Indexes) permettent de parcourir les données hors des clefs de manière plus efficace. Pour moi, cela se rapproche des indexes de MOngoDB sans le coût de RAM à gérer. La limite est de 10 Go par clef hash
+* les **LSI** (Local Secondary Indexes) permettent de parcourir les données hors des clefs de manière plus efficace. Pour moi, cela se rapproche des indexes de MongoDB sans le coût de RAM à gérer. La limite est de 10 Go par clef hash
 * les **GSI** (Global Secondary Indexes) permettent de parcourir les données sur n'importe quel champ. Par contre, des frais supplémentaires s'appliquent.
 
 Les indexes ne peuvent être changés après leur création. Par contre, le provisioning peut être modifié (à la baisse ou à la hausse) à n'importe quel moment. Par ailleurs, des alarmes par mail peuvent être mises en place pour indiquer si une table a besoin de plus de lectures ou plus d'écriture.
@@ -93,7 +93,7 @@ Dans le cas d'un multi-client' utiliser le client ID comme hash et ajouter une r
 * garder la taille des items la plus petite possible
     * en compressant de manière binaire
     * en choisissant des noms succincts pour les attributs
-* utiliser Amazon S3 pour stocker des données lourdes (et référencer le bucket/hash S3 dans DynameDB)
+* utiliser Amazon S3 pour stocker des données lourdes (et référencer le bucket/hash S3 dans DynamoDB)
 * utiliser les tables *overflow* et la command BatchGet
 * pour les données de type *time series* créer des tables par période de temps (par semaine)
 * éviter de garder des données froides dans DynamoDB : il vaut mieux les déplacer ailleurs pour réduire les couts et ne pas trop provisionner
@@ -118,4 +118,4 @@ Quelques liens :
         * [jcabi-dynamo](http://www.jcabi.com/jcabi-dynamo/) a Amazon Dynamo DB Object Layer
     * des mocks
         * [alternator](https://github.com/mboudreau/Alternator/) : A mock DynamoDB that runs locally for testing purposes
-        * [DynameDB local](http://aws.typepad.com/aws/2013/09/dynamodb-local-for-desktop-development.html) : a client-side database that supports the complete DynamoDB API, but doesn't manipulate any tables or data in DynamoDB itself
+        * [DynamoDB local](http://aws.typepad.com/aws/2013/09/dynamodb-local-for-desktop-development.html) : a client-side database that supports the complete DynamoDB API, but doesn't manipulate any tables or data in DynamoDB itself
