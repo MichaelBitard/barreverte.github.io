@@ -10,7 +10,7 @@ tags:
 comments: true
 ---
 
-Amazon a publié un SDK Java qui permet d’interagir avec tous les services AWS, y compris DynamoDB.
+Amazon a publié un SDK Java qui permet d’interagir avec tous les services AWS, y compris DynamoDB. Regardons un peu comment tou cela fonctionne.
 
 # Principes généraux
 DynamoDB est une base de données clef/valeur "_infiniment scalable_". On ne paye qu'à l'usage selon 3 axes, selon notre réglage sur chaque table :
@@ -99,7 +99,11 @@ Dans le cas d'un multi-client' utiliser le client ID comme hash et ajouter une r
 * éviter de garder des données froides dans DynamoDB : il vaut mieux les déplacer ailleurs pour réduire les couts et ne pas trop provisionner
 * il est possible de mapper une table DynamoDB sur EMR/Hyve
 
-# liens
+---- 
+
+Information : depuis cette prise de note, je n'ai pas eu l'occasion de tester DynamoDB avec un véritable cas d'utilisation de production ; je manque donc de recul au delà des quelques conseils donnés ci avant.
+
+Quelques liens :
 
 * [documentation officielle](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/)
 * [vidéos officielles](https://aws.amazon.com/fr/dynamodb/getting-started/)
