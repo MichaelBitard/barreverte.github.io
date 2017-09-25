@@ -23,7 +23,7 @@ DynamoDB s'intègre très bien avec Amason Redshift et EMR (Elastic Map Reduce, 
 
 Vue hiérarchique :
 
-* Chaque compte AWS possède une collection de **tables** par région.
+* Chaque compte AWS possède une collection de **tables** par [région](https://aws.amazon.com/fr/about-aws/global-infrastructure/).
 * Chaque table est une collection d' **items**
 * Chaque item est une collection arbitraire d' **attributs** (des couples clef/valeur)
 
