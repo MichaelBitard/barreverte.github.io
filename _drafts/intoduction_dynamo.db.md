@@ -10,7 +10,7 @@ tags:
 comments: true
 ---
 
-Amazon a publié un SDK Java qui permet d’interagir avec tous les services AWS, y compris DynamoDB. Regardons un peu comment tou cela fonctionne.
+Amazon a publié un SDK Java qui permet d’interagir avec tous les services AWS, y compris DynamoDB. Regardons un peu comment tout cela fonctionne.
 
 # Principes généraux
 DynamoDB est une base de données clef/valeur "_infiniment scalable_". On ne paye qu'à l'usage selon 3 axes, selon notre réglage sur chaque table :
