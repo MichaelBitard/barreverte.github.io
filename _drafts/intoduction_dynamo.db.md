@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DynamoDB, comment ça marche ?
+title: Amazon DynamoDB, comment ça marche ?
 author:
   display_name: Jean-Philippe Caruana
 tags:
@@ -45,12 +45,12 @@ La taille maximum d'un item est de **64 ko**. Le nom des attributs _compte_ dans
 ## Les indexes
 
 * les données sont indexées sur les clefs primaires
-* les **LSI** (Local Secondary Indexes) permettent de parcourir les données hors des clefs de manière plus efficace. Pour moi, cela se rapproche des indexes de MongoDB sans le coût de RAM à gérer. La limite est de 10 Go par clef hash
+* les **LSI** (Local Secondary Indexes) permettent de parcourir les données hors des clefs de manière plus efficace. Pour moi, cela se rapproche des indexes de MongoDB sans le coût de RAM à gérer. La limite est de 10 Go par clef de hash
 * les **GSI** (Global Secondary Indexes) permettent de parcourir les données sur n'importe quel champ. Par contre, des frais supplémentaires s'appliquent.
 
 Les indexes ne peuvent être changés après leur création. Par contre, le provisioning peut être modifié (à la baisse ou à la hausse) à n'importe quel moment. Par ailleurs, des alarmes par mail peuvent être mises en place pour indiquer si une table a besoin de plus de lectures ou plus d'écriture.
 
-Amazon se charge de sharder/partitionner/répartir les données selon la taille des données et le provisionning lecture/écriture demandé. En cas de changement de provisionning, les données sont reshardées automatiquement. Pour scaler massivement, il faut donc un grand nomble de clefs hash différentes.
+Amazon se charge de sharder/partitionner/répartir les données selon la taille des données et le provisionning lecture/écriture demandé. En cas de changement de provisionning, les données sont reshardées automatiquement. Pour scaler massivement, il faut donc un grand nomble de clefs de hash différentes.
 
 ## API
 ### en lecture
