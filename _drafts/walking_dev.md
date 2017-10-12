@@ -12,7 +12,7 @@ tags:
 comments: true
 ---
 
-C'est à la conférence Nomad Open que j'ai entendu parlé de "walking dev" : une conférence open space qui comme son nom l'indique se déroule en marchant. Aucun lien avec la série télévisée américaine "the walking dead", mais la similitude m'a fait retenir le nom.
+<img class="right" alt="Le cloitre des Jacobins à Toulouse" src="/images/walking_dev_cloitre.jpg"/>C'est à la conférence Nomad Open que j'ai entendu parlé de "walking dev" : une conférence open space qui comme son nom l'indique se déroule en marchant. Aucun lien avec la série télévisée américaine "the walking dead", mais la similitude m'a fait retenir le nom.
 
 Des agilistes s'étaient donc rassemblés à Toulouse en cette fin Août pour explorer la question du passage à l'échelle de l'agilité sous l'angle de la permaculture. Comme souvent j'ai beaucoup appris dans des conversations impromptues que les intermèdes pédestres ont grandement facilitées (une des spécificités de cette conférence).
 
