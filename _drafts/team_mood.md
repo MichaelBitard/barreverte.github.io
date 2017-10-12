@@ -69,8 +69,8 @@ Pour teammood le point de départ est l'envie de tester des idées. Nicolas avai
 # Papier ou internet ?
 
 J'ai moi aussi mis en place un Niko Niko dans un open space et affiché ce Niko Niko en retrospective. Je partage le constat d'échec de Nicolas, sans avoir moi-même cherché à en connaître les raisons.
-Un utilisateur de team mood écrivait il y a un an dans un retour qu'il s'était heurté à des difficultés similaires :
-(http://blog.appstud.com/team-mood-au-service-du-happiness-management)
+Un utilisateur de team mood [décrivait](http://blog.appstud.com/team-mood-au-service-du-happiness-management) il y a un an des difficultés similaires :
+
 
 > nous avons entrepris de connaître le degré de « Happiness » de nos collaborateurs. Facile encore une fois: Demandons leur.
 >
