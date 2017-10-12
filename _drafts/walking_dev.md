@@ -31,7 +31,7 @@ Aussi transporter des partitions annotées s'avère plus volumineux que l'instru
 
 ## Le financement participatif
 
-Sur la question du financement participatif cela m'a rappelé [Vue.js](https://vuejs.org/), un framework Javascript léger et progressif qui après avoir dépassé angular gagne du terrain sur react en terme d'étoiles sur github. L'auteur gagne 10000 dollars par mois en financement participatif de donations par des fans pour qu'il continue à développer cet écosystème open source (sa licence MIT semblant faire partie du succès de son adoption chez certains GAFA). Et j'ai découvert récemment un autre exemple avec le réseau social open source Mastodon lancé ce 1er Avril et qui est financé par 3000 dollars mensuels sur patreon.
+Sur la question du financement participatif cela m'a rappelé le framework Javascript léger [Vue.js](https://vuejs.org/) qui après avoir dépassé angular gagne du terrain sur react en terme d'étoiles sur github. L'auteur gagne 10000 dollars par mois en financement participatif de donations par des fans pour qu'il continue à développer cet écosystème open source (sa licence MIT semblant faire partie du succès de son adoption chez certains GAFA). Et j'ai découvert récemment un autre exemple avec le réseau social open source Mastodon lancé ce 1er Avril et qui est financé par 3000 dollars mensuels sur patreon.
 
 # Apprentissages
 
@@ -69,4 +69,6 @@ La persévérance est donc un autre élément caractéristique. L'exemple était
 
 Un autre principe spécifique à la permaculture : les frontières sont les zones où se passent les choses les plus intéressantes. L'exemple donné est la frontière entre la prairie et la forêt. Un autre exemple qui m'est venu en tête : les zones humides qui séparent une étendue d'eau de la terre ferme émergée regorgent d'une biodiversité foisonnante et filtrent l'eau de ses impuretés.
 
-Au delà du design émergeant, le parallèle que j'ai trouvé le plus intéressant avec l'agilité c'est l'importance donné à l'écosystème. Qu'est ce que l'écosystème d'une équipe agile ? Une question à explorer...
+Au delà du design émergeant, le parallèle que j'ai trouvé le plus intéressant avec l'agilité c'est l'importance donné à l'écosystème.
+Qu'est ce que l'écosystème d'une équipe agile ?
+Une question à explorer le mercredi 18 octobre où aura lieu à Paris le prochain Walking Dev sur la permagilité.
