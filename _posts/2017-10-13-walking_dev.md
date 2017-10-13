@@ -40,7 +40,7 @@ Après plus de dix ans passés à faire des daily meeting je continue à apprend
 - qu'est-ce que j'ai appris hier ?
 - que vais-je apprendre aujourd'hui ?
 
-Et çà m'a rappelé que dans une équipe eXtreme Programming particulièrement mature d'une entreprise où j'ai travaillé le coach XP attendait avec impatience le daily pour ne pas rater une miette de ce que les développeurs avaient appris.
+Et ça m'a rappelé que dans une équipe eXtreme Programming particulièrement mature d'une entreprise où j'ai travaillé le coach XP attendait avec impatience le daily pour ne pas rater une miette de ce que les développeurs avaient appris.
 
 ## Le suivit du parking lot
 
