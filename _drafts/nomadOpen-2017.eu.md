@@ -82,3 +82,8 @@ courbe de spéculation des bitcoin et telurium
 
 <img class="right" alt="Une conférence en bateau" src="/images/nomadcruise_small.jpg"/>Un membre Espagnol de la communauté locale nous dit qu'il a entendu parlé d'une autre conférence qui se déplace : nomad cruise. Elle se déroule sur un bateau où présentations et ateliers s'égrennent le long de sa traversée de l'Atlantique.
 
+
+# Du coworking dans une salle de bain
+
+<img class="right" alt="coworking en pair programming à distance depuis la salle de bain" src="/images/coworking_salle_de_bain.jpg">L'une de mes découvertes : il est très important pour moi de ne pas déranger des gens alentour lorsque je suis au téléphone. Quand les deux pièces principales se sont révélées utilisées j'ai donc déplacé mon espace de travail dans la salle de bain pour faire une session de pair programming à distance.
+
