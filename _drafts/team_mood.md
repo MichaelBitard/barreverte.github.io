@@ -13,7 +13,7 @@ comments: true
 
 Comme ces deux éléments sont visibles par toute l'équipe, ils déclenchent des conversations à la machine à café le lendemain matin. C'est dans ces conversations que résident la valeur du service. Ca m'a rappelé airbnb où l'essentiel de l'expérience utilisateur se situe en dehors du site.
 
-Le témoignage qui m'a le plus marqué est donné sur la page des tarifs par un membre d'AirFrance :
+Le témoignage qui m'a le plus marqué est donné sur la page des tarifs par un membre d'Air France :
 
 > Grâce à TeamMood, nous avons montré qu'une de nos réunions hebdomadaire n'avait de valeur ajoutée pour personne.
 
@@ -48,7 +48,7 @@ Cet indicateur, recueillit au bout de deux semaines d'accès gratuit peut aussi 
 
 # De la vertue de l'abandon ?
 
-Une des choses que j'apprécie dans le parcours de Nicolas c'est qu'il a échoué sur son précédent produit. Il ne s'est pas entêté, et il a choisit de tester une autre idée. Il me disait cependant qu'il est plus facile de faire cette démarche quand il s'agit d'un side project plutôt que quand on cherche à gagner sa vie avec.
+Une des choses que j'apprécie dans le parcours de Nicolas c'est qu'il a échoué sur son précédent produit. Il ne s'est pas entêté, et il a choisit de tester une autre idée. Il me disait cependant lors du [Walking Dev de Toulouse](http://www.barreverte.fr/walking_dev) qu'il est plus facile de faire cette démarche quand il s'agit d'un side project plutôt que quand on cherche à gagner sa vie avec.
 
 Le deuxième élément que je trouve intéressant c'est la différence dans la génèse de ses deux produits :
 
