@@ -9,7 +9,8 @@ tags:
 comments: true
 ---
 
-<img class="right" alt="Le courriel envoyé par teammood" src="/images/teammood_mail.png"/>[Teammood] est un service en ligne dont le but est d'améliorer le bonheur au travail. Le principe : demander tous les soirs à chaque membre d'une équipe comment s'est passée sa journée avec une note de 1 à 5 et un commentaire optionnel.
+<img class="right" alt="Le courriel envoyé par teammood" src="/images/teammood_mail.png"/>Lors des conversations pédestres de la conférence [Walking Dev](http://www.barreverte.fr/walking_dev) de Toulouse,
+ ma plus grande découverte a été [Teammood], un service en ligne dont le but est d'améliorer le bonheur au travail. Le principe : demander tous les soirs à chaque membre d'une équipe comment s'est passée sa journée avec une note de 1 à 5 et un commentaire optionnel.
 
 Comme ces deux éléments sont visibles par toute l'équipe, ils déclenchent des conversations à la machine à café le lendemain matin. C'est dans ces conversations que résident la valeur du service. Ca m'a rappelé airbnb où l'essentiel de l'expérience utilisateur se situe en dehors du site.
 
@@ -47,17 +48,19 @@ Cet indicateur, recueilli au bout de deux semaines d'accès gratuit peut aussi p
 
 # De la vertu de l'abandon ?
 
-Une des choses que j'apprécie dans le parcours de Nicolas c'est qu'il a échoué sur son précédent produit. Il ne s'est pas entêté, et il a choisi de tester une autre idée. Il me disait cependant lors du [Walking Dev de Toulouse](http://www.barreverte.fr/walking_dev) qu'il est plus facile de faire cette démarche quand il s'agit d'un side project plutôt que quand on cherche à gagner sa vie avec.
+Une des choses que j'apprécie dans le parcours de Nicolas c'est qu'il a échoué sur son précédent produit. Il ne s'est pas entêté, et il a choisi de tester une autre idée. Il me disait cependant qu'il est plus facile de faire cette démarche quand il s'agit d'un side project plutôt que quand on cherche à gagner sa vie avec.
 
 Le deuxième élément que je trouve intéressant c'est la différence dans la génèse de ses deux produits :
 
 
 ## Résoudre un problème
 
-Le produit www.keysmag.net permettait de retrouver des clefs perdues :
+Le produit www.keysmag.net permettait de retrouver des clés perdues :
 
 <img alt="Vous avez trouvé des clés ? Saisissez le code afin de contacter le propriétaire" src="/images/keysmag.jpg"/>
 
+- une plaquette accrochée au porte clef indiquait "Clés trouvées ? Saisir le code {codeDeLaClé} sur www.keysmag.net"
+- un passant signalait avoir retrouvé les clés dans 70% des cas
 
 Il partait d'un problème à résoudre (auquel le fondateur avait lui-même été confronté). C'est l'idée de l'appli qui fait un job à ma place (retrouver mes clefs). La solution résolvait le problème avec un appréciable taux de succés de 70%. Le problème lui-même ne semble suffisamment pas douloureux pour la sous-population des parents d'adolescents qui perdent leur clefs, mais cette sous-population s'est avèrée trop réduite.
 
@@ -102,5 +105,10 @@ Cette orientation vers Slack me paraît très pertinente dans la mesure où le c
 # A la recherche des clefs perdues
 
 Pour finir sur le précédent produit de Nicolas (dont il a arrêté la commercialisation), j'ai vu fleurir dans le métro des publicités pour un service concurrent qui promet de retrouver ses clefs perdues avec un émetteur bluetooth. Nicolas me disait que cette approche fonctionne très bien pour retrouver des clefs perdues dans un appartement. Pour des clefs perdues dans la rue, il faut qu'un téléphone équipé de l'appli passe à proximité, ce qui est très limitant. A l'inverse l'approche low-tech de Nicolas ne consommait pas d'énergie.
+
+# L'itinérance en conférence
+
+Cet article poursuit une série que j'ai initiée sur la valeur de l'itinérance pour augmenter les découvertes lors des conférences.
+Les conversations que je relate n'auraient pas été aussi approfondies sans ce caractère itinérant de la journée Walking Dev.
 
 [Teammood]: https://www.teammood.com
