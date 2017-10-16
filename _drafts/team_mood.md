@@ -19,7 +19,7 @@ Le témoignage qui m'a le plus marqué est donné sur la page des tarifs par un 
 
 Un autre témoignage a attiré mon attention sur la question de la durée, question que je ne m'étais même pas posée :
 
-> Honêtement, je suis surpris par le taux de participation. Tout le monde était content de s'y mettre, mais, contrairement à ce que j'avais imaginé, il n'y a pas de baisse de participation significative avec le temps.
+> Honnêtement, je suis surpris par le taux de participation. Tout le monde était content de s'y mettre, mais, contrairement à ce que j'avais imaginé, il n'y a pas de baisse de participation significative avec le temps.
 
 Le succès a été très rapide : triplement du chiffre d'affaire la deuxième année et atteinte de la rentabilité. Le modèle économique ? Facturer 1 Euro par membre d'équipe, après 30 jours d'accès gratuits. Il y a aujourd'hui plus d'une centaine de clients, principalement des manageurs et des coachs.
 
