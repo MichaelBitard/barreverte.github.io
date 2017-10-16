@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DynamoDB, comment ça marche ?
+title: Amazon DynamoDB, comment ça marche ?
 author:
   display_name: Jean-Philippe Caruana
 tags:
@@ -10,7 +10,7 @@ tags:
 comments: true
 ---
 
-Amazon a publié un SDK Java qui permet d’interagir avec tous les services AWS, y compris DynamoDB. Regardons un peu comment tou cela fonctionne.
+Amazon a publié un SDK Java qui permet d’interagir avec tous les services AWS, y compris DynamoDB. Regardons un peu comment tout cela fonctionne.
 
 # Principes généraux
 DynamoDB est une base de données clef/valeur "_infiniment scalable_". On ne paye qu'à l'usage selon 3 axes, selon notre réglage sur chaque table :
@@ -23,7 +23,7 @@ DynamoDB s'intègre très bien avec Amason Redshift et EMR (Elastic Map Reduce, 
 
 Vue hiérarchique :
 
-* Chaque compte AWS possède une collection de **tables** par région.
+* Chaque compte AWS possède une collection de **tables** par [région](https://aws.amazon.com/fr/about-aws/global-infrastructure/).
 * Chaque table est une collection d' **items**
 * Chaque item est une collection arbitraire d' **attributs** (des couples clef/valeur)
 
@@ -45,12 +45,12 @@ La taille maximum d'un item est de **64 ko**. Le nom des attributs _compte_ dans
 ## Les indexes
 
 * les données sont indexées sur les clefs primaires
-* les **LSI** (Local Secondary Indexes) permettent de parcourir les données hors des clefs de manière plus efficace. Pour moi, cela se rapproche des indexes de MongoDB sans le coût de RAM à gérer. La limite est de 10 Go par clef hash
+* les **LSI** (Local Secondary Indexes) permettent de parcourir les données hors des clefs de manière plus efficace. Pour moi, cela se rapproche des indexes de MongoDB sans le coût de RAM à gérer. La limite est de 10 Go par clef de hash
 * les **GSI** (Global Secondary Indexes) permettent de parcourir les données sur n'importe quel champ. Par contre, des frais supplémentaires s'appliquent.
 
 Les indexes ne peuvent être changés après leur création. Par contre, le provisioning peut être modifié (à la baisse ou à la hausse) à n'importe quel moment. Par ailleurs, des alarmes par mail peuvent être mises en place pour indiquer si une table a besoin de plus de lectures ou plus d'écriture.
 
-Amazon se charge de sharder/partitionner/répartir les données selon la taille des données et le provisionning lecture/écriture demandé. En cas de changement de provisionning, les données sont reshardées automatiquement. Pour scaler massivement, il faut donc un grand nomble de clefs hash différentes.
+Amazon se charge de sharder/partitionner/répartir les données selon la taille des données et le provisionning lecture/écriture demandé. En cas de changement de provisionning, les données sont reshardées automatiquement. Pour scaler massivement, il faut donc un grand nomble de clefs de hash différentes.
 
 ## API
 ### en lecture

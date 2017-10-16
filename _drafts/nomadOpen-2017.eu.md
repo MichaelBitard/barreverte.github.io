@@ -10,7 +10,7 @@ tags:
 comments: true
 ---
 
-La première non-conférence européenne sur le nomadisme professionel démarrait ce jeudi 17 Août. Barreverte était bien entendu présente pour cette grande première.
+La première non-conférence européenne sur le nomadisme professionel démarrait ce jeudi 17 Août.
 
 # Le principe : faire l'expérience du nomadisme
 
@@ -19,6 +19,25 @@ L'idée est de vivre le sujet en travaillant dans les trains entre les différen
 # La préparation : sans internet point de salut
 
 J'anticipais que ma capacité à me connecter depuis mon ordinateur portable, même de manière très ponctuelle, serait critique. La raison : docker refuse de démarrer sans connection internet. Sans environnment docker je suis aveugle : je ne peux faire aucun test que ce soit manuel ou automatique. Même si programmer en aveugle sous vim est possible ce serait très limitant.
+
+---
+Il s'avèrera qu'il s'agit d'un problème spécifique à certaines versions de docker sous Ubuntu.
+La première ligne éxecutée par le fichier `/etc/init/docker.conf` est
+
+---
+start on (filesystem and net-device-up IFACE!=lo)
+---
+
+Docker ne démarre pas si l'interface montée pour le réseau est la loopback !
+Il suffit d'[inverser la condition](https://superuser.com/questions/918439/cannot-run-docker-without-connection) pour démarrer sans réseau :
+
+---
+start on (filesystem and net-device-up IFACE=lo)
+---
+
+
+---
+
 
 Pour me préparer, je tente donc de me connecter à mon smartphone en mode hostspot. Je m'attends à une simple formalité mais surprise : mon téléphone n'apparaît dans aucun des réseaux wifi listés. Je tente sans trop y croire "Connect to Hidden Wi-Fi network..." (se connecter à un réseaux Wi-Fi caché). Bien entendu la première chose qui m'es demandée est le nom du point d'accès. Je l'obtiens sur mon téléphone par "Régl pt d'accès mobile". Je suis content de constater qu'un mot de passe a déjà été positionné par le constructeur. En le rendant visible je peux le recopier et je me retrouve connecté !
 
@@ -62,4 +81,9 @@ courbe de spéculation des bitcoin et telurium
 ## Une conférence dans un bateau
 
 <img class="right" alt="Une conférence en bateau" src="/images/nomadcruise_small.jpg"/>Un membre Espagnol de la communauté locale nous dit qu'il a entendu parlé d'une autre conférence qui se déplace : nomad cruise. Elle se déroule sur un bateau où présentations et ateliers s'égrennent le long de sa traversée de l'Atlantique.
+
+
+# Du coworking dans une salle de bain
+
+<img class="right" alt="coworking en pair programming à distance depuis la salle de bain" src="/images/coworking_salle_de_bain.jpg">L'une de mes découvertes : il est très important pour moi de ne pas déranger des gens alentour lorsque je suis au téléphone. Quand les deux pièces principales se sont révélées utilisées j'ai donc déplacé mon espace de travail dans la salle de bain pour faire une session de pair programming à distance.
 
