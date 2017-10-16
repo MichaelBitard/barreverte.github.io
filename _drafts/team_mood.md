@@ -29,26 +29,26 @@ Le succès a été très rapide : après une première année à 22 000 Euros de
 
 # International dès le premier jour
 
-Une des clefs du succès c'est d'avoir envisagé le service comme international dès le premier jour plutôt que de se limiter à un espace francophone. C'est un conseil que j'ai entendu martellé en hackathon pour lancer sa startup : "si vous ne deviez retenir qu'une seule chose c'est qu'il faut penser global dès le premier jour".
+Une des clefs du succès c'est d'avoir envisagé le service comme international dès le premier jour plutôt que de se limiter à un espace francophone. C'est un conseil que j'ai entendu martelé en hackathon pour lancer sa startup : "si vous ne deviez retenir qu'une seule chose c'est qu'il faut penser global dès le premier jour".
 
-Et ça a marché : après des premiers clients issus des cercles de connaissances et du bouche à oreille, des clients internationnaux sont arrivés par Google en moins de 2 mois. Ils avaient cherché "team mood" dans Google ! Le nom du site a fait la différence. Un hasard puisque le fondateur l'a choisit en avril 2013 parce qu'il était disponible. Aucun des concurrents n'a de nom aussi pertinent : MoodPanda n'est pas aussi évocateur et si NikoNiko l'est beaucoup plus, une chaine de restaurant japonais porte le même nom. L'avantage concurrentiel de team mood c'est de proposer un service payant qui assure sa résilience. Un concurrent américain et un concurrent Anglais ont mis la clef sous la porte en Décembre après avoir échoué à lever des fonds.
+Et ça a marché : après des premiers clients issus des cercles de connaissances et du bouche à oreille, des clients internationnaux sont arrivés par Google en moins de 2 mois. Ils avaient cherché "team mood" dans Google ! Le nom du site a fait la différence. Un hasard puisque le fondateur l'a choisi en avril 2013 parce qu'il était disponible. Aucun des concurrents n'a de nom aussi pertinent : MoodPanda n'est pas aussi évocateur et si NikoNiko l'est beaucoup plus, une chaine de restaurant japonais porte le même nom. L'avantage concurrentiel de team mood c'est de proposer un service payant qui assure sa résilience. Un concurrent américain et un concurrent Anglais ont mis la clef sous la porte en Décembre après avoir échoué à lever des fonds.
 
-Team mood s'appuie lui aussi sur des services payant, clood sur heroku, mailing et surtout intercom qui fournit un chat en ligne personnalisé qui est facturé à l'usage et qui représente aujourd'hui 220 Euros sur un total de 450 Euros de fraits mensuels en services payants. Ce modèle économique payant rassure les clients : "comme ça on est sûr que vous aller continuer, contrairement aux services gratuits".
+Team mood s'appuie lui aussi sur des services payant, clood sur heroku, mailing et surtout intercom qui fournit un chat en ligne personnalisé qui est facturé à l'usage et qui représente aujourd'hui 220 Euros sur un total de 450 Euros de fraits mensuels en services payants. Ce modèle économique payant rassure les clients : "comme ça on est sûr que vous allez continuer, contrairement aux services gratuits".
 
 A propos d'intercom, la personnalisation du service s'avère particulièrement utile. Elle permet d'envoyer un mail quand le fondateur ne répond pas tout de suite "Je ne suis pas disponible immédiatement mais je reviens vers vous dès que possible". C'est important quand les clients sont répartis sur tous les fuseaux horaires du globe : les clients en Autralie et en Nouvelle Zélande posent leurs questions pendant la nuit. Nicolas Deverge (le fondateur) les découvre à son réveil.
 
 # Le taux de recommandation
 
-Par rapport à la satisfaction des clients un seul indicateur est utilisé : le taux de recommendations. Sur une note de 1 à 10 recommenderiez-vous team mood ?
+Par rapport à la satisfaction des clients un seul indicateur est utilisé : le taux de recommandation. Sur une note de 1 à 10 recommenderiez-vous team mood ?
 - 1-6 : insatisfait. La personne va bientôt partir.
 - 7-8 : neutre.
-- 9-10 : ambassadeur. C'est cette population qui est la plus intéressante : ils vont promouvoir le service et accepter d'écrire des commentaires quand le fondateur les solliscite. Un utilisateur potentiel demandait par exemple sur twitter quel site choisir et Nicolas a écrit à un ambassadeur possédant un compte sur twitter pour qu'il lui réponde.
+- 9-10 : ambassadeur. C'est cette population qui est la plus intéressante : ils vont promouvoir le service et accepter d'écrire des commentaires quand le fondateur les sollicite. Un utilisateur potentiel demandait par exemple sur twitter quel site choisir et Nicolas a écrit à un ambassadeur possédant un compte sur twitter pour qu'il lui réponde.
 Cet indicateur, recueillit au bout de deux semaines d'accès gratuit peut aussi potentiellment éviter de perdre un client en revenant vers un utilisateur mitigé pour savoir si quelque chose pourrait être amélioré.
 
 
-# De la vertue de l'abandon ?
+# De la vertu de l'abandon ?
 
-Une des choses que j'apprécie dans le parcours de Nicolas c'est qu'il a échoué sur son précédent produit. Il ne s'est pas entêté, et il a choisit de tester une autre idée. Il me disait cependant qu'il est plus facile de faire cette démarche quand il s'agit d'un side project plutôt que quand on cherche à gagner sa vie avec.
+Une des choses que j'apprécie dans le parcours de Nicolas c'est qu'il a échoué sur son précédent produit. Il ne s'est pas entêté, et il a choisi de tester une autre idée. Il me disait cependant qu'il est plus facile de faire cette démarche quand il s'agit d'un side project plutôt que quand on cherche à gagner sa vie avec.
 
 Le deuxième élément que je trouve intéressant c'est la différence dans la génèse de ses deux produits :
 
@@ -82,7 +82,7 @@ Un utilisateur de team mood écrivait il y a un an dans un retour qu'il s'était
 
 Nicolas revenait également sur l'importance de commencer sans investissement conséquent en terme de code.
 Il me donnait l'exemple des sites de vente de chaussures en ligne. Il fût un temps où l'on pensait que vendre des chaussures en ligne était impossible car tout le monde voudrait essayer les chaussures avant de les acheter. Un des premiers vendeurs en ligne a donc commencé par prendre des photos de chaussures dans les magasins autour de chez lui.
-Quand une commande lui était faite en ligne il se rendait dans le magasin pour l'acheter la paire et il envoyait le colis.
+Quand une commande lui était faite en ligne il se rendait dans le magasin pour acheter la paire et il envoyait le colis.
 
 En 2013 Nicolas a testé sa proposition de valeur avec une simple page web statique : un champ de pré-inscription et seulement quelques heures de travail. Un taux d'engagement de 15% a validé son concept (source : http://blog.appstud.com/team-mood-au-service-du-happiness-management)
 
@@ -102,6 +102,6 @@ Cette orientation vers slack me paraît très pertinente dans la mesure où le c
 
 # A la recherche des clefs perdues
 
-Pour finir sur le précédent produit de Nicolas (dont il a arrêté la commercialisation), j'ai vu fleurir dans le métro des publicités pour un service concurrent qui promet de retrouver ses clefs perdues avec un émetteur bluetooth. Nicolas me disait que cette approche fonctionne très bien pour retrouver des clefs perdues dans un appartement. Pour des clefs perdues dans la rue, il faut qu'un téléphone équipé de l'appli passe à proximité, ce qui est très limitant. A l'inverse l'approche low-tech de Nicola ne consommait pas d'énergie.
+Pour finir sur le précédent produit de Nicolas (dont il a arrêté la commercialisation), j'ai vu fleurir dans le métro des publicités pour un service concurrent qui promet de retrouver ses clefs perdues avec un émetteur bluetooth. Nicolas me disait que cette approche fonctionne très bien pour retrouver des clefs perdues dans un appartement. Pour des clefs perdues dans la rue, il faut qu'un téléphone équipé de l'appli passe à proximité, ce qui est très limitant. A l'inverse l'approche low-tech de Nicolas ne consommait pas d'énergie.
 
 [Teammood]: http://teammood.com
