@@ -12,7 +12,7 @@ comments: true
 <img class="right" alt="Le courriel envoyé par teammood" src="/images/teammood_mail.png"/>Lors des conversations pédestres de la conférence [Walking Dev](http://www.barreverte.fr/walking_dev) de Toulouse,
  ma plus grande découverte a été [Teammood], un service en ligne dont le but est d'améliorer le bonheur au travail. Le principe : demander tous les soirs à chaque membre d'une équipe comment s'est passée sa journée avec une note de 1 à 5 et un commentaire optionnel.
 
-Comme ces deux éléments sont visibles par toute l'équipe, ils déclenchent des conversations à la machine à café le lendemain matin. C'est dans ces conversations que résident la valeur du service. Ca m'a rappelé airbnb où l'essentiel de l'expérience utilisateur se situe en dehors du site.
+Comme ces deux éléments sont visibles par toute l'équipe, ils déclenchent des conversations à la machine à café le lendemain matin. C'est dans ces conversations que réside la valeur du service. Ca m'a rappelé airbnb où l'essentiel de l'expérience utilisateur se situe en dehors du site.
 
 Le témoignage qui m'a le plus marqué est donné sur la page des tarifs par un membre d'Air France :
 
@@ -39,11 +39,12 @@ A propos d'Intercom, la personnalisation du service s'avère particulièrement u
 # Le taux de recommandation
 
 Par rapport à la satisfaction des clients un seul indicateur est utilisé : le taux de recommendations. Sur une note de 1 à 10 recommenderiez-vous team mood ?
+
 - 1-6 : insatisfait. La personne va bientôt partir.
 - 7-8 : neutre.
 - 9-10 : ambassadeur. Ils vont promouvoir le service et accepter d'écrire des commentaires quand le fondateur les sollicite. Un utilisateur potentiel demandait par exemple sur twitter quel site choisir et Nicolas a écrit à un ambassadeur possédant un compte sur twitter pour qu'il lui réponde.
 
-Cet indicateur, recueilli au bout de deux semaines d'accès gratuit peut aussi potentiellment éviter de perdre un client en revenant vers un utilisateur mitigé pour savoir si quelque chose pourrait être amélioré.
+Cet indicateur, recueilli au bout de deux semaines d'accès gratuit peut aussi potentiellement éviter de perdre un client en revenant vers un utilisateur mitigé pour savoir si quelque chose pourrait être amélioré.
 
 
 # De la vertu de l'abandon ?
@@ -55,14 +56,14 @@ Le deuxième élément que je trouve intéressant c'est la différence dans la g
 
 ## Résoudre un problème
 
-Le produit www.keysmag.net permettait de retrouver des clés perdues :
+Le produit [www.keysmag.net](https://www.keysmag.net) permettait de retrouver des clés perdues :
 
 <img alt="Vous avez trouvé des clés ? Saisissez le code afin de contacter le propriétaire" src="/images/keysmag.jpg"/>
 
 - une plaquette accrochée au porte clef indiquait "Clés trouvées ? Saisir le code {codeDeLaClé} sur www.keysmag.net"
 - un passant signalait avoir retrouvé les clés dans 70% des cas
 
-Il partait d'un problème à résoudre (auquel le fondateur avait lui-même été confronté). C'est l'idée de l'appli qui fait un job à ma place (retrouver mes clefs). La solution résolvait le problème avec un appréciable taux de succés de 70%. Le problème lui-même ne semble suffisamment pas douloureux pour la sous-population des parents d'adolescents qui perdent leur clefs, mais cette sous-population s'est avèrée trop réduite.
+Il partait d'un problème à résoudre (auquel le fondateur avait lui-même été confronté). C'est l'idée de l'appli qui fait un job à ma place (retrouver mes clefs). La solution résolvait le problème avec un appréciable taux de succès de 70%. Le problème lui-même ne semble suffisamment pas douloureux pour la sous-population des parents d'adolescents qui perdent leur clefs, mais cette sous-population s'est avérée trop réduite.
 
 ## Tester une idée
 
@@ -86,20 +87,20 @@ Nicolas revenait également sur l'importance de commencer sans investissement co
 Il me donnait l'exemple des sites de vente de chaussures en ligne. Il fût un temps où l'on pensait que vendre des chaussures en ligne était impossible car tout le monde voudrait essayer les chaussures avant de les acheter. Un des premiers vendeurs en ligne a donc commencé par prendre des photos de chaussures dans les magasins autour de chez lui.
 Quand une commande lui était faite en ligne il se rendait dans le magasin pour acheter la paire et il envoyait le colis.
 
-En 2013 Nicolas a testé sa proposition de valeur avec une simple page web statique : un champ de pré-inscription et seulement quelques heures de travail. Un taux d'engagement de plus de 15% a validé son concept (source : http://blog.appstud.com/team-mood-au-service-du-happiness-management)
+En 2013 Nicolas a testé sa proposition de valeur avec une simple page web statique : un champ de pré-inscription et seulement quelques heures de travail. Un taux d'engagement de plus de 15% a validé son concept (source : [http://blog.appstud.com/team-mood-au-service-du-happiness-management](http://blog.appstud.com/team-mood-au-service-du-happiness-management))
 
 
 # Dire merci pour les bugs
 
 Une autre chose que fait Nicolas, c'est dire merci pour chaque bug pertinent ouvert : merci d'avoir pris le temps d'ouvrir ce bug ça permettra d'améliorer le service pour tous les autres utilisateurs également.
 
-Je devrais faire de même sur les projets open sources auxquels je contribue. Par exemple le dernier ticket qui a été ouvert sur aioimaplib, un utilisateur a demandé à ce que toutes nos exceptions héritent d'une même classe de base pour qu'il puisse plus facilement se reconnecter en cas de perte de connection pendant un IDLE. Moi je me disais "il faut que je pousse rapidement pour montrer qu'on est réactif, comme ça on va peut-être gagner une étoile" et c'est lui qui a dit merci. J'aurais peut-être dû le remercier pour avoir pris le temps d'ouvrir ce ticket et ajouter que tout le monde bénéficiera de l'amélioration qu'il a demandé. A voir à l'usage si cette pratique est pertinente auprès d'une population de développeurs.
+Je devrais faire de même sur les projets open sources auxquels je contribue. Par exemple le dernier ticket qui a été ouvert sur [aioimaplib](https://github.com/bamthomas/aioimaplib), un utilisateur a demandé à ce que toutes nos exceptions héritent d'une même classe de base pour qu'il puisse plus facilement se reconnecter en cas de perte de connection pendant un IDLE. Moi je me disais "il faut que je pousse rapidement pour montrer qu'on est réactif, comme ça on va peut-être gagner une étoile" et c'est lui qui a dit merci. J'aurais peut-être dû le remercier pour avoir pris le temps d'ouvrir ce ticket et ajouter que tout le monde bénéficiera de l'amélioration qu'il a demandée. A voir à l'usage si cette pratique est pertinente auprès d'une population de développeurs.
 
 # L'avenir : Slack
 
 La fonctionnalité développée dans TeamMood cet été, à la demande des utilisateurs, c'est l'intégration dans Slack. Nicolas racontait que ce n'était pas aussi facile qu'on pouvait l'imaginer. Sur les quatres manières possible d'écrire un robot Slack, il avait dû en essayer trois avant de parvenir à ses fins.
 
-Cette orientation vers Slack me paraît très pertinente dans la mesure où le concurrent payant qui m'a le plus marqué est le japonais vibe.work qui propose en plus de mesurer le morale des conversations sur les canaux Slack moyennant 120$ par mois. Cette approche ne me paraît cependant pas dénuée de dangers dans un milieu où la bienveillance ne serait pas largement répandue.
+Cette orientation vers Slack me paraît très pertinente dans la mesure où le concurrent payant qui m'a le plus marqué est le japonais [vibe.work](https://vibe.work/) qui propose en plus de mesurer le moral des conversations sur les canaux Slack moyennant 120$ par mois. Cette approche ne me paraît cependant pas dénuée de dangers dans un milieu où la bienveillance ne serait pas largement répandue.
 
 
 # A la recherche des clefs perdues
