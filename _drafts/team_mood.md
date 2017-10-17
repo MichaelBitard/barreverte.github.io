@@ -34,7 +34,7 @@ Le premier produit [www.keysmag.net](https://www.keysmag.net) permettait de retr
 
 On partait d'un problème à résoudre, auquel le fondateur avait lui-même été confronté. C'est l'idée de l'appli qui fait un job à ma place (retrouver mes clefs). La solution résolvait le problème avec un appréciable taux de succès de 70%.
 Le problème lui-même ne semble néanmoins suffisamment douloureux que pour une sous-population : les parents d'adolescents qui perdent leur clefs.
-Je me souviens d'une séance publique de coaching de Françoise Kourilsky où la personne accompagnée avait choisit comme sujet sa difficulté face à son fils adolescent qui venait de perdre ses clefs pour la troisième fois.
+Ca m'a rappelé une séance publique de coaching de Françoise Kourilsky où la personne accompagnée disait que son fils adolescent venait de perdre ses clefs pour la troisième fois.
 
 Cette sous-population s'est avérée trop réduite.
 
@@ -43,8 +43,7 @@ Cette sous-population s'est avérée trop réduite.
 
 Pour le second produit, [TeamMood](https://www.teammood.com) celui qui va s'avèrer une réussite, le point de départ est l'envie de tester des idées.
 
-Partant du constat d'un artefact qui fonctionnait [mal](http://blog.appstud.com/team-mood-au-service-du-happiness-management) au milieu d'un open space l'idée d'essayer un service anonyme a émergée.
-J'ai moi aussi mis en place ce même artefact en open space et partagé ce constat d'échec sans pour autant savoir si les raisons sont les mêmes.
+Partant du constat d'un [artefact](http://mattischneider.fr/anthropologie/agile/thesis/) qui fonctionnait [mal](http://blog.appstud.com/team-mood-au-service-du-happiness-management) au milieu d'un open space l'idée d'essayer un service anonyme a émergée.
 
 ## Commencer sans code
 
@@ -67,9 +66,9 @@ Le succès a été rapide : triplement du chiffre d'affaire la deuxième année 
 
 ## International dès le premier jour
 
-Le service a été envisagé comme international dès le début. C'est un conseil que j'ai entendu martelé en hackathon pour lancer sa startup : "si vous ne deviez retenir qu'une seule chose c'est qu'il faut penser global dès le premier jour".
+C'est un conseil que j'ai entendu martelé en hackathon pour lancer sa startup : "si vous ne deviez retenir qu'une seule chose c'est qu'il faut penser global dès le premier jour".
 
-Après des premiers clients issus des cercles de connaissances et du bouche à oreille, des clients hors de France sont arrivés en cherchant "team mood" dans Google. Le nom du site est un atout car aucun des concurrents n'a de nom aussi facile à trouver :
+Après des premiers clients issus des cercles de connaissances et du bouche à oreille, des clients hors de France sont arrivés en cherchant "team mood" dans un moteur de recherche. Le nom du site s'avère un atout par rapport à la concurrence :
 - MoodPanda n'est pas aussi évocateur, je ne me souviens jamais si Mood est avant Panda ou après.
 - NikoNiko l'est beaucoup plus, mais une chaine de restaurant japonais porte le même nom. 
 
@@ -82,8 +81,6 @@ Par rapport à la satisfaction des clients un seul indicateur est utilisé : le 
 - 1-6 : insatisfait. La personne va bientôt partir.
 - 7-8 : neutre.
 - 9-10 : ambassadeur. Ils vont promouvoir le service et accepter d'écrire des commentaires quand le fondateur les sollicite. Un utilisateur potentiel demandait par exemple sur twitter quel site choisir et Nicolas a écrit à un ambassadeur possédant un compte sur twitter pour qu'il lui réponde.
-
-Cet indicateur, recueilli au bout de deux semaines d'accès gratuit peut aussi potentiellement éviter de perdre un client en revenant vers un utilisateur mitigé pour savoir si quelque chose pourrait être amélioré.
 
 ## Dire merci pour les bugs
 
