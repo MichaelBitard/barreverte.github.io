@@ -16,7 +16,7 @@ le parcours récent de Nicolas Deverge (coach et praticien en Lean Startup) m'a 
 
 # De la vertu de l'abandon ?
 
-Après l'échec de son précédent produit, plutôt que de s'entêter, il a choisi de tester une autre idée. Un tel renoncement est plus facile pour un side project plutôt que quand on cherche à gagner sa vie avec.
+Après l'échec de son précédent produit, plutôt que de s'entêter, il a choisi de tester une autre idée. Un tel renoncement est cependant plus facile pour un side project plutôt que quand on cherche à gagner sa vie avec.
 
 L'autre différence que je trouve contre-intuitive réside dans la génèse des deux produits :
 - Résoudre un problème (échec)
@@ -47,24 +47,15 @@ Ce problème continue de susciter des initiatives : j'ai vu fleurir dans le mét
 
 Pour le second produit, [TeamMood](https://www.teammood.com) celui qui va s'avèrer une réussite, le point de départ est l'envie de tester des idées.
 
-Le contexte : le Niko Niko fonctionnait mal quand les gens devaient coller les gommettes dans un open space (sentiment d'être observé). D'ou l'idée d'essayer un service anonyme.  Donc il s'avère que le produit fait un job : "faire un Niko Niko" de manière anonyme.
+Le contexte : le Niko Niko fonctionnait mal quand les gens devaient coller les gommettes dans un open space (sentiment d'être observé). D'où l'idée d'essayer un service anonyme.  Donc il s'avère que le produit fait un job : "faire un Niko Niko" de manière anonyme.
 
-## Papier ou internet ?
-
-J'ai moi aussi mis en place un Niko Niko dans un open space et affiché ce Niko Niko en retrospective. Je partage le même constat d'échec, sans avoir moi-même cherché à en connaître les raisons.
-Il y a un an, un utilisateur [décrivait](http://blog.appstud.com/team-mood-au-service-du-happiness-management)  des difficultés similaires :
-
-
-> nous avons entrepris de connaître le degré de « Happiness » de nos collaborateurs. Facile encore une fois: Demandons leur.
->
-> Outre l’aspect chronophage de cette démarche, il y a des caractères qui ne souhaitent pas se livrer ou expliquer les raisons pour lesquelles ils/elles sont de mauvaise humeur.
->
-> Nous avons donc cherché un outil simple qui nous permettrait d’obtenir l’humeur globale de nos équipes anonymement."
+J'ai moi aussi mis en place un Niko Niko dans un open space et l'ai affiché en retrospective.
+Comme d'[autres](http://blog.appstud.com/team-mood-au-service-du-happiness-management), je partage le même constat d'échec.
 
 ## Commencer sans code
 
-Nicolas revenait également sur l'importance de commencer sans investissement conséquent en terme de code.
-Il me donnait l'exemple des sites de vente de chaussures en ligne. Il fût un temps où l'on pensait que vendre des chaussures en ligne était impossible car tout le monde voudrait essayer les chaussures avant de les acheter. Un des premiers vendeurs en ligne a donc commencé par prendre des photos de chaussures dans les magasins autour de chez lui.
+Commencer sans investissement conséquent en terme de code est un atout.
+La vente de chaussures en ligne en constitue un bon exemple. Il fût un temps où l'on pensait que vendre des chaussures en ligne était impossible car tout le monde voudrait essayer les chaussures avant de les acheter. Un des premiers vendeurs en ligne a donc commencé par prendre des photos de chaussures dans les magasins autour de chez lui.
 Quand une commande lui était faite en ligne il se rendait dans le magasin pour acheter la paire et il envoyait le colis.
 
 En 2013 Nicolas a testé sa proposition de valeur avec une simple page web statique : un champ de pré-inscription et seulement quelques heures de travail. Un taux d'engagement de plus de 15% a validé son concept.
@@ -73,28 +64,19 @@ En 2013 Nicolas a testé sa proposition de valeur avec une simple page web stati
 
 <img class="right" alt="Le courriel envoyé par le service de Niko Niko en ligne" src="/images/courriel_niko_niko_en_ligne.png"/>Le pitch ? Un service pour améliorer le bonheur au travail.
 Le principe ? Demander tous les soirs à chaque membre d'une équipe comment s'est passée sa journée avec **une note de 1 à 5** et un **commentaire optionnel**. Cette pratique est souvent appelée "*Niko Niko*" de *Niko* - sourire en japonais - ou encore *feeling board*.
-A l'usage, répondre à ce mail en fin de journée invite à l'introspection. 
 
 ## Une valeur hors d'internet
 
-Comme ces éléments sont visibles par toute l'équipe, ils déclenchent des conversations à la machine à café le lendemain matin. C'est dans ces conversations que réside la valeur du service. Ca m'a rappelé airbnb où l'essentiel de l'expérience utilisateur se situe en dehors du site.
-
-Le témoignage qui m'a le plus marqué est donné sur la page des tarifs par un membre d'Air France :
-
-> Grâce à \[cette application\], nous avons montré qu'une de nos réunions hebdomadaire n'avait de valeur ajoutée pour personne.
-
-Un autre témoignage a attiré mon attention sur la question de la durée, question que je ne m'étais même pas posée :
-
-> Honnêtement, je suis surpris par le taux de participation. Tout le monde était content de s'y mettre, mais, contrairement à ce que j'avais imaginé, il n'y a pas de baisse de participation significative avec le temps.
+Visibles par toute l'équipe les réponses déclenchent des conversations à la machine à café le lendemain matin.
+Ca m'a rappelé airbnb où l'essentiel de l'expérience utilisateur se situe également en dehors du site.
 
 Le succès a été très rapide : triplement du chiffre d'affaire la deuxième année et atteinte de la rentabilité. Le modèle économique ? Facturer 1 Euro par membre d'équipe, après 30 jours d'accès gratuits. Il y a aujourd'hui plus d'une centaine de clients, principalement des manageurs et des coachs.
-
 
 ## International dès le premier jour
 
 Le service a été envisagé comme international dès le début plutôt que de se limiter à un espace francophone. C'est un conseil que j'ai entendu martelé en hackathon pour lancer sa startup : "si vous ne deviez retenir qu'une seule chose c'est qu'il faut penser global dès le premier jour".
 
-Et ça a marché : après des premiers clients issus des cercles de connaissances et du bouche à oreille, des clients internationnaux sont arrivés par Google en moins de 2 mois. Ils avaient cherché "team mood" dans Google ! Le nom du site a fait la différence. Un hasard puisque le fondateur a choisit le nom de domaine en avril 2013 parce qu'il était disponible. Aucun des concurrents n'a de nom aussi pertinent : MoodPanda n'est pas aussi évocateur et si NikoNiko l'est beaucoup plus, une chaine de restaurant japonais porte le même nom. 
+Après des premiers clients issus des cercles de connaissances et du bouche à oreille, des clients internationnaux sont arrivés par Google en moins de 2 mois. Ils avaient cherché "team mood" dans Google ! Le nom du site a fait la différence. Un hasard puisque le fondateur a choisit le nom de domaine en avril 2013 parce qu'il était disponible. Aucun des concurrents n'a de nom aussi pertinent : MoodPanda n'est pas aussi évocateur et si NikoNiko l'est beaucoup plus, une chaine de restaurant japonais porte le même nom. 
 
 La présence d'une concurrence pourrait faire peur mais c'est en fait plutôt bon signe : c'est qu'il y a un marché.
 Ce qui ne signifie pas qu'il y ait de la place pour tous les acteurs : un concurrent américain et un concurrent Anglais ont mis la clef sous la porte en Décembre 2016 après avoir échoué à lever des fonds.
@@ -103,7 +85,7 @@ Ce qui ne signifie pas qu'il y ait de la place pour tous les acteurs : un concur
 
 Le site s'appuie sur des services payants : hébergement sur Heroku, mailing et surtout Intercom qui fournit un chat en ligne personnalisé qui est facturé à l'usage. Ce modèle économique payant rassure Nicolas : "comme ça on est sûr que le service va perdurer, contrairement aux services gratuits".
 
-A propos d'Intercom, la personnalisation du service s'avère particulièrement utile. Elle permet d'envoyer un mail quand le fondateur ne répond pas tout de suite "Je ne suis pas disponible immédiatement mais je reviens vers vous dès que possible". C'est important quand les clients sont répartis sur tous les fuseaux horaires du globe : les clients en Autralie et en Nouvelle Zélande posent leurs questions pendant la nuit. Nicolas  les découvre à son réveil.
+A propos d'Intercom, la personnalisation du service s'avère particulièrement utile. Elle permet d'envoyer un mail quand le fondateur ne répond pas tout de suite "Je ne suis pas disponible immédiatement mais je reviens vers vous dès que possible". C'est important quand les clients sont répartis sur tous les fuseaux horaires du globe : les clients en Australie et en Nouvelle Zélande posent leurs questions pendant la nuit. Nicolas les découvre à son réveil.
 
 ## Le taux de recommandation
 
@@ -122,9 +104,9 @@ Je devrais faire de même sur les projets open sources auxquels je contribue. Pa
 
 ## L'avenir : Slack
 
-La fonctionnalité développée cet été à la demande des utilisateurs, c'est l'intégration dans Slack. Nicolas racontait que ce n'était pas aussi facile qu'on pouvait l'imaginer. Sur les quatres manières possible d'écrire un robot Slack, il avait dû en essayer trois avant de parvenir à ses fins.
+La fonctionnalité développée cet été à la demande des utilisateurs, c'est l'intégration dans Slack. Ce n'est pas aussi facile qu'on pourrait l'imaginer : sur les quatres manières possible d'écrire un robot Slack, il a fallut en essayer trois.
 
-Cette orientation vers Slack me paraît très pertinente dans la mesure où le concurrent payant qui m'a le plus marqué est le japonais [vibe.work](https://vibe.work/) qui propose en plus de mesurer le moral des conversations sur les canaux Slack moyennant 120$ par mois. Cette approche ne me paraît cependant pas dénuée de dangers dans un milieu où la bienveillance ne serait pas largement répandue.
+Concernant Slack, le concurrent payant qui m'a le plus marqué est le japonais [vibe.work](https://vibe.work/) qui propose en plus de mesurer le moral des conversations sur les canaux Slack moyennant 120$ par mois. Cette approche ne me paraît cependant dangereuse dans un milieu où la bienveillance ne serait pas largement répandue.
 
 
 # L'itinérance en conférence
