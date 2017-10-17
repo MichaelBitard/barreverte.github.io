@@ -10,7 +10,7 @@ tags:
 comments: true
 ---
 
-<img class="right" alt="Le courriel envoyé par le service de Niko Niko en ligne" src="/images/teammood_mail.png"/>Lors des conversations pédestres de la conférence [Walking Dev](http://www.barreverte.fr/walking_dev) de Toulouse,
+<img class="right" alt="Le courriel envoyé par le service de Niko Niko en ligne" src="/images/courriel_niko_niko_en_ligne.png"/>Lors des conversations pédestres de la conférence [Walking Dev](http://www.barreverte.fr/walking_dev) de Toulouse,
  ma plus grande découverte a été un service en ligne dont le but est d'améliorer le bonheur au travail. Le principe : demander tous les soirs à chaque membre d'une équipe comment s'est passée sa journée avec **une note de 1 à 5** et un **commentaire optionnel**. Cette pratique est souvent appelée "*Niko Niko*" de *Niko* - sourire en japonais - ou encore *feeling board*.
 
 Comme ces deux éléments sont visibles par toute l'équipe, ils déclenchent des conversations à la machine à café le lendemain matin. C'est dans ces conversations que réside la valeur du service. Ca m'a rappelé airbnb où l'essentiel de l'expérience utilisateur se situe en dehors du site.
