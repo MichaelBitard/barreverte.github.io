@@ -34,7 +34,7 @@ Le premier produit [www.keysmag.net](https://www.keysmag.net) permettait de retr
 
 On partait d'un problème à résoudre, auquel le fondateur avait lui-même été confronté. C'est l'idée de l'appli qui fait un job à ma place (retrouver mes clefs). La solution résolvait le problème avec un appréciable taux de succès de 70%.
 Le problème lui-même ne semble néanmoins suffisamment douloureux que pour une sous-population : les parents d'adolescents qui perdent leur clefs.
-Ca m'a rappelé une séance publique de coaching de Françoise Kourilsky où la personne accompagnée disait que son fils adolescent venait de perdre ses clefs pour la troisième fois.
+Ca m'a rappelé une formation en coaching où une personne accompagnée disait que son fils adolescent venait de perdre ses clefs pour la troisième fois.
 
 Cette sous-population s'est avérée trop réduite.
 
