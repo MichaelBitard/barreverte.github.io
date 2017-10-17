@@ -1,15 +1,16 @@
 ---
 layout: post
-title: Team Mood &#58; analyse d'un succès
+title: Lean Startup &#58; échouer pour réussir
 author:
   display_name: Philippe Blayo
 tags:
 - bonheur au travail
+- Niko Niko
 - lean startup
 comments: true
 ---
 
-<img class="right" alt="Le courriel envoyé par teammood" src="/images/teammood_mail.png"/>Lors des conversations pédestres de la conférence [Walking Dev](http://www.barreverte.fr/walking_dev) de Toulouse,
+<img class="right" alt="Le courriel envoyé par le service de Niko Niko en ligne" src="/images/teammood_mail.png"/>Lors des conversations pédestres de la conférence [Walking Dev](http://www.barreverte.fr/walking_dev) de Toulouse,
  ma plus grande découverte a été un service en ligne dont le but est d'améliorer le bonheur au travail. Le principe : demander tous les soirs à chaque membre d'une équipe comment s'est passée sa journée avec **une note de 1 à 5** et un **commentaire optionnel**. Cette pratique est souvent appelée "*Niko Niko*" de *Niko* - sourire en japonais - ou encore *feeling board*.
 
 Comme ces deux éléments sont visibles par toute l'équipe, ils déclenchent des conversations à la machine à café le lendemain matin. C'est dans ces conversations que réside la valeur du service. Ca m'a rappelé airbnb où l'essentiel de l'expérience utilisateur se situe en dehors du site.
@@ -31,7 +32,7 @@ Nicolas (fondateur de [TeamMood](https://www.teammood.com)) a envisagé le servi
 
 Et ça a marché : après des premiers clients issus des cercles de connaissances et du bouche à oreille, des clients internationnaux sont arrivés par Google en moins de 2 mois. Ils avaient cherché "team mood" dans Google ! Le nom du site a fait la différence. Un hasard puisque le fondateur l'a choisit en avril 2013 parce qu'il était disponible. Aucun des concurrents n'a de nom aussi pertinent : MoodPanda n'est pas aussi évocateur et si NikoNiko l'est beaucoup plus, une chaine de restaurant japonais porte le même nom. L'avantage concurrentiel du service de Nicolas c'est son modèle payant qui assure sa résilience. Un concurrent américain et un concurrent Anglais ont mis la clef sous la porte en Décembre après avoir échoué à lever des fonds.
 
-Le site s'appuie également sur des services payants, cloud sur heroku, mailing et surtout intercom qui fournit un chat en ligne personnalisé qui est facturé à l'usage et qui représente aujourd'hui 220 Euros sur un total de 450 Euros de fraits mensuels en services payants. Ce modèle économique payant rassure les clients : "comme ça on est sûr que vous allez continuer, contrairement aux services gratuits".
+Le site s'appuie également sur des services payants, cloud sur Heroku, mailing et surtout Intercom qui fournit un chat en ligne personnalisé qui est facturé à l'usage. Ce modèle économique payant rassure Nicolas : "comme ça on est sûr que le service va perdurer, contrairement aux services gratuits".
 
 A propos d'Intercom, la personnalisation du service s'avère particulièrement utile. Elle permet d'envoyer un mail quand le fondateur ne répond pas tout de suite "Je ne suis pas disponible immédiatement mais je reviens vers vous dès que possible". C'est important quand les clients sont répartis sur tous les fuseaux horaires du globe : les clients en Autralie et en Nouvelle Zélande posent leurs questions pendant la nuit. Nicolas  les découvre à son réveil.
 
