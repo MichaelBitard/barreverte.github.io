@@ -36,11 +36,7 @@ On partait d'un problème à résoudre, auquel le fondateur avait lui-même ét�
 Le problème lui-même ne semble néanmoins suffisamment douloureux que pour une sous-population : les parents d'adolescents qui perdent leur clefs.
 Je me souviens d'une séance publique de coaching de Françoise Kourilsky où la personne accompagnée avait choisit comme sujet sa difficulté face à son fils adolescent qui venait de perdre ses clefs pour la troisième fois.
 
-Cette sous-population s'est avérée trop réduite. La commercialisation est aujourd'hui arrêtée.
-
-## A la recherche des clefs perdues
-
-Ce problème continue de susciter des initiatives : j'ai vu fleurir dans le métro des publicités pour un service concurrent qui promet de retrouver ses clefs perdues avec un émetteur bluetooth. Cette approche fonctionne très bien pour retrouver des clefs perdues dans un appartement. Pour des clefs perdues dans la rue, il faut qu'un téléphone équipé de l'appli passe à proximité, ce qui est très limitant. A l'inverse l'approche low-tech de Nicolas ne consommait pas d'énergie.
+Cette sous-population s'est avérée trop réduite.
 
 
 # Tester une idée
@@ -61,7 +57,6 @@ En 2013 Nicolas a testé sa proposition de valeur avec une simple page web stati
 ## Un simple mail
 
 <img class="right" alt="Le courriel envoyé par le service de Niko Niko en ligne" src="/images/courriel_niko_niko_en_ligne.png"/> Le principe : demander tous les soirs à chaque membre d'une équipe comment s'est passée sa journée avec **une note de 1 à 5** et un **commentaire optionnel**. C'est cette pratique qui est souvent appelée "*Niko Niko*" de *Niko* - sourire en japonais - ou encore *feeling board*.
-Finalement le produit fait un job : "faire un Niko Niko" de manière anonyme.
 
 ## Une valeur hors d'internet
 
@@ -74,18 +69,12 @@ Le succès a été rapide : triplement du chiffre d'affaire la deuxième année 
 
 Le service a été envisagé comme international dès le début. C'est un conseil que j'ai entendu martelé en hackathon pour lancer sa startup : "si vous ne deviez retenir qu'une seule chose c'est qu'il faut penser global dès le premier jour".
 
-Après des premiers clients issus des cercles de connaissances et du bouche à oreille, des clients hors de France sont arrivés en cherchant "team mood" dans Google.  Le nom du site a fait la différence. Un hasard puisque le fondateur a choisit le nom de domaine en avril 2013 parce qu'il était disponible. Aucun des concurrents n'a de nom aussi facile à trouver :
+Après des premiers clients issus des cercles de connaissances et du bouche à oreille, des clients hors de France sont arrivés en cherchant "team mood" dans Google. Le nom du site est un atout car aucun des concurrents n'a de nom aussi facile à trouver :
 - MoodPanda n'est pas aussi évocateur, je ne me souviens jamais si Mood est avant Panda ou après.
 - NikoNiko l'est beaucoup plus, mais une chaine de restaurant japonais porte le même nom. 
 
 La présence d'une concurrence pourrait faire peur mais c'est en fait plutôt bon signe : c'est qu'il y a un marché.
 Ce qui ne signifie pas qu'il y ait de la place pour tous les acteurs : un concurrent américain et un concurrent Anglais ont mis la clef sous la porte en Décembre 2016 après avoir échoué à lever des fonds.
-
-## Un écosystème de services payants
-
-Le site s'appuie sur des services payants : hébergement sur Heroku, mailing et surtout Intercom qui fournit un chat en ligne personnalisé qui est facturé à l'usage. Ce modèle économique payant rassure Nicolas : "comme ça on est sûr que le service va perdurer, contrairement aux services gratuits".
-
-A propos d'Intercom, la personnalisation du service s'avère particulièrement utile. Elle permet d'envoyer un mail quand le fondateur ne répond pas tout de suite "Je ne suis pas disponible immédiatement mais je reviens vers vous dès que possible". C'est important quand les clients sont répartis sur tous les fuseaux horaires du globe : les clients en Australie et en Nouvelle Zélande posent leurs questions pendant la nuit. Nicolas les découvre à son réveil.
 
 ## Le taux de recommandation
 
@@ -102,15 +91,8 @@ Une autre chose que fait Nicolas, c'est dire merci pour chaque bug pertinent ouv
 
 Je devrais faire de même sur les projets open sources auxquels je contribue. Par exemple le dernier ticket qui a été ouvert sur [aioimaplib](https://github.com/bamthomas/aioimaplib), un utilisateur a demandé à ce que toutes nos exceptions héritent d'une même classe de base pour qu'il puisse plus facilement se reconnecter en cas de perte de connection pendant un IDLE. Moi je me disais "il faut que je pousse rapidement pour montrer qu'on est réactif, comme ça on va peut-être gagner une étoile" et c'est lui qui a dit merci. J'aurais peut-être dû le remercier pour avoir pris le temps d'ouvrir ce ticket et ajouter que tout le monde bénéficiera de l'amélioration qu'il a demandée. A voir à l'usage si cette pratique est pertinente auprès d'une population de développeurs.
 
-## L'avenir : Slack
-
-La fonctionnalité développée cet été à la demande des utilisateurs, c'est l'intégration dans Slack. Ce n'est pas aussi facile qu'on pourrait l'imaginer : sur les quatres manières possible d'écrire un robot Slack, il a fallut en essayer trois.
-
-Concernant Slack, le concurrent payant qui m'a le plus marqué est le japonais [vibe.work](https://vibe.work/) qui propose en plus de mesurer le moral des conversations sur les canaux Slack moyennant 120$ par mois. Cette approche ne me paraît cependant dangereuse dans un milieu où la bienveillance ne serait pas largement répandue.
-
-
 # L'itinérance en conférence
 
-Cet article poursuit une série que j'ai initiée sur la valeur de l'itinérance pour augmenter les découvertes lors des conférences.
-Les conversations que je relate n'auraient pas été aussi approfondies sans ce caractère itinérant de la journée Walking Dev.
+Cet article poursuit la série sur la valeur de l'itinérance pour augmenter les découvertes lors des conférences.
+Toutes ces conversations n'auraient pas été aussi approfondies sans ce caractère itinérant de la journée Walking Dev.
 
