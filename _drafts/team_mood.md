@@ -47,10 +47,8 @@ Ce problème continue de susciter des initiatives : j'ai vu fleurir dans le mét
 
 Pour le second produit, [TeamMood](https://www.teammood.com) celui qui va s'avèrer une réussite, le point de départ est l'envie de tester des idées.
 
-Le contexte : le Niko Niko fonctionnait mal quand les gens devaient coller les gommettes dans un open space (sentiment d'être observé). D'où l'idée d'essayer un service anonyme.  Donc il s'avère que le produit fait un job : "faire un Niko Niko" de manière anonyme.
-
-J'ai moi aussi mis en place un Niko Niko dans un open space et l'ai affiché en retrospective.
-Comme d'[autres](http://blog.appstud.com/team-mood-au-service-du-happiness-management), je partage le même constat d'échec.
+Partant du constat d'un artefact qui fonctionnait [mal](http://blog.appstud.com/team-mood-au-service-du-happiness-management) au milieu d'un open space l'idée d'essayer un service anonyme a émergée.
+J'ai moi aussi mis en place ce même artefact en open space et partagé ce constat d'échec sans pour autant savoir si les raisons sont les mêmes.
 
 ## Commencer sans code
 
@@ -62,21 +60,23 @@ En 2013 Nicolas a testé sa proposition de valeur avec une simple page web stati
 
 ## Un simple mail
 
-<img class="right" alt="Le courriel envoyé par le service de Niko Niko en ligne" src="/images/courriel_niko_niko_en_ligne.png"/>Le pitch ? Un service pour améliorer le bonheur au travail.
-Le principe ? Demander tous les soirs à chaque membre d'une équipe comment s'est passée sa journée avec **une note de 1 à 5** et un **commentaire optionnel**. Cette pratique est souvent appelée "*Niko Niko*" de *Niko* - sourire en japonais - ou encore *feeling board*.
+<img class="right" alt="Le courriel envoyé par le service de Niko Niko en ligne" src="/images/courriel_niko_niko_en_ligne.png"/> Le principe : demander tous les soirs à chaque membre d'une équipe comment s'est passée sa journée avec **une note de 1 à 5** et un **commentaire optionnel**. C'est cette pratique qui est souvent appelée "*Niko Niko*" de *Niko* - sourire en japonais - ou encore *feeling board*.
+Finalement le produit fait un job : "faire un Niko Niko" de manière anonyme.
 
 ## Une valeur hors d'internet
 
 Visibles par toute l'équipe les réponses déclenchent des conversations à la machine à café le lendemain matin.
 Ca m'a rappelé airbnb où l'essentiel de l'expérience utilisateur se situe également en dehors du site.
 
-Le succès a été très rapide : triplement du chiffre d'affaire la deuxième année et atteinte de la rentabilité. Le modèle économique ? Facturer 1 Euro par membre d'équipe, après 30 jours d'accès gratuits. Il y a aujourd'hui plus d'une centaine de clients, principalement des manageurs et des coachs.
+Le succès a été rapide : triplement du chiffre d'affaire la deuxième année et atteinte de la rentabilité. Le modèle économique ? Facturer 1 Euro par membre d'équipe. Il y a aujourd'hui plus d'une centaine de clients, principalement des manageurs et des coachs.
 
 ## International dès le premier jour
 
-Le service a été envisagé comme international dès le début plutôt que de se limiter à un espace francophone. C'est un conseil que j'ai entendu martelé en hackathon pour lancer sa startup : "si vous ne deviez retenir qu'une seule chose c'est qu'il faut penser global dès le premier jour".
+Le service a été envisagé comme international dès le début. C'est un conseil que j'ai entendu martelé en hackathon pour lancer sa startup : "si vous ne deviez retenir qu'une seule chose c'est qu'il faut penser global dès le premier jour".
 
-Après des premiers clients issus des cercles de connaissances et du bouche à oreille, des clients internationnaux sont arrivés par Google en moins de 2 mois. Ils avaient cherché "team mood" dans Google ! Le nom du site a fait la différence. Un hasard puisque le fondateur a choisit le nom de domaine en avril 2013 parce qu'il était disponible. Aucun des concurrents n'a de nom aussi pertinent : MoodPanda n'est pas aussi évocateur et si NikoNiko l'est beaucoup plus, une chaine de restaurant japonais porte le même nom. 
+Après des premiers clients issus des cercles de connaissances et du bouche à oreille, des clients hors de France sont arrivés en cherchant "team mood" dans Google.  Le nom du site a fait la différence. Un hasard puisque le fondateur a choisit le nom de domaine en avril 2013 parce qu'il était disponible. Aucun des concurrents n'a de nom aussi facile à trouver :
+- MoodPanda n'est pas aussi évocateur, je ne me souviens jamais si Mood est avant Panda ou après.
+- NikoNiko l'est beaucoup plus, mais une chaine de restaurant japonais porte le même nom. 
 
 La présence d'une concurrence pourrait faire peur mais c'est en fait plutôt bon signe : c'est qu'il y a un marché.
 Ce qui ne signifie pas qu'il y ait de la place pour tous les acteurs : un concurrent américain et un concurrent Anglais ont mis la clef sous la porte en Décembre 2016 après avoir échoué à lever des fonds.
