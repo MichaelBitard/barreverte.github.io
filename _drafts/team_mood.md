@@ -75,18 +75,22 @@ Après des premiers clients issus des cercles de connaissances et du bouche à o
 La présence d'une concurrence pourrait faire peur mais c'est en fait plutôt bon signe : c'est qu'il y a un marché.
 Ce qui ne signifie pas qu'il y ait de la place pour tous les acteurs : un concurrent américain et un concurrent anglais ont mis la clef sous la porte en décembre 2016 après avoir échoué à lever des fonds.
 
-## Le taux de recommandation
+## Mesurer la satisfaction client
 
-Par rapport à la satisfaction des clients un seul indicateur est utilisé : le taux de recommendation. Sur une note de 1 à 10, recommenderiez-vous notre service ?
-- 1-6 : insatisfait. La personne va bientôt partir.
+Sur une note de 1 à 10 recommanderiez-vous notre service ?
+Cette mesure, appelée *taux de recommandation*, suffit pour évaluer la satisfaction client :
+- 1-6 : insatisfait (va bientôt partir)
 - 7-8 : neutre.
-- 9-10 : ambassadeur. Ils vont promouvoir le service et accepter d'écrire des commentaires quand le fondateur les sollicite. Un utilisateur potentiel demandait par exemple sur twitter quel site choisir et Nicolas a écrit à un ambassadeur possédant un compte sur twitter pour qu'il lui réponde.
+- 9-10 : ambassadeur (va promouvoir le service)
+C'est grâce à cet indicateur que Nicolas a par exemple sollicité un client dans la catégorie 9-10 pour répondre sur twitter à un internaute qui demandait quel site choisir.
 
 ## Dire merci pour les bugs
 
-Une autre chose que fait Nicolas, c'est dire merci pour chaque bug pertinent ouvert : "merci d'avoir pris le temps d'ouvrir ce bug ça permettra d'améliorer le service pour tous les autres utilisateurs également."
+Une autre pratique de Nicolas, c'est de remercier pour chaque bug découvert : merci d'avoir pris le temps d'ouvrir ce bug ça permettra d'améliorer le service pour tous les autres utilisateurs également.
 
-Je devrais faire de même sur les projets open sources auxquels je contribue. Par exemple le dernier ticket qui a été ouvert sur [aioimaplib](https://github.com/bamthomas/aioimaplib), un utilisateur a demandé à ce que toutes nos exceptions héritent d'une même classe de base pour qu'il puisse plus facilement se reconnecter en cas de perte de connection pendant un IDLE. Moi, je me disais "il faut que je pousse rapidement pour montrer qu'on est réactif, comme ça, on va peut-être gagner une étoile." et c'est lui qui a dit merci. J'aurais peut-être dû le remercier pour avoir pris le temps d'ouvrir ce ticket et ajouter que tout le monde bénéficiera de l'amélioration qu'il a demandée. À voir à l'usage si cette pratique est pertinente auprès d'une population de développeurs.
+Je devrais essayer sur les projets open sources auxquels je contribue, comme sur [aioimaplib](https://github.com/bamthomas/aioimaplib) où j'ai tendance à me dire "il faut que je pousse rapidement pour montrer qu'on est réactif... on va peut-être gagner une étoile sur github". C'est moi qui reçoit des remerciements.
+
+Je pourrais remercier d'avoir ouvert un ticket et ajouter que l'amélioration bénéficiera à tout le monde. A voir à l'usage si cette pratique s'avère pertinente auprès d'une population de développeurs.
 
 # L'itinérance en conférence
 
