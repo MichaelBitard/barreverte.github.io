@@ -25,7 +25,7 @@ L'autre différence que je trouve contre-intuitive réside dans la génèse des 
 
 # Résoudre un problème
 
-Le premier produit [www.keysmag.net](https://www.keysmag.net) permettait de retrouver des clés perdues :
+Le premier produit [KEYS MAG.NET](https://www.keysmag.net) permettait de retrouver des clés perdues :
 
 <img alt="Vous avez trouvé des clés ? Saisissez le code afin de contacter le propriétaire" src="/images/keysmag.jpg"/>
 
@@ -33,8 +33,8 @@ Le premier produit [www.keysmag.net](https://www.keysmag.net) permettait de retr
 - un passant signalait avoir retrouvé les clés dans 70% des cas
 
 On partait d'un problème à résoudre, auquel le fondateur avait lui-même été confronté. C'est l'idée de l'appli qui fait un job à ma place (retrouver mes clefs). La solution résolvait le problème avec un appréciable taux de succès de 70%.
-Le problème lui-même ne semble néanmoins suffisamment douloureux que pour une sous-population : les parents d'adolescents qui perdent leur clefs.
-Ca m'a rappelé une formation en coaching où une personne accompagnée disait que son fils adolescent venait de perdre ses clefs pour la troisième fois.
+Le problème lui-même ne semblait néanmoins suffisamment douloureux que pour une sous-population : les parents d'adolescents qui perdent leur clefs.
+Cela m'a rappelé une formation en coaching où une personne accompagnée disait que son fils adolescent venait de perdre ses clefs pour la troisième fois.
 
 Cette sous-population s'est avérée trop réduite.
 
@@ -43,15 +43,15 @@ Cette sous-population s'est avérée trop réduite.
 
 Pour le second produit, [TeamMood](https://www.teammood.com) celui qui va s'avèrer une réussite, le point de départ est l'envie de tester des idées.
 
-Partant du constat d'un [artefact](http://mattischneider.fr/anthropologie/agile/thesis/) qui fonctionnait [mal](http://blog.appstud.com/team-mood-au-service-du-happiness-management) au milieu d'un open space l'idée d'essayer un service anonyme a émergée.
+Partant du constat d'un [artefact](http://mattischneider.fr/anthropologie/agile/thesis/) qui fonctionnait [mal](http://blog.appstud.com/team-mood-au-service-du-happiness-management) au milieu d'un open space, l'idée d'essayer un service anonyme a émergée.
 
 ## Commencer sans code
 
 Commencer sans investissement conséquent en terme de code est un atout.
 La vente de chaussures en ligne en constitue un bon exemple. Il fût un temps où l'on pensait que vendre des chaussures en ligne était impossible car tout le monde voudrait essayer les chaussures avant de les acheter. Un des premiers vendeurs en ligne a donc commencé par prendre des photos de chaussures dans les magasins autour de chez lui.
-Quand une commande lui était faite en ligne il se rendait dans le magasin pour acheter la paire et il envoyait le colis.
+Quand une commande lui était faite en ligne, il se rendait dans le magasin pour acheter la paire et il envoyait le colis.
 
-En 2013 Nicolas a testé sa proposition de valeur avec une simple page web statique : un champ de pré-inscription et seulement quelques heures de travail. Un taux d'engagement de plus de 15% a validé son concept.
+En 2013, Nicolas a testé sa proposition de valeur avec une simple page web statique : un champ de pré-inscription et seulement quelques heures de travail. Un taux d'engagement de plus de 15% a validé son concept.
 
 ## Un simple mail
 
@@ -59,21 +59,21 @@ En 2013 Nicolas a testé sa proposition de valeur avec une simple page web stati
 
 ## Une valeur hors d'internet
 
-Visibles par toute l'équipe les réponses déclenchent des conversations à la machine à café le lendemain matin.
-Ca m'a rappelé airbnb où l'essentiel de l'expérience utilisateur se situe également en dehors du site.
+Visibles par toute l'équipe, les réponses déclenchent des conversations à la machine à café le lendemain matin.
+Cela m'a rappelé airbnb où l'essentiel de l'expérience utilisateur se situe également en dehors du site.
 
 Le succès a été rapide : triplement du chiffre d'affaire la deuxième année et atteinte de la rentabilité. Le modèle économique ? Facturer 1 Euro par membre d'équipe. Il y a aujourd'hui plus d'une centaine de clients, principalement des manageurs et des coachs.
 
 ## International dès le premier jour
 
-C'est un conseil que j'ai entendu martelé en hackathon pour lancer sa startup : "si vous ne deviez retenir qu'une seule chose c'est qu'il faut penser global dès le premier jour".
+C'est un conseil que j'ai entendu martelé en hackathon pour lancer sa startup : "Si vous ne deviez retenir qu'une seule chose, c'est qu'il faut penser global dès le premier jour".
 
 Après des premiers clients issus des cercles de connaissances et du bouche à oreille, des clients hors de France sont arrivés en cherchant "team mood" dans un moteur de recherche. Le nom du site s'avère un atout par rapport à la concurrence :
 - MoodPanda n'est pas aussi évocateur, je ne me souviens jamais si Mood est avant Panda ou après.
 - NikoNiko l'est beaucoup plus, mais une chaine de restaurant japonais porte le même nom. 
 
 La présence d'une concurrence pourrait faire peur mais c'est en fait plutôt bon signe : c'est qu'il y a un marché.
-Ce qui ne signifie pas qu'il y ait de la place pour tous les acteurs : un concurrent américain et un concurrent Anglais ont mis la clef sous la porte en Décembre 2016 après avoir échoué à lever des fonds.
+Ce qui ne signifie pas qu'il y ait de la place pour tous les acteurs : un concurrent américain et un concurrent anglais ont mis la clef sous la porte en décembre 2016 après avoir échoué à lever des fonds.
 
 ## Mesurer la satisfaction client
 
