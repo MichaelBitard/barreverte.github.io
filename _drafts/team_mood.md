@@ -75,12 +75,14 @@ Après des premiers clients issus des cercles de connaissances et du bouche à o
 La présence d'une concurrence pourrait faire peur mais c'est en fait plutôt bon signe : c'est qu'il y a un marché.
 Ce qui ne signifie pas qu'il y ait de la place pour tous les acteurs : un concurrent américain et un concurrent Anglais ont mis la clef sous la porte en Décembre 2016 après avoir échoué à lever des fonds.
 
-## Le taux de recommandation
+## Mesurer la satisfaction client
 
-Par rapport à la satisfaction des clients un seul indicateur est utilisé : le taux de recommendations. Sur une note de 1 à 10 recommenderiez-vous notre service ?
-- 1-6 : insatisfait. La personne va bientôt partir.
+Sur une note de 1 à 10 recommanderiez-vous notre service ?
+Cette mesure, appelée *taux de recommandation*, suffit pour évaluer la satisfaction client :
+- 1-6 : insatisfait (va bientôt partir)
 - 7-8 : neutre.
-- 9-10 : ambassadeur. Ils vont promouvoir le service et accepter d'écrire des commentaires quand le fondateur les sollicite. Un utilisateur potentiel demandait par exemple sur twitter quel site choisir et Nicolas a écrit à un ambassadeur possédant un compte sur twitter pour qu'il lui réponde.
+- 9-10 : ambassadeur (va promouvoir le service)
+C'est grâce à cet indicateur que Nicolas a par exemple sollicité un client dans la catégorie 9-10 pour répondre sur twitter à un internaute qui demandait quel site choisir.
 
 ## Dire merci pour les bugs
 
