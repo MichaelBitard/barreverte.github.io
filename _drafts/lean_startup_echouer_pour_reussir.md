@@ -6,7 +6,7 @@ author:
 tags:
 - bonheur au travail
 - Niko Niko
-- lean startup
+- Lean Startup
 comments: true
 ---
 
