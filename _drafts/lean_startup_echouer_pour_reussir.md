@@ -77,7 +77,7 @@ Ce qui ne signifie pas qu'il y ait de la place pour tous les acteurs : un concur
 
 ## Mesurer la satisfaction client
 
-Sur une note de 1 à 10 recommanderiez-vous notre service ?
+Sur une note de 1 à 10, recommanderiez-vous notre service ?
 Cette mesure, appelée *taux de recommandation*, suffit pour évaluer la satisfaction client :
 - 1-6 : insatisfait (va bientôt partir)
 - 7-8 : neutre.
@@ -86,7 +86,7 @@ C'est grâce à cet indicateur que Nicolas a par exemple sollicité un client da
 
 ## Dire merci pour les bugs
 
-Une autre pratique de Nicolas, c'est de remercier pour chaque bug découvert : merci d'avoir pris le temps d'ouvrir ce bug ça permettra d'améliorer le service pour tous les autres utilisateurs également.
+Une autre pratique de Nicolas, c'est de remercier pour chaque bug découvert : "merci d'avoir pris le temps d'ouvrir ce bug ça permettra d'améliorer le service pour tous les autres utilisateurs également."
 
 Je devrais essayer sur les projets open sources auxquels je contribue, comme sur [aioimaplib](https://github.com/bamthomas/aioimaplib) où j'ai tendance à me dire "il faut que je pousse rapidement pour montrer qu'on est réactif... on va peut-être gagner une étoile sur github". C'est moi qui reçoit des remerciements.
 
