@@ -79,7 +79,7 @@ Ce qui ne signifie pas qu'il y ait de la place pour tous les acteurs : un concur
 
 S'appuyer sur des services facturés à l'usage aide à se concentrer sur le produit : hébergement sur Heroku et intégration d'Intercom comme chat en ligne personnalisé.
 Cette personnalisation permet d'envoyer un mail quand le fondateur est occupé : "Je reviens vers vous dès que possible".
-Les clients Australiens et Néo-Zélandais patientent ainsi jusqu'au matin en France.
+Les clients Australiens et Néo-Zélandais patientent ainsi jusqu'au matin Français.
 
 ## Mesurer la satisfaction client
 
