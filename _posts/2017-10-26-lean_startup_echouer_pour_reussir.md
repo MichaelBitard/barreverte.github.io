@@ -16,14 +16,11 @@ le parcours récent de Nicolas Deverge (coach et praticien en Lean Startup) m'a 
 
 # De la vertu de l'abandon ?
 
-Après l'échec de son précédent produit, plutôt que de s'entêter, il a choisi de tester une autre idée. Un tel renoncement est cependant plus facile pour un side project plutôt que quand on cherche à gagner sa vie avec.
-
-L'autre différence que je trouve contre-intuitive réside dans la génèse des deux produits :
+Après l'échec de son précédent produit, plutôt que de s'entêter, il a choisi de tester une autre idée. Un tel renoncement est plus facile quand on ne cherche pas à gagner sa vie avec. La génèse des deux produits diffère également :
 - Résoudre un problème (échec)
 - Tester une idée (réussite)
 
-
-# Résoudre un problème
+## Résoudre un problème
 
 Le premier produit [KEYS MAG.NET](https://www.keysmag.net) permettait de retrouver des clés perdues :
 
