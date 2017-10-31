@@ -7,8 +7,11 @@
   {% assign author_name = page.author.display_name %}
   {% assign twitter_id = site.data.authors[author_name].twitter %}
   <title>{{ page_title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ description }}">
+  <!-- Instruct Internet Explorer to use its latest rendering engine -->
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
   <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
   <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
   <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
