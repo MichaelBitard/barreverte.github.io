@@ -10,8 +10,8 @@ tags:
 comments: true
 ---
 
-Lors des conversations pédestres de la conférence [Walking Dev](http://www.barreverte.fr/walking_dev) de Toulouse,
-le parcours récent de Nicolas Deverge (coach et praticien en Lean Startup) m'a parut si riche d'enseignements que je détaille nos échanges dans cet article.
+Après l'échec d'une startup, comment réussir la suivante ?
+Le parcours récent de Nicolas Deverge (coach et praticien en Lean Startup) m'a parut si éclairant sur cette question que je détaille nos conversations pédestres du [Walking Dev](http://www.barreverte.fr/walking_dev) de Toulouse.
 
 
 # De la vertu de l'abandon ?
