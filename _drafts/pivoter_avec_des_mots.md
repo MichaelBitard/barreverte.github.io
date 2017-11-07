@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Lean Startup : Pivoter sans code'
+title: Lean Startup &#58; Pivoter sans code
 author:
   display_name: Philippe Blayo
 tags:
