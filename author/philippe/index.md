@@ -5,8 +5,12 @@ name: philippe
 
 # Philippe Blayo
 
-Je m'appelle Philippe Blayo
+Mes articles sur barreverte :
 
-Quelques liens :
+{% for article in site.posts %}
+    {% if article.author.display_name == 'Philippe Blayo' %}
+* [{{article.title}}]({{article.url}})
+    {% endif %}
+{% endfor %}
 
-* [mon profil LinkedIn](https://fr.linkedin.com/in/philippe-blayo-54746b5)
+
