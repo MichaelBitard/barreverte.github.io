@@ -34,15 +34,16 @@ Puisque ces intermèdes-déplacements génèrent autant de valeur, la question s
 
 J'ai participé cet été à deux conférences qui explorent ce concept.
 
-## Walking Dev
+## [Walking Dev](https://github.com/walkingdev/permagilite)
 
-Walking Dev est une conférence open space d'une journée. Les salles de conférences ? Des cafés, un restaurant, une librairie, des jardins, un cloître. Une découverte de Toulouse jusque dans des lieux inconnus des Toulousains eux-mêmes. Et entre ces lieux, la marche à travers la ville.
+[Walking Dev](https://github.com/walkingdev/permagilite) est une conférence open space d'une journée. Les salles de conférences ? Des cafés, un restaurant, une librairie, des jardins, un cloître. Une découverte de Toulouse jusque dans des lieux inconnus des Toulousains eux-mêmes. Et entre ces lieux, la marche à travers la ville.
 
 Ce n'était pas une première : un participant du Sud-Ouest avait déjà utilisé ce format pour une formation à Paris pour laquelle il avait eu de très bon retours.
 
-## Nomad Open
+## [Nomad Conf](http://nomadconf.eu)
 
-Nomad Open se veut une conférence plus ambitieuse dans sa forme puisque les déplacements à pieds deviennent des voyages en train et chaque étape est une ville différente. Le sujet s'avère également plus radical puisqu'il s'agit du nomadisme lui même : la conférence est un espace de coworking en mouvement où les participants travaillent à leurs tâches quotidiennes comme s'ils étaient sédentaires. A la dichotomie de walking dev entre les sessions plénières statiques et les discussions informelles en marchant, nomad open substitue un triptyque :
+[Nomad Conf](http://nomadconf.eu) (anciennement [Nomad Open](http://nomadconf.eu))
+se veut une conférence plus ambitieuse dans sa forme puisque les déplacements à pieds deviennent des voyages en train et chaque étape est une ville différente. Le sujet s'avère également plus radical puisqu'il s'agit du nomadisme lui même : la conférence est un espace de coworking en mouvement où les participants travaillent à leurs tâches quotidiennes comme s'ils étaient sédentaires. A la dichotomie de walking dev entre les sessions plénières statiques et les discussions informelles en marchant, nomad open substitue un triptyque :
 
 - coworking en mouvement
 - rencontres de communautés locales
