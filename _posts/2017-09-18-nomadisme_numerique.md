@@ -13,7 +13,7 @@ comments: true
 L'agriculture aurait rendu l'homme sédentaire.
 A l'avènement d'internet des voix ont prédit que des formes de nomadismes reviendraient.
 
-<img class="right" alt="La première conférence DNX, en 2014" src="/images/dnx_berlin_2014.jpg"/>Ces dernières années des conférences sont nées sur ce thème comme 7in7 en 2016, Nomad Summit en 2015 ou DNX en 2014 dont la newsletter totalise 20000 abonnés et qui se tient à guichets fermés.
+<img class="right" alt="La première conférence DNX, en 2014" src="/images/dnx_berlin_2014.jpg"/>Ces dernières années des conférences sont nées sur ce thème comme 7in7 en 2016, Nomad Summit en 2015 ou DNX en 2014 dont la newsletter totalise 20,000 abonnés et qui se tient à guichets fermés (800 participants en 2017).
 
 Ces conférences sur le nomadisme numérique adoptent des formes très classiques, avec des salles et des amphithéâtres.
 De la même manière que les premières conférences agiles suivaient ces formes classiques. Ensuite la forme de l'Open Space est apparue comme une manière plus "agile" de faire une conférence agile.
