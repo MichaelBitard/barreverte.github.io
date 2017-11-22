@@ -1,12 +1,14 @@
 ---
 layout: post
-title: L'écoconception pour les devs, de l'optimisation ?
+title: L'écoconception et le "software craftmanship" ?
 author:
   display_name: Bruno Thomas
 tags:
 - greenIT
 comments: true
 ---
+
+![Image : le bourgeois gentilhomme]({{ site.url }}/images/ecoconception/aof2014.jpg)
 
 Lors de l'[Agile Open France](http://agileopenfrance.com/), j'ai été déçu que mon sujet sur l'écoconception n'ait pas attiré grand monde : nous étions au plus 5. Pour ceux qui ne connaissent pas l'événement, il y a beaucoup d'indépendants, *coaches* et *software craftmen* passionnés. C'est précisément ce qui m'intéressait : l'avis d'experts du développement. Mais le peu de personnes "votant avec leurs pieds" pour l'écoconception était déjà un enseignement, et grâce aux personnes qui sont venues échanger sur le sujet (merci à elles), j'ai pu comprendre pourquoi.
 
@@ -32,7 +34,20 @@ Si l'optimisation d'un programme permet de faire de l'écoconception, l'amélior
 
 L'écoconception est donc au *craftman* ce que la prose est à Monsieur Jourdain.
 
+![Image : le bourgeois gentilhomme]({{ site.url }}/images/ecoconception/bourgeois_gentilhome.jpg)
+
 ## Optimisation certes, et aussi
+
+### l'amélioration de l'expérience utilisateur
+
+L'optimisation est une manière d'améliorer l'expérience utilisateur. La première réaction des experts métier quand j'ai diminué la taille des pages d'un site web de 34% en minifiant CSS et javascript, était "c'est agréable, le site est plus fluide".
+
+Il y a d'autres manières d'améliorer l'*UX* par exemple en faisant des *[progressive webapps](https://developers.google.com/web/progressive-web-apps/checklist)* pour les sites dits *responsive* ou adaptables aux différents terminaux (mobile, tablette, pc). Dans la liste des points à vérifier, il y en a plusieurs qui ont des impacts positifs d'écoconception : 
+
+* premier chargement rapide même en 3G
+* toutes les urls de l'application peuvent se charger hors ligne
+
+Le fait de privilégier le chargement hors ligne permet à l'utilisateur d'utiliser l'application dans des conditions réseau difficiles (transports, zones blanches), et vont moins solliciter le réseau et les serveurs.
 
 ### des choix technologiques
 
@@ -42,15 +57,64 @@ Nous pouvons améliorer notre code pour consommer moins de CPU, de mémoire et d
 
 > Pour une même application, un langage interprété comme Python consomme 100 fois plus qu’un langage compilé comme Java. (...) pour les langages compilés orientés objets, Java consomme moins que du C++ avec les options par défaut et autant en niveau d'optimisation O3.
 
+
+![Image : tour de hanoi]({{ site.url }}/images/ecoconception/tour-hanoi800.jpg)
+Source : Flickr / Photo © [lilszeto](https://www.flickr.com/photos/mszeto/)
+
 Ce programme de la tour de Hanoï est orienté orienté calcul (utilisant quasiment exclusivement le CPU), par opposition à un programme orienté entrées/sorties. Un serveur d'application faisant du web en architecture 3 tiers, sera souvent orienté entrées/sorties : le facteur limitant ne sera pas le CPU mais l'utilisation accrue des entrées/sorties. Mais ce que montre l'article, c'est que l'environnement technologique a des conséquences importantes sur la puissance consommée par les serveurs.
 
 Les environnements web, avec un grand nombre de communications réseau (proxies, base de données, bus de données), de lecture-écriture de fichiers, utilisent de plus en plus la programmation asynchrone. NodeJS, [asyncio](https://docs.python.org/3/library/asyncio.html) pour python3, [NIO](https://stackoverflow.com/questions/33692992/does-jdk7-nio-2-use-epoll-etc-on-linux) pour Java, basés sur les couches epoll (pour linux) et kqueue (pour FreeBSD/MacOS), ont eu un essor important pour des raisons de [performance](http://www.kegel.com/c10k.html). Ces solutions sont aussi intéressante au niveau de l'écoconception puisqu'elles permettent aux serveurs d'attendre des événements sur des entrées sorties.
 
 
-### obsolescence programmée
+### la lutte contre l'obsolescence programmée
 
 Si on prend en compte le cycle de vie des produits technologiques, une grande partie des dommages causés à la planète est lié au rythme d'obsolescence des produits. Par exemple un mobile est changé tous les 18 mois en moyenne, alors qu'il serait capable de fonctionner jusqu'à 5 à 7 ans. La fréquentation de sites qui ne sont pas adaptés peuvent pousser certains internautes à changer leurs terminaux.
+
+![Image : tour de hanoi]({{ site.url }}/images/ecoconception/mobile_garbage.jpg)
+Source: Photo © [Fairphone](https://www.fairphone.com/en/2016/07/14/closing-the-loop-the-garbage-collectors-of-the-mobile-industry/)
 
 Or, lors du développement d'un site, il est possible de prendre en compte la compatibilité avec d'anciens appareils. En tant que développeur nous pouvons faire en sorte qu'un site se "dégrade" tout en restant fonctionnel : les bords ronds d'une CSS3 seront carrés, le *smooth scrolling* en javascript n'est pas rendu, mais la page est chargée, ou l'ancre atteinte, etc. En faisant de la sorte, nos utilisateurs peuvent consulter nos sites même avec un vieux mobile, et nous ne pesons pas dans leur décision de changer de mobile.
 
 En revanche, cela demande généralement de consacrer plus de temps au développement, pour tester le site avec différents mobiles, et adapter le code en fonction des dysfonctionnements.
+
+### la participation aux communs numériques
+
+Internet est construit sur des communs numériques. Les protocoles standard sont ouverts : 
+
+* web : [HTTP](https://www.ietf.org/rfc/rfc2616.txt), [HTTP2](https://tools.ietf.org/html/rfc7540), 
+* mail : [IMAP](https://tools.ietf.org/html/rfc3501), [SMTP](https://tools.ietf.org/html/rfc5321), 
+* usegroup : [NNTP](https://tools.ietf.org/html/rfc3977), 
+* réseau : [DNS](https://www.ietf.org/rfc/rfc1035.txt), [ARP](https://tools.ietf.org/html/rfc826), [BGP](https://tools.ietf.org/html/rfc4271), [SNMP](https://tools.ietf.org/html/rfc1157) 
+
+Pour n'en citer que quelque-uns. Ces protocols sont simples et efficaces. Quand ils peuvent être améliorés, des [RFC complémentaires](https://www.imapwiki.org/ImapRFCList) peuvent être proposées. Ils peuvent aussi être repensés comme le HTTP2 qui apporte des nouvelles fonctions majeures (push serveur, pipelining, multiplexing, compression des entêtes). Ces améliorations ont des leviers énormes car le réseau mondial en bénéficie. Quand ils ne sont pas respectés par un acteur c'est au prix d'une augmentation de la complexité du code des composants qui interragissent avec cet acteur, et souvent également d'inefficacité. 
+
+Par exemple yahoo mail n'implémente pas la [commande IDLE](https://tools.ietf.org/html/rfc2177) ce qui oblige les clients mails en IMAP à scruter l'arrivée de nouveaux mails régulièrement.
+
+<img class="right" alt="logo creative commons" src="{{ site.url }}/images/ecoconception/Creative_Commons_logo.png" />
+
+Dans les [bonnes pratiques](https://checklists.opquast.com/ecoconception-web/) de conception d'un site web, il est indiqué de [valider les pages auprès du W3C](https://checklists.opquast.com/ecoconception-web/criteria/valider-les-pages-aupres-du-w3c) pour éviter au navigateur de devoir corriger les erreurs à l'affichage, ou encore, de [valider le javascript avec JSLint](https://checklists.opquast.com/ecoconception-web/criteria/valider-le-code-javascript).
+
+Enfin, après avoir développé dans plusieurs grands groupes français, j'ai vu plusieurs projets de dixaines voire centaines de milliers de lignes de code partir à la benne (parfois même avant d'aller en production). Pourquoi ne recyclerait-t-on pas ce code en le donnant à la communeauté ? Des développeurs pourraient s'y intéresser et en reprendre certaines parties.
+
+### l'accessibilité
+
+L'accessibilité d'un site web c'est faire en sorte qu'il soit utilisable par le plus grand nombre : 
+
+* avec un petit écran
+* avec un vieil ordinateur
+* en grossissant la police de caractère
+* en se faisant lire le texte par synthèse vocale
+
+Même si c'est lié à l'UX, à la lutte contre l'obsolescence programmée, au respect des standards du web, ça va plus loin, en fournissant par exemple des textes alternatifs aux images, des liens alternatifs pour les liens dans les images. Il y a bien d'autres pratiques que vous pouvez retrouver [ici](https://openclassrooms.com/courses/faire-un-site-web-accessible) ou encore les [critères d'accessibilité](https://references.modernisation.gouv.fr/rgaa-accessibilite/criteres.html) des services numériques d'État.
+
+## L'écoconception : une opportunité
+
+Alors oui, tout bon *craftman* aura en tête ces pratiques. Et c'est une opportunité supplémentaire pour : 
+
+* améliorer la satisfaction des utilisateurs
+* diminuer ses charges d'exploitation
+* gagner des parts de marché, en permettant à plus d'utilisateurs d'utiliser ses services
+* avoir une responsabilité sociétale d'entreprise et des collaborateurs engagés
+* mettre en avant l'argument d'un développement durable auprès des utilisateurs
+
+Ainsi, l’écoconception peut mener à l’innovation en mettant l’environnement et l’humain au centre.
