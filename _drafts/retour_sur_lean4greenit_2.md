@@ -38,17 +38,6 @@ L'écoconception est donc au *craftman* ce que la prose est à Monsieur Jourdain
 
 ## Optimisation certes, et aussi
 
-### l'amélioration de l'expérience utilisateur
-
-L'optimisation est une manière d'améliorer l'expérience utilisateur. La première réaction des experts métier quand j'ai diminué la taille des pages d'un site web de 34% en minifiant CSS et javascript, était "c'est agréable, le site est plus fluide".
-
-Il y a d'autres manières d'améliorer l'*UX* par exemple en faisant des *[progressive webapps](https://developers.google.com/web/progressive-web-apps/checklist)* pour les sites dits *responsive* ou adaptables aux différents terminaux (mobile, tablette, pc). Dans la liste des points à vérifier, il y en a plusieurs qui ont des impacts positifs d'écoconception : 
-
-* premier chargement rapide même en 3G
-* toutes les urls de l'application peuvent se charger hors ligne
-
-Le fait de privilégier le chargement hors ligne permet à l'utilisateur d'utiliser l'application dans des conditions réseau difficiles (transports, zones blanches), et vont moins solliciter le réseau et les serveurs.
-
 ### des choix technologiques
 
 Nous pouvons améliorer notre code pour consommer moins de CPU, de mémoire et de réseau. C'est vrai pour un environnement donné mais qu'en est-il de l'impact sur la consommation d'énergie d'un serveur d'application en PHP, Java, python, nodeJS, ruby, etc. ?
@@ -97,6 +86,8 @@ Dans les [bonnes pratiques](https://checklists.opquast.com/ecoconception-web/) d
 Enfin, après avoir développé dans plusieurs grands groupes français, j'ai vu plusieurs projets de dixaines voire centaines de milliers de lignes de code partir à la benne (parfois même avant d'aller en production). Pourquoi ne recyclerait-t-on pas ce code en le donnant à la communeauté ? Des développeurs pourraient s'y intéresser et en reprendre certaines parties.
 
 ### l'accessibilité
+
+<img class="right" alt="image accessibilité" src="{{ site.url }}/images/ecoconception/accessibility.jpg" />
 
 L'accessibilité d'un site web c'est faire en sorte qu'il soit utilisable par le plus grand nombre : 
 
