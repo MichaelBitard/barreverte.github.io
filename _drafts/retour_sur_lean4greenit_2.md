@@ -75,7 +75,7 @@ Internet est construit sur des communs numériques. Les protocoles standard sont
 * usegroup : [NNTP](https://tools.ietf.org/html/rfc3977), 
 * réseau : [DNS](https://www.ietf.org/rfc/rfc1035.txt), [ARP](https://tools.ietf.org/html/rfc826), [BGP](https://tools.ietf.org/html/rfc4271), [SNMP](https://tools.ietf.org/html/rfc1157) 
 
-Pour n'en citer que quelque-uns. Ces protocols sont simples et efficaces. Quand ils peuvent être améliorés, des [RFC complémentaires](https://www.imapwiki.org/ImapRFCList) peuvent être proposées. Ils peuvent aussi être repensés comme le HTTP2 qui apporte des nouvelles fonctions majeures (push serveur, pipelining, multiplexing, compression des entêtes). Ces améliorations ont des leviers énormes car le réseau mondial en bénéficie. Quand ils ne sont pas respectés par un acteur c'est au prix d'une augmentation de la complexité du code des composants qui interragissent avec cet acteur, et souvent également d'inefficacité. 
+Pour n'en citer que quelque-uns. Ces protocoles sont simples et efficaces. Quand ils peuvent être améliorés, des [RFC complémentaires](https://www.imapwiki.org/ImapRFCList) peuvent être proposées. Ils peuvent aussi être repensés comme le HTTP2 qui apporte des nouvelles fonctions majeures (push serveur, pipelining, multiplexing, compression des entêtes). Ces améliorations ont des leviers énormes car le réseau mondial en bénéficie. Quand ils ne sont pas respectés par un acteur c'est au prix d'une augmentation de la complexité du code des composants qui interragissent avec cet acteur, et souvent également d'inefficacité. 
 
 Par exemple yahoo mail n'implémente pas la [commande IDLE](https://tools.ietf.org/html/rfc2177) ce qui oblige les clients mails en IMAP à scruter l'arrivée de nouveaux mails régulièrement.
 
