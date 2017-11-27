@@ -83,7 +83,7 @@ Par exemple yahoo mail n'implémente pas la [commande IDLE](https://tools.ietf.o
 
 Dans les [bonnes pratiques](https://checklists.opquast.com/ecoconception-web/) de conception d'un site web, il est indiqué de [valider les pages auprès du W3C](https://checklists.opquast.com/ecoconception-web/criteria/valider-les-pages-aupres-du-w3c) pour éviter au navigateur de devoir corriger les erreurs à l'affichage, ou encore, de [valider le javascript avec JSLint](https://checklists.opquast.com/ecoconception-web/criteria/valider-le-code-javascript).
 
-Enfin, après avoir développé dans plusieurs grands groupes français, j'ai vu plusieurs projets de dixaines voire centaines de milliers de lignes de code partir à la benne (parfois même avant d'aller en production). Pourquoi ne recyclerait-t-on pas ce code en le donnant à la communeauté ? Des développeurs pourraient s'y intéresser et en reprendre certaines parties.
+Enfin, après avoir développé dans plusieurs grands groupes français, j'ai vu plusieurs projets de dizaines voire centaines de milliers de lignes de code partir à la benne (parfois même avant d'aller en production). Pourquoi ne recyclerait-t-on pas ce code en le donnant à la communauté ? Des développeurs pourraient s'y intéresser et en reprendre certaines parties.
 
 ### l'accessibilité
 
