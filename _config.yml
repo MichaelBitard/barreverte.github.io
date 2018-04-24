@@ -1,5 +1,6 @@
 # Jekyll configuration
 name: Barre Verte !
+title: Barre Verte !
 description: Notes de développeurs sur le logiciel, le design, l'agilité, l'open source, les mobiles, linux...
 
 timezone: Europe/Paris
