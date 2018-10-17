@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   {% assign description = page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 200  %}
-  {% assign page_title = page.title | default: site.name %}
+  {% assign page_title = page.title | default: site.name | remove: '"' %}
   {% assign author_name = page.author.display_name %}
   {% assign twitter_id = site.data.authors[author_name].twitter %}
   <title>{{ page_title }}</title>
