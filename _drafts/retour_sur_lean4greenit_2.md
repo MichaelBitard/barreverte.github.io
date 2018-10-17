@@ -16,17 +16,17 @@ Lors de l'[Agile Open France](http://agileopenfrance.com/), j'ai été déçu qu
 
 Effectivement, c'est un soucis d'efficacité. Et ce problème est souvent abordé par nécessité économique. Lorsque vous faites en sorte d'utiliser 5 serveurs au lieu de 20 pour le même nombre d'utilisateurs, afin de baisser les coûts d'exploitation de votre service, vous faites de l'écoconception.
 
-On retrouve la proximité entre les termes **éco-nomique** (de "*[Oikos](https://fr.wikipedia.org/wiki/Oikos)*" la maison, "*[nomos](https://fr.wiktionary.org/wiki/nomos)*" l'administration) et **éco-logique** ("*[logos](https://fr.wikipedia.org/wiki/Logos)*" le récit). Ce n'est pas toujours le cas, mais dans l'exploitation de services web, l'amélioration des performances économiques va souvent de pair avec celle des performances écologiques.
+On retrouve la proximité entre les termes **éco-nomique** (de "*[Oikos](https://fr.wikipedia.org/wiki/Oikos)*" la maison, "*[nomos](https://fr.wiktionary.org/wiki/nomos)*" l'administration) et **éco-logique** ("*[logos](https://fr.wikipedia.org/wiki/Logos)*" le récit). Ce n'est pas toujours le cas, mais dans l'exploitation de services web, l'amélioration des performances économiques va en général de pair avec celle des performances écologiques.
 
 Et donc, ce n'est pas un sujet, car un bon *craftman* ou artisant logiciel, gardera toujours en tête l'efficacité des programmes qu'il développe, sans en faire une priorité.
 
 > "L'optimisation prématurée est la racine de tous les maux" -- [Donald Knuth](http://wiki.c2.com/?PrematureOptimization)
 
-Car de l'autre côté, si on considère non plus l'efficacité de l'exploitation des programmes sur les serveurs, mais l'efficacité du développement et de la maintenance de ces programmes, l'optimisation coûte, et peut même coûter très cher. Souvent l'optimisation du code et lisibilité/testabilité sont antinomiques  : l'amélioration du temps de traitement d'un programme par la machine demandera à l'humain plus d'efforts pour le comprendre. Essayez de lire de l'assembleur, du javascript minifié ou du bytecode. Essayez également de poser des tests unitaires sur du code Java principalement statique.
+Car de l'autre côté, si on considère non plus l'efficacité de l'exploitation des programmes sur les serveurs, mais l'efficacité du développement et de la maintenance de ces programmes, l'optimisation coûte, et peut même coûter très cher. L'optimisation du code et lisibilité/testabilité sont antinomiques : l'amélioration du temps de traitement d'un programme par la machine demandera à l'humain plus d'efforts pour le comprendre. Essayez de lire de l'assembleur, du javascript minifié ou du bytecode. Essayez également de poser des tests unitaires sur du code Java principalement statique (ecoconception web [bonne pratique n°66](https://checklists.opquast.com/ecoconception-web/criteria/utiliser-des-variables-statiques)).
 
 La mise en évidence des améliorations de performances est elle aussi coûteuse : faire des programmes de tests de charge, des campagnes de benchmark.
 
-Plus le code est optimisé, plus il sera cher à élaborer et à maintenir. Les sociétés qui développent des services en ligne veulent diminuer les coûts de développement.
+Plus le code est optimisé, plus il sera cher à élaborer et à maintenir. Les sociétés qui développent des services en ligne veulent diminuer les coûts de développement. L'amélioration des performances n'est considérée que si le sujet est mis sur le devant de la scène par les utilisateurs, ou par la gestion de l'exploitation. 
 
 > "le vrai sujet c'est l'expérience utilisateur"
 
@@ -108,4 +108,4 @@ Alors oui, tout bon *craftman* aura en tête ces pratiques. Et c'est une opportu
 * avoir une responsabilité sociétale d'entreprise et des collaborateurs engagés
 * mettre en avant l'argument d'un développement durable auprès des utilisateurs
 
-Ainsi, l’écoconception peut mener à l’innovation en mettant l’environnement et l’humain au centre.
+Ainsi, une démarche d’écoconception peut mener à l’innovation d'un point de vue différent, en mettant l’environnement et l’humain au centre.
