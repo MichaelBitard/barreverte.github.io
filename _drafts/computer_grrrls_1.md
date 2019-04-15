@@ -14,7 +14,7 @@ tags:
 comments: true
 ---
 
-Ma fille, fervente adepte des coding goûters fait un parcours thématique pour le brevêt sur le sujet de la place des femmes dans l'informatique, et m'a signalée cette exposition "Computer Grrrls" à la Gaîté Lyrique. Si vous avez l'occasion d'y aller, courrez-y. Pour ceux qui ne pourront pas, voici une série de 3 articles qui propose un petit parcours historique de l'informatique avec un biais opposé à celui du récit habituel : en réhabilitant les femmes.
+Ma fille, fervente adepte des coding goûters fait un parcours thématique pour le brevêt sur le sujet de la place des femmes dans l'informatique, et m'a signalé cette exposition "Computer Grrrls" à la Gaîté Lyrique. Si vous avez l'occasion d'y aller, courrez-y. Pour ceux qui ne pourront pas, voici une série de 3 articles qui propose un petit parcours historique de l'informatique avec un biais opposé à celui du récit habituel : en réhabilitant les femmes.
 
 Car la place des femmes dans ce domaine n'a pas toujours été aussi faible que maintenant, comme le montre cette courbe :
 
