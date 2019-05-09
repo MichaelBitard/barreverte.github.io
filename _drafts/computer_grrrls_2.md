@@ -26,7 +26,7 @@ Ils ont alors progressivement changé l’image de la programmation informatique
 
 <a href="/images/computer_grrrls/introducing_apple2.jpg"><img class="left" alt="Sixteen Legs" src="/images/computer_grrrls/introducing_apple2.jpg" width="220"/>
 
-Ils excluent les femmes des événements (comme à la conférence de Garmisch SE'68 en allemagne)[1], disent qu'elles ne sont pas adaptées au travail de nuit (alors que déjà à l'époque les ordinateurs doivent tourner en 24/7)[2]. Dans les publicités, elles ne sont plus des informaticiennes mais des présentatrices sexualisées, coûtant cher et devant être remplacées par des technlogies plus avancées :
+Ils excluent les femmes des événements (comme à la conférence de Garmisch SE'68 en Allemagne)[1], disent qu'elles ne sont pas adaptées au travail de nuit (alors que déjà à l'époque les ordinateurs doivent tourner en 24/7)[2]. Dans les publicités, elles ne sont plus des informaticiennes mais des présentatrices sexualisées, coûtant cher et devant être remplacées par des technlogies plus avancées :
 
 > "qu'est-ce qui a 16 jambes, 8 langues bien pendues et qui vous coûte au moins 40,000 dollars par an ?"
 
@@ -45,7 +45,7 @@ Néo-hippies qui travaillent dans des environnements cools, proches des startups
 
 > "Sometimes it’s hard to tell the difference between recreation and work, happily".
 
-En 72 aux états-unis cette nerd-culture est encore underground : les connaissances ne circulent pas autant qu'aujourd'hui, internet est encore en gestation, TCP/IP est créé en 1974 pour uniformiser le réseau ARPANET, mais ne sera adopté qu'en 1983.
+En 1972 aux États-Unis cette nerd-culture est encore underground : les connaissances ne circulent pas autant qu'aujourd'hui, internet est encore en gestation, TCP/IP est créé en 1974 pour uniformiser le réseau ARPANET, mais ne sera adopté qu'en 1983.
 
 **Les micro-ordinateurs apparaissent dans les années 80**, le marketing va cibler principalement les garçons/hommes qui vont utiliser le peu de puissance de ces machines pour faire tourner **des jeux**. Lorsque les écoles et les universités voudront enseigner l'informatique, les hommes ayant passé des heures sur ces machines, à trouver des astuces pour avoir plus de vies, faire sauter les clés de protections, arriver à exécuter un jeu avec 64Ko de mémoire, vont naturellement être favorisés et s'en accaparer les métiers.
 
