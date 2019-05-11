@@ -76,4 +76,8 @@ Elle dira :
 
 > “Computing is too important to be left to men.”
 
-C'est justement à cette période que les hommes vont s'investir dans l'informatique et en expulser les femmes. La suite au prochain épisode.
+C'est justement à cette période que les hommes vont s'investir dans l'informatique et en expulser les femmes. La suite au [prochain épisode]({{ site.baseurl }}{% post_url 2019-05-11-computer_grrrls_2 %}).
+
+***Aussi dans la série :***
+* [la contre culture "nerd"]({{ site.baseurl }}{% post_url 2019-05-11-computer_grrrls_2 %})
+* (A suivre) Au delà du féminisme
