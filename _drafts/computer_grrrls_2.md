@@ -22,9 +22,9 @@ Pour en comprendre les raisons, il nous faut revenir un peu en arrière. C'est a
 
 Les dirigeants des services et sociétés informatique (des hommes donc) ont compris la puissance de cette discipline. **Ils ont compris l'intérêt économique, la valorisation croissante des emplois** relatifs à la construction, la gestion et la programmation des ordinateurs.
 
-Ils ont alors progressivement changé l’image de la programmation informatique et la présentent comme une activité scientifique de haut niveau qui serait adaptée aux hommes. Les publicités évoluent pour attirer les hommes dans le domaine. Ils changent même *"Computer Programming"* (travail d'opératrice), en *"Software Engineering"* plus proche de l'ingénierie et plus prisé des hommes. Ils créent des associations de professionnels, élaborent des tests de sélection favorisant les niveaux d'étude élevés (et donc... les hommes).
+Ils ont alors progressivement changé l’image de la programmation informatique et la présentent comme une activité scientifique de haut niveau qui serait adaptée aux hommes. Les publicités évoluent pour attirer les hommes dans le domaine. Ils changent même *"Computer Programming"* (travail d'opératrice), en *"Software Engineering"* plus proche de l'ingénierie et plus prisé des hommes. Ils créent des associations de professionnels, élaborent des tests de sélection favorisant les sciences (et donc... les hommes), à partir du service civil (en Angleterre, dans lequel se trouvait une majorité d'hommes)[2].
 
-<a href="/images/computer_grrrls/introducing_apple2.jpg"><img class="left" alt="Sixteen Legs" src="/images/computer_grrrls/introducing_apple2.jpg" width="220"/>
+<a href="/images/computer_grrrls/introducing_apple2.jpg"><img class="right" alt="Sixteen Legs" src="/images/computer_grrrls/introducing_apple2.jpg" width="220"/>
 
 Ils excluent les femmes des événements (comme à la conférence de Garmisch SE'68 en Allemagne)[1], disent qu'elles ne sont pas adaptées au travail de nuit (alors que déjà à l'époque les ordinateurs doivent tourner en 24/7)[2]. Dans les publicités, elles ne sont plus des informaticiennes mais des présentatrices sexualisées, coûtant cher et devant être remplacées par des technlogies plus avancées :
 
@@ -51,7 +51,7 @@ En 1972 aux États-Unis cette nerd-culture est encore underground : les connaiss
 
 <img class="center" src="/images/computer_grrrls/war_game.png"/>
 
-Le nombre de femmes dans l'informatique plafonne. Le remplacement des femmes par les hommes a débuté il y a 10 ans, War Game est sorti en 1983 et met en scène un jeune geek qui sauve la planète avec un ordinateur et pécho la fille. [Revenge of the Nerds](https://en.wikipedia.org/wiki/Revenge_of_the_Nerds) est sur les écrans un an plus tard, la "Game Boy" est commercialisée en 1989. Les écoles d'informatique sont pleines de jeunes hommes blancs.
+Le nombre de femmes dans l'informatique plafonne. Le remplacement des femmes par les hommes a débuté il y a 10 ans, War Game est sorti en 1983 et met en scène un jeune geek qui sauve la planète avec un ordinateur et pécho la fille. [Revenge of the Nerds](https://en.wikipedia.org/wiki/Revenge_of_the_Nerds) est sur les écrans un an plus tard, la "Game Boy" est commercialisée en 1989. Les écoles d'informatique sont pleines de jeunes hommes blancs. Ce processus n'est ni le fruit du hasard, ni d'une désaffection des femmes pour la discipline mais d'une éviction brutale et délibérée par les hommes.
 
 La culture internet, va être développée essentiellement par et pour ces hipsters qui veulent un espace où la culture est gratuite, accessible à tous grâce à des protocoles standards et ouverts. Les femmes auront beaucoup de mal ensuite à s'y faire une place, comme il est souvent dit dans les [forums usenet](https://fr.wikipedia.org/wiki/Usenet) de l'époque :
 
@@ -62,3 +62,7 @@ Nous verrons comment elles vont revenir dans notre dernier article de cette sér
 ***Références*** :
 1. exposition "[Computer Grrrls](https://gaite-lyrique.net/en/event/computer-grrrls)" à la Gaîté Lyrique
 2. [Programmed Inequality](http://programmedinequality.com/) - How Britain Discarded Women Technologists and Lost Its Edge in Computing
+
+***Aussi dans la série :***
+* [Les débuts de l'informatique]({{ site.baseurl }}{% post_url 2019-05-05-computer_grrrls_1 %})
+* (A suivre) Au delà du féminisme
