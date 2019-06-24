@@ -47,7 +47,7 @@ Geek Girl hyperzine (magazine en ligne) cyberféministe lancé par l’australie
 
 En 2013 des initiatives *Edit-a-thon* sont organisés par [Art+Feminism](http://www.artandfeminism.org) pour corriger les biais présents dans wikipedia en défaveur de la représentation des femmes.
 
-Ces luttes "féministes" vont bien au delà de la (re)valorisation des femmes dans l'informatique ou sur internet, elles sont aussi des luttes LGBT, ethniques ou sociales. Leur but est plus largement de favoriser les catégories sous-représentées sur la toile.
+Ces luttes "féministes" vont bien au delà de la (re)valorisation des femmes dans l'informatique ou sur internet, elles sont aussi des luttes LGBT, ethniques ou sociales. Leur but est plus largement de favoriser les catégories sous-représentées sur la toile et au delà.
 
 ## L’enseignement de l’informatique aux filles
 
@@ -64,6 +64,7 @@ On peut citer par exemple :
 * Après [des débuts difficiles](https://www.lemonde.fr/campus/article/2017/11/30/a-l-ecole-42-il-y-a-du-sexisme-mais-ce-n-est-pas-non-plus-l-enfer_5222769_4401467.html) l'école 42 semble avoir revu sa politique de parité, et fait des efforts pour attirer des filles. [Sophie Viger](https://www.linkedin.com/in/sophie-viger-bbb5388/) est la nouvelle directrice depuis un an.
 * [Girls Can Code](https://gcc.prologin.org/) propose des stage d'informatique pour les collégiennes et lycéennes
 * [Ladies of Code](https://www.ladiesofcode.com)
+* [Girls In Tech](https://girlsintech.org/) 
  
 
 ***Aussi dans la série :***
