@@ -55,9 +55,16 @@ L'enseignement de l'informatique ayant été phagocyté par les hommes, il est n
 
 On peut citer par exemple :
 
+* [Ada Tech School](https://ada-school.com/) : "l'École Tech qui casse les codes" avec [un manifeste](https://ada-school.com/manifesto) qui vise à "+ de filles, + de confiance, + de sens"
 * le [programme wifille](http://wifilles.org/) qui se donne comme objectif de faire maîtriser les outils multimédia en particulier aux filles. Ils participent activement aux hashtags [#becausegirlscan](https://twitter.com/hashtag/becausegirlscan) ou [#womenintech](https://twitter.com/hashtag/WomenInTech) sur les réseaux sociaux
 * [Social Builder](https://socialbuilder.org/) est une startup qui construit la mixité dans les métiers du numérique et l'entrepreneuriat. Ils ont des formations telles que "*Women in AI*" en partenariat avec [Vivadata](https://vivadata.org), "*Women coding academy*" avec [le Wagon](https://www.lewagon.com/fr)
-* Les Coding Goûters sont des après midi de code en familles avec une absence de distinction de genre entre les participant·e·s.
+* [Femmes@Numérique](https://femmes-numerique.fr)
+* Les Coding Goûters sont des après midi de code en familles avec une absence de distinction de genre entre les participant·e·s.
+* [Women Who Code](https://www.womenwhocode.com/) (anglais) vise à rétablir une proportion identique à la population des femmes dans les dirigeants techniques, les exécutifs, les entrepreneurs, les inverstisseurs, les conseils d'administration, et les ingénieurs informaticiens
+* Après [des débuts difficiles](https://www.lemonde.fr/campus/article/2017/11/30/a-l-ecole-42-il-y-a-du-sexisme-mais-ce-n-est-pas-non-plus-l-enfer_5222769_4401467.html) l'école 42 semble avoir revu sa politique de parité, et fait des efforts pour attirer des filles. [Sophie Viger](https://www.linkedin.com/in/sophie-viger-bbb5388/) est la nouvelle directrice depuis un an.
+* [Girls Can Code](https://gcc.prologin.org/) propose des stage d'informatique pour les collégiennes et lycéennes
+* [Ladies of Code](https://www.ladiesofcode.com)
+ 
 
 ***Aussi dans la série :***
 * [Les débuts de l'informatique]({{ site.baseurl }}{% post_url 2019-05-05-computer_grrrls_1 %})
