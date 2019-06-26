@@ -25,7 +25,7 @@ Sur ce réseau mondial naissant, le cyberféminisme va apparaître de manière s
 
 <img class="center" src="/images/computer_grrrls/grrrls_need_modems.png" width="500" />
 
-En Australie, à Adélaïde pendant l'été 1991 un collectif de femmes met en ligne ["the cyberfeminist manifesto for the 21st century"](https://vnsmatrix.net/the-cyberfeminist-manifesto-for-the-21st-century/) un texte subversif où la pornographie "faite par et pour les femme" est mélangée à de la technologie et l'envie de confisquer les jouets informatiques aux hommes pour les redresser de manière plus adaptés aux femmes.
+En Australie, à Adélaïde pendant l'été 1991 un collectif de femmes met en ligne ["the cyberfeminist manifesto for the 21st century"](https://vnsmatrix.net/the-cyberfeminist-manifesto-for-the-21st-century/) un texte subversif où la pornographie "faite par et pour les femme" est mélangée à de la technologie et l'envie de confisquer les jouets informatiques aux hommes pour les redresser de manière plus adaptée aux femmes.
 
 Pendant ce temps, **Sadie Plant**, et **Nancy Patterson**, écrivaines et artistes respectivement britannique et canadienne, créent dans des article, en 1991, les bases du cyberféminisme visant la réappropriation des technologies de l’information par les femmes et l’utilisation de ces technologies pour lutter contre la culture patriarcale.
 
@@ -59,6 +59,7 @@ On peut citer par exemple :
 * le [programme wifille](http://wifilles.org/) qui se donne comme objectif de faire maîtriser les outils multimédia en particulier aux filles. Ils participent activement aux hashtags [#becausegirlscan](https://twitter.com/hashtag/becausegirlscan) ou [#womenintech](https://twitter.com/hashtag/WomenInTech) sur les réseaux sociaux
 * [Social Builder](https://socialbuilder.org/) est une startup qui construit la mixité dans les métiers du numérique et l'entrepreneuriat. Ils ont des formations telles que "*Women in AI*" en partenariat avec [Vivadata](https://vivadata.org), "*Women coding academy*" avec [le Wagon](https://www.lewagon.com/fr)
 * [Femmes@Numérique](https://femmes-numerique.fr)
+* [Fréquence Écoles](http://www.frequence-ecoles.org/) accompagne les pratiques numériques et met en avant par sa communication les femmes dans l'informatique (des stickers Ada Lovelace, Evelyn Berezin, Shirley Ann Jackson, Roberta Williams, Hedy Lamarr, Margaret Hamilton)
 * Les Coding Goûters sont des après midi de code en familles avec une absence de distinction de genre entre les participant·e·s.
 * [Women Who Code](https://www.womenwhocode.com/) (anglais) vise à rétablir une proportion identique à la population des femmes dans les dirigeants techniques, les exécutifs, les entrepreneurs, les inverstisseurs, les conseils d'administration, et les ingénieurs informaticiens
 * Après [des débuts difficiles](https://www.lemonde.fr/campus/article/2017/11/30/a-l-ecole-42-il-y-a-du-sexisme-mais-ce-n-est-pas-non-plus-l-enfer_5222769_4401467.html) l'école 42 semble avoir revu sa politique de parité, et fait des efforts pour attirer des filles. [Sophie Viger](https://www.linkedin.com/in/sophie-viger-bbb5388/) est la nouvelle directrice depuis un an.
