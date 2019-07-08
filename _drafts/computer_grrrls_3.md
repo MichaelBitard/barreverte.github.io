@@ -16,16 +16,16 @@ comments: true
 
 Résumé des deux précédents épisodes : les filles, très présentes dans l'informatique depuis le début ont été évincées par des hommes qui ont compris l'importance qu'allait avoir l'informatique. Leur nombre qui représentait 40% des emplois dans le secteur autour des années 70 va culminer à la moitié des années 80 pour décroitre fortement et durablement par la suite.
 
-La fin des années 80 c'est aussi le moment où s'invente *Internet* "le réseau des réseaux".
+La fin des années 80, c'est aussi le moment où s'invente *Internet*: "le réseau des réseaux".
 
-Sur ce réseau mondial naissant, le cyberféminisme va apparaître de manière simultanée en plusieurs endroits différents de la planète, tel un virus spontanné, inconnu, qui [refuse de se définir](https://www.obn.org/reading_room/writings/html/truth.html) et d'être catalogué, de rentrer dans la case d'une taxinomie nécessairement réductrice :
+Sur ce réseau mondial naissant, le cyberféminisme va apparaître de manière simultanée en plusieurs endroits de la planète, tel un virus spontané, inconnu, qui [refuse de se définir](https://www.obn.org/reading_room/writings/html/truth.html) et d'être catalogué, de rentrer dans la case d'une taxinomie nécessairement réductrice :
 
-> [le cyberféminisme] est basé sur l'idée de créer un label universel pour un discour interdisciplinaire à propos du genre.
+> [le cyberféminisme] est basé sur l'idée de créer un label universel pour un discours interdisciplinaire à propos du genre.
 > Cornelia Sollfrank
 
 <img class="center" src="/images/computer_grrrls/grrrls_need_modems.png" width="500" />
 
-En Australie, à Adélaïde pendant l'été 1991 un collectif de femmes met en ligne ["the cyberfeminist manifesto for the 21st century"](https://vnsmatrix.net/the-cyberfeminist-manifesto-for-the-21st-century/) un texte subversif où la pornographie "faite par et pour les femme" est mélangée à de la technologie et l'envie de confisquer les jouets informatiques aux hommes pour les redresser de manière plus adaptée aux femmes.
+En Australie, à Adélaïde pendant l'été 1991 un collectif de femmes met en ligne ["the cyberfeminist manifesto for the 21st century"](https://vnsmatrix.net/the-cyberfeminist-manifesto-for-the-21st-century/) un texte subversif où la pornographie "faite par et pour les femmes" est mélangée à de la technologie et l'envie de confisquer les jouets informatiques aux hommes pour les redresser de manière plus adaptée aux femmes.
 
 Pendant ce temps, **Sadie Plant**, et **Nancy Patterson**, écrivaines et artistes respectivement britannique et canadienne, créent dans des article, en 1991, les bases du cyberféminisme visant la réappropriation des technologies de l’information par les femmes et l’utilisation de ces technologies pour lutter contre la culture patriarcale.
 
@@ -51,7 +51,7 @@ Ces luttes "féministes" vont bien au delà de la (re)valorisation des femmes da
 
 ## L’enseignement de l’informatique aux filles
 
-L'enseignement de l'informatique ayant été phagocyté par les hommes, il est nécessaire de rétablir un équilibre pour que les femmes puissent  être intégrées de manière durable et en proportion plus importante (pourquoi pas la parité ?) dans les métiers informatiques au sein des entreprises. Aujourd’hui il existe de nombreuse associations, de programmes et de groupes qui militent pour l'enseignement et la valorisation des compétences informatiques des femmes, sortir des préjugés et stéréotypes qui perdurent.
+L'enseignement de l'informatique ayant été phagocyté par les hommes, il est nécessaire de rétablir un équilibre pour que les femmes puissent  être intégrées de manière durable et en proportion plus importante (pourquoi pas la parité ?) dans les métiers informatiques au sein des entreprises. Aujourd’hui il existe de nombreuses associations, de programmes et de groupes qui militent pour l'enseignement et la valorisation des compétences informatiques des femmes, sortir des préjugés et stéréotypes qui perdurent.
 
 On peut citer par exemple :
 
