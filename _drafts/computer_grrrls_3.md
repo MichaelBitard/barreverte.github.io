@@ -67,6 +67,7 @@ On peut citer par exemple :
 * [Ladies of Code](https://www.ladiesofcode.com)
 * [Girls In Tech](https://girlsintech.org/) 
  
+Voila, cet article clôt ce retour en 3 parties sur l'exposition computer girrrls. Si vous avez des retours, des réflexions sur le sujet, des liens à communiquer, n'hésitez pas à commenter ou nous envoyer un message.
 
 ***Aussi dans la série :***
 * [Les débuts de l'informatique]({{ site.baseurl }}{% post_url 2019-05-05-computer_grrrls_1 %})
