@@ -64,9 +64,9 @@ On peut citer par exemple :
 * [Women Who Code](https://www.womenwhocode.com/) (anglais) vise à rétablir une proportion identique à la population des femmes dans les dirigeants techniques, les exécutifs, les entrepreneurs, les inverstisseurs, les conseils d'administration, et les ingénieurs informaticiens
 * Après [des débuts difficiles](https://www.lemonde.fr/campus/article/2017/11/30/a-l-ecole-42-il-y-a-du-sexisme-mais-ce-n-est-pas-non-plus-l-enfer_5222769_4401467.html) l'école 42 semble avoir revu sa politique de parité, et fait des efforts pour attirer des filles. [Sophie Viger](https://www.linkedin.com/in/sophie-viger-bbb5388/) est la nouvelle directrice depuis un an.
 * [Girls Can Code](https://gcc.prologin.org/) propose des stage d'informatique pour les collégiennes et lycéennes
-* [Ladies of Code](https://www.ladiesofcode.com)
-* [Girls In Tech](https://girlsintech.org/) 
- 
+* [Ladies of Code](https://www.ladiesofcode.com) avec la [déclinaison Française](https://paris.ladiesofcode.com) est une communauté de filles qui développent, se forment à la programmation et s'entraident. Des événements sont régulièrement proposés.
+* [Girls In Tech](https://girlsintech.org/) est une organisation non gouvernementale américaine fondée en 2007 qui luttre contre les inégalités de genre dans l'informatique. Pour ça ils organisent des hackatons, bootcamps, pour fournir du support aux femmes dans la technologie.
+
 Voila, cet article clôt ce retour en 3 parties sur l'exposition computer girrrls. Si vous avez des retours, des réflexions sur le sujet, des liens à communiquer, n'hésitez pas à commenter ou nous envoyer un message.
 
 ***Aussi dans la série :***
