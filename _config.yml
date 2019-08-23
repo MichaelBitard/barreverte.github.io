@@ -6,7 +6,7 @@ description: Notes de développeurs sur le logiciel, le design, l'agilité, l'op
 timezone: Europe/Paris
 
 # url is currently only used only for the RSS feed in feed.xml
-url: http://www.barreverte.fr
+url: https://www.barreverte.fr
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.

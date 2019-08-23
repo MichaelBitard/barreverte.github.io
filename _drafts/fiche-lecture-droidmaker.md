@@ -25,7 +25,6 @@ et intéressant pour que cet article figure ici. Vous me direz ce que vous en pe
 (Note : _Cet article a également été publié sous une forme proche sur
 [le techblog de Deepki](https://techblog.deepki.com/fiche-lecture-droidmaker/)_.)
 
-
 # _DroidMaker_ par Michael Rubin
 
 {% include image name="droidmaker/droidmaker.jpg" alt="DroidMaker" class="center" %}
@@ -221,7 +220,6 @@ s'intéresse aussi à l'histoire des jeux vidéos.
 
 Voilà ! Évidement, le livre couvre encore de nombreux autres aspects qu'on ne peut aborder ici (sinon cet article ferait
 3 km de long), mais j'espère vous avoir donné envie de lire ce livre qui est véritablement passionnant.
-
 
 ---
 

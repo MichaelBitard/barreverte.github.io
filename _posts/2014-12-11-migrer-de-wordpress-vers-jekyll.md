@@ -146,7 +146,7 @@ Enfin, héberger votre blog chez github est élémentaire. Par héberger, j'ente
 Pour cela, vous avez 2 options :
 
 - utiliser une URL github, du type http://monblog.github.io
-- utiliser une URL que vous possédez, par exemple http://www.barreverte.fr (au hasard)
+- utiliser une URL que vous possédez, par exemple https://www.barreverte.fr (au hasard)
 
 Voyons cela point par point :
 
@@ -171,13 +171,13 @@ Pour cette option, c'est un petit peu plus compliqué, mais pas tellement :
 - il __faut__ ajouter dans votre DNS un enregistrement de type `CNAME` qui pointe vers `monuser.github.io`
 - __attendre__ que le DNS se propage.
 
-Dans [notre cas](http://www.barreverte.fr/), le fichier `CNAME` est [accessible à tous](https://github.com/barreverte/barreverte.github.io/blob/master/CNAME) pour vous en inspirer et le DNS est configuré ainsi (le point final est _très_ important : il représente le serveur DNS racine, et cela ne fonctionnera pas sans) :
+Dans [notre cas](https://www.barreverte.fr/), le fichier `CNAME` est [accessible à tous](https://github.com/barreverte/barreverte.github.io/blob/master/CNAME) pour vous en inspirer et le DNS est configuré ainsi (le point final est _très_ important : il représente le serveur DNS racine, et cela ne fonctionnera pas sans) :
 
 ````
 www 10800 IN CNAME barreverte.github.io.
 ````
 
-Une fois tout ceci en place, votre site __ne sera plus__ accessible sur l'URL `monuser.github.io` : par exemple, http://barreverte.github.io/ redirige vers http://www.barreverte.fr/
+Une fois tout ceci en place, votre site __ne sera plus__ accessible sur l'URL `monuser.github.io` : par exemple, https://barreverte.github.io/ redirige vers https://www.barreverte.fr/
 
 # Conclusion
 Ouf ! Nous sommes arrivés au bout !

@@ -16,7 +16,7 @@ tags:
 comments: true
 ---
 
-Suite de notre [épisode précédent](http://www.barreverte.fr/mongodb-le-cluster-qui-bagote/) sur les bagots mongo, nous reprenons où nous nous étions arrêtés : nous avons un test d'acceptance instable et nous avons acquis la certitude que le cluster mongo en est la cause. Soit il est mal configuré soit buggué.
+Suite de notre [épisode précédent](https://www.barreverte.fr/mongodb-le-cluster-qui-bagote/) sur les bagots mongo, nous reprenons où nous nous étions arrêtés : nous avons un test d'acceptance instable et nous avons acquis la certitude que le cluster mongo en est la cause. Soit il est mal configuré soit buggué.
 
 Dans nos précédentes investigations, nous sommes passés par la case logs, à savoir pour mongoDB, les syslogs, mais aussi les oplogs, les logs interne mongo, eux même dans la base `local`. Dans ces observations, nous avons vu des lignes qui nous ont interpelées :
 

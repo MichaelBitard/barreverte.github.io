@@ -13,9 +13,9 @@ categories:
 comments: true
 ---
 
-Nous venons de terminer la migration de [Barre Verte](http://www.barreverte.fr) : auparavant, nous nous hébergions nous-mêmes sous [Wordpress](https://fr.wordpress.org/) chez [Gandi](https://www.gandi.net/), désormais, nous utilisons [Jekyll](http://jekyllrb.com/) hébergé (gratuitement) par [Github](https://github.com/).
+Nous venons de terminer la migration de [Barre Verte](https://www.barreverte.fr) : auparavant, nous nous hébergions nous-mêmes sous [Wordpress](https://fr.wordpress.org/) chez [Gandi](https://www.gandi.net/), désormais, nous utilisons [Jekyll](http://jekyllrb.com/) hébergé (gratuitement) par [Github](https://github.com/).
 
-Si vous êtes abonné à notre [flux RSS](http://www.barreverte.fr/feed), peut-être a-t-il été republié en intégralité : nous nous excusons pour cette gêne, mais c'est un effet de bord du passage à Jekyll.
+Si vous êtes abonné à notre [flux RSS](https://www.barreverte.fr/feed), peut-être a-t-il été republié en intégralité : nous nous excusons pour cette gêne, mais c'est un effet de bord du passage à Jekyll.
 
 Ce que nous y gagnons :
 

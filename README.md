@@ -5,7 +5,7 @@
 
 # barreverte.github.io
 
-content for blog http://www.barreverte.fr
+content for blog https://www.barreverte.fr
 (migrated to github)
 
 # recharger docker
