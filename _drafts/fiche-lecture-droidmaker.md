@@ -25,6 +25,7 @@ et intéressant pour que cet article figure ici. Vous me direz ce que vous en pe
 (Note : _Cet article a également été publié sous une forme proche sur
 [le techblog de Deepki](https://techblog.deepki.com/fiche-lecture-droidmaker/)_.)
 
+
 # _DroidMaker_ par Michael Rubin
 
 {% include image name="droidmaker/droidmaker.jpg" alt="DroidMaker" class="center" %}
@@ -137,19 +138,19 @@ n'est pas le sujet ici, ni celui du livre d'ailleurs.
 Une grande partie du livre est également consacrée à la création des logiciels de montage "non linéaires" dont Adobe
 Premiere ou Apple Final Cut pro sont aujourd'hui des hériters dans le domaine de l'image, Pro Tools dans le domaine du
 son. Cela a pris des années pour les équipes de la Lucasfilm Computer Division pour créer ces deux logiciels et
-métamorphoser complètement le montage d'un film ou l'enregistrement d'un album. Malgré un échec commercial cuisant, ils
+métamorphoser complètement le montage d'un film ou l'enregistrement d'un album. Malgré un cuisant échec commercial, ils
 ont ouvert la voie à tous les logiciels qu'on utilise désormais dans ces milieux.
 
 ### EditDroid et l'image
 
 Pour le montage d'un film, il fallait auparavant noter dans des carnets quelle portion de film (au numéro d'image près)
 de quelle bobine parmi les centaines disponibles il fallait physiquement _couper_ puis _coller_ pour faire le montage
-final (tiens ! voilà d'où viennent ces termes de _couper/coller_ !). Cela pouvait représenter des centaines de chiffes
-qu'il fallait noter consciencieusement dans des carnets et chaque monteur avait son propre système de notation.
-Impossible dans ce cas de reprendre son travail après coup ou même de collaborer ! Il fallait ensuite synchroniser la
-piste son avec l'image pour que la magie du cinéma opère. Un travail de titan. Tout était noté à la main, il fallait
-chercher la bobine, la mettre dans le projecteur, noter les identifiants d'image, passer à la découpe, coller les images
-avec du scotch, recommencer. Pour chaque plan. De tous les films.
+final (tiens ! voilà d'où viennent ces termes de _couper/coller_ !). Cela pouvait représenter des centaines de chiffres
+qu'il fallait noter consciencieusement dans des carnets, chaque monteur avait son propre système de notation. Impossible
+dans ce cas de reprendre son travail après coup ou même de collaborer ! Il fallait ensuite synchroniser la piste son
+avec l'image pour que la magie du cinéma opère. Un travail de titan. Tout était noté à la main, il fallait chercher la
+bobine, la mettre dans le projecteur, noter les identifiants d'image, passer à la découpe, coller les images avec du
+scotch, recommencer. Pour chaque plan. De tous les films.
 
 Francis Coppola avait expérimenté une solution à base de vidéo. Les bandes vidéo sont beaucoup moins chères que les
 bandes 35mm utilisées dans le cinéma. L'idée était d'avoir plusieurs copies du film cinéma, d'essayer plusieurs montages
@@ -157,14 +158,14 @@ pour choisir le meilleur pour ensuite réaliser le montage sur le film 35mm. Mai
 a une très faible résolution quand on la compare à la pellicule 35mm) mais surtout la différence du nombre d'images par
 secondes entre les deux supports ont été fatales pour la création d'un tel outil (pour aller vite, la télévision va à 25
 images par secondes et le cinéma de l'époque à 24 images par secondes et cela crée une nouvelle catégorie de problèmes
-difficile à résoudre).
+difficiles à résoudre).
 
 Il fallait donc pouvoir travailler de manière numérique. J'admire la vision exceptionnelle de ces chercheurs qui ont cru
 à l'augmentation exponentielle des capacités de stockage des ordinateurs (avec un prix en baisse) sans lequel il était
 tout simplement impossible du numériser un film en entier et de le faire tenir sur un disque dur (un disque dur dans les
-années 1980 faisait 20 Mo). Pendant longtemps, les équipe ont travaillé sur des LaserDisc. Il s'agissait de la même idée
-que pour la vidéo, à savoir avoir plusieurs copies du film pour accéder en temps réel à l'extrait que l'on désire, mais
-sans les soucis de difference du nombre d'images par seconde évoqués plus haut.
+années 1980 faisait 20 Mo). Pendant longtemps, les équipes ont travaillé sur des LaserDisc. Il s'agissait de la même
+idée que pour la vidéo, à savoir avoir plusieurs copies du film pour accéder en temps réel à l'extrait que l'on désire,
+mais sans les soucis de difference du nombre d'images par seconde évoqués plus haut.
 
 Le produit qui en a résulté se nommait [EditDroid](https://en.wikipedia.org/wiki/EditDroid). Voici une photo de la
 console de travail, nommée "Darth Vador" :
@@ -175,11 +176,11 @@ console de travail, nommée "Darth Vador" :
 
 [SoundDroid](https://en.wikipedia.org/wiki/SoundDroid), l'éditeur non linéaire pour le son. C'est avec ce logiciel qu'a
 été créé le fameux son THX (nommé [Deep Note](https://en.wikipedia.org/wiki/Deep_Note)), cette montée incroyable d'un
-son grave vers un son aïgu, quelque chose d'auparavant impossible à réaliser avec des instruments traditionnels.
-SoundDroid permettait de faire du montage audio, mais aussi de la synthèse sonore, d'ajouter numériquement des effets de
-réverbération, de faire du mixage et de l'enregistrement, de cataloguer tous les effets sonores possibles sans avoir
-besoin de se déplacer dans la salle des archives : l'ancêtre de tous les ProTools et autres DAW (Digital Audio
-Workstation) du marché actuel, tels que Cubase, ACID, SONAR ou encore Garage Band.
+son grave vers un son aïgu, quelque chose d'auparavant impossible à réaliser avec des instruments de musique
+traditionnels. SoundDroid permettait de faire du montage audio, mais aussi de la synthèse sonore, d'ajouter
+numériquement des effets de réverbération, de faire du mixage et de l'enregistrement, de cataloguer tous les effets
+sonores possibles sans avoir besoin de se déplacer dans la salle des archives : l'ancêtre de tous les ProTools et autres
+DAW (Digital Audio Workstation) du marché actuel, tels que Cubase, ACID, SONAR ou encore Garage Band.
 
 Voici une impression d'écran de logiciel en cours de fonctionnement :
 
@@ -188,13 +189,13 @@ Voici une impression d'écran de logiciel en cours de fonctionnement :
 ## Les jeux vidéos et Atari
 
 Toute une partie de l'ouvrage concerne l'aventure d'[Atari](https://fr.wikipedia.org/wiki/Atari), "premier" éditeur de
-jeux vidéos à l'échelle mondiale jusqu'au crash des jeux vidéos de 1983 avec le tristement célèbre
+jeux vidéos à l'échelle mondiale jusqu'au crash des jeux vidéos américains de 1983 avec le tristement célèbre
 [E.T.](https://fr.wikipedia.org/wiki/E.T._the_Extra-Terrestrial_%28jeu_vid%C3%A9o%29), le "pire jeu vidéo de
 l'histoire".
 
 {% include image name="droidmaker/ET2600-Pit.gif" alt="ET" class="center" %}
 
-Je ne rentre pas ici dans les détails, mais c'est une partie vraiment très interressante, surtout si comme moi on
+Je ne rentre pas ici dans les détails, mais c'est une partie vraiment très intérressante, surtout si comme moi on
 s'intéresse aussi à l'histoire des jeux vidéos.
 
 ## Ce que j'ai plus ou moins aimé
@@ -218,8 +219,9 @@ s'intéresse aussi à l'histoire des jeux vidéos.
 
 ## Conclusion
 
-Voilà ! Évidement, le livre couvre encore de nombreux autres aspects qu'on ne peut aborder ici (sinon ce post ferait 3
-km de long), mais j'espère vous avoir donné envie de lire ce livre qui est véritablement passionnant.
+Voilà ! Évidement, le livre couvre encore de nombreux autres aspects qu'on ne peut aborder ici (sinon cet article ferait
+3 km de long), mais j'espère vous avoir donné envie de lire ce livre qui est véritablement passionnant.
+
 
 ---
 
