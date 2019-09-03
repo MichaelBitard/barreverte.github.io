@@ -5,7 +5,7 @@ author:
   display_name: Bruno Thomas
 tags:
 - admin
-- devop
+- devops
 - ssl
 - email
 categories:

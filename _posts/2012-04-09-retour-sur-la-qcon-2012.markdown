@@ -51,8 +51,6 @@ categories:
 - architecture
 tags:
 - conférences
-- QCon
-- London
 comments: []
 ---
 <p>Un petit retour sur la QCon pour animer un peu ce blog qui ne bouge plus beaucoup ces derniers temps, pour cause de nouveaux projets pour la plupart des rédacteurs. Nous avions exploré de nouveaux domaines (TDD javascript, noSQL), qui ont donné des articles, nous implémentons maintenant ces technologies. Nous vous dirons après l'épreuve de la production si cela fonctionne vraiment.</p>

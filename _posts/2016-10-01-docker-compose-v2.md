@@ -4,10 +4,10 @@ title: Utiliser docker-compose avec le réseau docker
 author:
   display_name: Bruno Thomas
 tags:
-- devop
+- devops
+- docker
 categories:
 - linux
-- docker
 comments: true
 ---
 

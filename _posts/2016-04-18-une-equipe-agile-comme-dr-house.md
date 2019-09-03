@@ -7,7 +7,7 @@ tags:
 - agile
 - comparaison
 categories:
-- agile
+- agilité
 comments: true
 ---
 

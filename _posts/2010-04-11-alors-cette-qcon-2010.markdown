@@ -28,11 +28,8 @@ date_gmt: !binary |-
 categories:
 - evenements
 - agilité
-- langages
 tags:
 - conférences
-- QCon
-- London
 comments:
 - id: 41
   author: Software craftmanship | Barre Verte !

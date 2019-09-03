@@ -30,6 +30,7 @@ categories:
 - javascript
 tags:
 - tdd
+- tests
 comments:
 - id: 172
   author: Philippe Blayo

@@ -24,9 +24,7 @@ tags:
 - buildr
 - eclipse
 - maven
-- mvn
 - classpath
-- fest-assert
 comments:
 - id: 59
   author: Bruno Thomas
