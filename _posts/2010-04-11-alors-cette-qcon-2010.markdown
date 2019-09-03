@@ -64,7 +64,7 @@ comments:
     et 9 mars. Comme lors d&#8217;un précédent retour, l&#8217;organisation est toujours
     aussi impeccable, le lieu agréable, et les intervenants de haut [...]'
 ---
-<p><a href="http://qcon.infoq.com/"><img src="http://qcon.infoq.com/images/logo_qcon.gif" alt="" /></a></p>
+<p><a href="http://qcon.infoq.com/"><img src="/images/logo-qconlondon.svg" alt="" /></a></p>
 <p>Après avoir lu un retour à chaud qui m'a semblé particulièrement <a href="http://blog.objetdirect.com/uml/qcon-modeles-et-integrisme">peu représentatif</a> de ce qui s'est passé à la QCon, j'ai réalisé combien un événement comme celui-ci pouvait-être perçu différemment en fonction des centres d'intérêt et même des compétences du participant (pouvant éveiller quelques susceptibilités sans doute). Étant donné le peu de retours en français, je me suis décidé à en faire un, même tardif sur la QCon 2010 à Londres, pour donner mon point de vu, également subjectif.</p>
 <p><a id="more"></a><a id="more-74"></a></p>
 <p>Premièrement, l'<a href="http://qcon.infoq.com/">événement</a> en lui même. Pour ceux qui ne connaissent pas c'est une conférence autour du développement logiciel, qui a lieu chaque année à San Francisco et à Londres. Cette année, ce qui avait attiré notre attention avec mes collègues, c'était la liste impressionnante d'orateurs de renom, inventeurs de langages, ou de concepts majeurs de développement :</p>
