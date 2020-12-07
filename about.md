@@ -21,8 +21,6 @@ Par ailleurs nous voulons parler d'informatique en français, dans un domaine o�
 * [Pascal Pratmarty](/author/pascal)
 * [Bruno Thomas](/author/bruno)
 
-Pour nous contacter, vous pouvez nous envoyer un [email](mailto:blog@barreverte.fr) !
-
 <p>
 Dernière mise à jour du site : le {% assign m = site.time | date: "%-m" %}
 {{ site.time | date: "%-d" }}
