@@ -73,3 +73,4 @@ Liens sur Facebook et la démocratie:
 * [“I Have Blood on My Hands”: A Whistleblower Says Facebook Ignored Global Political Manipulation](https://www.buzzfeednews.com/article/craigsilverman/facebook-ignore-political-manipulation-whistleblower-memo)
 * [Journalists like Maria Ressa face death threats and jail for doing their jobs. Facebook must take its share of the blame](https://edition.cnn.com/2020/06/30/opinions/maria-ressa-facebook-intl-hnk/index.html)
 * [Facebook page that copies President Trump's posts gets flagged for violence – when the president's didn't](https://www.cbsnews.com/news/facebook-donald-trump-copy-account-flagged-inciting-violence/)
+* [200~Facebook Has Been Showing Military Gear Ads Next To Insurrection Posts](https://www.buzzfeednews.com/article/ryanmac/facebook-profits-military-gear-ads-capitol-riot)
